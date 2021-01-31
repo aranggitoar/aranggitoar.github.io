@@ -1,0 +1,63 @@
+.box {
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 10%;
+	text-align: center;
+	padding: 15px;
+	}
+
+.box-maroon {
+	background-color: maroon;
+	padding: 1.5em;
+	}
+
+.tujuh-pasal:hover {
+	scale: 1.1;
+	color: blue;
+	}
+
+	[type="text"] {
+	padding: 5px 10px 5px 10px;
+	}
+
+body {
+	font-family: monospace;
+	font-size: 20px;
+	color: black;
+	background-color: cream;
+	}
+
+p {
+	font-size: 20px;
+	color: black;
+	}
+
+#footer {
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	text-align: center;
+	padding: 30px;
+	background-color: yellow;
+	color: black;
+	}
+
+h1 {
+	font-size: 50px;
+	font-family: "Potta One", cursive;
+	text-align: center;
+	}	
+
+h2 {
+	font-size: 35px;
+	}
+
+.logo-byb {
+	width: 3cm;
+	border-color: black;
+	border-width: 0.1cm;
+	border-style: solid;
+	border-radius: 50%;
+	}
+	
