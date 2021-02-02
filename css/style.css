@@ -1,63 +1,216 @@
-.box {
-	border-style: solid;
-	border-color: black;
+@font-face {
+	font-family: "sKFalconRLight";
+	src:
+		local("SK Falcon R Light"),
+		local("SK-Falcon-R-Light"),
+		url("SalihKizilkaya-SKFalconRLight-Light.ttf")
+		format("opentype");
+	
+	font-family: "georgia";
+	src:
+		local("Georgia"),
+		url("Georgia.ttf")
+		format("opentype");
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: tomato;
+}
+
+a:focus {
+	color: #db3d16;
+}
+
+footer {
+	background-color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-style: ridge;
 	border-width: 5px;
-	border-radius: 10%;
-	text-align: center;
-	padding: 15px;
-	}
+}
 
-.box-maroon {
-	background-color: maroon;
-	padding: 1.5em;
-	}
-
-.tujuh-pasal:hover {
-	scale: 1.1;
-	color: blue;
-	}
-
-	[type="text"] {
-	padding: 5px 10px 5px 10px;
-	}
-
-body {
-	font-family: monospace;
-	font-size: 20px;
+html {
+	font-family: "georgia", monospace;
+	font-size: 10px;
 	color: black;
-	background-color: cream;
-	}
-
-p {
-	font-size: 20px;
-	color: black;
-	}
-
-#footer {
-	border-style: solid;
-	border-color: black;
-	border-width: 2px;
-	text-align: center;
-	padding: 30px;
-	background-color: yellow;
-	color: black;
-	}
+	background-color: #fffea9;
+}
 
 h1 {
-	font-size: 50px;
-	font-family: "Potta One", cursive;
+	font-size: 5em;
 	text-align: center;
-	}	
+}	
 
 h2 {
-	font-size: 35px;
+	font-size: 3em;
+}
+
+p {
+	font-size: 2em;
+}
+
+ol {
+	font-size: 2em;
+}
+
+#box {
+	background-color: white;
+	text-align: center;
+	padding: 15px;
+	margin-top: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
+	box-shadow: 5px 5px #999, 10px 10px #555;
+}
+
+#box2 {
+	background-color: #fffea9;
+	padding: 1.5em;
+}
+
+#box-abba90 {
+	background-color: tomato;
+	font-weight: bold;
+	padding: 1px;
+	margin-left: -5px;
+	margin-right: -5px;
+	text-align: center;
+}
+
+#footer {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+#keteranganSingkat {
+	font-size: 1.1em;
+	padding: 0px 200px 10px 200px;
+}
+
+#logo-byb {
+	padding-top: 55px;
+	padding-bottom: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10cm;
+	border-radius: 50%;
+}
+
+#navigation {
+	background-color: white;
+	margin: 30px 250px 30px 250px;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	font-weight: bold;
+	border-style: ridge;
+	border-width: 5px;
+}
+
+#navText:hover {
+	background-color: #fffea9;
+	font-size: 1.1em;
+	padding: 3px 3px 3px 3px;
+}
+
+#navText:visited {
+	color: "";
+}
+
+#sedangDibangun {
+	text-align: center;
+	font-size: 1.1em;
+	animation-name: "sedangDibangun";
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+	@keyframes sedangDibangun {
+		0%	{
+			margin-right: 70%;
+			opacity: 0;
+		}
+
+		15% {
+			opacity: 1;
+		}
+
+		85% {
+			opacity: 1;
+		}
+
+		100% {
+			margin-left: 70%;
+			opacity: 0;
+		}
 	}
 
-.logo-byb {
-	width: 3cm;
-	border-color: black;
-	border-width: 0.1cm;
-	border-style: solid;
-	border-radius: 50%;
-	}
+#tombolKKK {
+	background-color: #777;
+	text-align: center;
+	font-size: 1.25em;
+	padding: 5px;
+	margin-top: -5px;
+	margin-bottom: 15px;
+	display: inline-block;
+}
+
+#tombolKKK:hover {
+	background-color: #fffea9;
+	transform: scale(1.25);
+}
+
+#tentangKami {
+	margin: 15px 100px 45px 100px;
+}
+
+#tujuhPasal {
+	font-size: 2em;
+}
 	
+#tujuhPasal:hover {
+	color: white;
+	padding-left: 10px;
+}
+
+.afbh:hover {
+	color: black;
+}
+
+.center {
+	text-align: center;
+}
+
+.form {
+	padding: 5px;
+}
+
+.h2 {
+	font-size: 3em;
+}
+
+.h3 {
+	font-size: 2.5em;
+}
+
+.p {
+	font-size: 2em;
+}
+
+.marginAyatBesar {
+	margin: 0px 175px 0px 175px;
+}
+
+.marginP {
+	margin: 25px 25px 40px 25px;
+}
+
+.indMisi {
+	padding-left: 20px;
+}
