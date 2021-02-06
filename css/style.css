@@ -13,6 +13,12 @@
 		format("opentype");
 }
 
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
 a {
 	color: black;
 }
@@ -25,12 +31,40 @@ a:focus {
 	color: #db3d16;
 }
 
+body {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-areas:
+		"header main main"
+		"header main main"
+		"header footer footer"
+}
+
 footer {
 	background-color: white;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	border-style: ridge;
-	border-width: 5px;
+	grid-area: footer;
+	position: relative;
+	bottom: 0px;
+	z-index: 0;
+}
+
+header {
+	background-color: rgba(255,255,255,0.8);
+	margin-top: 0px;
+	margin-left: 0px;
+	padding: 0;
+	height: 100%;
+	width: 25%;
+	grid-area: header;
+	display: none;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	position: fixed;
+	z-index: 1;
 }
 
 html {
@@ -47,6 +81,17 @@ h1 {
 
 h2 {
 	font-size: 3em;
+}
+
+main {
+	padding-right: 0px;
+	margin-right: 0px;
+	grid-area: main;
+}
+
+nav {
+	background-color: white;
+	font-weight: bold;
 }
 
 p {
@@ -76,12 +121,10 @@ ol {
 	background-color: tomato;
 	font-weight: bold;
 	padding: 1px;
-	margin-left: -5px;
-	margin-right: -5px;
 	text-align: center;
 }
 
-#footer {
+#kembali {
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.25em;
@@ -102,24 +145,19 @@ ol {
 	border-radius: 50%;
 }
 
+#logo-header-byb {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #navigation {
-	background-color: white;
-	margin: 30px 250px 30px 250px;
-	padding: 10px 0px 10px 0px;
-	text-align: center;
-	font-weight: bold;
-	border-style: ridge;
-	border-width: 5px;
-}
-
-#navText:hover {
-	background-color: #fffea9;
-	font-size: 1.1em;
-	padding: 3px 3px 3px 3px;
-}
-
-#navText:visited {
-	color: "";
+	font-size: 1.8rem;
+	letter-spacing: 1pt;
+	background-color: rgba(255,255,255,0.0);
 }
 
 #sedangDibangun {
@@ -150,6 +188,31 @@ ol {
 			opacity: 0;
 		}
 	}
+	
+#tautan-sidebar ul {
+	padding: 0px;
+	text-align: center;
+}
+
+#tautan-sidebar li {
+	list-style: none;
+	text-align: center;
+}
+
+#tautan-sidebar li a {
+	display: block;
+	padding: 10px 75px 10px 75px;
+}
+
+#tautan-sidebar li a:hover {
+	display: block;
+	background-color: #777;
+	color: white;
+}
+
+#tautan-sidebar li a:visited {
+	color: "";
+}
 
 #tombolKKK {
 	background-color: #777;
@@ -183,6 +246,10 @@ ol {
 	color: black;
 }
 
+.block {
+	display: inline-block;
+}
+
 .center {
 	text-align: center;
 }
@@ -199,6 +266,46 @@ ol {
 	font-size: 2.5em;
 }
 
+.header {
+	justify-content: space-evenly;
+}
+
+.header.active {
+	animation-name: headApp;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+	display: flex;
+}
+
+@keyframes headApp {
+	0% {
+		left: -100px;
+		opacity: 0.0;
+	}
+	100% {
+		left: 0px;
+		opacity: 1;
+	}
+}
+
+.header.disable {
+	animation-name: headDis;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+	display: flex;
+}
+
+@keyframes headDis {
+	0% {
+		left: 0px;
+		opacity: 1;
+	}
+	100% {
+		left: -100px;
+		opacity: 0.0;
+	}
+}
+
 .p {
 	font-size: 2em;
 }
@@ -209,6 +316,131 @@ ol {
 
 .marginP {
 	margin: 25px 25px 40px 25px;
+}
+
+.sidebar-toggle {
+	position: fixed;
+	top: 1rem;
+	left: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 60px;
+	height: 50px;
+	border-radius: 25%;
+}
+
+.sidebar-toggle::after {
+	content: "";
+	position: absolute;
+	width: 105px;
+	height: 95px;
+}
+
+.sidebar-toggle .burger {
+	height: 5px;
+    width: 80%;
+	background-color: black;
+    border-radius: 12px;
+}
+
+.sidebar-toggle.active {
+	z-index: 2;
+}
+
+.sidebar-toggle.active .burger {
+	animation-name: tbBurDis;
+	animation-duration: 1.25s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes tbBurDis {
+	100% {
+		opacity: 0.0;
+	}
+}
+
+.sidebar-toggle.active .burger2 {
+	animation-name: mBur1;
+	animation-duration: 1.25s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes mBur1 {
+	100% {
+		transform: rotate(45deg);
+	}
+}
+
+.sidebar-toggle.active .burger2::before {
+	content: "";
+	animation-name: mBur2;
+	animation-duration: 1.25s;
+	animation-fill-mode: forwards;
+	height: 5px;
+    width: 100%;
+	background-color: black;
+	border-radius: 12px;
+	position: absolute;
+	transform: rotate(0deg);
+}
+
+@keyframes mBur2{
+	100% {
+		transform: rotate(90deg);
+	}
+}
+
+.sidebar-toggle.disable {
+	z-index: 2;
+}
+
+.sidebar-toggle.disable .burger {
+	opacity: 0.0;
+	animation-name: tbBurApp;
+	animation-duration: 1.25s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes tbBurApp {
+	100% {
+		opacity: 1;
+	}
+}
+
+.sidebar-toggle.disable .burger2 {
+	opacity: 1;
+	transform: rotate(45deg);
+	animation-name: mBur1Dis;
+	animation-duration: 1.25s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes mBur1Dis {
+	100% {
+		transform: initial;
+	}
+}
+
+.sidebar-toggle.disable .burger2::before {
+	content: "";
+	animation-name: mBur2Dis;
+	animation-duration: 1.25s;
+	animation-fill-mode: forwards;
+	height: 5px;
+    width: 100%;
+	background-color: black;
+	border-radius: 12px;
+	position: absolute;
+	transform: rotate(90deg);
+}
+
+@keyframes mBur2Dis {
+	100% {
+		transform: initial;
+		opacity: 0.0;
+	}
 }
 
 .indMisi {

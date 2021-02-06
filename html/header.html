@@ -3,20 +3,32 @@
     <head>
         <meta charset="UTF-8">
         <meta name ="description" contents="Benih Yang Baik adalah situs rumah materi pemuridan K3B.">
-        <title>K3B</title>
+        <title>Benih Yang Baik</title>
         <link rel="stylesheet" href="css/style.css" type="text/css">
+        <script src="../js/sidebar.js" defer></script>
     </head>
     <body>
-        <header>
-            <nav id="navigation">
-                <p>
-                    <a href="index.php" id="navText">Halaman Utama</a>
-                    &emsp;&emsp; <a href="about.php" id="navText">Tentang Kami</a>
-                    &emsp;&emsp; <a href="k3b.php" id="navText">K3B</a>
-                    &emsp;&emsp; <a href="halatr.php" id="navText">Halaman Atribusi</a><br><br>
-                    <a href="radll.php" id="navText">Ringkasan Alkitab dan Materi Alkitabiah</a>
-                    &emsp;&emsp; <a href="abba90.php" id="navText">ABBA 90</a>
-                </p>
-            </nav>
-        </header>
-    <div id="contents">
+        <div class="sidebar-disable">
+            <a href="javascript:void(null);" role="button" class="sidebar-toggle">
+            <!-- Dapat digunakan ^ selain "#" untuk menghindari aksi kembali ke awal halaman. -->
+                <span class="burger burger1"></span>
+                <span class="burger burger2"></span>
+                <span class="burger burger3"></span>
+            </a>
+            <header class="header">
+                <nav id="navigation">
+                    <img id="logo-header-byb" src="byb-logo-transparan-1080x1080.png" alt="Logo Alkitab yang memancarkan kemuliaan Allah dan kuasa Roh Kudus.">
+                    <div id="tautan-sidebar">
+                        <ul>
+                            <li><a href="index.php" class="navText" tabindex="0">Halaman Utama</a></li>
+                            <li><a href="about.php" class="navText" tabindex="0">Tentang Kami</a></li>
+                            <li><a href="k3b.php" class="navText" tabindex="0">K3B</a></li>
+                            <li><a href="halatr.php" class="navText" tabindex="0">Halaman Atribusi</a></li>
+                            <li><a href="radll.php" class="navText" tabindex="0">Ringkasan Alkitab dan Materi Alkitabiah</a></li>
+                            <li><a href="abba90.php" class="navText" tabindex="0">ABBA 90</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <main class="main">
