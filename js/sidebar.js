@@ -9,8 +9,10 @@ sidebarToggle.addEventListener('click', () => {
         header.classList.toggle('disable');
         sidebarToggle.classList.toggle('disable');
     });
+    if (header.active === true && sidebarToggle.active === true) {
     sidebarDisable.addEventListener('mouseleave', () => {
         header.classList.toggle('disable');
         sidebarToggle.classList.toggle('disable');
     });
+}
 });
