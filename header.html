@@ -3,35 +3,34 @@
     <head>
         <meta charset="UTF-8">
         <meta name="description" contents="Benih Yang Baik adalah situs rumah materi pemuridan K3B.">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Benih Yang Baik</title>
         <link rel="stylesheet" href="css/style.css" type="text/css">
-        <script src="js/jquery.js" defer></script>
+        <script src="js/jquery.js"></script>
         <script src="js/script.js" defer></script>
     </head>
     <body>
-        <div class="sidebar-js sjsml">
-            <a href="javascript:void(null);" role="button" class="sidebar-js sjsc">
-            <!-- Dapat digunakan ^ selain "#" untuk menghindari aksi kembali ke awal halaman. -->
-                <span class="burger burger1"></span>
-                <span class="burger burger2"></span>
-                <span class="burger burger3"></span>
-            </a>
-            <header class="sidebar-js sjsc2">
-                <nav id="navigation">
-                    <div>
-                        <img class="logo-byb logo-header" src="foto/byb-logo-putih-transparan-1080x1080.png" alt="Logo Alkitab yang memancarkan kemuliaan Allah dan kuasa Roh Kudus.">
-                    </div>
-                    <div class="sidebar-links">
-                        <ul>
-                            <li><a href="index.html" tabindex="0">Halaman Utama</a></li>
-                            <li><a href="body-about.html" tabindex="0">Tentang Kami</a></li>
-                            <li><a href="body-k3b.html" tabindex="0">K3B</a></li>
-                            <li><a href="body-radll.html" tabindex="0">Ringkasan Alkitab dan Materi Alkitabiah</a></li>
-                            <li><a href="body-abba90.html" tabindex="0">ABBA 90</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
-        </div>
+        <a class="js-click-fn-burger" href="javascript:void(null);" role="button" alt="Tombol untuk mengaktifkan menu navigasi">
+            <span class="burger"></span>
+            <span class="burger x-burger"></span>
+            <span class="burger"></span>
+        </a>
+        <header class="sidebar-animation header">
+            <nav id="navigation">
+                <div>
+                    <a class="js-click-fn-dropdown" href="javascript:void(null);"><img class="logo-byb-header logo-yellow" src="foto/byb-logo-yellow-transparan-1080x1080.png" alt="Logo Alkitab yang memancarkan kemuliaan Allah dan kuasa Roh Kudus.">
+                    <img class="logo-byb-header logo-white" src="foto/byb-logo-milk-white-transparan-1080x1080.png" alt="Logo Alkitab yang memancarkan kemuliaan Allah dan kuasa Roh Kudus."></a>
+                </div>
+                <div class="sidebar-link js-dropdown">
+                    <a class="js-sidebar-page-track" href="index.html" tabindex="0">Halaman Utama</a>
+                    <a class="js-sidebar-page-track" href="about.html" tabindex="0">Tentang Kami</a>
+                    <a class="js-sidebar-page-track" href="alktb.html" tabindex="0">Alkitab</a>
+                    <a class="js-sidebar-page-track" href="kat3b.html" tabindex="0">K3B</a>
+                    <a class="js-sidebar-page-track" href="acara.html" tabindex="0">Acara</a>
+                    <a class="js-sidebar-page-track" href="pokdo.html" tabindex="0">Pokok Doa</a>
+                    <a class="js-sidebar-page-track" href="matal.html" tabindex="0">Materi Alkitabiah</a>
+                </div>
+            </nav>
+        </header>
         <main class="main">
