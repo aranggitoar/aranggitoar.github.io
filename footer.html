@@ -2,20 +2,18 @@
         <footer class="footer">
             <div>
                 <p><a href="javascript:void(null);" class="contact-us-btn">Hubungi Kami</a></p>
-                <form class="js-form-contact-us">
-                <!--TAMBAHKAN PHP UTK MASUKKAN DATABASE SERTA VALIDASI SISI
-                    PENGUNJUNG, NAMA, E-MAIL, DAN PESAN SEMUA HARUS TERISI
-                    DAN DENGAN FORMAT YANG BENAR -->
-                    <p>Nama:</p> 
-                    <label for="nama">
-                        <input id="nama" name="nama" minlength="3" type="text" placeholder="Nama Anda.." required>
+                <form class="js-form-contact-us" action="contact-us.php" method="POST">
+                <!--TAMBAHKAN VALIDASI ISI DENGAN AJAX-->
+                    <legend>Nama:</legend> 
+                    <label for="name">
+                        <input id="name" name="name" minlength="3" type="text" placeholder="Nama Anda.." required>
                     </label>
-                    <p>E-mail:</p>
-                    <label for="email">
-                        <input id="email" name="email" type="email" placeholder="E-mail Anda.." required>
+                    <legend>E-mail:</legend>
+                    <label for="e-mail">
+                        <input id="e-mail" name="e-mail" type="email" placeholder="E-mail Anda.." required>
                     </label>
-                    <p>Pesan:</p>
-                    <textarea placeholder="Pesan Anda.." required></textarea><br>
+                    <legend>Pesan:</legend>
+                    <textarea name="message" placeholder="Pesan Anda.." required></textarea><br>
                     <button class="js-contact-us-send-btn" type="submit">Kirim</button>
                 </form>
             </div>
@@ -25,7 +23,7 @@
                     <span> </span>
                     <img src="favicon-grey-transparan-32x32.png" alt="Logo Alkitab yang memancarkan kemuliaan Allah dan kuasa Roh Kudus.">
                 </div>
-                <p>Semua foto yang kami gunakan dalam situs ini dapat dilihat sumbernya melalui halaman berikut: <a href="halat.html">Halaman Atribusi</a>.</p></i>
+                <p>Semua foto yang kami gunakan dalam situs ini dapat dilihat sumbernya melalui halaman berikut: <a href="about-atrpg.html">Halaman Atribusi</a>.</p></i>
             </div> 
         </footer>
     </body>

@@ -5,30 +5,62 @@ document.documentElement.style.setProperty("--layer-height",
 
 
 // UBAH WARNA BACKGROUND SIDEBAR/NAVBAR SESUAI HALAMAN SEKARANG
-const sidebarPageTrack = document.getElementsByClassName('js-sidebar-page-track');
-
-let findPageURL = window.location.pathname.slice(17,27);
-let thisPageRegEx = new RegExp(findPageURL);
 /* Bagaimana dengan halaman yang tidak tercatat dalam navbar?
-Sewaktu websitus ini sudah menyala di tempat hosting setiap halaman akan punya
-URL uniknya sendiri dan semua halaman yang tidak tercatat dalam navbar pasti
-adalah bagian dari salah satu yang tercatata dalam navbar sehingga dapat dibuatkan
-URL sebagai anak dari orangtuanya di bagian navbar.
-
-Lalu nanti RegEx di atas akan mencari orangtua dari halaman yang tidak tercatat ini
-dengan mengatur index yang akan di .slice(). Index yang di .slice() sekarang adalah
-17, 27 karena window.location.pathname untuk sekarang adalah
-/situs-pemuridan/index.html sedangkan besok hanya akan semacam /beranda. */
-for (let c = 0; c <= sidebarPageTrack.length; c++) {
-    if (thisPageRegEx.test(sidebarPageTrack[c]) === true) {
-        sidebarPageTrack[c].style.backgroundColor = "var(--mw)";
-        sidebarPageTrack[c].style.color = "var(--gr)";
-    }
+Sewaktu websitus ini sudah menyala di tempat hosting setiap halaman akan punya URL uniknya sendiri dan semua halaman yang tidak tercatat dalam navbar pasti adalah bagian dari salah satu yang tercatata dalam navbar sehingga dapat dibuatkan URL sebagai anak dari orangtuanya di bagian navbar. */
+function whatToIndexFromThisPageURL (startIndex, endIndex) {
+    return window.location.pathname.slice(startIndex,endIndex);
 };
+function makeRegExpOutOf (thisString) {
+    return new RegExp(thisString);
+};
+function makeArrayOutOf (hTMLCollection) {
+    return Array.from(hTMLCollection);
+};
+function extractContentOfArrayWithRegExp (content, regExp) {
+    return content.find((elements) => regExp.test(elements));
+};
+function getIndexOfAnElementFromHTMLCollection (arrayOfHTMLCollection,content) {
+    return arrayOfHTMLCollection.indexOf(content);
+};
+function changeBackgroundAndTextColorOfElementWithKnownIndex (hTMLCollection, index, bGColor, txtColor) {
+    hTMLCollection[index].style.backgroundColor = bGColor;
+    hTMLCollection[index].style.color = txtColor;
+};
+
+const sidebarPageElements = document.getElementsByClassName('js-sidebar-page-track');
+const sidebarPageTrackerStartIndex = 17;
+const sidebarPageTrackerEndIndex = 21;
+const sidebarElementBackgroundColor = "var(--mw)";
+const sidebarElementTextColor = "var(--gr)";
+
+changeBackgroundAndTextColorOfElementWithKnownIndex(sidebarPageElements, getIndexOfAnElementFromHTMLCollection(makeArrayOutOf(sidebarPageElements),extractContentOfArrayWithRegExp(makeArrayOutOf(sidebarPageElements),makeRegExpOutOf(whatToIndexFromThisPageURL(sidebarPageTrackerStartIndex,sidebarPageTrackerEndIndex)))),sidebarElementBackgroundColor,sidebarElementTextColor);
 
 
 
 // EFEK DROPDOWN DAN PERGANTIAN WARNA LOGO UNTUK TABLET DAN DESKTOP
+function clickEventListenerForNavbarOnTabletAndLaptop (listener,elementsToToggle) {
+    listener.forEach(function(item) {
+        item.addEventListener('click',function() {
+            elementsToToggle.classList.toggle('on');
+            item.addEventListener('click',function() {
+                elementsToToggle.classList.toggle('off');
+                elementsToToggle.classList.remove('off');
+            })
+        })
+    })
+}
+function scrollEventListenerToToggleLogoColorOnNavbar (listener,element1,element2) {
+    window.addEventListener('scroll',function () {
+        if (listener.offsetTop <= window.pageYOffset) {
+            element1.style.display = "flex";
+            element2.style.display = "none";
+        } else {
+            element1.style.display = "none";
+            element2.style.display = "flex";
+        }
+    })
+}
+
 const tabletAndDesktopNavBarDropDown = document.getElementsByClassName('js-dropdown')[0];
 const dropDownToggle = document.querySelectorAll('.js-click-fn-dropdown');
 const navBarStyleToggler = document.querySelector('.text-box, #text-box-announcement');
@@ -36,45 +68,31 @@ const navBarLogoWhite = document.getElementsByClassName('logo-white')[0];
 const navBarLogoYellow = document.getElementsByClassName('logo-yellow')[0];
 
 if (visualViewport.width > 768) {
-    dropDownToggle.forEach(function(item) {
-        item.addEventListener('click',function() {
-            tabletAndDesktopNavBarDropDown.classList.toggle('on');
-            item.addEventListener('click',function() {
-                tabletAndDesktopNavBarDropDown.classList.toggle('off');
-                tabletAndDesktopNavBarDropDown.classList.remove('off');
-            })
-        })
-    })
-
-    window.addEventListener('scroll',function () {
-        if (navBarStyleToggler.offsetTop <= window.pageYOffset) {
-            navBarLogoYellow.style.display = "flex";
-            navBarLogoWhite.style.display = "none";
-        } else {
-            navBarLogoYellow.style.display = "none";
-            navBarLogoWhite.style.display = "flex";
-        }
-    })
-};
+    clickEventListenerForNavbarOnTabletAndLaptop(dropDownToggle,    tabletAndDesktopNavBarDropDown);
+    scrollEventListenerToToggleLogoColorOnNavbar(navBarStyleToggler,navBarLogoYellow,navBarLogoWhite);
+}
 
 
 
 // AKTIVASI TOMBOL BURGER SIDEBAR
+function clickEventListenerForNavbarOnPhone (listener,animations){
+    listener.addEventListener('click',function() {
+        listener.classList.remove('off');
+        animations.classList.remove('off');
+    
+        listener.classList.toggle('on');
+        animations.classList.toggle('on');
+    
+        listener.addEventListener('click',function() {
+            listener.classList.toggle('off');
+            animations.classList.toggle('off');
+        });
+    });    
+};
+
 const burgerClickToggle = document.getElementsByClassName('js-click-fn-burger')[0];
 const sidebarAnimation = document.getElementsByClassName('sidebar-animation')[0];
-
-burgerClickToggle.addEventListener('click',function() {
-    burgerClickToggle.classList.remove('off');
-    sidebarAnimation.classList.remove('off');
-
-    burgerClickToggle.classList.toggle('on');
-    sidebarAnimation.classList.toggle('on');
-
-    burgerClickToggle.addEventListener('click',function() {
-        burgerClickToggle.classList.toggle('off');
-        sidebarAnimation.classList.toggle('off');
-    });
-});
+clickEventListenerForNavbarOnPhone(burgerClickToggle,sidebarAnimation);
 
 
 
@@ -82,11 +100,11 @@ burgerClickToggle.addEventListener('click',function() {
 Masukkan selektor dengan format jQuery dan kecepatan animasi. */
 let win = $(window);
 $.fn.is_visible = function(){    
-    let viewport = {top: win.scrollTop()};
-    viewport.bottom = viewport.top + win.height();
+    let viewport = {top: win.scrollTop()}; //window.pageYOffset
+    viewport.bottom = viewport.top + win.height(); //document.documentElement.clientHeight
 
-    let bounds = this.offset();
-    bounds.bottom = bounds.top + this.outerHeight();
+    let bounds = this.offset(); // //element.offsetTop();
+    bounds.bottom = bounds.top + this.outerHeight(); // element.offsetHeight;
 
     return (!(viewport.bottom < bounds.top || viewport.top > bounds.bottom));
 };
@@ -104,12 +122,12 @@ $(window).scroll(function(){
 
 
 // CAROUSEL UNTUK HALAMAN ABBA90 DAN GA90
-const slides = document.querySelectorAll('.slide');
+const slidesToCarousel = document.querySelectorAll('.slide');
 const nextBtn = document.querySelector('.next-btn');
-const previousBtn = document.querySelector('.prev-btn');
+const prevBtn = document.querySelector('.prev-btn');
 
 if (nextBtn != null) {
-    slides.forEach(function(slide, index) {
+    slidesToCarousel.forEach(function(slide, index) {
         slide.style.left = `${index * 100}%`;
     });
 
@@ -118,22 +136,53 @@ if (nextBtn != null) {
         counter++;
         carousel();
     });
-    previousBtn.addEventListener('click',function(){
+    prevBtn.addEventListener('click',function(){
         counter--;
         carousel();
     });
 
     function carousel(){
-        if(counter === slides.length) {
+        if(counter === slidesToCarousel.length) {
             counter = 0;
         } else if (counter < 0) {
-            counter = slides.length - 1;
+            counter = slidesToCarousel.length - 1;
         }
-        slides.forEach(function(slide){
+        slidesToCarousel.forEach(function(slide){
             slide.style.transform = `translateX(-${counter * 100}%)`;
         })
     }
 };
+// let counter = 0;
+// function carouselPosition(slides) {
+//     slides.forEach(function(slide, index) {
+//         slide.style.left = `${index * 100}%`;
+//     })
+// };
+// function carouselButton(next,prev,carouselEffectFunction) {
+//     next.addEventListener('click',function(){
+//         counter++;
+//         carouselEffectFunction;
+//     });
+//     prev.addEventListener('click',function(){
+//         counter--;
+//         carouselEffectFunction;
+//     })
+// };
+// function carouselEffect(slides){
+//     if(counter === slides.length) {
+//         counter = 0;
+//     } else if (counter < 0) {
+//         counter = slides.length - 1;
+//     }
+//     slides.forEach(function(slide){
+//         slide.style.transform = `translateX(-${counter * 100}%)`;
+//     })
+// }
+
+// if (nextBtn != null) {
+//     carouselPosition(slidesToCarousel);
+//     carouselButton(nextBtn,prevBtn,carouselEffect(slidesToCarousel));
+// };
 
 
 

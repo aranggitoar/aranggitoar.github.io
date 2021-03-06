@@ -96,6 +96,8 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* I. GLOBAL VARIABLE */
+
 a {
 	color: inherit;
 }
@@ -154,8 +156,26 @@ h3 {
 	margin: 1rem 0 .7rem;
 }
 
+
+
 ol {
 	list-style: decimal;
+}
+
+.rgstr-abba90-radio-btn {
+	position: absolute;
+  	height: 25px;
+  	width: 25px;
+  	background-color: #eee;
+  	border-radius: 50%;
+}
+
+.rgstr-abba90-radio-btn:hover {
+	background-color: #ccc;
+}
+
+.rgstr-abba90-radio-btn:checked {
+	background-color: #2196F3;
 }
 
 .main {
@@ -263,7 +283,7 @@ ol {
 	.sidebar-link > a {
 		width: 100%;
 		display: block;
-		padding: .4rem 0;
+		padding: .4rem .5rem;
 		text-align: center;
 		font-size: 1.25rem;
 		text-decoration: none;
@@ -621,12 +641,20 @@ header.sidebar-animation.off {
 			font-style: italic;
 		}
 
-.picture-for-index {
+.picture-for-main-pages {
 	background: url(../foto/halaman-utama/byb-fitur.jpg) no-repeat center/cover;
 }
 
 .picture-for-webinar {
 	background: url(../foto/halaman-utama/byb-alkitab-fitur.jpg) no-repeat center/cover;
+}
+
+.picture-for-prayp {
+	background: url(../foto/halaman-muka/byb-pokok-doa.jpg) no-repeat center/cover;
+}
+
+.picture-for-k3b {
+	background: url(../foto/per-artikel/byb-wasiat-kristus.jpg) no-repeat center/cover;
 }
 
 .picture-for-01fon {
@@ -703,11 +731,12 @@ header.sidebar-animation.off {
 
 .container-slider {
 	position: relative;
-	width: 100vw;
+	width: 100%;
 	height: 45vh;
 }
 
 .container-slider-btn {
+	position: relative;
 	display: flex;
 	justify-content: center;
 }
@@ -724,7 +753,7 @@ header.sidebar-animation.off {
 }
 
 	.slide > img {
-		width: 100vw;
+		width: 100%;
 	}
 
 #return-btn {
@@ -745,6 +774,15 @@ header.sidebar-animation.off {
 		box-shadow: 0 0 5px var(--gr);
 		border-color: var(--org);
 	}
+
+.form-rgstr-abba90 {
+	width: 90%;
+	height: 80vh;
+}
+
+.form-rgstr-abba90-alamat-rumah::after {
+	content: "(Lengkap)";
+}
 
 
 /* IV. PENGATURAN FOOTER */
@@ -982,7 +1020,7 @@ TANPA PERLU MUAT ULANG HALAMAN. */
 		text-align: right;
 		display: none;
 		right: 0;
-		width: 92%;
+		width: 90%;
 		font-size: 1.1rem;
 		line-height: 1;
 		color: var(--gr-tr);
@@ -1036,7 +1074,7 @@ TANPA PERLU MUAT ULANG HALAMAN. */
 			left: 2rem;
 			right: 0;
 			height: 2px;
-			transform: translateX(150px);
+			transform: translateX(200px);
 			background-color: var(--gr);
 			transition: transform 150ms ease-in-out;
 		}

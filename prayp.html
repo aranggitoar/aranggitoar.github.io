@@ -1,0 +1,39 @@
+            <!--#include file="./header.html"-->
+            <article id="title-box">
+				<span class="title-picture picture picture-for-main-pages" role="img" aria-label="Foto benih yang sedang ditabur."><div></div></span>
+				<div id="title-text-box">
+					<h1>Pokok Doa Anda</h1>
+				</div>
+			</article>
+            <article>
+                <section class="text-box">
+                    <h2>Apakah kami boleh berdoa untuk Anda?</h2>
+                    <form action="pryr-pts.php" method="POST">
+
+                        <legend>Alamat E-mail</legend>
+                        <label for="e-mail">
+                            <input id="e-mail" name="e-mail" type="email" placeholder="E-mail Anda.." required>
+                        </label>
+
+                        <legend>Nama Lengkap</legend>
+                        <label for="name">
+                            <input id="name" name="name" minlength="3" type="text" placeholder="Nama Anda.." required>
+                        </label>
+                        
+                        <legend>Pokok Doa Anda</legend>
+                        <p>Jika Anda sedang bergumul, mari bergumul bersama di dalam doa</p>
+                        <textarea name="prayer-points" placeholder="Pokok doa Anda.." required>
+                            
+                    </form>
+                    <p>Benih Yang Baik ada bersama Anda dalam persekutuan persaudaraan!</p>
+                </section>
+                <section class="text-picture-box">
+                    <div></div>
+                    <span class="picture picture-for-prayp" role="img" aria-label=""></span>
+                </section>
+            </article>
+            <article>
+                <hr class="hr-bold-yellow">
+                <button id="return-btn">Kembali</button>
+            </article>
+            <!--#include file="./footer.html"-->

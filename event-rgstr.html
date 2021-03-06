@@ -1,0 +1,85 @@
+            <!--#include file="./header.html"-->
+            <article id="title-box">
+                <span class="title-picture picture picture-for-11raa" role="img" aria-label="Foto benih yang sedang ditabur."><div></div></span>
+                <div id="title-text-box">
+                    <h1>Formulir Pendaftaran ABBA90 Gelombang Kedua Tahun 2021</h1>
+                </div>
+            </article>
+            <article>
+                <section class="text-box">
+                    <h2>Kontak Info</h2>
+                    <p></p>Yayasan Alkitab BahasaKita
+                    Gedung Holland Bakery Lantai 1
+                    Jl. KH. Hasyim Ashari No. 29-29A
+                    Jakarta Pusat 10150
+                    Surel: pengurus@bahasakita.net
+                    Web situs: albata.info</p>
+                    <hr class="hr-bold">
+                    <p>Benih Yang Baik
+                    Surel: benih.info@gmail.com
+                    Web situs: benihyangbaik.com
+                    HP: 0878-1279-0477/0896-2639-7931</p>
+                    <hr class="hr-bold">
+                </section>
+                <section class="text-box">
+                    <p>Salam damai sejahtera Saudara/i yang terkasih di dalam Kristus!</p>
+                    <p>Dengan penuh sukacita kami mengundang Saudara/i untuk bergabung di dalam gerakan ABBA 90 Gelombang Pertama tahun 2021! Saudara-saudari mungkin bertanya-tanya, "Wah, apa itu ABBA 90?". Jangan khawatir.</p>
+                    <p>Kami telah menyediakan sebuah presentasi berisi segala informasi yang Saudara/i perlu ketahui tentang ABBA 90 Gelombang Pertama tahun 2021. Saudara/i dapat mengaksesnya melalui tautan ini: shorturl.at/dknzR. Kami mohon agar Saudara/i membaca setiap halaman yang ada di sana untuk kemudian mengisi formulir di bawah.</p>
+                    <p>Satu hal lagi yang kami mohon, yaitu agar Saudara/i mengisi formulir di bawah dengan informasi lengkap untuk memudahkan panitia mencetak dan mengirim sertifikat serta Alkitab Perjanjian Baru dalam Terjemahan Sederhana Indonesia.</p>
+                    <form class="form-rgstr-abba90" action="rgstr-abba90.php" method="POST">
+
+                        <legend>Alamat E-mail</legend>
+                        <label for="e-mail">
+                            <input id="e-mail" name="e-mail" type="email" placeholder="E-mail Anda.." required>
+                        </label>
+
+                        <legend>Nama Lengkap</legend>
+                        <label for="name">
+                            <input id="name" name="name" minlength="3" type="text" placeholder="Nama Anda.." required>
+                        </label>
+
+                        <legend>Jenis Kelamin</legend>
+                        <label for="man">
+                            <input class="rgstr-abba90-radio-btn" id="man" name="gender" type="radio" value="man" required>Laki-laki
+                        </label>
+                        <label for="women">
+                            <input class="rgstr-abba90-radio-btn" id="women" name="gender" type="radio" value="women" required>Perempuan
+                        </label>
+
+                        <legend>Usia</legend>
+                        <label for="age">
+                            <input id="age" name="age" min="4" max="110" type="number" required>
+                        </label>
+
+                        <legend>Nomor HP</legend>
+                        <label for="phone-number">
+                            <input id="phone-number" name="phone-number" minlength="8" maxlength="14" type="text" placeholder="Nomor HP Anda.." required>
+                        </label>
+                                <!-- (Lengkap) masukkan ke ::after dan diperkecil -->
+                        <legend class="form-rgstr-abba90-alamat-rumah">Alamat Rumah</legend>
+                        <div class="home-address-description-container">
+                            <ol>
+                                <li>Nama Jalan</li>
+                                <li>Perumahan atau Nama Tempat (bila ada)</li>
+                                <li>Keterangan RT dan RW</li>
+                                <li>Nama Kelurahan atau Desa</li>
+                                <li>Nama Kecamatan</li>
+                                <li>Nama Kota atau Kabupaten</li>
+                                <li>Nama Provinsi</li>
+                                <li>Kode Pos</li>
+                            </ol>
+                        </div>                        
+                        <label for="home-address">
+                            <input id="home-address" name="home-address" type="text" placeholder="Alamat Rumah Anda.." required>
+                        </label>
+
+                        <button type="submit">Kirim</button>
+
+                    </form>
+                </section>
+            </article>
+            <article>
+                <hr class="hr-bold-yellow">
+                <button id="return-btn">Kembali</button>
+            </article>
+            <!--#include file="./footer.html"-->
