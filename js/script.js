@@ -1,12 +1,23 @@
+// FILE JS INI TERBAGI MENJADI 5 BAGIAN
+// 1. PENGATUR VARIABEL CSS SECARA DINAMIS
+// 2. ANIMASI UNTUK TABLET DAN LAPTOP
+// 3. ANIMASI UNTUK PONSEL
+// 4. ANIMASI UNTUK SEMUA
+// 5. NON-ANIMASI
+
+// 1. PENGATUR VARIABEL CSS SECARA DINAMIS
 // UKURAN LAYER ABU UNTUK MEDIA QUERY DALAM VARIABEL
 document.documentElement.style.setProperty("--layer-height",
     `${document.querySelector('.footer').offsetTop}px`);
 
+// UKURAN LAYER ABU UNTUK GAMBAR FITUR
+document.documentElement.style.setProperty("--pic-layer-height",
+    `${document.querySelector('#title-box > div > img').offsetHeight}px`);
 
 
+
+// 2. ANIMASI UNTUK TABLET DAN LAPTOP
 // UBAH WARNA BACKGROUND SIDEBAR/NAVBAR SESUAI HALAMAN SEKARANG
-/* Bagaimana dengan halaman yang tidak tercatat dalam navbar?
-Sewaktu websitus ini sudah menyala di tempat hosting setiap halaman akan punya URL uniknya sendiri dan semua halaman yang tidak tercatat dalam navbar pasti adalah bagian dari salah satu yang tercatata dalam navbar sehingga dapat dibuatkan URL sebagai anak dari orangtuanya di bagian navbar. */
 function whatToIndexFromThisPageURL (startIndex, endIndex) {
     return window.location.pathname.slice(startIndex,endIndex);
 };
@@ -22,9 +33,10 @@ function extractContentOfArrayWithRegExp (content, regExp) {
 function getIndexOfAnElementFromHTMLCollection (arrayOfHTMLCollection,content) {
     return arrayOfHTMLCollection.indexOf(content);
 };
-function changeBackgroundAndTextColorOfElementWithKnownIndex (hTMLCollection, index, bGColor, txtColor) {
+function changeBackgroundAndTextColorPlusOfElementWithKnownIndex (hTMLCollection, index, bGColor, txtColor) {
     hTMLCollection[index].style.backgroundColor = bGColor;
     hTMLCollection[index].style.color = txtColor;
+    hTMLCollection[index].classList.toggle('on');
 };
 
 const sidebarPageElements = document.getElementsByClassName('js-sidebar-page-track');
@@ -33,21 +45,20 @@ const sidebarPageTrackerEndIndex = 21;
 const sidebarElementBackgroundColor = "var(--mw)";
 const sidebarElementTextColor = "var(--gr)";
 
-changeBackgroundAndTextColorOfElementWithKnownIndex(sidebarPageElements, getIndexOfAnElementFromHTMLCollection(makeArrayOutOf(sidebarPageElements),extractContentOfArrayWithRegExp(makeArrayOutOf(sidebarPageElements),makeRegExpOutOf(whatToIndexFromThisPageURL(sidebarPageTrackerStartIndex,sidebarPageTrackerEndIndex)))),sidebarElementBackgroundColor,sidebarElementTextColor);
+changeBackgroundAndTextColorPlusOfElementWithKnownIndex(sidebarPageElements, getIndexOfAnElementFromHTMLCollection(makeArrayOutOf(sidebarPageElements),extractContentOfArrayWithRegExp(makeArrayOutOf(sidebarPageElements),makeRegExpOutOf(whatToIndexFromThisPageURL(sidebarPageTrackerStartIndex,sidebarPageTrackerEndIndex)))),sidebarElementBackgroundColor,sidebarElementTextColor);
 
 
-
-// EFEK DROPDOWN DAN PERGANTIAN WARNA LOGO UNTUK TABLET DAN DESKTOP
-function clickEventListenerForNavbarOnTabletAndLaptop (listener,elementsToToggle) {
-    listener.forEach(function(item) {
-        item.addEventListener('click',function() {
-            elementsToToggle.classList.toggle('on');
-            item.addEventListener('click',function() {
-                elementsToToggle.classList.toggle('off');
-                elementsToToggle.classList.remove('off');
-            })
+// EFEK DROPDOWN DAN PERGANTIAN WARNA LOGO
+function clickEventListenerForNavbarOnTabletAndLaptop (mouseOverListener, mouseOutListener, elementsToToggle) {
+        mouseOverListener.addEventListener('mouseover',function() {
+            // console.log("mouseover");
+            elementsToToggle.classList.remove('off');
+            elementsToToggle.classList.add('on');
         })
-    })
+        mouseOutListener.addEventListener('mouseleave',function() {
+            // console.log("mouseleave");
+            elementsToToggle.classList.add('off');
+            })
 }
 function scrollEventListenerToToggleLogoColorOnNavbar (listener,element1,element2) {
     window.addEventListener('scroll',function () {
@@ -62,18 +73,20 @@ function scrollEventListenerToToggleLogoColorOnNavbar (listener,element1,element
 }
 
 const tabletAndDesktopNavBarDropDown = document.getElementsByClassName('js-dropdown')[0];
-const dropDownToggle = document.querySelectorAll('.js-click-fn-dropdown');
+const dropDownOnToggler = document.querySelector('.js-hover-fn-dropdown');
+const dropDownOffToggler = document.querySelector('.header');
 const navBarStyleToggler = document.querySelector('.text-box, #text-box-announcement');
 const navBarLogoWhite = document.getElementsByClassName('logo-white')[0];
 const navBarLogoYellow = document.getElementsByClassName('logo-yellow')[0];
 
 if (visualViewport.width > 768) {
-    clickEventListenerForNavbarOnTabletAndLaptop(dropDownToggle,    tabletAndDesktopNavBarDropDown);
+    clickEventListenerForNavbarOnTabletAndLaptop(dropDownOnToggler, dropDownOffToggler, tabletAndDesktopNavBarDropDown);
     scrollEventListenerToToggleLogoColorOnNavbar(navBarStyleToggler,navBarLogoYellow,navBarLogoWhite);
 }
 
 
 
+// 3. ANIMASI UNTUK PONSEL
 // AKTIVASI TOMBOL BURGER SIDEBAR
 function clickEventListenerForNavbarOnPhone (listener,animations){
     listener.addEventListener('click',function() {
@@ -96,8 +109,8 @@ clickEventListenerForNavbarOnPhone(burgerClickToggle,sidebarAnimation);
 
 
 
-/* EFEK PARALLAX JQUERY DENGAN PROPERTI CSS TRANSFORM NILAI TRANSLATEY
-Masukkan selektor dengan format jQuery dan kecepatan animasi. */
+// 4. ANIMASI UNTUK SEMUA
+// EFEK PARALLAX JQUERY
 let win = $(window);
 $.fn.is_visible = function(){    
     let viewport = {top: win.scrollTop()}; //window.pageYOffset
@@ -113,12 +126,11 @@ $(window).scroll(function(){
     $("#title-box, .text-picture-box").each(function(){ // Elemen kontainer
   	    if ($(this).is_visible()) {	
   	 	    let elmTop = $(this).offset().top; 
-            let shiftDistance = (elmTop - win.scrollTop()) * .2; // Kecepatan
+             let shiftDistance = (elmTop - win.scrollTop()) * .2; // Kecepatan
             $(".picture").css("transform","translateY("+-shiftDistance+"px)"); // Elemen target
         }
     })
 });
-
 
 
 // CAROUSEL UNTUK HALAMAN ABBA90 DAN GA90
@@ -152,40 +164,23 @@ if (nextBtn != null) {
         })
     }
 };
-// let counter = 0;
-// function carouselPosition(slides) {
-//     slides.forEach(function(slide, index) {
-//         slide.style.left = `${index * 100}%`;
-//     })
-// };
-// function carouselButton(next,prev,carouselEffectFunction) {
-//     next.addEventListener('click',function(){
-//         counter++;
-//         carouselEffectFunction;
-//     });
-//     prev.addEventListener('click',function(){
-//         counter--;
-//         carouselEffectFunction;
-//     })
-// };
-// function carouselEffect(slides){
-//     if(counter === slides.length) {
-//         counter = 0;
-//     } else if (counter < 0) {
-//         counter = slides.length - 1;
-//     }
-//     slides.forEach(function(slide){
-//         slide.style.transform = `translateX(-${counter * 100}%)`;
-//     })
+
+
+// AKTIVASI FORM FOOTER
+const contactUsBtn = document.getElementsByClassName('contact-us-btn')[0];
+const contactUsForm = document.getElementsByClassName('js-form-contact-us')[0];
+
+contactUsBtn.addEventListener('click', function (){
+        contactUsForm.classList.toggle('on');
+        this.removeEventListener('click', arguments.callee);
+    });
+// function elementOnToggler(element){
+//     element.classList.toggle('on');
 // }
 
-// if (nextBtn != null) {
-//     carouselPosition(slidesToCarousel);
-//     carouselButton(nextBtn,prevBtn,carouselEffect(slidesToCarousel));
-// };
 
 
-
+// 5. NON-ANIMASI
 // COUNTDOWN
 const months = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
 const weekdays = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
@@ -243,18 +238,31 @@ if (deadline != null) {
 }
 
 
+// AJAX UNTUK FORM HUBUNGI KAMI
+contactUsForm.addEventListener('submit', getContactUsMessage);
 
-// AKTIVASI FORM FOOTER
-const contactUsBtn = document.getElementsByClassName('contact-us-btn')[0];
-const contactUsFormToggle = document.getElementsByClassName('js-form-contact-us')[0];
-const contactUsSendBtnToggle = document.getElementsByClassName('js-contact-us-send-btn')[0];
-const contactUsFormToggleInsert = document.getElementsByClassName('js-form-contact-us-on')[0];
+function getContactUsMessage(e) {
+    e.preventDefault();
 
-contactUsBtn.addEventListener('click',function() {
-    contactUsFormToggle.classList.toggle('active');
-    if (contactUsFormToggle.active === true) {
-        contactUsSendBtnToggle.addEventListener('click',function() {
-            contactUsFormToggleInsert.toggle();
-        })
-    }
-});
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('e-mail').value;
+    var message = document.getElementById('message').value;
+
+    var parameters = "name="+name+"&e-mail="+email+"&message="+message;
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', 'contact-us.php', true);
+    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+    // xhr.onload = function () {
+    //     console.log(this.responseText);
+    // }       
+
+    xhr.send(parameters);
+    contactUsForm.classList.toggle('off');
+    setTimeout(() => {if(contactUsForm.classList.contains('off') === true) {
+        contactUsForm.classList.remove('on');
+        contactUsForm.classList.remove('off');
+        contactUsBtn.innerHTML = "Terima kasih atas pesan Anda, harap menunggu balasan dari kami.";
+    }}, 500);
+}

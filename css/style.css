@@ -1,5 +1,3 @@
-/* PENGATURAN GLOBAL */
-
 *,
 *::before,
 *::after {
@@ -19,6 +17,7 @@
 	--mw: #fdfff5;
 	--mw-tr: #fdfff566;
 	--prpl: #5e1e83;
+	--drk-prpl: #38114e;
 	--tr: 'Times New Roman', Times, serif;
 	font: 16px var(--tr);
 	color: var(--gr);
@@ -96,13 +95,15 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* I. GLOBAL VARIABLE */
+/* I. GLOBAL SELECTORS */
 
 a {
 	color: inherit;
 }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
 	color: #f8370f;
 }
 
@@ -155,8 +156,6 @@ h3 {
 	font-size: 1.5rem;
 	margin: 1rem 0 .7rem;
 }
-
-
 
 ol {
 	list-style: decimal;
@@ -256,7 +255,7 @@ ol {
 	display: none;
 }
 
-/* II. PENGATURAN HEADER (SIDEBAR) */
+/* II. SIDEBAR SELECTORS */
 
 #navigation {
 	top: 0;
@@ -295,10 +294,10 @@ ol {
 		color: "";
 	}
 
-/* II.A. ANIMASI HEADER (SIDEBAR)
-/* II.A.1. BAGIAN BURGER 
-MENGAKTIVASI MENDEAKTIVASI BAGIAN HEADER*/
-a.js-click-fn-burger {
+/* II.A. SIDEBAR ANIMATION
+II.A.1. ON THE BURGER BUTTON
+ACTIVATES AND DEACTIVATES THE HEADER */
+.js-click-fn-burger {
 	position: fixed;
 	top: .6rem;
 	left: .4rem;
@@ -311,7 +310,7 @@ a.js-click-fn-burger {
 	z-index: 6;
 }
 
-	a.js-click-fn-burger::after {
+	.js-click-fn-burger::after {
 		content: "";
 		position: absolute;
 		width: 2.1rem;
@@ -320,23 +319,23 @@ a.js-click-fn-burger {
 		border: .5px solid #0003;
 	}
 
-		a.js-click-fn-burger.on::after {
+		.js-click-fn-burger.on::after {
 			content: "";
 			background-color: inherit;
 			border: inherit;
 		}
 
-	a.js-click-fn-burger .burger {
+	.js-click-fn-burger .burger {
 		height: .1rem;
 	    width: 50%;
 		background-color: black;
 	}
 	
-	a.js-click-fn-burger.on {
+	.js-click-fn-burger.on {
 		z-index: 6;
 	}
 
-		a.js-click-fn-burger.on .burger {
+		.js-click-fn-burger.on .burger {
 			animation: normal-burger-dissapear 250ms forwards;
 		}
 
@@ -345,9 +344,9 @@ a.js-click-fn-burger {
 				opacity: 0.0;
 			}
 		}
-/* TOMBOL SECARA KESELURUHAN MENGHILANG TETAPI GARIS
-TENGAH DAN PSEUDO-CLASSNYA BERPUTAR MEMBENTUK "X"*/
-		a.js-click-fn-burger.on .x-burger {
+/* THE BUTTON AS A WHOLE FADES AWAY BUT THE MIDDLE LINE
+AND ITS PSEUDO CLASS ROTATES TO MAKE AN "X" SHAPE */
+		.js-click-fn-burger.on .x-burger {
 			animation: x-burger-appear 250ms forwards;
 		}
 
@@ -357,7 +356,7 @@ TENGAH DAN PSEUDO-CLASSNYA BERPUTAR MEMBENTUK "X"*/
 			}
 		}
 
-			a.js-click-fn-burger.on .x-burger::before {
+			.js-click-fn-burger.on .x-burger::before {
 				content: "";
 				animation: x-burger-appear-2 250ms forwards;
 				height: .1rem;
@@ -373,11 +372,11 @@ TENGAH DAN PSEUDO-CLASSNYA BERPUTAR MEMBENTUK "X"*/
 				}
 			}
 
-	a.js-click-fn-burger.off {
+	.js-click-fn-burger.off {
 		z-index: 6;
 	}
 
-		a.js-click-fn-burger.off .burger {
+		.js-click-fn-burger.off .burger {
 			opacity: 0.0;
 			animation: normal-burger-appear 250ms forwards;
 		}
@@ -387,10 +386,9 @@ TENGAH DAN PSEUDO-CLASSNYA BERPUTAR MEMBENTUK "X"*/
 				opacity: 1;
 			}
 		}
-/* TOMBOL SECARA KESELURUHAN MUNCUL KEMBALI,
-GARIS TENGAH DAN PSEUDO-CLASSNYA KEMBALI KE
-POSISI AWAL. */
-		a.js-click-fn-burger.off .x-burger {
+/* THE BUTTON AS A WHOLE FADES IN, THE MIDDLE LINE
+AND ITS PSEUDO CLASS GOES BACK TO THEIR ORIGINAL STATE */
+		.js-click-fn-burger.off .x-burger {
 			opacity: 1;
 			transform: rotate(45deg);
 			animation: x-burger-dissapear 250ms forwards;
@@ -402,7 +400,7 @@ POSISI AWAL. */
 			}
 		}
 
-			a.js-click-fn-burger.off .x-burger::before {
+			.js-click-fn-burger.off .x-burger::before {
 				content: "";
 				animation: x-burger-dissapear-2 250ms forwards;
 				height: .1rem;
@@ -419,9 +417,9 @@ POSISI AWAL. */
 				}
 			}
 
-/* II.A.2. BAGIAN HEADER
-AKTIVASI DAN DEAKTIVASI TERGANTUNG TOMBOL BURGER.*/
-header.sidebar-animation.on {
+/* II.A.2. ON THE HEADER
+ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
+.sidebar-animation.on {
 	animation: header-appear 375ms forwards;
 	display: flex;
 }
@@ -437,7 +435,7 @@ header.sidebar-animation.on {
 	}
 }
 
-header.sidebar-animation.off {
+.sidebar-animation.off {
 	animation: header-dissapear 375ms forwards;
 	display: flex;
 }
@@ -453,7 +451,7 @@ header.sidebar-animation.off {
 	}
 }
 
-/* III. HALAMAN UTAMA */
+/* III. MAIN PAGE */
 
 .deadline {
 	display: flex;
@@ -483,32 +481,32 @@ header.sidebar-animation.off {
 			font-size: 1.8rem;
 		}
 
-		#title-box {
-			position: relative;
-			width: 100%;
-			height: 100vh;
-			z-index: 3;
-			display: flex;
-		}
-		
-		#title-text-box {
-			text-align: center;
-			padding: 1.5rem;
-			margin: auto;
-			z-index: 4;
-			max-width: 100vw;
-		}
-		
-			#title-text-box > h1 {
-				font-size: 2.6rem;
-				letter-spacing: .1rem;
-				line-height: 1.2;
-				color: var(--mw);
-				background-color: #00000047;
-				border-radius: 15px;
-				padding: 1rem .5rem;
-				box-shadow: 0 0 125px var(--gr);
-			}
+#title-box {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	z-index: 3;
+	display: flex;
+}
+
+#title-text-box {
+	text-align: center;
+	padding: 1.5rem;
+	margin: auto;
+	z-index: 4;
+	max-width: 100vw;
+}
+
+	#title-text-box > h1 {
+		font-size: 2.6rem;
+		letter-spacing: .1rem;
+		line-height: 1.2;
+		color: var(--mw);
+		background-color: #00000047;
+		border-radius: 15px;
+		padding: 1rem .5rem;
+		box-shadow: 0 0 125px var(--gr);
+	}
 
 .text-box {
 	display: flex;
@@ -549,13 +547,14 @@ header.sidebar-animation.off {
 }
 			
 	.text-picture-box div:first-child,
-	#title-box > span > div {
+	.picture > div {
 		position: absolute;
 		background-color: #0003;
 		width: 100%;
-		height: 100%;
-		z-index: 4;
+		height: var(--pic-layer-height);
+		z-index: 3;
 	}
+
 
 	.text-picture-box div:first-child {
 		background-color: #0001;
@@ -568,6 +567,10 @@ header.sidebar-animation.off {
 	width: 100%;
 	height: 125%;
 }
+
+	.picture > img {
+		width: 100%;
+	}
 
 .title-picture {
 	height: 100%;
@@ -620,7 +623,7 @@ header.sidebar-animation.off {
 	flex-wrap: wrap;
 }
 
-	.index-body-navigation > div {
+	.index-body-navigation > section {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -629,104 +632,24 @@ header.sidebar-animation.off {
 		margin: 1.2rem;
 	}
 
-		.index-body-navigation > div > *  {
+		.index-body-navigation > section > *  {
 			margin: .5rem;
 		}
 
-		.index-body-navigation > div > img {
+		.index-body-navigation > section > img {
 			width: 100%;
 		}
 
-		.index-body-navigation > div > p {
+		.index-body-navigation > section > p {
 			font-style: italic;
 		}
 
-.picture-for-main-pages {
-	background: url(../foto/halaman-utama/byb-fitur.jpg) no-repeat center/cover;
-}
-
 .picture-for-webinar {
-	background: url(../foto/halaman-utama/byb-alkitab-fitur.jpg) no-repeat center/cover;
+	background: url(../photo/main-page/byb-alkitab-fitur.jpg) no-repeat center/cover;
 }
 
 .picture-for-prayp {
-	background: url(../foto/halaman-muka/byb-pokok-doa.jpg) no-repeat center/cover;
-}
-
-.picture-for-k3b {
-	background: url(../foto/per-artikel/byb-wasiat-kristus.jpg) no-repeat center/cover;
-}
-
-.picture-for-01fon {
-	background: url(../foto/per-artikel/byb-0-1-fitur.jpg) no-repeat center/cover;
-}
-
-.picture-for-02fon {
-	background: url(../foto/per-artikel/byb-0-2-kedewasaan-kristus.jpg) no-repeat center;
-}
-
-.picture-for-03fon {
-	background: url(../foto/per-artikel/byb-0-3-fondasi-kuat.jpg) no-repeat center/cover;
-}
-
-.picture-for-11raa {
-	background: url(../foto/per-artikel/byb-1-1-sampul.jpg) no-repeat center/cover;
-}
-
-.picture-for-11raa-b {
-	background: url(../foto/per-artikel/byb-1-1-renungan.jpg) no-repeat center/cover;
-}
-
-.picture-for-11raa-c {
-	background: url(../foto/per-artikel/byb-1-1-fitur.jpg) no-repeat center/cover;
-}
-
-.picture-for-12raa {
-	background: url(../foto/per-artikel/byb-1-2-sampul.jpg) no-repeat center/cover;
-}
-
-.picture-for-12raa-b {
-	background: url(../foto/per-artikel/byb-1-2-renungan.jpg) no-repeat center/cover;
-}
-
-.picture-for-12raa-c {
-	background: url(../foto/per-artikel/byb-1-2-fitur.jpg) no-repeat center/cover;
-}
-
-.picture-for-13raa {
-	background: url(../foto/per-artikel/byb-1-3-sampul.jpg) no-repeat center/cover;
-}
-
-.picture-for-13raa-b {
-	background: url(../foto/per-artikel/byb-1-3-renungan.jpg) no-repeat center/cover;
-}
-
-.picture-for-13raa-c {
-	background: url(../foto/per-artikel/byb-1-3-fitur.jpg) no-repeat center/cover;
-}
-
-.picture-for-14raa {
-	background: url(../foto/per-artikel/byb-1-4-sampul.jpg) no-repeat center/cover;
-}
-
-.picture-for-14raa-b {
-	background: url(../foto/per-artikel/byb-1-4-renungan.jpg) no-repeat center/cover;
-}
-
-.picture-for-14raa-c {
-	background: url(../foto/per-artikel/byb-1-4-fitur.jpg) no-repeat center/cover;
-}
-
-.picture-for-15raa {
-	background: url(../foto/per-artikel/byb-1-5-sampul.jpg) no-repeat center/cover;
-}
-
-.picture-for-15raa-b {
-	background: url(../foto/per-artikel/byb-1-5-renungan.jpg) no-repeat center/cover;
-}
-
-.picture-for-15raa-c {
-	background: url(../foto/per-artikel/byb-1-5-fitur.jpg) no-repeat center/cover;
+	background: url(../photo/halaman-muka/byb-pokok-doa.jpg) no-repeat center/cover;
 }
 
 .container-slider {
@@ -785,9 +708,9 @@ header.sidebar-animation.off {
 }
 
 
-/* IV. PENGATURAN FOOTER */
+/* IV. FOOTER SELECTORS */
 
-/* IV.A. PENGATURAN FORMULIR MASUKAN */
+/* IV.A. CONTACT US SELECTORS */
 .footer {
 	background-color: var(--lt-ylw);
 	padding: 2vh 15vw;
@@ -853,7 +776,7 @@ header.sidebar-animation.off {
 		border: 0;
 	}
 
-	.js-form-contact-us > p {
+	.js-form-contact-us > legend {
 		align-self: flex-start;
 		font-size: 1.2rem;
 		color: var(--mw);
@@ -865,48 +788,20 @@ header.sidebar-animation.off {
 			border: 0;
 		}
 
-		.js-form-contact-us > label > input::placeholder {
+		:is(.js-form-contact-us > label) input::placeholder,
+		input::-webkit-input-placeholder,
+		input:-moz-placeholder,
+		input::-moz-placeholder,
+		input::-ms-input-placeholder {
 			font: 1.1rem var(--tr);
 
 		}
 
-		.js-form-contact-us > label > input::-webkit-input-placeholder {
-			font: 1.1rem var(--tr);
-
-		}
-
-		.js-form-contact-us > label > input::-moz-placeholder {
-			font: 1.1rem var(--tr);
-
-		}
-
-		.js-form-contact-us > label > input::-moz-placeholder {
-			font: 1.1rem var(--tr);
-
-		}
-
-		.js-form-contact-us > label > input::-ms-input-placeholder {
-			font: 1.1rem var(--tr);
-
-		}
-
-	.js-form-contact-us > textarea::placeholder {
-		font: 1.1rem var(--tr);
-	}
-
-	.js-form-contact-us > textarea::-webkit-input-placeholder {
-		font: 1.1rem var(--tr);
-	}
-
-	.js-form-contact-us > textarea:-moz-placeholder {
-		font: 1.1rem var(--tr);
-	}
-
-	.js-form-contact-us > textarea::-moz-placeholder {
-		font: 1.1rem var(--tr);
-	}
-
-	.js-form-contact-us > textarea::-ms-input-placeholder {
+	:is(.js-form-contact-us) textarea::placeholder,
+	textarea::-webkit-input-placeholder,
+	textarea:-moz-placeholder,
+	textarea::-moz-placeholder,
+	textarea::-ms-input-placeholder {
 		font: 1.1rem var(--tr);
 	}
 
@@ -927,15 +822,15 @@ header.sidebar-animation.off {
 		color: black;
 	}
 
-/* IV.B. ANIMASI FORMULIR MASUKAN */
-	.js-form-contact-us.active {
-		animation: js-form-contact-usApp 1.5s forwards;
+/* IV.B. CONTACT US FORM ANIMATION */
+	.js-form-contact-us.on {
+		animation: js-form-contact-us-appear 500ms forwards ease-out;
 		display: flex;
 	}
 
-	@keyframes js-form-contact-usApp {
+	@keyframes js-form-contact-us-appear {
 		0% {
-			transform: translateX(-400px) scale(.7);
+			transform: translateX(-1500px) scale(.7);
 		}
 		75% {
 			transform: translateX(0px) scale(.7);
@@ -945,34 +840,22 @@ header.sidebar-animation.off {
 		}
 	}
 
-/*PELAJARI JQUERY UNTUK BUAT TANDA VALIDASI
-TANPA PERLU MUAT ULANG HALAMAN. */
+	.js-form-contact-us.off {
+		animation: js-form-contact-us-disappear 500ms forwards ease-in;
+		display: flex;
+	}
 
-.js-form-contact-us-on {
-	position: absolute;
-	top: 10vh;
-	width: 75%;
-	display: none;
-	padding: 2rem;
-	border-radius: 0.5rem;
-	animation: js-form-contact-us-animation 10s forwards;
-}
-
-@keyframes js-form-contact-us-animation {
-	0% {
-		opacity: 0.0;
-		display: block;
+	@keyframes js-form-contact-us-disappear {
+		0% {
+			transform: scale(1);
+		}
+		25% {
+			transform: translateX(0px) scale(.7);
+		}
+		100% {
+			transform: translateX(1500px) scale(.7);
+		}
 	}
-	10% {
-		opacity: 1;
-	}
-	80% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 0.0;
-	}
-}
 
 
 /* V. PENGATURAN MEDIA QUERY */
@@ -1001,10 +884,18 @@ TANPA PERLU MUAT ULANG HALAMAN. */
 
 		#navigation div:first-child {
 			width: 100%;
+			
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
-			margin-bottom: .5rem;
+			margin-bottom: 1rem;
+		}
+
+		#navigation div a::before {
+			content: "";
+			position: absolute;
+			width: 3rem;
+			height: 3rem;
 		}
 
 	.sidebar-link {
@@ -1020,23 +911,27 @@ TANPA PERLU MUAT ULANG HALAMAN. */
 		text-align: right;
 		display: none;
 		right: 0;
-		width: 90%;
+		width: 80%;
 		font-size: 1.1rem;
 		line-height: 1;
 		color: var(--gr-tr);
-		box-shadow: 0 0 5px var(--lt-gr-tr);
+		box-shadow: 0 0 2px var(--lt-gr-tr);
 		transition: background-color 150ms ease-in-out;
 	}
 
+	.js-dropdown > a[href*="index"] {
+		border-top-left-radius: 7px;
+	}
+
 	.js-dropdown.on > a {
-		transform: translateY(-200px);
+		transform: translateY(-500px);
 		opacity: 0;
 		display: block;
-		animation: dropdown-appear 300ms forwards;
+		animation: dropdown-appear 500ms forwards;
 	}
 
 	@keyframes dropdown-appear {
-		50% {
+		70% {
 			opacity: 0;
 		}
 		100% {
@@ -1049,15 +944,15 @@ TANPA PERLU MUAT ULANG HALAMAN. */
 		transform: translateY(0px);
 		opacity: 1;
 		display: block;
-		animation: dropdown-dissapear 300ms forwards;
+		animation: dropdown-dissapear 500ms forwards;
 	}
 
 	@keyframes dropdown-dissapear {
-		50% {
+		30% {
 			opacity: 0;
 		}
 		100% {
-			transform: translateY(-200px);
+			transform: translateY(-500px);
 		}
 	}
 
@@ -1071,39 +966,33 @@ TANPA PERLU MUAT ULANG HALAMAN. */
 			position: absolute;
 			display: block;
 			bottom: 0;
-			left: 2rem;
+			left: 0;
 			right: 0;
 			height: 2px;
-			transform: translateX(200px);
+			transform: translateX(250px);
 			background-color: var(--gr);
 			transition: transform 150ms ease-in-out;
 		}
 
-		.js-dropdown > a:hover::after {
+		.js-dropdown > a:hover::after,
+		.js-dropdown > a.on::after {
 			transform: translateX(0);
-		}		
+		}
 
 	.logo-byb-header {
 		margin-right: 5px;
-		animation: blink 2s infinite;
+		animation: blink 1.5s infinite;
 	}
 	@keyframes blink {
 		40% {
-			filter: drop-shadow(0 0 1.7rem var(--gr));
+			filter: drop-shadow(0 0 2rem var(--prpl));
 		}
 		60% {
-			filter: drop-shadow(0 0 1.7rem var(--gr));
+			filter: drop-shadow(0 0 2rem var(--prpl));
 		}
 	}
 
-	.js-click-fn-dropdown::before {
-		content: "";
-		position: absolute;
-		width: 3rem;
-		height: 3rem;
-	}
-
-	a.js-click-fn-burger {
+	.js-click-fn-burger {
 		display: none;
 	}
 
@@ -1133,7 +1022,8 @@ TANPA PERLU MUAT ULANG HALAMAN. */
 
 	.main article:nth-child(2),
 	.text-box:first-child {
-		border-radius: 1rem;
+		border-top-left-radius: 1rem;
+		border-top-right-radius: 1rem;
 	}
 		
 	.picture {
@@ -1142,14 +1032,14 @@ TANPA PERLU MUAT ULANG HALAMAN. */
 
 		#title-text-box > h1 {
 			font-size: 4.5rem;
-			padding: 2.4rem 1.7rem;
-			color: white;
+			padding: 2.4rem 2rem;
+			color: var(--mw);
 		}
 
 	#text-box-announcement {
 		width: 75vw;
 		height: 65vh;
-		font-size: 1.7rem;
+		font-size: 2rem;
 		padding: 0 5rem;
 	}
 
@@ -1164,13 +1054,13 @@ TANPA PERLU MUAT ULANG HALAMAN. */
 					transform: scale(1.04);
 				}
 
-				#text-box-announcement > div.deadline > div.deadline-format h4 {
-					font-size: 2.5em;
-				}
+		.deadline-format h4 {
+			font-size: 2.5em;
+		}
 
-				#text-box-announcement > div.deadline > div.deadline-format span {
-					font-size: 1.2em;
-				}
+		.deadline-format span {
+			font-size: 1.2em;
+		}
 
 	.deadline {
 		width: 70%;

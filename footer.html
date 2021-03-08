@@ -1,9 +1,7 @@
-        </main>
         <footer class="footer">
             <div>
                 <p><a href="javascript:void(null);" class="contact-us-btn">Hubungi Kami</a></p>
-                <form class="js-form-contact-us" action="contact-us.php" method="POST">
-                <!--TAMBAHKAN VALIDASI ISI DENGAN AJAX-->
+                <form class="js-form-contact-us">
                     <legend>Nama:</legend> 
                     <label for="name">
                         <input id="name" name="name" minlength="3" type="text" placeholder="Nama Anda.." required>
@@ -13,8 +11,8 @@
                         <input id="e-mail" name="e-mail" type="email" placeholder="E-mail Anda.." required>
                     </label>
                     <legend>Pesan:</legend>
-                    <textarea name="message" placeholder="Pesan Anda.." required></textarea><br>
-                    <button class="js-contact-us-send-btn" type="submit">Kirim</button>
+                    <textarea id="message" name="message" placeholder="Pesan Anda.." required></textarea><br>
+                    <button type="submit">Kirim</button>
                 </form>
             </div>
             <div class="copyright">
@@ -26,5 +24,3 @@
                 <p>Semua foto yang kami gunakan dalam situs ini dapat dilihat sumbernya melalui halaman berikut: <a href="about-atrpg.html">Halaman Atribusi</a>.</p></i>
             </div> 
         </footer>
-    </body>
-</html>
