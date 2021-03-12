@@ -1,7 +1,8 @@
 # situs-pemuridan
 *Repositori situs web Benih Yang Baik.*
+<br><br>
 
-## Informasi-informasi dasar
+## Informasi-informasi Dasar
 Setiap halaman dari situs web ini memiliki footer dan header yang terpisah. Footer dan header tersebut dihubungkan dengan Server Side Includes (SSI),
 ```
 <!--#include file="./header.html"-->
@@ -13,45 +14,47 @@ Pertimbangan pertama dalam menggunakan SSI adalah kecepatannya. Proses yang cuku
 Bahasa Inggris digunakan untuk penamaan file dan pemrograman agar mempermudah skalabilitas bilamana situs ini memperluas jangkauannya dan semakin banyak kontributor bergabung untuk mengembangkannya. Tetapi penamaan gambar serta pemberian text alternatif bilamana suatu gambar tidak muncul, keduanya dilakukan dalam bahasa Indonesia untuk Search Engine Optimization (SEO).
 
 File CSS dan JS sudah mengandung komentar-komentar yang menjelaskan struktur kode dan fungsi blok-blok kode.
+<br>
 
 ## Sitemap 
 Berikut adalah peta situs-pemuridan.
+```
+* index.html
+	** about.html
+        ** about-atrpg.html
+	** alktb.html
+	** kat3b.html
+        ** kat3b-01fon.html
+        ** kat3b-02fon.html
+        ** kat3b-03fon.html
+        ** kat3b-10raa.html
+            *** kat3b-11raa.html
+            *** kat3b-12raa.html
+            *** kat3b-13raa.html
+            *** kat3b-14raa.html
+            *** kat3b-15raa.html
+        ** kat3b-20afa.html
+        ** kat3b-30yhk.html
+        ** kat3b-40kal.html
+        ** kat3b-50pka.html
+        ** kat3b-60ykt.html
+        ** kat3b-70kes.html
+	** event.html
+        ** event-abba9.html
+        ** event-ga912.html
+        ** event-webnr.html
+        ** event-rgstr.html
+           *** event-rgstr-abba90.php
+	** study.html
+    * prayp.html
+        ** pryr-pts.php
+    * contact-us.php
+```
+<br>
 
-index.html
-	about.html
-        about-atrpg.html
-	alktb.html
-	kat3b.html
-        kat3b-01fon.html
-        kat3b-02fon.html
-        kat3b-03fon.html
-        kat3b-10raa.html
-            kat3b-11raa.html
-            kat3b-12raa.html
-            kat3b-13raa.html
-            kat3b-14raa.html
-            kat3b-15raa.html
-        kat3b-20afa.html
-        kat3b-30yhk.html
-        kat3b-40kal.html
-        kat3b-50pka.html
-        kat3b-60ykt.html
-        kat3b-70kes.html
-	event.html
-        event-abba9.html
-        event-ga912.html
-        event-webnr.html
-        event-rgstr.html
-            event-rgstr-abba90.php
-	study.html
-    prayp.html
-        pryr-pts.php
-    contact-us.php
-
-
-## Peta konten gambar
+## Peta Konten Gambar
 Berikut adalah peta nama setiap gambar dan di mana gambar tersebut digunakan.
-
+```
 index.html - photo/main-page/situs-penyedia-materi-pemuridan-alkitabiah.jpg
 	   - photo/main-page/membaca-dan-mendengar-alkitab-dimana-saja.jpg
 	   - photo/main-page/materi-pemuridan-alkitabiah-gratis.jpg
@@ -83,8 +86,10 @@ index.html - photo/main-page/situs-penyedia-materi-pemuridan-alkitabiah.jpg
                              - photo/for-each-article/rencana-allah-bukanlah-keselamatan-manusia.jpg
     prayp.html - photo/prayer-points-page/kami-akan-berdoa-untuk-anda.jpg 
 	       - photo/prayer-points-page/persekutuan-persaudaraan-kita.jpg
-
+```
+<br>
 
 ## Kontak
 benih.info@gmail.com
+
 aranggi.josef@gmail.com
