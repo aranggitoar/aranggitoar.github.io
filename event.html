@@ -8,10 +8,24 @@
         <title>BYB - Acara</title>
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <script src="js/jquery.js"></script>
-        <script src="js/script.js" defer></script>	
+<script defer>
+			$(function(){$("header").load("header.html")});
+			$(function(){$("footer").load("footer.html")});
+			setTimeout(() => {
+				var script = document.createElement('script');
+				script.src = "js/script.js";
+				script.type = "text/javascript";
+				document.getElementsByTagName('head')[0].appendChild(script);
+			}, 1000);
+		</script>
     </head>
-    <body>	
-		<!--#include file="./header.html"-->
+    <body>
+		<a class="js-click-fn-burger" href="javascript:void(null);" role="button" alt="Tombol untuk mengaktifkan menu navigasi">
+            <span class="burger"></span>
+            <span class="burger x-burger"></span>
+            <span class="burger"></span>
+        </a>
+		<header class="sidebar-animation header"></header>
 		<main class="main">
             <article id="title-box">
 				<div class="js-picture-parallax-container title-picture-box">
@@ -69,6 +83,6 @@
                 <a id="return-btn" role="button" href="index.html">Kembali</a>
             </article>
         </main>
-		<!--#include file="./footer.html"-->
+		<footer class="footer"></footer>
 	</body>
 </html>

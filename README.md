@@ -11,6 +11,8 @@ Setiap halaman dari situs web ini memiliki footer dan header yang terpisah. Foot
 ```
 Pertimbangan pertama dalam menggunakan SSI adalah kecepatannya. Proses yang cukup sederhana seperti ini sepertinya lebih baik dilaksanakan dengan SSI daripada PHP, Javascript, atau preprocessor HTML.
 
+Namun file yang dapat ditemukan dalam repo ini tidak diunggah dengan teknik itu. Melainkan jQuery mengambil header dan footer yang terpisah tersebut dan meletakkannya ke dalam kontainer yang sudah ada di dalam file dengan skrip yang memanggil. Hal ini dilakukan agar situs dapat dilihat dalam github.pages.
+
 Bahasa Inggris digunakan untuk penamaan file dan pemrograman agar mempermudah skalabilitas bilamana situs ini memperluas jangkauannya dan semakin banyak kontributor bergabung untuk mengembangkannya. Tetapi penamaan gambar serta pemberian text alternatif bilamana suatu gambar tidak muncul, keduanya dilakukan dalam bahasa Indonesia untuk Search Engine Optimization (SEO).
 
 File CSS dan JS sudah mengandung komentar-komentar yang menjelaskan struktur kode dan fungsi blok-blok kode.
