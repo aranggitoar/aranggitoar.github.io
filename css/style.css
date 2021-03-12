@@ -5,18 +5,23 @@
 }
 
 :root {
+	--lt-grn: #37b96f;
+	--grn: #3a6;
 	--lt-ylw: #faf16b;
 	--ylw: #f8e70f;
 	--ylw-org: #f8bf0f;
 	--org: #f8930f;
 	--org-red: #f8450f;
 	--red: #f80f0f;
-	--lt-gr-tr: #1111;
+	--x-lt-gr: #bbb;
+	--lt-gr-tr: #7772;
+	--lt-gr: #777;
 	--gr: #222;
 	--gr-tr: #222b;
 	--mw: #fdfff5;
 	--mw-tr: #fdfff566;
 	--prpl: #5e1e83;
+	--prpl-tr: #5e1e8377;
 	--drk-prpl: #38114e;
 	--tr: 'Times New Roman', Times, serif;
 	font: 16px var(--tr);
@@ -97,6 +102,38 @@ input, select, textarea {
 
 /* I. GLOBAL SELECTORS */
 
+::placeholder {
+	font: 1.1rem var(--tr);
+}
+
+::-webkit-input-placeholder {
+	font: 1.1rem var(--tr);
+}
+
+:-moz-placeholder {
+	font: 1.1rem var(--tr);
+}
+
+::-moz-placeholder {
+	font: 1.1rem var(--tr);
+}
+
+::-ms-input-placeholder {
+	font: 1.1rem var(--tr);
+}
+
+input:focus,
+textarea:focus {
+	outline: 0;
+	filter: drop-shadow(0 0 7px var(--prpl-tr));
+	border: 1px solid var(--lt-gr-tr);
+}
+
+/* input:internal-autofill-selected {
+	background-color: var(--mw) !important;
+	color: -internal-light-dark(yellow, green) !important;
+} */
+
 a {
 	color: inherit;
 }
@@ -104,7 +141,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-	color: #f8370f;
+	color: var(--prpl);
 }
 
 body {
@@ -161,22 +198,6 @@ ol {
 	list-style: decimal;
 }
 
-.rgstr-abba90-radio-btn {
-	position: absolute;
-  	height: 25px;
-  	width: 25px;
-  	background-color: #eee;
-  	border-radius: 50%;
-}
-
-.rgstr-abba90-radio-btn:hover {
-	background-color: #ccc;
-}
-
-.rgstr-abba90-radio-btn:checked {
-	background-color: #2196F3;
-}
-
 .main {
 	margin: auto;
 	padding: auto;
@@ -187,9 +208,12 @@ ol {
 }
 
 .main > article {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-color: var(--mw);
+	z-index: 4;
 }
 
 .big-quote {
@@ -211,8 +235,8 @@ ol {
 	font-style: italic;
 	font-size: 1.3rem;
 	padding: 1rem 2rem;
-	text-align: center;
-	background-color: var(--ylw-org);
+	text-align: center !important;
+	background-color: var(--lt-ylw);
 	justify-self: center;
 }
 
@@ -222,18 +246,7 @@ ol {
 
 .hr-light {
 	border: 1px solid var(--gr);
-}
-
-.hr-light-yellow {
-	border: 1px solid var(--lt-ylw);
-}
-
-.hr-bold {
-	border: 2px solid var(--gr);
-}
-
-.hr-bold-yellow {
-	border: 2px solid var(--lt-ylw);
+	margin: 3rem 0;
 }
 
 .hr-max-width {
@@ -453,10 +466,55 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 
 /* III. MAIN PAGE */
 
+#text-box-announcement {
+	font-size: 1.35rem;
+	color: var(--mw);
+	background-color: var(--prpl);
+	position: relative;
+	width: 100%;
+	height: 65vh;
+	padding: 0 1rem;
+	box-shadow: 0 0 10px var(--gr);
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	z-index: 5;
+}
+
+		#text-box-announcement > a > button {
+			font: 1.2em var(--tr);
+			color: var(--mw);
+			padding: .8rem 2rem;
+			background-color: var(--prpl);
+			border: 1px solid var(--prpl);
+			border-radius: .4rem;
+			transition: all 100ms;
+		}
+
+		#text-box-announcement > a > button:hover {
+			filter: drop-shadow(0 0 2rem var(--gr-tr));
+			transform: scale(1.04);
+		}
+
+		#text-box-announcement .deadline-format h4 {
+			font-size: 1.5em;
+		}
+
+		#text-box-announcement .deadline-format span {
+			font-size: 1em;
+		}
+
+	#text-box-announcement .deadline {
+		width: 90%;
+	}
+
 .deadline {
+	width: 100%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	margin: 1rem;
 }
@@ -466,7 +524,6 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 }
 
 	.deadline-format > div {
-		background-color: var(--ylw-org);
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
@@ -481,13 +538,38 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 			font-size: 1.8rem;
 		}
 
+.picture {
+	pointer-events: none;
+	object-fit: cover;
+	width: 100%;
+	z-index: 1;
+}
+
+.picture-layer {
+	position: absolute;
+	background-color: #0003;
+	width: 100%;
+	height: var(--pic-layer-height);
+	z-index: 2;
+}
+
 #title-box {
 	position: relative;
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 	z-index: 3;
-	display: flex;
 }
+
+.title-picture-box {
+	position: absolute;
+	top: 0;
+	height: 105%;
+}
+
+	.title-picture-box .picture {
+		width: 100vw;
+		height: 100vh;
+	}
 
 #title-text-box {
 	text-align: center;
@@ -498,14 +580,11 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 }
 
 	#title-text-box > h1 {
-		font-size: 2.6rem;
+		font-size: 3rem;
 		letter-spacing: .1rem;
 		line-height: 1.2;
-		color: var(--mw);
-		background-color: #00000047;
-		border-radius: 15px;
-		padding: 1rem .5rem;
-		box-shadow: 0 0 125px var(--gr);
+		color: var(--lt-ylw);
+		filter: drop-shadow(0 0 5px var(--gr));
 	}
 
 .text-box {
@@ -513,6 +592,7 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 	font-size: 1.2rem;
 	letter-spacing: .02rem;
 	position: relative;
@@ -522,21 +602,21 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	z-index: 4;
 }
 
-	.text-box > * {
-		max-width: 42rem;
+	.text-box p,
+	.text-box ol,
+	.text-box ul {
+		text-align: left;
+		margin: .7rem 0;
 	}
 
-	.text-box p {
-		margin: 1rem 0;
-	}
-
-	.text-box ol {
-		text-align: start;
-		font-size: 1.5rem;
+	.text-box ol,
+	.text-box ul {
+		padding: 0 1.2rem;
 	}
 
 	.text-box li {
-		padding: .7rem;
+		list-style: decimal;
+		padding: .5rem;
 	}
 			
 .text-picture-box {
@@ -545,77 +625,12 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	height: 60vh;
 	z-index: 3;
 }
-			
-	.text-picture-box div:first-child,
-	.picture > div {
-		position: absolute;
-		background-color: #0003;
-		width: 100%;
-		height: var(--pic-layer-height);
-		z-index: 3;
-	}
-
-
-	.text-picture-box div:first-child {
-		background-color: #0001;
-	}
-			
-.picture {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 125%;
+	.text-picture-box .picture {
+	height: 120%;
 }
 
-	.picture > img {
-		width: 100%;
-	}
-
-.title-picture {
-	height: 100%;
-}
-			
-#text-box-announcement {
-	font-size: 1.2rem;
-	color: var(--mw);
-	background-color: var(--prpl);
-	position: relative;
-	width: 100%;
-	height: 50vh;
-	padding: 0 2rem;
-	box-shadow: 0 0 10px var(--gr);
-	flex-direction: column;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	z-index: 5;
-}
-
-		#text-box-announcement > a > button {
-			font: 1.2em var(--tr);
-			color: var(--mw);
-			padding: .3rem 1rem;
-			background-color: var(--prpl);;
-			border: 1px solid var(--prpl);
-			border-radius: .4rem;
-		}
-
-			#text-box-announcement > div.deadline > div.deadline-format > div {
-				background-color: var(--prpl);
-			}	
-
-#chapter-link {
-	font-size: 2em;
-}
-	
-#chapter-link:hover {
-	color: white;
-	padding-left: 10px;
-}
-
-.index-body-navigation {
+.index-body-navigation,
+.k3b-chapter-container {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -623,40 +638,145 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	flex-wrap: wrap;
 }
 
-	.index-body-navigation > section {
+	.index-body-navigation > section,
+	.k3b-chapter-container > section {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		justify-self: center;
+		align-items: center;
+		text-align: center;
+		margin: 1.5rem;
+		width: 80vw;
+		box-shadow: 0 0 25px var(--gr-tr);
+	}
+
+		.index-body-navigation > section > div > img,
+		.k3b-chapter-container > section > img {
+			bottom: 0;
+			object-fit: cover;
+			min-height: 300px;
+			max-height: 300px;
+			width: 100%;
+		}
+
+		.index-body-navigation > section > a,
+		.k3b-chapter-container > section > a {
+			padding: 0 1rem;
+		}
+
+		.index-body-navigation > section > p,
+		.k3b-chapter-container > section > p {
+			text-align: center;
+			padding: 0 2rem 1.5rem;
+			font-style: italic;
+		}
+
+	.k3b-sub-chapter-container section {
+		position: relative;
+		width: 100%;
+		height: 70vh;
+		margin: 4rem 0;
+		overflow: hidden;
+	}
+
+	.k3b-sub-chapter-container .picture-layer {
+		position: absolute;
+		opacity: .15;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		background-color: var(--gr-tr);
+		transition: all 500ms;
+	}
+
+	.k3b-sub-chapter-container .picture {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -2;
+		transition: all 500ms;
+	}
+
+	.k3b-sub-chapter-container a {
+		text-decoration: none;
+		width: 100%;
+		height: 100%;
+		padding: 0 2rem;
+		text-align: center;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		text-align: center;
-		margin: 1.2rem;
+		color: var(--mw);
 	}
 
-		.index-body-navigation > section > *  {
-			margin: .5rem;
-		}
+	.k3b-sub-chapter-container a:hover,
+	.k3b-sub-chapter-container a:active,
+	.k3b-sub-chapter-container a:focus {
+		color: var(--mw);
+	}
 
-		.index-body-navigation > section > img {
-			width: 100%;
-		}
+	.k3b-sub-chapter-container p {
+		font: italic 1rem var(--tr);
+		opacity: 0;
+		transition: all 500ms;
+	}
 
-		.index-body-navigation > section > p {
-			font-style: italic;
-		}
+	.k3b-sub-chapter-container h2 {
+		opacity: 0;
+		transition: all 500ms;
+	}
 
-.picture-for-webinar {
-	background: url(../photo/main-page/byb-alkitab-fitur.jpg) no-repeat center/cover;
-}
+	.event-page section {
+		margin: 1rem 0;
+	}
 
-.picture-for-prayp {
-	background: url(../photo/halaman-muka/byb-pokok-doa.jpg) no-repeat center/cover;
-}
+	.event-page section {
+		transition: all 100ms;
+	}
+
+	.event-page section:hover,
+	.event-page section:active,
+	.event-page section:focus {
+		filter: drop-shadow(0 0 50px var(--x-lt-gr));
+		transform: scale(1.07);
+	}
+
+	.event-page section p,
+	.event-page section a h3 {
+		text-align: center;
+		transition: all 100ms;
+	}
+
+	.event-page section p:hover,
+	.event-page section p:active,
+	.event-page section p:focus {
+		transform: scale(1.07);
+	}
+
+	.event-page section a h3:hover,
+	.event-page section a h3:active,
+	.event-page section a h3:focus {
+		transform: scale(1.25);
+	}
 
 .container-slider {
 	position: relative;
-	width: 100%;
-	height: 45vh;
+	width: 90vw;
+	height: 10rem;
+	overflow: hidden;
+	border-radius: 2px;
+	transition: all 200ms;
 }
+
+	.container-slider:hover,
+	.container-slider:active,
+	.container-slider:focus {
+		filter: drop-shadow(0 0 25px var(--x-lt-gr));
+	}
 
 .container-slider-btn {
 	position: relative;
@@ -665,48 +785,208 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 }
 
 	.container-slider-btn > button {
-		background-color: var(--mw);
+		background-color: #0000;
 		border: 0;
 		font-size: 2rem;
-		font-weight: bold;
+		transition: all 100ms;
+	}
+
+	.container-slider-btn > button:hover,
+	.container-slider-btn > button:active,
+	.container-slider-btn > button:focus {
+		outline: 0;
+		transform: scale(1.3);
 	}
 
 .slide {
 	position: absolute;
+	width: 100%;
+	height: 100%;
+  	transition: all 150ms ease-in-out;
 }
 
-	.slide > img {
-		width: 100%;
-	}
+.slide-img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
 
 #return-btn {
-	font-family: var(--tr);
-	font-weight: bold;
-	font-size: 1.3rem;
+	text-decoration: none;
+	font: bold 1.3rem var(--tr);
+	padding: .4rem 8%;
+	margin: 0 0 2rem;
+	border: 1.5px solid var(--gr-tr);
+	border-radius: 5px;
 	text-transform: uppercase;
 	background-color: var(--mw);
 	color: var(--gr);
-	margin: 2rem 0;
-	padding: .4rem 10%;
-	border: 1.5px solid var(--gr-tr);
-	transition: color 500ms, border-color 500ms, box-shadow 500ms;
+	transition: all 250ms;
 }
 
-	#return-btn:hover {
-		color: var(--org);
-		box-shadow: 0 0 5px var(--gr);
-		border-color: var(--org);
+	#return-btn:hover,
+	#return-btn:active,
+	#return-btn:focus {
+		filter: drop-shadow(0 0 5px var(--lt-gr));
+		border: 0;
+		transform: scale(1.05);
 	}
 
-.form-rgstr-abba90 {
-	width: 90%;
-	height: 80vh;
+.js-form-pryr-pts,
+.js-form-rgstr-abba90 {
+	width: 100%;
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	z-index: 4;
+	padding: 2rem;
+	margin: 1rem 0 1.5rem;
+	text-align: left;
+	font: 1.4rem var(--tr);
+	filter: drop-shadow(0 0 50px var(--x-lt-gr));
+	border: 1px solid var(--x-lt-gr);
+	border-radius: 10px;
 }
 
-.form-rgstr-abba90-alamat-rumah::after {
+.js-form-rgstr-abba90 {
+	height: 120vh;
+}
+
+.js-form-pryr-pts.off,
+.js-form-rgstr-abba90.off {
+	animation: js-form-pryr-pts-fades-away 500ms forwards;
+}
+
+@keyframes js-form-pryr-pts-fades-away {
+	100% {
+		transform: scale(0);
+		opacity: 0;
+	}
+}
+
+.js-form-pryr-pts label,
+.js-form-rgstr-abba90 label {
+	width: 100%;
+	height: 5%;
+	margin: .5rem 0;
+}
+
+.js-form-pryr-pts textarea {
+	width: 100%;
+	height: 40%;
+	margin: 3.5rem 0 0;
+	padding: .5rem;
+	border: 1px solid var(--x-lt-gr);
+	border-radius: 2px;
+}
+
+.js-form-pryr-pts input,
+.js-form-rgstr-abba90 input {
+	width: 100%;
+	height: 100%;
+	padding: 0 .5rem;
+	border: 1px solid var(--x-lt-gr);
+	border-radius: 2px;
+}
+
+.js-form-pryr-pts legend:last-of-type,
+.js-form-rgstr-abba90 legend:last-of-type {
+	position: relative;
+}
+
+.js-form-pryr-pts legend:last-of-type::after,
+.js-form-rgstr-abba90 legend:last-of-type::after {
+	content: "Jika Anda sedang bergumul, mari bergumul bersama di dalam doa..";
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	font-size: 1rem;
+	margin: .1rem 0 0;
+}
+
+.rgstr-contact-info {
+	width: 100%;
+}
+
+.radio-btn {
+	margin: 0 0 .5rem;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 100%;
+	font-size: 1.1rem;
+}
+
+.radio-btn input {
+	display: inline-block;
+	position: relative;
+	left: 0;
+	height: 1.1rem;
+	width: 1.1rem;
+	padding: 0 !important;
+	background-color: #eee;
+	border-radius: 50%;
+}
+
+.radio-btn input:hover {
+	background-color: #ccc;
+}
+
+.radio-btn input:checked {
+	background-color: var(--grn);
+}
+
+
+.radio-btn label {
+	display: inline-block; 
+	position: relative;
+	left: .5rem;
+	width: calc(100% - 2.2rem);
+	height: 1.1rem;
+	vertical-align: baseline;
+}
+
+.js-form-rgstr-abba90 legend:last-of-type::after {
 	content: "(Lengkap)";
+	font-size: 1.2rem;
 }
 
+.js-form-rgstr-abba90 div:last-of-type {
+	margin-top: 1.7rem;
+	padding: 0 .8rem;
+}
+
+.js-form-rgstr-abba90 div:last-of-type ol li {
+	font-size: .8rem;
+	padding: 0;
+}
+
+.d-day {
+	font-style: italic;
+}
+
+.webinar-registration-btn {
+	width: 50%;
+	height: auto;
+	padding: .25rem;
+	font: 2rem var(--tr);
+	color: var(--mw);
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: var(--grn);
+	transition: all 100ms;
+}
+
+.webinar-registration-btn:hover,
+.webinar-registration-btn:active,
+.webinar-registration-btn:focus {
+	transform: scale(1.07);
+	color: var(--mw);
+	background-color: var(--lt-grn);
+}
 
 /* IV. FOOTER SELECTORS */
 
@@ -751,15 +1031,18 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	display: none;
 	justify-content: space-evenly;
 	width: 100%;
+	max-width: 800px;
 	margin: .7rem 0 1.5rem;
-	padding: .7rem 1.5rem 1rem;
+	padding: .7rem 2rem 1rem;
 	background-color: var(--gr);
 	border-radius: 15px;
+	filter: drop-shadow(0 0 15px var(--gr-tr));
 }
 
 	.js-form-contact-us > * {
 		margin: .5rem 0;
 		border: 0;
+		border-radius: 2px;
 	}
 
 	.js-form-contact-us > textarea {
@@ -767,13 +1050,23 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		width: 100%;
 	}
 
-	.js-form-contact-us > button {
-		align-self: center;
-		height: 8vh;
-		font: 1.2rem var(--tr);
-		width: 75%;
-		background-color: #3a6;
+	button[type="submit"] {
+		width: 7rem;
+		height: 2.3rem;
+		margin-top: 1rem;
 		border: 0;
+		border-radius: 5px;
+		align-self: center;
+		background-color: var(--grn);
+		font: 1.4rem var(--tr);
+		color: var(--mw);
+		transition: all 75ms;
+	}
+
+	button[type="submit"]:active,
+	button[type="submit"]:hover {
+		transform: scale(1.1);
+		outline: 0;
 	}
 
 	.js-form-contact-us > legend {
@@ -786,24 +1079,8 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 			height: 8vh;
 			width: 100%;
 			border: 0;
+			border-radius: 2px;
 		}
-
-		:is(.js-form-contact-us > label) input::placeholder,
-		input::-webkit-input-placeholder,
-		input:-moz-placeholder,
-		input::-moz-placeholder,
-		input::-ms-input-placeholder {
-			font: 1.1rem var(--tr);
-
-		}
-
-	:is(.js-form-contact-us) textarea::placeholder,
-	textarea::-webkit-input-placeholder,
-	textarea:-moz-placeholder,
-	textarea::-moz-placeholder,
-	textarea::-ms-input-placeholder {
-		font: 1.1rem var(--tr);
-	}
 
 .contact-us-btn {
 	text-align: center;
@@ -811,11 +1088,12 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	font: bold 1.7rem var(--tr);
 	padding: 1rem;
 	display: inline-block;
+	transition: all 100ms;
 }
 
-	.contact-us-btn:active {
-		transform: scale(1.1);
-		color: black;
+	.contact-us-btn:active,
+	.contact-us-btn:hover {
+		transform: scale(1.2);
 	}
 
 	.contact-us-btn:visited {
@@ -859,6 +1137,43 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 
 
 /* V. PENGATURAN MEDIA QUERY */
+@media (min-width: 24rem) {
+	#text-box-announcement {
+		font-size: 1.5rem;
+		height: 60vh;
+		padding: 0 2rem;
+	}
+	
+	#text-box-announcement .deadline-format h4 {
+		font-size: 1.7em;
+	}
+
+	.container-slider {
+		height: 15rem;
+	}
+}
+@media (min-width: 30rem) {
+	#text-box-announcement {
+		font-size: 1.7rem;
+	}
+
+	#text-box-announcement .deadline-format h4 {
+		font-size: 1.9em;
+	}
+
+	#text-box-announcement .deadline-format span {
+		font-size: 1.1em;
+	}
+
+	.container-slider {
+		height: 18rem;
+	}
+}
+@media (min-width: 36rem) {
+	.container-slider {
+		height: 20rem;
+	}
+}
 @media (min-width: 48rem) {
 	body {
 		grid-template-areas:
@@ -874,6 +1189,7 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		background: 0;
 		box-shadow: 0 0 0;
 		width: 17%;
+		margin: auto;
 	}
 	
 	#navigation {
@@ -916,7 +1232,7 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		line-height: 1;
 		color: var(--gr-tr);
 		box-shadow: 0 0 2px var(--lt-gr-tr);
-		transition: background-color 150ms ease-in-out;
+		transition: all 150ms ease-in-out;
 	}
 
 	.js-dropdown > a[href*="index"] {
@@ -971,7 +1287,7 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 			height: 2px;
 			transform: translateX(250px);
 			background-color: var(--gr);
-			transition: transform 150ms ease-in-out;
+			transition: all 150ms ease-in-out;
 		}
 
 		.js-dropdown > a:hover::after,
@@ -981,15 +1297,19 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 
 	.logo-byb-header {
 		margin-right: 5px;
-		animation: blink 1.5s infinite;
+		animation: beat 1s infinite;
 	}
-	@keyframes blink {
-		40% {
-			filter: drop-shadow(0 0 2rem var(--prpl));
+	@keyframes beat {
+		20% {
+			transform: scale(1.15);
 		}
-		60% {
-			filter: drop-shadow(0 0 2rem var(--prpl));
+		80% {
+			transform: scale(1);
 		}
+	}
+
+	.logo-byb-header.off {
+		animation: 0;
 	}
 
 	.js-click-fn-burger {
@@ -997,6 +1317,7 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	}
 
 	.main {
+		position: relative;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -1005,64 +1326,116 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		.main::after {
 			content: "";
 			position: absolute;
-			background-color: var(--lt-gr-tr);
+			background-color: #ddd2;
 			top: 0;
 			left: 0;
 			width: 100vw;
-			height: var(--layer-height);
+			height: 100%;
 			z-index: 2;
 		}
 
-	.main > article,
+
 	.text-box {
+		max-width: 70ch;
 		background-color: var(--mw);
-		width: 65vw;
-		z-index: 4;
 	}
 
-	.main article:nth-child(2),
-	.text-box:first-child {
+	#text-box-announcement + article .text-box {
+		max-width: 70%;
+		padding: 0 3rem;
+	}
+
+	.main > article:nth-child(2),
+	.main > article:nth-child(2) > section:first-child {
 		border-top-left-radius: 1rem;
 		border-top-right-radius: 1rem;
-	}
-		
-	.picture {
-		z-index: 2;
 	}
 
 		#title-text-box > h1 {
 			font-size: 4.5rem;
 			padding: 2.4rem 2rem;
-			color: var(--mw);
 		}
 
 	#text-box-announcement {
-		width: 75vw;
+		width: 90%;
 		height: 65vh;
-		font-size: 2rem;
-		padding: 0 5rem;
+		font-size: 1.9rem;
+		padding: 0 3rem;
+		border-radius: 1rem;
 	}
 
-			#text-box-announcement > a > button {
-				font-size: 1em;
-				padding: .8rem 4rem;
-				transition: transform 100ms, filter 100ms;
-			}
+	#text-box-annoucement > a > button {
+		padding: .8rem 4rem;
+	}
 
-				#text-box-announcement > a > button:hover {
-					filter: drop-shadow(0 0 2rem var(--gr-tr));
-					transform: scale(1.04);
-				}
+	#text-box-announcement .deadline-format {
+		background-color: var(--prpl);
+	}
 
-		.deadline-format h4 {
+		#text-box-announcement .deadline-format h4 {
 			font-size: 2.5em;
 		}
 
-		.deadline-format span {
+		#text-box-announcement .deadline-format span {
 			font-size: 1.2em;
 		}
 
-	.deadline {
-		width: 70%;
+	.index-body-navigation {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 	}
+	
+	.index-body-navigation > section,
+	.k3b-chapter-container > section {
+		background-color: var(--mw);
+		grid-column-gap: 2rem;
+		transition: all 100ms;
+	}
+
+	.index-body-navigation > section {
+		width: 40vw;
+	}
+
+		.index-body-navigation > section:hover,
+		.k3b-chapter-container > section:hover {
+			transform: scale(1.05);
+		}
+
+		.index-body-navigation > section > a,
+		.k3b-chapter-container > section > a {
+			transition: all 100ms;
+		}
+
+		.index-body-navigation > section > a:hover,
+		.k3b-chapter-container > section > a:hover {
+			transform: scale(1.15);
+		}
+
+		.index-body-navigation > section:nth-child(5) {
+			grid-column: span 2;
+		}
+
+	.k3b-sub-chapter-container {
+		width: 70vw;
+	}
+
+	.k3b-sub-chapter-container section {
+		height: 85vh;
+	}
+
+	.k3b-sub-chapter-container a {
+		padding: 5rem;
+	}
+
+	.k3b-sub-chapter-container p {
+		font-size: 1.2rem;
+	}
+
+	.k3b-sub-chapter-container h2 {
+		font-size: 2.5rem;
+	}
+
+		.js-form-pryr-pts textarea {
+			margin: 2.5rem 0 0;
+		}
 }

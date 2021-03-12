@@ -14,7 +14,7 @@
         <!--#include file="./header.html"-->
         <main class="main">
             <article id="title-box">
-				<div class="title-picture picture"><div></div><img src="photo/main-page/jangan-bergumul-sendiri.jpg" alt="Foto laki-laki dengan baju oranye sedang tertunduk berdoa."></div>
+				<div class="js-picture-parallax-container title-picture-box"><div class="js-picture-layer-parallax picture-layer"></div><img class="js-picture-parallax picture" src="photo/main-page/jangan-bergumul-sendiri.jpg" alt="Foto laki-laki dengan baju oranye sedang tertunduk berdoa."></div>
 				<div id="title-text-box">
 					<h1>Pokok Doa Anda</h1>
 				</div>
@@ -22,39 +22,37 @@
             <article>
                 <section class="text-box">
                     <h2>Apakah kami boleh berdoa untuk Anda?</h2>
-                    <section class="text-picture-box">
-                        <div></div>
+                    <!-- <section class="text-picture-box">
+                        <div class="picture-layer"></div>
                         <img class="picture" src="photo/prayer-points-page/kami-akan-berdoa-untuk-anda.jpg" alt="Foto tiga perempuan saling menguatkan.">
                     </section>
-                    <form action="pryr-pts.php" method="POST">
-
-                        <legend>Alamat E-mail</legend>
+                </section>
+                <section class="text-box"> -->
+                    <!-- <h2>Kami akan mendoakan Anda!</h2> -->
+                    <form class="js-form-pryr-pts">
+                        <legend>E-mail:</legend>
                         <label for="e-mail">
                             <input id="e-mail" name="e-mail" type="email" placeholder="E-mail Anda.." required>
                         </label>
-
-                        <legend>Nama Lengkap</legend>
+                        <legend>Nama Lengkap:</legend>
                         <label for="name">
                             <input id="name" name="name" minlength="3" type="text" placeholder="Nama Anda.." required>
                         </label>
-                        
-                        <legend>Pokok Doa Anda</legend>
-                        <p>Jika Anda sedang bergumul, mari bergumul bersama di dalam doa</p>
-                        <textarea name="prayer-points" placeholder="Pokok doa Anda.." required>
-                            
+                        <legend>Pokok Doa Anda:</legend>
+                        <textarea id="prayer-points" name="prayer-points" placeholder="Pokok doa Anda.." required></textarea>
+                        <button type="submit">Kirim</button>
                     </form>
-                    <p>Benih Yang Baik ada bersama Anda dalam persekutuan persaudaraan!</p>
                 </section>
-                <section class="text-picture-box">
-                    <div></div>
-                    <img class="picture" src="photo/prayer-points-page/persekutuan-persaudaraan-kita.jpg" alt="Foto tiga laki-laki saling menguatkan.">
-                </section>
+                <!-- <section class="js-picture-parallax-container text-picture-box">
+                    <div class="js-picture-layer-parallax picture-layer"></div>
+                    <img class="js-picture-parallax picture" src="photo/prayer-points-page/persekutuan-persaudaraan-kita.jpg" alt="Foto tiga laki-laki saling menguatkan.">
+                </section> -->
             </article>
             <article>
-                <hr class="hr-bold-yellow">
-                <a href="index.html"><button id="return-btn">Kembali</button></a>
+                <hr class="hr-light">
+                <a id="return-btn" role="button" href="index.html">Kembali</a>
             </article>
         </main>
-    <!--#include file="./footer.html"-->
+        <!--#include file="./footer.html"-->
     </body>
 </html>

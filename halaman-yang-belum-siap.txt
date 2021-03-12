@@ -2,32 +2,32 @@
 # kat3b.html - Katekisme: Berakar, Bertumbuh, dan Berbuah
 
 <section>
-                            <img src="foto/per-artikel/byb-1-fitur.jpg" alt="">
+                            <img class="js-picture-parallax picture" src="foto/per-artikel/byb-1-fitur.jpg" alt="">
                             <a href="kat3b-20afa.html" id="chapter-link" target="blank"><h3>Alkitab: Firman Allah</h3></a>
                             <p>Ya TUHAN, apakah manusia sehingga Engkau memperhatikan dia? Mengapa peduli akan umat manusia?  Mzm. 144:3</p>
                         </section>
                         <section>
-                            <img src="foto/per-artikel/byb-1-fitur.jpg" alt="">
+                            <img class="js-picture-parallax picture" src="foto/per-artikel/byb-1-fitur.jpg" alt="">
                             <a href="kat3b-30yhk.html" id="chapter-link" target="blank"><h3>Yesus dan Karya-Nya</h3></a>
                             <p>Ya TUHAN, apakah manusia sehingga Engkau memperhatikan dia? Mengapa peduli akan umat manusia?  Mzm. 144:3</p>
                         </section>
                         <section>
-                            <img src="foto/per-artikel/byb-1-fitur.jpg" alt="">
+                            <img class="js-picture-parallax picture" src="foto/per-artikel/byb-1-fitur.jpg" alt="">
                             <a href="kat3b-40kal.html" id="chapter-link" target="blank"><h3>Kerajaan Allah</h3></a>
                             <p>Ya TUHAN, apakah manusia sehingga Engkau memperhatikan dia? Mengapa peduli akan umat manusia?  Mzm. 144:3</p>
                         </section>
                         <section>
-                            <img src="foto/per-artikel/byb-1-fitur.jpg" alt="">
+                            <img class="js-picture-parallax picture" src="foto/per-artikel/byb-1-fitur.jpg" alt="">
                             <a href="kat3b-50pka.html" id="chapter-link" target="blank"><h3>Pintu Kerajaan Allah</h3></a>
                             <p>Ya TUHAN, apakah manusia sehingga Engkau memperhatikan dia? Mengapa peduli akan umat manusia?  Mzm. 144:3</p>
                         </section>
                         <section>
-                            <img src="foto/per-artikel/byb-1-fitur.jpg" alt="">
+                            <img class="js-picture-parallax picture" src="foto/per-artikel/byb-1-fitur.jpg" alt="">
                             <a href="kat3b-60ykt.html" id="chapter-link" target="blank"><h3>Yesus Kristus adalah Tuhan</h3></a>
                             <p>Ya TUHAN, apakah manusia sehingga Engkau memperhatikan dia? Mengapa peduli akan umat manusia?  Mzm. 144:3</p>
                         </section>
                         <section>
-                            <img src="foto/per-artikel/byb-1-fitur.jpg" alt="">
+                            <img class="js-picture-parallax picture" src="foto/per-artikel/byb-1-fitur.jpg" alt="">
                             <a href="kat3b-70kes.html" id="chapter-link" target="blank"><h3>Keselamatan</h3></a>
                             <p>Ya TUHAN, apakah manusia sehingga Engkau memperhatikan dia? Mengapa peduli akan umat manusia?  Mzm. 144:3</p>
                         </section>

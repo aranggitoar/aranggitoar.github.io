@@ -7,16 +7,69 @@
 
 // 1. PENGATUR VARIABEL CSS SECARA DINAMIS
 // UKURAN LAYER ABU UNTUK MEDIA QUERY DALAM VARIABEL
-document.documentElement.style.setProperty("--layer-height",
-    `${document.querySelector('.footer').offsetTop}px`);
+// document.documentElement.style.setProperty("--layer-height",
+//     `${document.querySelector('.footer').offsetTop}px`);
 
 // UKURAN LAYER ABU UNTUK GAMBAR FITUR
 document.documentElement.style.setProperty("--pic-layer-height",
-    `${document.querySelector('#title-box > div > img').offsetHeight}px`);
-
+    `${document.querySelector('.title-picture-box > img').offsetHeight}px`);
 
 
 // 2. ANIMASI UNTUK TABLET DAN LAPTOP
+// EFEK DROPDOWN DAN PERGANTIAN WARNA LOGO
+function clickEventListenerForNavbarOnTabletAndLaptop (mouseOverListener, mouseOutListener, elementToToggle, secondElementToToggle) {
+        mouseOverListener.addEventListener('mouseover',function() {
+            elementToToggle.classList.remove('off');
+            elementToToggle.classList.add('on');
+            secondElementToToggle.classList.add('off');
+        })
+        mouseOutListener.addEventListener('mouseleave',function() {
+            elementToToggle.classList.add('off');
+            secondElementToToggle.classList.remove('off');
+            })
+}
+function logoSwitch (logo1,logo2) {
+            logo1.style.display = "flex";
+            logo2.style.display = "none";
+};
+
+const tabletAndDesktopNavBarDropDown = document.getElementsByClassName('js-dropdown')[0];
+const dropDownOnToggler = document.querySelector('.js-hover-fn-dropdown');
+const dropDownOffToggler = document.querySelector('.header');
+const navBarLogoWhite = document.getElementsByClassName('logo-white')[0];
+const navBarLogoYellow = document.getElementsByClassName('logo-yellow')[0];
+
+if (visualViewport.width > 768) {
+    clickEventListenerForNavbarOnTabletAndLaptop(dropDownOnToggler, dropDownOffToggler, tabletAndDesktopNavBarDropDown, navBarLogoYellow);
+    logoSwitch(navBarLogoYellow,navBarLogoWhite);
+}
+
+
+
+// 3. ANIMASI UNTUK PONSEL
+// AKTIVASI TOMBOL BURGER SIDEBAR
+function clickEventListenerForNavbarOnPhone (listener,animations){
+    listener.addEventListener('click',function() {
+        listener.classList.remove('off');
+        animations.classList.remove('off');
+    
+        listener.classList.toggle('on');
+        animations.classList.toggle('on');
+    
+        listener.addEventListener('click',function() {
+            listener.classList.toggle('off');
+            animations.classList.toggle('off');
+        });
+    });    
+};
+
+const burgerClickToggle = document.getElementsByClassName('js-click-fn-burger')[0];
+const sidebarAnimation = document.getElementsByClassName('sidebar-animation')[0];
+clickEventListenerForNavbarOnPhone(burgerClickToggle,sidebarAnimation);
+
+
+
+// 4. ANIMASI UNTUK SEMUA
 // UBAH WARNA BACKGROUND SIDEBAR/NAVBAR SESUAI HALAMAN SEKARANG
 function whatToIndexFromThisPageURL (startIndex, endIndex) {
     return window.location.pathname.slice(startIndex,endIndex);
@@ -48,68 +101,6 @@ const sidebarElementTextColor = "var(--gr)";
 changeBackgroundAndTextColorPlusOfElementWithKnownIndex(sidebarPageElements, getIndexOfAnElementFromHTMLCollection(makeArrayOutOf(sidebarPageElements),extractContentOfArrayWithRegExp(makeArrayOutOf(sidebarPageElements),makeRegExpOutOf(whatToIndexFromThisPageURL(sidebarPageTrackerStartIndex,sidebarPageTrackerEndIndex)))),sidebarElementBackgroundColor,sidebarElementTextColor);
 
 
-// EFEK DROPDOWN DAN PERGANTIAN WARNA LOGO
-function clickEventListenerForNavbarOnTabletAndLaptop (mouseOverListener, mouseOutListener, elementsToToggle) {
-        mouseOverListener.addEventListener('mouseover',function() {
-            // console.log("mouseover");
-            elementsToToggle.classList.remove('off');
-            elementsToToggle.classList.add('on');
-        })
-        mouseOutListener.addEventListener('mouseleave',function() {
-            // console.log("mouseleave");
-            elementsToToggle.classList.add('off');
-            })
-}
-function scrollEventListenerToToggleLogoColorOnNavbar (listener,element1,element2) {
-    window.addEventListener('scroll',function () {
-        if (listener.offsetTop <= window.pageYOffset) {
-            element1.style.display = "flex";
-            element2.style.display = "none";
-        } else {
-            element1.style.display = "none";
-            element2.style.display = "flex";
-        }
-    })
-}
-
-const tabletAndDesktopNavBarDropDown = document.getElementsByClassName('js-dropdown')[0];
-const dropDownOnToggler = document.querySelector('.js-hover-fn-dropdown');
-const dropDownOffToggler = document.querySelector('.header');
-const navBarStyleToggler = document.querySelector('.text-box, #text-box-announcement');
-const navBarLogoWhite = document.getElementsByClassName('logo-white')[0];
-const navBarLogoYellow = document.getElementsByClassName('logo-yellow')[0];
-
-if (visualViewport.width > 768) {
-    clickEventListenerForNavbarOnTabletAndLaptop(dropDownOnToggler, dropDownOffToggler, tabletAndDesktopNavBarDropDown);
-    scrollEventListenerToToggleLogoColorOnNavbar(navBarStyleToggler,navBarLogoYellow,navBarLogoWhite);
-}
-
-
-
-// 3. ANIMASI UNTUK PONSEL
-// AKTIVASI TOMBOL BURGER SIDEBAR
-function clickEventListenerForNavbarOnPhone (listener,animations){
-    listener.addEventListener('click',function() {
-        listener.classList.remove('off');
-        animations.classList.remove('off');
-    
-        listener.classList.toggle('on');
-        animations.classList.toggle('on');
-    
-        listener.addEventListener('click',function() {
-            listener.classList.toggle('off');
-            animations.classList.toggle('off');
-        });
-    });    
-};
-
-const burgerClickToggle = document.getElementsByClassName('js-click-fn-burger')[0];
-const sidebarAnimation = document.getElementsByClassName('sidebar-animation')[0];
-clickEventListenerForNavbarOnPhone(burgerClickToggle,sidebarAnimation);
-
-
-
-// 4. ANIMASI UNTUK SEMUA
 // EFEK PARALLAX JQUERY
 let win = $(window);
 $.fn.is_visible = function(){    
@@ -123,14 +114,56 @@ $.fn.is_visible = function(){
 };
 
 $(window).scroll(function(){
-    $("#title-box, .text-picture-box").each(function(){ // Elemen kontainer
+    $(".js-picture-parallax-container").each(function(){ // Elemen kontainer
   	    if ($(this).is_visible()) {	
   	 	    let elmTop = $(this).offset().top; 
-             let shiftDistance = (elmTop - win.scrollTop()) * .2; // Kecepatan
-            $(".picture").css("transform","translateY("+-shiftDistance+"px)"); // Elemen target
+             let shiftDistance = (win.scrollTop() - elmTop) * 0.2; // Kecepatan
+            $(".js-picture-parallax, .js-picture-layer-parallax").css("transform","translateY("+shiftDistance+"px)"); // Elemen target
         }
     })
 });
+
+
+// PARALLAX EFFECT FOR K3B SUB CHAPTER PAGE
+const k3BSubChapterContainers = document.querySelectorAll(".k3b-sub-chapter-container section");
+
+k3BSubChapterContainers.forEach((element) => {
+    var moveDistance = (element.querySelector('p').offsetHeight)/2;
+    window.addEventListener('DOMContentLoaded', () => {
+        element.querySelector('h2').style.transform = `translateY(${moveDistance}px)`;
+    })
+
+    window.addEventListener('scroll', () => {
+        if($(element).is_visible()) {
+            element.querySelector('.picture-layer').style.opacity = "1";
+            element.querySelector('.picture').style.transform = "scale(1.2)";
+            element.querySelector('h2').style.transform = "scale(1.1) translateY(0)";
+            element.querySelector('h2').style.opacity = "1";
+            element.querySelector('p').style.opacity = "1";
+        } else {
+            element.querySelector('.picture-layer').style.opacity = ".15";
+            element.querySelector('.picture').style.transform = "scale(1)";
+            element.querySelector('h2').style.transform = `scale(1) translateY(${moveDistance}px)`;
+            element.querySelector('h2').style.opacity = "0";
+            element.querySelector('p').style.opacity = "0";
+        }
+    });
+    // element.addEventListener('mouseover', () => {
+    //     element.querySelector('.picture-layer').style.opacity = "1";
+    //     element.querySelector('.picture').style.transform = "scale(1.2)";
+    //     element.querySelector('h2').style.transform = "scale(1.1) translateY(0)";
+    //     element.querySelector('h2').style.opacity = "1";
+    //     element.querySelector('p').style.opacity = "1";
+    // })
+    // element.addEventListener('mouseleave', () => {
+    //     element.querySelector('.picture-layer').style.opacity = ".15";
+    //     element.querySelector('.picture').style.transform = "scale(1)";
+    //     element.querySelector('h2').style.transform = `scale(1) translateY(${moveDistance}px)`;
+    //     element.querySelector('h2').style.opacity = "0";
+    //     element.querySelector('p').style.opacity = "0";
+    // })
+});
+
 
 
 // CAROUSEL UNTUK HALAMAN ABBA90 DAN GA90
@@ -174,9 +207,6 @@ contactUsBtn.addEventListener('click', function (){
         contactUsForm.classList.toggle('on');
         this.removeEventListener('click', arguments.callee);
     });
-// function elementOnToggler(element){
-//     element.classList.toggle('on');
-// }
 
 
 
@@ -190,7 +220,7 @@ const deadline = document.querySelector('.deadline');
 const items = document.querySelectorAll('.deadline-format h4');
 
 if (deadline != null) {
-    let futureDate = new Date(2021,2,13,19,30,0); // Bulan dimulai dari 0 karena index array dimulai dari 0
+    let futureDate = new Date(2021,2,13,19,00,0); // Bulan dimulai dari 0 karena index array dimulai dari 0
 
     const year = futureDate.getFullYear();
     const month = months[futureDate.getMonth()];
@@ -199,7 +229,7 @@ if (deadline != null) {
     const hours = futureDate.getHours();
     const minutes = futureDate.getMinutes();
 
-    if (dDay != null) {dDay.textContent = `Webinar akan berlangsung pada ${weekday} ${date} ${month} ${year} ${hours}:${minutes}`};
+    if (dDay != null) {dDay.textContent = `Webinar akan berlangsung pada ${weekday} ${date} ${month} ${year} ${hours}:${(minutes<10?'0':'')+minutes} WIB`};
 
     const futureTime = futureDate.getTime();
 
@@ -239,30 +269,94 @@ if (deadline != null) {
 
 
 // AJAX UNTUK FORM HUBUNGI KAMI
-contactUsForm.addEventListener('submit', getContactUsMessage);
-
-function getContactUsMessage(e) {
+contactUsForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
     var name = document.getElementById('name').value;
     var email = document.getElementById('e-mail').value;
     var message = document.getElementById('message').value;
 
-    var parameters = "name="+name+"&e-mail="+email+"&message="+message;
+    var parameters = `name=${name}&e-mail=${email}&message=${message}`;
 
     var xhr = new XMLHttpRequest();
     xhr.open('POST', 'contact-us.php', true);
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
-    // xhr.onload = function () {
-    //     console.log(this.responseText);
-    // }       
-
     xhr.send(parameters);
+
     contactUsForm.classList.toggle('off');
-    setTimeout(() => {if(contactUsForm.classList.contains('off') === true) {
+    setTimeout(() =>  {
         contactUsForm.classList.remove('on');
         contactUsForm.classList.remove('off');
-        contactUsBtn.innerHTML = "Terima kasih atas pesan Anda, harap menunggu balasan dari kami.";
-    }}, 500);
-}
+        contactUsBtn.innerHTML = "Terima kasih atas pesan Anda.";
+    }, 500);
+});
+
+// AJAX UNTUK FORM POKOK DOA
+const prayerPointsForm = document.getElementsByClassName('js-form-pryr-pts')[0];
+const prayerPointsFormTextToChange = document.querySelector('.text-box > h2');
+if(prayerPointsForm != null) {
+    prayerPointsForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        var email = document.getElementById('e-mail').value;
+        var name = document.getElementById('name').value;
+        var prayerPoints = document.getElementById('prayer-points').value;
+
+        var parameters = `e-mail=${email}&name=${name}&prayer-points=${prayerPoints}`;
+
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', 'pryr-pts.php', true);
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+        xhr.send(parameters);
+
+        prayerPointsForm.classList.add('off');
+        setTimeout(() => {
+            prayerPointsForm.parentNode.removeChild(prayerPointsForm);
+            var textChange = document.createTextNode("Terima kasih, kami akan mendoakan Anda!");
+            prayerPointsFormTextToChange.innerHTML = "";
+            prayerPointsFormTextToChange.appendChild(textChange);
+            document.documentElement.style.setProperty("--layer-height",
+                `${document.querySelector('.footer').offsetTop}px`);
+        }, 500);
+    });
+};
+
+// AJAX UNTUK FORM PENDAFTARAN
+const aBBA90RegistrationForm = document.getElementsByClassName('js-form-rgstr-abba90')[0];
+const aBBA90RegistrationFormTextToChange = document.getElementsByClassName('js-form-rgstr-text-to-change')[0];
+if(aBBA90RegistrationForm != null) {
+    aBBA90RegistrationForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        var email = document.getElementById('e-mail').value;
+        var name = document.getElementById('name').value;
+        var gender = document.querySelector('input[name="gender"]').value;
+        var age = document.getElementById('age').value;
+        var phoneNumber = document.getElementById('phone-number').value;
+        var homeAddress = document.getElementById('home-address').value;
+
+        var parameters = `e-mail=${email}&name=${name}&gender=${gender}&age=${age}&phone-number=${phoneNumber}&home-address=${homeAddress}`;
+
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', 'event-rgstr-abba90.php', true);
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+        xhr.send(parameters);
+
+        aBBA90RegistrationForm.classList.add('off');
+        setTimeout(() => {
+            aBBA90RegistrationForm.parentNode.removeChild(aBBA90RegistrationForm);
+            var textChange = document.createTextNode("Anda telah terdaftar, tunggu e-mail dari kami!");
+            aBBA90RegistrationFormTextToChange.innerHTML = "";
+            aBBA90RegistrationFormTextToChange.style.fontSize = "1.6rem";
+            aBBA90RegistrationFormTextToChange.style.fontWeight = "bold";
+            aBBA90RegistrationFormTextToChange.style.marginTop = "3.5rem";
+            aBBA90RegistrationFormTextToChange.style.textAlign = "center";
+            aBBA90RegistrationFormTextToChange.appendChild(textChange);
+            document.documentElement.style.setProperty("--layer-height",
+                `${document.querySelector('.footer').offsetTop}px`);
+        }, 500);
+    });
+};

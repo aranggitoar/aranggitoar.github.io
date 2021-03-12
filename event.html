@@ -8,41 +8,65 @@
         <title>BYB - Acara</title>
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <script src="js/jquery.js"></script>
-        <script src="js/script.js" defer></script>
+        <script src="js/script.js" defer></script>	
     </head>
-    <body>
+    <body>	
 		<!--#include file="./header.html"-->
 		<main class="main">
             <article id="title-box">
-				<div class="title-picture picture"><div></div><img src="photo/main-page/gerakan-baca-alkitab-webinar-alkitabiah.jpg" alt="Foto beberapa orang sedang berkumpul dalam sebuah ruangan."></div>
+				<div class="js-picture-parallax-container title-picture-box">
+					<div class="js-picture-layer-parallax picture-layer"></div>
+					<img class="js-picture-parallax picture" src="photo/main-page/gerakan-baca-alkitab-webinar-alkitabiah.jpg" alt="Foto beberapa orang sedang berkumpul dalam sebuah ruangan.">
+				</div>
 				<div id="title-text-box">
 					<h1>Acara</h1>
 				</div>
 			</article>
             <article>
-				<section class="text-box">	
-					<h2>Sedang Berlangsung dan Akan Berlangsung</h2>
+				<section class="text-box event-page">	
+					<h2>Akan Berlangsung</h2>
 					<section>
-						<span class="title-picture picture picture-for-webinar" role="img" aria-label="Poster webinar Sekarang Anda Dapat Memahami Alkitab."><div></div></span>
-						<a href="event-webnr.html" alt="Tautan menuju halaman webinar"></a><h3>Sekarang Anda Dapat Memahami Alkitab</h3></a>
+						<div>
+							<img class="picture" src="photo/event-pages/webinar/seminar-13-maret-2021-dr-bob-utley.png" alt="Poster webinar Sekarang Anda Dapat Memahami Alkitab oleh Dr Bob Utley pada 13 Maret 2021.">
+						</div>
+						<a href="event-webnr.html" alt="Tautan menuju halaman webinar"><h3>Sekarang Anda Dapat Memahami Alkitab</h3></a>
 						<p>Webinar ini adalah kesempatan langka untuk Anda dapat memahami Alkitab secara pribadi!</p>
 					</section>
+					<hr class="hr-light">
 					<section>
-						<span class="title-picture picture picture-for-abba90" role="img" aria-label="Tangkapan layar dari film Injil oleh Lumo Project, foto tangan orang yang sedang menabur biji."><div></div></span>
+						<div>
+							<img class="picture" src="photo/event-pages/pendaftaran-gerakan-baca-alkitab-abba-90.jpg" alt="Foto laki-laki membaca Alkitab sambil berdiri.">
+						</div>
+						<a href="event-rgstr.html" alt="Tautan menuju halaman pendaftaran ABBA90 Gelombang Kedua Tahun 2021"><h3>ABBA90 Gelombang Kedua Tahun 2021</h3></a>
+						<p>(Ayo Baca dan Belajar Alkitab dalam 90 Hari)</p>
+						<p>Pernahkah Anda membaca Alkitab Perjanjian Baru seluruhnya? Sekarang adalah kesempatan Anda, daftarkan diri untuk ABBA90!</p>
+					</section>
+					<hr class="hr-light">
+				</section>
+				<section class="text-box event-page">
+					<h2>Sedang Berlangsung</h2>
+					<section>
+						<div>
+							<img class="picture" src="photo/event-pages/poster-pendaftaran-peserta-abba-90.png" alt="Poster pendaftaran gerakan baca Alkitab ABBA 90.">
+						</div>
 						<a href="event-abba9.html" alt="Tautan menuju halaman ABBA90"><h3>ABBA90</h3></a>
-						<p>Pernahkah Anda membaca Alkitab Perjanjian Baru seluruhnya? Sekarang adalah kesempatan Anda!</p>
+						<p>Ini adalah halaman dokumentasi ABBA90 Gelombang Pertama tahun 2021 yang sedang berlangsung.</p>
+					</section>
+					<hr class="hr-light">
+				</section>
+				<section class="text-box event-page">
+					<h2>Telah Terlaksana</h2>
+					<section>
+						<div>
+							<img class="picture" src="photo/event-pages/byb-gerakan-alkitab-90.jpeg" alt="Poster pendaftaran gerakan baca Alkitab GA90.">
+						</div>	
+						<a href="event-ga912.html" alt="Tautan menuju halaman GA90"><h3>GA90</h3></a>
+						<p>(Gerakan Alkitab 90, Tantangan Membaca Perjanjian Baru dalam 90 Hari)</p>
+						<p>Ini adalah halaman dokumentasi ABBA90 pada tahun lalu. Pada waktu itu judulnya adalah Gerakan Alkitab 90, atau Tantangan Membaca Perjanjian Baru dalam 90 Hari.</p>
 					</section>
 				</section>
-				<section class="text-box">
-					<h2>Telah Terlaksana</h2>
-						<span class="title-picture picture picture-for-ga90" role="img" aria-label="Tangkapan layar dari film Injil oleh Lumo Project, foto tangan orang yang sedang menabur biji."><div></div></span>
-						<a href="event-ga912.html" alt="Tautan menuju halaman GA90"><h3>GA90</h3></a>
-						<p>Ini adalah halaman dokumentasi ABBA90 pada tahun lalu. Pada waktu itu judulnya adalah Gerakan Alkitab 90, atau Tantangan Membaca Perjanjian Baru dalam 90 Hari.</p>
-				</section>
-			</article>
-			<article>
-                <hr class="hr-bold">
-                <a href="index.html"><button id="return-btn">Kembali</button></a>
+                <hr class="hr-light">
+                <a id="return-btn" role="button" href="index.html">Kembali</a>
             </article>
         </main>
 		<!--#include file="./footer.html"-->
