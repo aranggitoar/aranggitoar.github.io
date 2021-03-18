@@ -8,6 +8,8 @@
 	--lt-grn: #37b96f;
 	--grn: #3a6;
 	--lt-ylw: #faf16b;
+	--inactive-header-ylw: #f8e70f00;
+	--inactive-header-ylw-org: #f8bf0f00;
 	--ylw: #f8e70f;
 	--ylw-org: #f8bf0f;
 	--org: #f8930f;
@@ -161,13 +163,13 @@ footer {
 }
 
 .header {
-	background: linear-gradient(45deg, var(--ylw), var(--ylw-org));
 	height: 100%;
 	width: 75%;
 	grid-area: header;
 	position: fixed;
 	display: none;
 	z-index: 5;
+	background: linear-gradient(45deg, var(--ylw), var(--ylw-org));
 	box-shadow: 0 0 100px 5px var(--gr);
 }
 
@@ -225,18 +227,17 @@ ol {
 		margin: .7rem 0;
 		letter-spacing: .1rem;
 		word-spacing: .1rem;
-		font-size: 1.5rem;
+		font-size: 1.75rem;
 		font-style: italic;
 		text-align: center;
 	}
 
 .quote {
-	width: 75%;
 	font-style: italic;
-	font-size: 1.3rem;
 	padding: 1rem 2rem;
 	text-align: center !important;
 	background-color: var(--lt-ylw);
+	border-radius: 5px;
 	justify-self: center;
 }
 
@@ -490,12 +491,12 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 			background-color: var(--prpl);
 			border: 1px solid var(--prpl);
 			border-radius: .4rem;
-			transition: all 100ms;
+			filter: drop-shadow(0 0 2rem var(--gr-tr));
+			transform: scale(1.04);
 		}
 
 		#text-box-announcement > a > button:hover {
-			filter: drop-shadow(0 0 2rem var(--gr-tr));
-			transform: scale(1.04);
+			transform: scale(1);
 		}
 
 		#text-box-announcement .deadline-format h4 {
@@ -593,7 +594,7 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	font-size: 1.2rem;
+	font-size: 1.25rem;
 	letter-spacing: .02rem;
 	position: relative;
 	padding: .5rem 3rem;
@@ -1177,139 +1178,73 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 @media (min-width: 48rem) {
 	body {
 		grid-template-areas:
-			"main main header"
-			"main main header"
-			"footer footer header";
+			"header header header"
+			"main main main"
+			"footer footer footer";
 	}
 
 	.header {
-		display: flex;
-		justify-content: flex-end;
-		right: 0;
-		background: 0;
-		box-shadow: 0 0 0;
-		width: 17%;
+		height: 10%;
+		width: 100%;
 		margin: auto;
+		position: fixed;
+		display: flex;
+		top: 0;
+		left: 0;
+		box-shadow: 0 0 30px var(--lt-gr);
+		opacity: 0;
+		transition: all 300ms;
+	}
+
+	.header.off {
+		opacity: 0;
+	}
+
+	.header.on {
+		opacity: 1;
 	}
 	
 	#navigation {
-		width: 100%;
-		height: 100%;
-		padding: 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding-top: 0;
 	}
 
-		#navigation div:first-child {
-			width: 100%;
-			
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			margin-bottom: 1rem;
-		}
-
-		#navigation div a::before {
-			content: "";
-			position: absolute;
-			width: 3rem;
-			height: 3rem;
-		}
+	#navigation div:first-child {
+		height: 100%;
+		width: 10%;
+	}
 
 	.sidebar-link {
-		position: relative;
-		justify-content: flex-start;
-		align-items: flex-end;
-		padding: 0;
+		height: 100%;
+		width: 100%;
 		margin: 0;
+		flex-direction: row;
 	}
 
-	.js-dropdown > a {
-		position: relative;
-		text-align: right;
-		display: none;
-		right: 0;
-		width: 80%;
-		font-size: 1.1rem;
+	.sidebar-link > a {
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		font-size: 1.5rem;
 		line-height: 1;
-		color: var(--gr-tr);
-		box-shadow: 0 0 2px var(--lt-gr-tr);
 		transition: all 150ms ease-in-out;
 	}
 
-	.js-dropdown > a[href*="index"] {
-		border-top-left-radius: 7px;
-	}
-
-	.js-dropdown.on > a {
-		transform: translateY(-500px);
-		opacity: 0;
-		display: block;
-		animation: dropdown-appear 500ms forwards;
-	}
-
-	@keyframes dropdown-appear {
-		70% {
-			opacity: 0;
-		}
-		100% {
-			transform: translateY(0px);
-			opacity: 1;
-		}
-	}
-
-	.js-dropdown.off > a {
-		transform: translateY(0px);
-		opacity: 1;
-		display: block;
-		animation: dropdown-dissapear 500ms forwards;
-	}
-
-	@keyframes dropdown-dissapear {
-		30% {
-			opacity: 0;
-		}
-		100% {
-			transform: translateY(-500px);
-		}
-	}
-
-		.js-dropdown > a:hover {
+		.sidebar-link > a:hover {
 			background-color: var(--mw);
 			color: var(--gr);
 		}
 
-		.js-dropdown > a::after {
-			content: "";
-			position: absolute;
-			display: block;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			height: 2px;
-			transform: translateX(250px);
-			background-color: var(--gr);
-			transition: all 150ms ease-in-out;
-		}
-
-		.js-dropdown > a:hover::after,
-		.js-dropdown > a.on::after {
-			transform: translateX(0);
-		}
-
 	.logo-byb-header {
-		margin-right: 5px;
-		animation: beat 1s infinite;
-	}
-	@keyframes beat {
-		20% {
-			transform: scale(1.15);
-		}
-		80% {
-			transform: scale(1);
-		}
-	}
-
-	.logo-byb-header.off {
-		animation: 0;
+		height: 100%;
+		width: auto;
 	}
 
 	.js-click-fn-burger {
@@ -1334,12 +1269,17 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 			z-index: 2;
 		}
 
-
-	.text-box {
-		max-width: 70ch;
-		background-color: var(--mw);
+	.main > article {
+		max-width: 80vw;
 	}
 
+	.text-box {
+		width: 100%;
+		background-color: var(--mw);
+	}
+	.text-box > * {
+		width: 80ch;
+	}
 	#text-box-announcement + article .text-box {
 		max-width: 70%;
 		padding: 0 3rem;
@@ -1382,7 +1322,8 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 
 	.index-body-navigation {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
+		align-items: center;
 	}
 	
 	.index-body-navigation > section,
@@ -1393,7 +1334,7 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	}
 
 	.index-body-navigation > section {
-		width: 40vw;
+		width: 25vw;
 	}
 
 		.index-body-navigation > section:hover,

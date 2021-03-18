@@ -49,3 +49,9 @@ Semua belum selesai di revisi.
 
 (keterangan: sesudah <li>Rencana Agung Allah di dalam <p>K3B)
 <li>Alkitab: Firman Allah. Tas biru terbuka, Alkitab terbuka, buku catatan, dan pena. https://unsplash.com/photos/LNwn_A9RGHo oleh Aaron Burden.</li>
+
+
+
+~~~~~~~
+Ubah posisi header, pokok doa, dan buku pak Bob.
+Siapkan satu halaman untuk masukkan TSI sebagai Alkitab yang orang bisa akses langsung dalam halaman tersebut dengan format seperti bible.com. Lihat apa yang terbaik untuk ini, bekerja dengan format file USFM (cari tahu apa itu) atau ubah itu menjadi file JSON.

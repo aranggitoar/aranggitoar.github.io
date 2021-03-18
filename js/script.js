@@ -15,35 +15,24 @@ document.documentElement.style.setProperty("--pic-layer-height",
     `${document.querySelector('.title-picture-box > img').offsetHeight}px`);
 
 
-// 2. ANIMASI UNTUK TABLET DAN LAPTOP
-// EFEK DROPDOWN DAN PERGANTIAN WARNA LOGO
-function clickEventListenerForNavbarOnTabletAndLaptop (mouseOverListener, mouseOutListener, elementToToggle, secondElementToToggle) {
-        mouseOverListener.addEventListener('mouseover',function() {
-            elementToToggle.classList.remove('off');
-            elementToToggle.classList.add('on');
-            secondElementToToggle.classList.add('off');
-        })
-        mouseOutListener.addEventListener('mouseleave',function() {
-            elementToToggle.classList.add('off');
-            secondElementToToggle.classList.remove('off');
-            })
-}
-function logoSwitch (logo1,logo2) {
-            logo1.style.display = "flex";
-            logo2.style.display = "none";
+// 2. ANIMATION FOR TABLET AND LAPTOP
+// ACTIVATION OF SIDEBAR (HEADER)
+function scrollEventListenerForHeaderOnTabletAndLaptop (toggler, elementToToggle) {
+    window.addEventListener('scroll', () => {
+        if (toggler.offsetHeight < window.pageYOffset) {
+            elementToToggle.style.opacity = 1;
+        } else {
+            elementToToggle.style.opacity = 0;
+        }
+    });
 };
 
-const tabletAndDesktopNavBarDropDown = document.getElementsByClassName('js-dropdown')[0];
-const dropDownOnToggler = document.querySelector('.js-hover-fn-dropdown');
-const dropDownOffToggler = document.querySelector('.header');
-const navBarLogoWhite = document.getElementsByClassName('logo-white')[0];
-const navBarLogoYellow = document.getElementsByClassName('logo-yellow')[0];
+const tabletAndDesktopHeader = document.querySelector('.header');
+const tabletAndDesktopHeaderToggler = document.querySelector('main > article:first-child');
 
 if (visualViewport.width > 768) {
-    clickEventListenerForNavbarOnTabletAndLaptop(dropDownOnToggler, dropDownOffToggler, tabletAndDesktopNavBarDropDown, navBarLogoYellow);
-    logoSwitch(navBarLogoYellow,navBarLogoWhite);
-}
-
+    scrollEventListenerForHeaderOnTabletAndLaptop(tabletAndDesktopHeaderToggler, tabletAndDesktopHeader);
+};
 
 
 // 3. ANIMASI UNTUK PONSEL
@@ -86,19 +75,22 @@ function extractContentOfArrayWithRegExp (content, regExp) {
 function getIndexOfAnElementFromHTMLCollection (arrayOfHTMLCollection,content) {
     return arrayOfHTMLCollection.indexOf(content);
 };
-function changeBackgroundAndTextColorPlusOfElementWithKnownIndex (hTMLCollection, index, bGColor, txtColor) {
+function changeBackgroundOfElementWithKnownIndex (hTMLCollection, index, bGColor) {
     hTMLCollection[index].style.backgroundColor = bGColor;
-    hTMLCollection[index].style.color = txtColor;
-    hTMLCollection[index].classList.toggle('on');
 };
 
 const sidebarPageElements = document.getElementsByClassName('js-sidebar-page-track');
-const sidebarPageTrackerStartIndex = 17;
-const sidebarPageTrackerEndIndex = 21;
-const sidebarElementBackgroundColor = "var(--mw)";
-const sidebarElementTextColor = "var(--gr)";
+const sidebarPageTrackerEndIndex = window.location.pathname.search(/([-][a-z0-9]{5})?\.html/);
+const sidebarPageTrackerStartIndex = sidebarPageTrackerEndIndex - 5;
 
-changeBackgroundAndTextColorPlusOfElementWithKnownIndex(sidebarPageElements, getIndexOfAnElementFromHTMLCollection(makeArrayOutOf(sidebarPageElements),extractContentOfArrayWithRegExp(makeArrayOutOf(sidebarPageElements),makeRegExpOutOf(whatToIndexFromThisPageURL(sidebarPageTrackerStartIndex,sidebarPageTrackerEndIndex)))),sidebarElementBackgroundColor,sidebarElementTextColor);
+changeBackgroundOfElementWithKnownIndex(sidebarPageElements,
+    getIndexOfAnElementFromHTMLCollection(makeArrayOutOf(sidebarPageElements),
+        extractContentOfArrayWithRegExp(makeArrayOutOf(sidebarPageElements),
+            makeRegExpOutOf(whatToIndexFromThisPageURL(sidebarPageTrackerStartIndex,sidebarPageTrackerEndIndex)
+            )
+        )
+    ),
+"var(--mw)");
 
 
 // EFEK PARALLAX JQUERY
@@ -107,7 +99,7 @@ $.fn.is_visible = function(){
     let viewport = {top: win.scrollTop()}; //window.pageYOffset
     viewport.bottom = viewport.top + win.height(); //document.documentElement.clientHeight
 
-    let bounds = this.offset(); // //element.offsetTop();
+    let bounds = this.offset(); // //element.offsetTop;
     bounds.bottom = bounds.top + this.outerHeight(); // element.offsetHeight;
 
     return (!(viewport.bottom < bounds.top || viewport.top > bounds.bottom));
@@ -148,20 +140,6 @@ k3BSubChapterContainers.forEach((element) => {
             element.querySelector('p').style.opacity = "0";
         }
     });
-    // element.addEventListener('mouseover', () => {
-    //     element.querySelector('.picture-layer').style.opacity = "1";
-    //     element.querySelector('.picture').style.transform = "scale(1.2)";
-    //     element.querySelector('h2').style.transform = "scale(1.1) translateY(0)";
-    //     element.querySelector('h2').style.opacity = "1";
-    //     element.querySelector('p').style.opacity = "1";
-    // })
-    // element.addEventListener('mouseleave', () => {
-    //     element.querySelector('.picture-layer').style.opacity = ".15";
-    //     element.querySelector('.picture').style.transform = "scale(1)";
-    //     element.querySelector('h2').style.transform = `scale(1) translateY(${moveDistance}px)`;
-    //     element.querySelector('h2').style.opacity = "0";
-    //     element.querySelector('p').style.opacity = "0";
-    // })
 });
 
 
@@ -220,7 +198,7 @@ const deadline = document.querySelector('.deadline');
 const items = document.querySelectorAll('.deadline-format h4');
 
 if (deadline != null) {
-    let futureDate = new Date(2021,2,13,19,00,0); // Bulan dimulai dari 0 karena index array dimulai dari 0
+    let futureDate = new Date(2021,4,1,00,00,0); // Bulan dimulai dari 0 karena index array dimulai dari 0
 
     const year = futureDate.getFullYear();
     const month = months[futureDate.getMonth()];
