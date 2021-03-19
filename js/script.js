@@ -6,10 +6,6 @@
 // 5. NON-ANIMASI
 
 // 1. PENGATUR VARIABEL CSS SECARA DINAMIS
-// UKURAN LAYER ABU UNTUK MEDIA QUERY DALAM VARIABEL
-// document.documentElement.style.setProperty("--layer-height",
-//     `${document.querySelector('.footer').offsetTop}px`);
-
 // UKURAN LAYER ABU UNTUK GAMBAR FITUR
 document.documentElement.style.setProperty("--pic-layer-height",
     `${document.querySelector('.title-picture-box > img').offsetHeight}px`);
@@ -75,8 +71,8 @@ function extractContentOfArrayWithRegExp (content, regExp) {
 function getIndexOfAnElementFromHTMLCollection (arrayOfHTMLCollection,content) {
     return arrayOfHTMLCollection.indexOf(content);
 };
-function changeBackgroundOfElementWithKnownIndex (hTMLCollection, index, bGColor) {
-    hTMLCollection[index].style.backgroundColor = bGColor;
+function changeBackgroundOfElementWithKnownIndex (hTMLCollection, index) {
+    hTMLCollection[index].classList.add('on');
 };
 
 const sidebarPageElements = document.getElementsByClassName('js-sidebar-page-track');
@@ -89,8 +85,8 @@ changeBackgroundOfElementWithKnownIndex(sidebarPageElements,
             makeRegExpOutOf(whatToIndexFromThisPageURL(sidebarPageTrackerStartIndex,sidebarPageTrackerEndIndex)
             )
         )
-    ),
-"var(--mw)");
+    )
+);
 
 
 // EFEK PARALLAX JQUERY

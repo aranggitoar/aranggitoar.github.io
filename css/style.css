@@ -8,8 +8,6 @@
 	--lt-grn: #37b96f;
 	--grn: #3a6;
 	--lt-ylw: #faf16b;
-	--inactive-header-ylw: #f8e70f00;
-	--inactive-header-ylw-org: #f8bf0f00;
 	--ylw: #f8e70f;
 	--ylw-org: #f8bf0f;
 	--org: #f8930f;
@@ -169,8 +167,8 @@ footer {
 	position: fixed;
 	display: none;
 	z-index: 5;
-	background: linear-gradient(45deg, var(--ylw), var(--ylw-org));
-	box-shadow: 0 0 100px 5px var(--gr);
+	background-color: var(--lt-ylw);
+	filter: drop-shadow(0 0 100px var(--gr));
 }
 
 hr {
@@ -247,7 +245,7 @@ ol {
 
 .hr-light {
 	border: 1px solid var(--gr);
-	margin: 3rem 0;
+	margin: 2rem 0;
 }
 
 .hr-max-width {
@@ -263,10 +261,6 @@ ol {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-}
-
-.logo-yellow {
-	display: none;
 }
 
 /* II. SIDEBAR SELECTORS */
@@ -294,6 +288,7 @@ ol {
 }
 
 	.sidebar-link > a {
+		position: relative;
 		width: 100%;
 		display: block;
 		padding: .4rem .5rem;
@@ -302,6 +297,34 @@ ol {
 		text-decoration: none;
 		letter-spacing: .1rem;
 		word-spacing: .1rem;
+	}
+
+	.sidebar-link > a.on {
+		background-color: var(--lt-gr-tr);
+		color: var(--gr);
+	}
+
+	.sidebar-link > a:hover {
+		background-color: var(--lt-gr-tr);
+		color: var(--gr);
+	}
+
+	.sidebar-link > a::before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: .2rem;
+		left: 0;
+		bottom: 0;
+		background-color: var(--gr-tr);
+		transition: all 200ms;
+		transform: scaleX(0);
+	}
+
+	.sidebar-link > a:hover::before,
+	.sidebar-link > a.on::before {
+		content: "";
+		transform: scaleX(1);
 	}
 	
 	.sidebar-link > a:visited {
@@ -548,7 +571,7 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 
 .picture-layer {
 	position: absolute;
-	background-color: #0003;
+	background-color: #0001;
 	width: 100%;
 	height: var(--pic-layer-height);
 	z-index: 2;
@@ -641,15 +664,17 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 
 	.index-body-navigation > section,
 	.k3b-chapter-container > section {
+		width: 80vw;
+		margin: 1.5rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		justify-self: center;
 		align-items: center;
 		text-align: center;
-		margin: 1.5rem;
-		width: 80vw;
-		box-shadow: 0 0 25px var(--gr-tr);
+		border: 1px solid var(--gr);
+		border-radius: 5px;
+		box-shadow: 0 0 25px var(--x-lt-gr);
 	}
 
 		.index-body-navigation > section > div > img,
@@ -658,6 +683,7 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 			object-fit: cover;
 			min-height: 300px;
 			max-height: 300px;
+			border-bottom: 1px solid var(--gr);
 			width: 100%;
 		}
 
@@ -731,38 +757,46 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		transition: all 500ms;
 	}
 
-	.event-page section {
-		margin: 1rem 0;
+	.event-page {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 
-	.event-page section {
-		transition: all 100ms;
-	}
+		.event-page section {
+			max-height: 80vh;
+			margin: 1rem;
+			transition: all 100ms;
+		}
+		
+		.event-page h2 {
+			padding: 0 4rem;
+		}
 
-	.event-page section:hover,
-	.event-page section:active,
-	.event-page section:focus {
-		filter: drop-shadow(0 0 50px var(--x-lt-gr));
-		transform: scale(1.07);
-	}
+		.event-page section:hover,
+		.event-page section:active,
+		.event-page section:focus {
+			filter: drop-shadow(0 0 25px var(--x-lt-gr));
+			transform: scale(1.07);
+		}
+		
+		.event-page img {
+			max-height: 80vh !important;
+		}
 
-	.event-page section p,
-	.event-page section a h3 {
-		text-align: center;
-		transition: all 100ms;
-	}
-
-	.event-page section p:hover,
-	.event-page section p:active,
-	.event-page section p:focus {
-		transform: scale(1.07);
-	}
-
-	.event-page section a h3:hover,
-	.event-page section a h3:active,
-	.event-page section a h3:focus {
-		transform: scale(1.25);
-	}
+			.event-page section p,
+			.event-page section a h3 {
+				padding: 0 1rem;
+				text-align: center;
+				transition: all 100ms;
+			}
+		
+			.event-page section a h3:hover,
+			.event-page section a h3:active,
+			.event-page section a h3:focus {
+				transform: scale(1.15);
+			}
 
 .container-slider {
 	position: relative;
@@ -1094,7 +1128,7 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 
 	.contact-us-btn:active,
 	.contact-us-btn:hover {
-		transform: scale(1.2);
+		transform: scale(1.1);
 	}
 
 	.contact-us-btn:visited {
@@ -1185,14 +1219,15 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 
 	.header {
 		height: 10%;
+		max-height: 100px;
 		width: 100%;
 		margin: auto;
 		position: fixed;
 		display: flex;
 		top: 0;
 		left: 0;
-		box-shadow: 0 0 30px var(--lt-gr);
 		opacity: 0;
+		filter: drop-shadow(0 0 5px var(--lt-gr));
 		transition: all 300ms;
 	}
 
@@ -1208,38 +1243,61 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
+		align-items: center;
 		padding-top: 0;
 	}
 
-	#navigation div:first-child {
-		height: 100%;
-		width: 10%;
-	}
+		#navigation div:first-child {
+			height: 100%;
+			width: 10%;
+			margin-right: .5rem;
+		}
 
 	.sidebar-link {
 		height: 100%;
-		width: 100%;
+		width: 50%;
 		margin: 0;
 		flex-direction: row;
 	}
 
 	.sidebar-link > a {
-		height: 100%;
-		width: 100%;
-		top: 0;
-		left: 0;
+		position: relative;
+		height: 70%;
+		margin: 0 .5rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		line-height: 1;
+		border-top-left-radius: 7px;
+		border-top-right-radius: 7px;
 		transition: all 150ms ease-in-out;
 	}
 
+		.sidebar-link > a.on {
+			background-color: #fff0;
+		}
+
 		.sidebar-link > a:hover {
-			background-color: var(--mw);
-			color: var(--gr);
+			background-color: #fff0;
+		}
+
+		.sidebar-link > a::before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: .2rem;
+			bottom: 0;
+			background-color: var(--gr-tr);
+			transition: all 200ms;
+			transform: scaleX(0);
+		}
+
+		.sidebar-link > a:hover::before,
+		.sidebar-link > a.on::before {
+			content: "";
+			transform: scaleX(.7);
 		}
 
 	.logo-byb-header {
@@ -1299,6 +1357,7 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	#text-box-announcement {
 		width: 90%;
 		height: 65vh;
+		max-height: 450px;
 		font-size: 1.9rem;
 		padding: 0 3rem;
 		border-radius: 1rem;
@@ -1320,10 +1379,15 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 			font-size: 1.2em;
 		}
 
-	.index-body-navigation {
+	.index-body-navigation,
+	.k3b-chapter-container {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		align-items: center;
+	}
+
+	.k3b-chapter-container {
+		grid-template-columns: 1fr 1fr;
 	}
 	
 	.index-body-navigation > section,
@@ -1337,6 +1401,10 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		width: 25vw;
 	}
 
+	.k3b-chapter-container > section {
+		width: 35vw;
+	}
+
 		.index-body-navigation > section:hover,
 		.k3b-chapter-container > section:hover {
 			transform: scale(1.05);
@@ -1345,6 +1413,7 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		.index-body-navigation > section > a,
 		.k3b-chapter-container > section > a {
 			transition: all 100ms;
+			padding: 0 2rem;
 		}
 
 		.index-body-navigation > section > a:hover,
@@ -1374,6 +1443,22 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 
 	.k3b-sub-chapter-container h2 {
 		font-size: 2.5rem;
+	}
+
+	.event-page section {
+		width: 95vw;
+		max-height: 100vh;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	
+	.event-page section * {
+		width: 80%;
+	}
+
+	.event-page section div:nth-child(2) {
+		padding: 0 2rem;
 	}
 
 		.js-form-pryr-pts textarea {
