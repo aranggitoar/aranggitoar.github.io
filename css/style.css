@@ -1,3 +1,12 @@
+/* THIS CSS FILE CAN BE THOUGHT OF BEING GROUPED IN 5 PARTS:
+1. GLOBAL SELECTORS
+2. HEADER/SIDEBAR SELECTORS
+3. MAIN PAGES SELECTORS
+4. FOOTER SELECTORS
+5. MEDIA QUERY SELECTORS */
+
+
+
 *,
 *::before,
 *::after {
@@ -30,8 +39,10 @@
 	width: 100vw;
 }
 
+
 /* RESET */
 /* Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public do.main) */
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -86,10 +97,10 @@ mark {
 	color: inherit;
 }
 
-input::-moz-focus-inner {
-	border: 0;
-	padding: 0;
-}
+	input::-moz-focus-inner {
+		border: 0;
+		padding: 0;
+	}
 
 input, select, textarea {
 	-moz-appearance: none;
@@ -98,7 +109,9 @@ input, select, textarea {
 	appearance: none;
 }
 
+
 /* I. GLOBAL SELECTORS */
+
 
 ::placeholder {
 	font: 1.1rem var(--tr);
@@ -120,27 +133,22 @@ input, select, textarea {
 	font: 1.1rem var(--tr);
 }
 
-input:focus,
-textarea:focus {
-	outline: 0;
-	filter: drop-shadow(0 0 7px var(--prpl-tr));
-	border: 1px solid var(--lt-gr-tr);
-}
-
-/* input:internal-autofill-selected {
-	background-color: var(--mw) !important;
-	color: -internal-light-dark(yellow, green) !important;
-} */
+	input:focus,
+	textarea:focus {
+		outline: 0;
+		filter: drop-shadow(0 0 7px var(--prpl-tr));
+		border: 1px solid var(--lt-gr-tr);
+	}
 
 a {
 	color: inherit;
 }
 
-a:hover,
-a:active,
-a:focus {
-	color: var(--prpl);
-}
+	a:hover,
+	a:active,
+	a:focus {
+		color: var(--prpl);
+	}
 
 body {
 	margin: auto;
@@ -156,17 +164,6 @@ body {
 
 footer {
 	grid-area: footer;
-}
-
-.header {
-	height: 100%;
-	width: 60%;
-	grid-area: header;
-	position: fixed;
-	display: none;
-	z-index: 5;
-	background-color: var(--lt-ylw);
-	filter: drop-shadow(0 0 100px var(--gr-tr));
 }
 
 hr {
@@ -194,6 +191,17 @@ h3 {
 
 ol {
 	list-style: decimal;
+}
+
+.header {
+	height: 100%;
+	width: 60%;
+	grid-area: header;
+	position: fixed;
+	display: none;
+	z-index: 5;
+	background-color: var(--lt-ylw);
+	filter: drop-shadow(0 0 100px var(--gr-tr));
 }
 
 .main {
@@ -261,7 +269,24 @@ ol {
 	display: block;
 }
 
-/* II. SIDEBAR SELECTORS */
+.picture {
+	pointer-events: none;
+	object-fit: cover;
+	width: 100%;
+	z-index: 1;
+}
+
+.picture-layer {
+	position: absolute;
+	background-color: #0001;
+	width: 100%;
+	height: var(--pic-layer-height);
+	z-index: 2;
+}
+
+
+/* II. HEADER/SIDEBAR SELECTORS */
+
 
 #navigation {
 	top: 0;
@@ -328,8 +353,10 @@ ol {
 	}
 
 /* II.A. SIDEBAR ANIMATION
+
 II.A.1. ON THE BURGER BUTTON
 ACTIVATES AND DEACTIVATES THE HEADER */
+
 .js-click-fn-burger {
 	position: fixed;
 	top: .6rem;
@@ -377,8 +404,7 @@ ACTIVATES AND DEACTIVATES THE HEADER */
 				opacity: 0.0;
 			}
 		}
-/* THE BUTTON AS A WHOLE FADES AWAY BUT THE MIDDLE LINE
-AND ITS PSEUDO CLASS ROTATES TO MAKE AN "X" SHAPE */
+
 		.js-click-fn-burger.on .x-burger {
 			animation: x-burger-appear 250ms forwards;
 		}
@@ -419,8 +445,7 @@ AND ITS PSEUDO CLASS ROTATES TO MAKE AN "X" SHAPE */
 				opacity: 1;
 			}
 		}
-/* THE BUTTON AS A WHOLE FADES IN, THE MIDDLE LINE
-AND ITS PSEUDO CLASS GOES BACK TO THEIR ORIGINAL STATE */
+
 		.js-click-fn-burger.off .x-burger {
 			opacity: 1;
 			transform: rotate(45deg);
@@ -452,6 +477,7 @@ AND ITS PSEUDO CLASS GOES BACK TO THEIR ORIGINAL STATE */
 
 /* II.A.2. ON THE HEADER
 ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
+
 .sidebar-animation.on {
 	animation: header-appear 375ms forwards;
 	display: flex;
@@ -484,93 +510,11 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	}
 }
 
-/* III. MAIN PAGE */
 
-#text-box-announcement {
-	font-size: 1.35rem;
-	color: var(--mw);
-	background-color: var(--prpl);
-	position: relative;
-	width: 100%;
-	height: 65vh;
-	padding: 0 1rem;
-	box-shadow: 0 0 10px var(--gr);
-	flex-direction: column;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	z-index: 5;
-}
+/* III. MAIN PAGE SELECTORS
 
-		#text-box-announcement > a > button {
-			font: 1.2em var(--tr);
-			color: var(--mw);
-			padding: .8rem 2rem;
-			background-color: var(--prpl);
-			border: 1px solid var(--prpl);
-			border-radius: 5px;
-			filter: drop-shadow(0 0 2rem var(--gr-tr));
-		}
 
-		#text-box-announcement > a > button:hover {
-			transform: scale(.95);
-		}
-
-		#text-box-announcement .deadline-format h4 {
-			font-size: 1.5em;
-		}
-
-		#text-box-announcement .deadline-format span {
-			font-size: 1em;
-		}
-
-	#text-box-announcement .deadline {
-		width: 90%;
-	}
-
-.deadline {
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	margin: 1rem;
-}
-
-.deadline-format {
-	margin: .4rem;
-}
-
-	.deadline-format > div {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
-		align-items: center;
-		padding: .2rem .5rem;
-		width: 100%;
-		font-size: 1.5rem;
-	}
-
-		.deadline-format > div > h4 {
-			margin: auto;
-			font-size: 1.8rem;
-		}
-
-.picture {
-	pointer-events: none;
-	object-fit: cover;
-	width: 100%;
-	z-index: 1;
-}
-
-.picture-layer {
-	position: absolute;
-	background-color: #0001;
-	width: 100%;
-	height: var(--pic-layer-height);
-	z-index: 2;
-}
+III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 
 #title-box {
 	position: relative;
@@ -648,6 +592,97 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	height: 120%;
 }
 
+.deadline {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 1rem;
+}
+
+.deadline-format {
+	margin: .4rem;
+}
+
+	.deadline-format > div {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		padding: .2rem .5rem;
+		width: 100%;
+		font-size: 1.5rem;
+	}
+
+		.deadline-format > div > h4 {
+			margin: auto;
+			font-size: 1.8rem;
+		}
+
+#return-btn {
+	text-decoration: none;
+	font: bold 1.3rem var(--tr);
+	padding: .7rem 7%;
+	margin: 0 0 2rem;
+	border-radius: 5px;
+	text-transform: uppercase;
+	background-color: var(--lt-ylw);
+	color: var(--gr);
+	transition: all 250ms;
+}
+
+	#return-btn:hover,
+	#return-btn:active,
+	#return-btn:focus {
+		transform: scale(.95);
+	}
+
+/* III.B. INDEX PAGE AND KAT3B PAGES */
+
+#text-box-announcement {
+	font-size: 1.35rem;
+	color: var(--mw);
+	background-color: var(--prpl);
+	position: relative;
+	width: 100%;
+	height: 65vh;
+	padding: 0 1rem;
+	box-shadow: 0 0 10px var(--gr);
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	z-index: 5;
+}
+
+	#text-box-announcement .deadline {
+		width: 90%;
+	}
+
+		#text-box-announcement .deadline-format h4 {
+			font-size: 1.5em;
+		}
+
+		#text-box-announcement .deadline-format span {
+			font-size: 1em;
+		}
+
+		#text-box-announcement > a > button {
+			font: 1.2em var(--tr);
+			color: var(--mw);
+			padding: .8rem 2rem;
+			background-color: var(--prpl);
+			border: 1px solid var(--prpl);
+			border-radius: 5px;
+			filter: drop-shadow(0 0 2rem var(--gr-tr));
+		}
+
+			#text-box-announcement > a > button:hover {
+				transform: scale(.95);
+			}
+
 .index-body-navigation,
 .k3b-chapter-container {
 	display: flex;
@@ -656,6 +691,10 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	align-items: center;
 	flex-wrap: wrap;
 }
+
+	.k3b-chapter-container h3 {
+		padding: 0 1rem;
+	}
 
 	.index-body-navigation > section,
 	.k3b-chapter-container > section {
@@ -672,19 +711,6 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		box-shadow: 0 0 25px var(--x-lt-gr);
 		transition: all 200ms;
 	}
-	
-	.k3b-chapter-container h3 {
-		padding: 0 1rem;
-	}
-
-		.index-body-navigation > section:active,
-		.index-body-navigation > section:hover,
-		.index-body-navigation > section:focus,
-		.k3b-chapter-container > section:active,
-		.k3b-chapter-container > section:hover,
-		.k3b-chapter-container > section:focus {
-			transform: scale(.95);
-		}
 
 		.index-body-navigation > section > a,
 		.k3b-chapter-container > section > a {
@@ -704,7 +730,6 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 			border-top-right-radius: 5px;
 		}
 
-
 		.index-body-navigation > section p,
 		.k3b-chapter-container > section p {
 			text-align: center;
@@ -714,12 +739,51 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 			font-style: italic;
 		}
 
+		.index-body-navigation > section:active,
+		.index-body-navigation > section:hover,
+		.index-body-navigation > section:focus,
+		.k3b-chapter-container > section:active,
+		.k3b-chapter-container > section:hover,
+		.k3b-chapter-container > section:focus {
+			transform: scale(.95);
+		}
+
 	.k3b-sub-chapter-container section {
 		position: relative;
 		width: 100%;
 		height: 70vh;
 		margin: 4rem 0;
 		overflow: hidden;
+	}
+
+	.k3b-sub-chapter-container a {
+		text-decoration: none;
+		width: 100%;
+		height: 100%;
+		padding: 0 2rem;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: var(--mw);
+	}
+
+	.k3b-sub-chapter-container a:hover,
+	.k3b-sub-chapter-container a:active,
+	.k3b-sub-chapter-container a:focus {
+		color: var(--mw);
+	}
+
+	.k3b-sub-chapter-container h2 {
+		opacity: 0;
+		transition: all 500ms;
+	}
+
+	.k3b-sub-chapter-container p {
+		font: italic 1rem var(--tr);
+		opacity: 0;
+		transition: all 500ms;
 	}
 
 	.k3b-sub-chapter-container .picture-layer {
@@ -742,35 +806,7 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		transition: all 500ms;
 	}
 
-	.k3b-sub-chapter-container a {
-		text-decoration: none;
-		width: 100%;
-		height: 100%;
-		padding: 0 2rem;
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		color: var(--mw);
-	}
-
-	.k3b-sub-chapter-container a:hover,
-	.k3b-sub-chapter-container a:active,
-	.k3b-sub-chapter-container a:focus {
-		color: var(--mw);
-	}
-
-	.k3b-sub-chapter-container p {
-		font: italic 1rem var(--tr);
-		opacity: 0;
-		transition: all 500ms;
-	}
-
-	.k3b-sub-chapter-container h2 {
-		opacity: 0;
-		transition: all 500ms;
-	}
+/* III.C. EVENT PAGES AND PRAYER POINTS PAGE */
 
 	.event-page {
 		flex-direction: row;
@@ -788,16 +824,21 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 			transition: all 100ms;
 			opacity: .95;
 		}
-		
-		.event-page h2 {
-			width: 100%;
+
+			.event-page section:hover,
+			.event-page section:active,
+			.event-page section:focus {
+				transform: scale(.95);
+				opacity: 1;
+			}
+
+		.event-page a {
+			text-decoration: unset;
+			color: var(--gr);
 		}
 
-		.event-page section:hover,
-		.event-page section:active,
-		.event-page section:focus {
-			transform: scale(.95);
-			opacity: 1;
+		.event-page h2 {
+			width: 100%;
 		}
 		
 		.event-page img {
@@ -808,17 +849,12 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 			border: 1px solid var(--lt-gr);
 			border-radius: 5px;
 		}
-		
-			.event-page section a {
-				text-decoration: unset;
-				color: var(--gr);
-			}
 
-			.event-page section p{
-				text-align: center;
-				font-size: initial;
-				padding: 0 1rem;
-			}
+		.event-page p {
+			text-align: center;
+			font-size: initial;
+			padding: 0 1rem;
+		}
 		
 			
 .container-slider {
@@ -849,12 +885,12 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		transition: all 100ms;
 	}
 
-	.container-slider-btn > button:hover,
-	.container-slider-btn > button:active,
-	.container-slider-btn > button:focus {
-		outline: 0;
-		transform: scale(1.3);
-	}
+		.container-slider-btn > button:hover,
+		.container-slider-btn > button:active,
+		.container-slider-btn > button:focus {
+			outline: 0;
+			transform: scale(1.3);
+		}
 
 .slide {
 	position: absolute;
@@ -868,24 +904,6 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	height: 100%;
 	object-fit: contain;
 }
-
-#return-btn {
-	text-decoration: none;
-	font: bold 1.3rem var(--tr);
-	padding: .7rem 7%;
-	margin: 0 0 2rem;
-	border-radius: 5px;
-	text-transform: uppercase;
-	background-color: var(--lt-ylw);
-	color: var(--gr);
-	transition: all 250ms;
-}
-
-	#return-btn:hover,
-	#return-btn:active,
-	#return-btn:focus {
-		transform: scale(.95);
-	}
 
 .js-form-pryr-pts,
 .js-form-rgstr-abba90 {
@@ -1039,9 +1057,10 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	background-color: var(--lt-grn);
 }
 
+
 /* IV. FOOTER SELECTORS */
 
-/* IV.A. CONTACT US SELECTORS */
+
 .footer {
 	background-color: var(--lt-ylw);
 	padding: 2vh 15vw;
@@ -1106,18 +1125,18 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		width: 100%;
 	}
 
-	button[type="submit"] {
-		width: fit-content;
-		height: fit-content;
-		padding: .5rem 1.25rem;
-		border: 0;
-		border-radius: 5px;
-		align-self: center;
-		background-color: var(--grn);
-		font: 1.4rem var(--tr);
-		color: var(--mw);
-		transition: all 75ms;
-	}
+button[type="submit"] {
+	width: fit-content;
+	height: fit-content;
+	padding: .5rem 1.25rem;
+	border: 0;
+	border-radius: 5px;
+	align-self: center;
+	background-color: var(--grn);
+	font: 1.4rem var(--tr);
+	color: var(--mw);
+	transition: all 75ms;
+}
 
 	button[type="submit"]:active,
 	button[type="submit"]:hover {
@@ -1161,7 +1180,6 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		color: black;
 	}
 
-/* IV.B. CONTACT US FORM ANIMATION */
 	.js-form-contact-us.on {
 		animation: js-form-contact-us-appear 500ms forwards ease-out;
 		display: flex;
@@ -1197,7 +1215,9 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	}
 
 
-/* V. PENGATURAN MEDIA QUERY */
+/* V. MEDIA QUERY SELECTORS */
+
+
 @media (min-width: 24rem) {
 	#text-box-announcement {
 		font-size: 1.5rem;
@@ -1213,6 +1233,7 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		height: 15rem;
 	}
 }
+
 @media (min-width: 30rem) {
 	#text-box-announcement {
 		font-size: 1.7rem;
@@ -1230,11 +1251,13 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		height: 18rem;
 	}
 }
+
 @media (min-width: 36rem) {
 	.container-slider {
 		height: 20rem;
 	}
 }
+
 @media (min-width: 48rem) {
 	body {
 		grid-template-areas:
@@ -1257,13 +1280,13 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		transition: all 300ms;
 	}
 
-	.header.off {
-		opacity: 0;
-	}
-
-	.header.on {
-		opacity: 1;
-	}
+		.header.off {
+			opacity: 0;
+		}
+	
+		.header.on {
+			opacity: 1;
+		}
 	
 	#navigation {
 		display: flex;
@@ -1276,6 +1299,7 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		#navigation div:first-child {
 			height: 100%;
 			width: 10%;
+			margin-right: 1rem;
 			display: flex;
 			align-items: center;
 		}
@@ -1287,27 +1311,27 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		flex-direction: row;
 	}
 
-	.sidebar-link-container > a {
-		position: relative;
-		height: 65%;
-		margin: 0 .5rem;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		font-size: 1.05rem;
-		color: var(--gr-tr);
-		line-height: 1;
-		border-top-left-radius: 7px;
-		border-top-right-radius: 7px;
-		transition: all 150ms ease-in-out;
-	}
-
-		.sidebar-link-container > a:hover::before,
-		.sidebar-link-container > a.on::before {
-			content: "";
-			transform: scaleX(.8);
+		.sidebar-link-container > a {
+			position: relative;
+			height: 65%;
+			margin: 0 .5rem;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			font-size: 1.05rem;
+			color: var(--gr-tr);
+			line-height: 1;
+			border-top-left-radius: 7px;
+			border-top-right-radius: 7px;
+			transition: all 150ms ease-in-out;
 		}
+
+			.sidebar-link-container > a:hover::before,
+			.sidebar-link-container > a.on::before {
+				content: "";
+				transform: scaleX(.8);
+			}
 
 	.logo-byb-header {
 		height: 85%;
@@ -1339,23 +1363,25 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		max-width: 80vw;
 	}
 
+			.main > article:nth-child(2),
+			.main > article:nth-child(2) > section:first-child {
+				border-top-left-radius: 1rem;
+				border-top-right-radius: 1rem;
+			}
+
 	.text-box {
 		width: 100%;
 		background-color: var(--mw);
 	}
-	.text-box > * {
-		width: 80ch;
-	}
-	#text-box-announcement + article .text-box {
-		max-width: 70%;
-		padding: 0 3rem;
-	}
 
-	.main > article:nth-child(2),
-	.main > article:nth-child(2) > section:first-child {
-		border-top-left-radius: 1rem;
-		border-top-right-radius: 1rem;
-	}
+		.text-box > * {
+			width: 80ch;
+		}
+
+		#text-box-announcement + article .text-box {
+			max-width: 70%;
+			padding: 0 3rem;
+		}
 
 		#title-text-box > h1 {
 			font-size: 4.5rem;
@@ -1371,21 +1397,21 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		border-radius: 1rem;
 	}
 
-	#text-box-announcement > a > button {
-		padding: .8rem 4rem;
-	}
-
-	#text-box-announcement .deadline-format {
-		background-color: var(--prpl);
-	}
-
-		#text-box-announcement .deadline-format h4 {
-			font-size: 2.5em;
+		#text-box-announcement .deadline-format {
+			background-color: var(--prpl);
 		}
 
-		#text-box-announcement .deadline-format span {
-			font-size: 1.2em;
-		}
+			#text-box-announcement .deadline-format h4 {
+				font-size: 2.5em;
+			}
+
+			#text-box-announcement .deadline-format span {
+				font-size: 1.2em;
+			}
+
+			#text-box-announcement > a > button {
+				padding: .8rem 4rem;
+			}
 
 	.index-body-navigation,
 	.k3b-chapter-container {
@@ -1426,20 +1452,20 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 			width: 40vw;
 		}
 
-		.index-body-navigation > section > a,
-		.k3b-chapter-container > section > a {
-			transition: all 100ms;
-		}
+			.index-body-navigation > section:hover,
+			.k3b-chapter-container > section:hover {
+				transform: scale(.95);
+			}
 
-		.index-body-navigation > section:hover,
-		.k3b-chapter-container > section:hover {
-			transform: scale(.95);
-		}
+			.index-body-navigation > section > a,
+			.k3b-chapter-container > section > a {
+				transition: all 100ms;
+			}
 
-		.index-body-navigation > section:nth-child(3) {
-			width: 70vw;
-			grid-column: span 2;
-		}
+			.index-body-navigation > section:nth-child(3) {
+				width: 70vw;
+				grid-column: span 2;
+			}
 
 
 		.js-form-pryr-pts textarea {

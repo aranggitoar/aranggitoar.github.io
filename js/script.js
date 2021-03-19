@@ -1,14 +1,17 @@
-// FILE JS INI TERBAGI MENJADI 5 BAGIAN
-// 1. PENGATUR VARIABEL CSS SECARA DINAMIS
-// 2. ANIMASI UNTUK TABLET DAN LAPTOP
-// 3. ANIMASI UNTUK PONSEL
-// 4. ANIMASI UNTUK SEMUA
-// 5. NON-ANIMASI
+// THIS JAVASCRIPT FILE CAN BE THOUGHT OF BEING GROUPED IN 5 PARTS:
+// 1. CSS VARIABLE DYNAMIC SETTER
+// 2. ANIMATION FOR TABLET AND LAPTOP
+// 3. ANIMATION FOR MOBILE DEVICES
+// 4. ANIMASI FOR ALL
+// 5. NON-ANIMATION
 
-// 1. PENGATUR VARIABEL CSS SECARA DINAMIS
-// UKURAN LAYER ABU UNTUK GAMBAR FITUR
+
+
+// 1. CSS VARIABLE DYNAMIC SETTER
+// SIZE OF GREY LAYER FOR FEATURE IMAGES
 document.documentElement.style.setProperty("--pic-layer-height",
     `${document.querySelector('.title-picture-box > img').offsetHeight}px`);
+
 
 
 // 2. ANIMATION FOR TABLET AND LAPTOP
@@ -31,8 +34,9 @@ if (visualViewport.width > 768) {
 };
 
 
-// 3. ANIMASI UNTUK PONSEL
-// AKTIVASI TOMBOL BURGER SIDEBAR
+
+// 3. ANIMATION FOR MOBILE DEVICES
+// ACTIVATION OF BURGER SIDEBAR BUTTON
 function clickEventListenerForNavbarOnPhone (listener,animations){
     listener.addEventListener('click',function() {
         listener.classList.remove('off');
@@ -54,8 +58,8 @@ clickEventListenerForNavbarOnPhone(burgerClickToggle,sidebarAnimation);
 
 
 
-// 4. ANIMASI UNTUK SEMUA
-// UBAH WARNA BACKGROUND SIDEBAR/NAVBAR SESUAI HALAMAN SEKARANG
+// 4. ANIMATION FOR ALL
+// UNDERLINE AND MAKE BOLD THE NAVBAR LINK FOR CURRENT PAGE
 function whatToIndexFromThisPageURL (startIndex, endIndex) {
     return window.location.pathname.slice(startIndex,endIndex);
 };
@@ -89,7 +93,7 @@ changeBackgroundOfElementWithKnownIndex(sidebarPageElements,
 );
 
 
-// EFEK PARALLAX JQUERY
+// JQUERY PARALLAX ANIMATION FOR EVERY OTHER PAGE THAN K3B SUB CHAPTER PAGE
 let win = $(window);
 $.fn.is_visible = function(){    
     let viewport = {top: win.scrollTop()}; //window.pageYOffset
@@ -112,7 +116,7 @@ $(window).scroll(function(){
 });
 
 
-// PARALLAX EFFECT FOR K3B SUB CHAPTER PAGE
+// JQUERY PARALLAX ANIMATION FOR K3B SUB CHAPTER PAGE
 const k3BSubChapterContainers = document.querySelectorAll(".k3b-sub-chapter-container section");
 
 k3BSubChapterContainers.forEach((element) => {
@@ -139,8 +143,7 @@ k3BSubChapterContainers.forEach((element) => {
 });
 
 
-
-// CAROUSEL UNTUK HALAMAN ABBA90 DAN GA90
+// CAROUSEL ANIMATIONS
 const slidesToCarousel = document.querySelectorAll('.slide');
 const nextBtn = document.querySelector('.next-btn');
 const prevBtn = document.querySelector('.prev-btn');
@@ -173,7 +176,7 @@ if (nextBtn != null) {
 };
 
 
-// AKTIVASI FORM FOOTER
+// FOOTER FORM ANIMATION
 const contactUsBtn = document.getElementsByClassName('contact-us-btn')[0];
 const contactUsForm = document.getElementsByClassName('js-form-contact-us')[0];
 
@@ -184,8 +187,8 @@ contactUsBtn.addEventListener('click', function (){
 
 
 
-// 5. NON-ANIMASI
-// COUNTDOWN
+// 5. NON-ANIMATIONS
+// EVENT COUNTDOWNS
 const months = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
 const weekdays = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
 
@@ -242,7 +245,7 @@ if (deadline != null) {
 }
 
 
-// AJAX UNTUK FORM HUBUNGI KAMI
+// AJAX FOR CONTACT US FORM
 contactUsForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
@@ -266,7 +269,8 @@ contactUsForm.addEventListener('submit', (e) => {
     }, 500);
 });
 
-// AJAX UNTUK FORM POKOK DOA
+
+// AJAX FOR PRAYER POINTS FORM
 const prayerPointsForm = document.getElementsByClassName('js-form-pryr-pts')[0];
 const prayerPointsFormTextToChange = document.querySelector('.text-box > h2');
 if(prayerPointsForm != null) {
@@ -291,13 +295,12 @@ if(prayerPointsForm != null) {
             var textChange = document.createTextNode("Terima kasih, kami akan mendoakan Anda!");
             prayerPointsFormTextToChange.innerHTML = "";
             prayerPointsFormTextToChange.appendChild(textChange);
-            document.documentElement.style.setProperty("--layer-height",
-                `${document.querySelector('.footer').offsetTop}px`);
         }, 500);
     });
 };
 
-// AJAX UNTUK FORM PENDAFTARAN
+
+// AJAX FOR REGISTRATION FORM
 const aBBA90RegistrationForm = document.getElementsByClassName('js-form-rgstr-abba90')[0];
 const aBBA90RegistrationFormTextToChange = document.getElementsByClassName('js-form-rgstr-text-to-change')[0];
 if(aBBA90RegistrationForm != null) {
