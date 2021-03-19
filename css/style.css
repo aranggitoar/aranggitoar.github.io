@@ -47,8 +47,6 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: var(--tr);
 	vertical-align: baseline;
 }
 
@@ -162,13 +160,13 @@ footer {
 
 .header {
 	height: 100%;
-	width: 75%;
+	width: 60%;
 	grid-area: header;
 	position: fixed;
 	display: none;
 	z-index: 5;
 	background-color: var(--lt-ylw);
-	filter: drop-shadow(0 0 100px var(--gr));
+	filter: drop-shadow(0 0 100px var(--gr-tr));
 }
 
 hr {
@@ -190,7 +188,7 @@ h2 {
 
 h3 {
 	font-weight: bold;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	margin: 1rem 0 .7rem;
 }
 
@@ -256,8 +254,8 @@ ol {
 }
 
 .logo-byb-header {
-	width: 50%;
-	border-radius: 50%;
+	width: 80%;
+	max-width: 250px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -274,20 +272,20 @@ ol {
 	align-items: center;
 	height: auto;
 	width: 100%;
-	padding-top: calc(100vh - 97.5vh);
+	padding-top: 2.5rem;
 }
 
-.sidebar-link {
+.sidebar-link-container {
 	margin: 1rem;
 	width: 100%;
-	height: 60vh;
+	height: 45vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	align-items: center;
 }
 
-	.sidebar-link > a {
+	.sidebar-link-container > a {
 		position: relative;
 		width: 100%;
 		display: block;
@@ -299,36 +297,34 @@ ol {
 		word-spacing: .1rem;
 	}
 
-	.sidebar-link > a.on {
-		background-color: var(--lt-gr-tr);
+	.sidebar-link-container > a.on {
 		color: var(--gr);
 	}
 
-	.sidebar-link > a:hover {
-		background-color: var(--lt-gr-tr);
+	.sidebar-link-container > a:hover {
 		color: var(--gr);
 	}
 
-	.sidebar-link > a::before {
+	.sidebar-link-container > a::before {
 		content: "";
 		position: absolute;
 		width: 100%;
 		height: .2rem;
 		left: 0;
 		bottom: 0;
-		background-color: var(--gr-tr);
+		background-color: var(--gr);
 		transition: all 200ms;
 		transform: scaleX(0);
 	}
 
-	.sidebar-link > a:hover::before,
-	.sidebar-link > a.on::before {
+	.sidebar-link-container > a:hover::before,
+	.sidebar-link-container > a.on::before {
 		content: "";
-		transform: scaleX(1);
+		transform: scaleX(.4);
 	}
 	
-	.sidebar-link > a:visited {
-		color: "";
+	.sidebar-link-container > a:visited {
+		color: 0;
 	}
 
 /* II.A. SIDEBAR ANIMATION
@@ -513,13 +509,12 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 			padding: .8rem 2rem;
 			background-color: var(--prpl);
 			border: 1px solid var(--prpl);
-			border-radius: .4rem;
+			border-radius: 5px;
 			filter: drop-shadow(0 0 2rem var(--gr-tr));
-			transform: scale(1.04);
 		}
 
 		#text-box-announcement > a > button:hover {
-			transform: scale(1);
+			transform: scale(.95);
 		}
 
 		#text-box-announcement .deadline-format h4 {
@@ -672,30 +667,50 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		justify-self: center;
 		align-items: center;
 		text-align: center;
-		border: 1px solid var(--gr);
+		border: 1px solid var(--x-lt-gr);
 		border-radius: 5px;
 		box-shadow: 0 0 25px var(--x-lt-gr);
+		transition: all 200ms;
+	}
+	
+	.k3b-chapter-container h3 {
+		padding: 0 1rem;
 	}
 
-		.index-body-navigation > section > div > img,
-		.k3b-chapter-container > section > img {
-			bottom: 0;
-			object-fit: cover;
-			min-height: 300px;
-			max-height: 300px;
-			border-bottom: 1px solid var(--gr);
-			width: 100%;
+		.index-body-navigation > section:active,
+		.index-body-navigation > section:hover,
+		.index-body-navigation > section:focus,
+		.k3b-chapter-container > section:active,
+		.k3b-chapter-container > section:hover,
+		.k3b-chapter-container > section:focus {
+			transform: scale(.95);
 		}
 
 		.index-body-navigation > section > a,
 		.k3b-chapter-container > section > a {
-			padding: 0 1rem;
+			text-decoration: unset;
+			color: var(--gr);
 		}
 
-		.index-body-navigation > section > p,
-		.k3b-chapter-container > section > p {
+		.index-body-navigation > section img,
+		.k3b-chapter-container > section img {
+			width: 100%;
+			bottom: 0;
+			object-fit: cover;
+			min-height: 300px;
+			max-height: 300px;
+			border-bottom: 1px solid var(--x-lt-gr);
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+		}
+
+
+		.index-body-navigation > section p,
+		.k3b-chapter-container > section p {
 			text-align: center;
 			padding: 0 2rem 1.5rem;
+			opacity: .85;
+			font-size: 1rem;
 			font-style: italic;
 		}
 
@@ -758,46 +773,54 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	}
 
 	.event-page {
-		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		justify-content: center;
 	}
 
 		.event-page section {
-			max-height: 80vh;
+			max-height: 90vh;
+			width: 90vw;
 			margin: 1rem;
+			padding: .25rem;
+			border: 1px solid var(--lt-gr);
+			border-radius: 5px;
+			box-shadow: 0 0 25px var(--x-lt-gr);
 			transition: all 100ms;
+			opacity: .95;
 		}
 		
 		.event-page h2 {
-			padding: 0 4rem;
+			width: 100%;
 		}
 
 		.event-page section:hover,
 		.event-page section:active,
 		.event-page section:focus {
-			filter: drop-shadow(0 0 25px var(--x-lt-gr));
-			transform: scale(1.07);
+			transform: scale(.95);
+			opacity: 1;
 		}
 		
 		.event-page img {
-			max-height: 80vh !important;
+			width: auto;
+			max-width: 50vw;
+			max-height: 50vh !important;
+			margin: 1rem;
+			border: 1px solid var(--lt-gr);
+			border-radius: 5px;
 		}
+		
+			.event-page section a {
+				text-decoration: unset;
+				color: var(--gr);
+			}
 
-			.event-page section p,
-			.event-page section a h3 {
-				padding: 0 1rem;
+			.event-page section p{
 				text-align: center;
-				transition: all 100ms;
+				font-size: initial;
+				padding: 0 1rem;
 			}
 		
-			.event-page section a h3:hover,
-			.event-page section a h3:active,
-			.event-page section a h3:focus {
-				transform: scale(1.15);
-			}
-
+			
 .container-slider {
 	position: relative;
 	width: 90vw;
@@ -849,12 +872,11 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 #return-btn {
 	text-decoration: none;
 	font: bold 1.3rem var(--tr);
-	padding: .4rem 8%;
+	padding: .7rem 7%;
 	margin: 0 0 2rem;
-	border: 1.5px solid var(--gr-tr);
 	border-radius: 5px;
 	text-transform: uppercase;
-	background-color: var(--mw);
+	background-color: var(--lt-ylw);
 	color: var(--gr);
 	transition: all 250ms;
 }
@@ -862,9 +884,7 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	#return-btn:hover,
 	#return-btn:active,
 	#return-btn:focus {
-		filter: drop-shadow(0 0 5px var(--lt-gr));
-		border: 0;
-		transform: scale(1.05);
+		transform: scale(.95);
 	}
 
 .js-form-pryr-pts,
@@ -999,10 +1019,6 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	padding: 0;
 }
 
-.d-day {
-	font-style: italic;
-}
-
 .webinar-registration-btn {
 	width: 50%;
 	height: auto;
@@ -1018,7 +1034,7 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 .webinar-registration-btn:hover,
 .webinar-registration-btn:active,
 .webinar-registration-btn:focus {
-	transform: scale(1.07);
+	transform: scale(.95);
 	color: var(--mw);
 	background-color: var(--lt-grn);
 }
@@ -1056,10 +1072,15 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		margin-bottom: .5rem;
 	}
 
+	.copyright img {
+		height: 32px;
+	}
+
 		.copyright > div > * {
 			font-style: italic;
 			margin: .2rem;
 		}
+
 
 .js-form-contact-us {
 	flex-direction: column;
@@ -1069,8 +1090,8 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	max-width: 800px;
 	margin: .7rem 0 1.5rem;
 	padding: .7rem 2rem 1rem;
-	background-color: var(--gr);
-	border-radius: 15px;
+	background-color: var(--gr-tr);
+	border-radius: 10px;
 	filter: drop-shadow(0 0 15px var(--gr-tr));
 }
 
@@ -1086,9 +1107,9 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	}
 
 	button[type="submit"] {
-		width: 7rem;
-		height: 2.3rem;
-		margin-top: 1rem;
+		width: fit-content;
+		height: fit-content;
+		padding: .5rem 1.25rem;
 		border: 0;
 		border-radius: 5px;
 		align-self: center;
@@ -1100,7 +1121,7 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 
 	button[type="submit"]:active,
 	button[type="submit"]:hover {
-		transform: scale(1.1);
+		transform: scale(.95);
 		outline: 0;
 	}
 
@@ -1119,16 +1140,21 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 
 .contact-us-btn {
 	text-align: center;
-	text-decoration: none;
+	text-decoration: unset;
 	font: bold 1.7rem var(--tr);
-	padding: 1rem;
-	display: inline-block;
+	margin: 1.5rem 0;
+	padding: .7rem 1rem;
+	display: block;
+	background-color: var(--mw);
+	border-radius: 5px;
 	transition: all 100ms;
 }
 
 	.contact-us-btn:active,
-	.contact-us-btn:hover {
-		transform: scale(1.1);
+	.contact-us-btn:hover,
+	.contact-us-btn:focus {
+		transform: scale(.95);
+		color: var(--gr);
 	}
 
 	.contact-us-btn:visited {
@@ -1253,56 +1279,37 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 			margin-right: .5rem;
 		}
 
-	.sidebar-link {
+	.sidebar-link-container {
 		height: 100%;
 		width: 50%;
 		margin: 0;
 		flex-direction: row;
 	}
 
-	.sidebar-link > a {
+	.sidebar-link-container > a {
 		position: relative;
-		height: 70%;
+		height: 65%;
 		margin: 0 .5rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
-		font-size: 1.2rem;
+		font-size: 1.05rem;
+		color: var(--gr-tr);
 		line-height: 1;
 		border-top-left-radius: 7px;
 		border-top-right-radius: 7px;
 		transition: all 150ms ease-in-out;
 	}
 
-		.sidebar-link > a.on {
-			background-color: #fff0;
-		}
-
-		.sidebar-link > a:hover {
-			background-color: #fff0;
-		}
-
-		.sidebar-link > a::before {
+		.sidebar-link-container > a:hover::before,
+		.sidebar-link-container > a.on::before {
 			content: "";
-			position: absolute;
-			width: 100%;
-			height: .2rem;
-			bottom: 0;
-			background-color: var(--gr-tr);
-			transition: all 200ms;
-			transform: scaleX(0);
-		}
-
-		.sidebar-link > a:hover::before,
-		.sidebar-link > a.on::before {
-			content: "";
-			transform: scaleX(.7);
+			transform: scaleX(.8);
 		}
 
 	.logo-byb-header {
 		height: 100%;
-		width: auto;
 	}
 
 	.js-click-fn-burger {
@@ -1363,7 +1370,7 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		border-radius: 1rem;
 	}
 
-	#text-box-annoucement > a > button {
+	#text-box-announcement > a > button {
 		padding: .8rem 4rem;
 	}
 
@@ -1382,84 +1389,57 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 	.index-body-navigation,
 	.k3b-chapter-container {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
 		align-items: center;
 	}
 
 	.k3b-chapter-container {
-		grid-template-columns: 1fr 1fr;
+		width: 70vw;
 	}
 	
-	.index-body-navigation > section,
-	.k3b-chapter-container > section {
-		background-color: var(--mw);
-		grid-column-gap: 2rem;
-		transition: all 100ms;
-	}
+		.k3b-sub-chapter-container a {
+			padding: 5rem;
+		}
 
-	.index-body-navigation > section {
-		width: 25vw;
-	}
+		.k3b-sub-chapter-container p {
+			font-size: 1.2rem;
+		}
 
-	.k3b-chapter-container > section {
-		width: 35vw;
-	}
+		.k3b-sub-chapter-container h2 {
+				font-size: 2.5rem;
+		}
+		
+		.k3b-sub-chapter-container section {
+			height: 85vh;
+			width: 35vw;
+		}
 
-		.index-body-navigation > section:hover,
-		.k3b-chapter-container > section:hover {
-			transform: scale(1.05);
+		.index-body-navigation > section,
+		.k3b-chapter-container > section {
+			background-color: var(--mw);
+			grid-column-gap: 2rem;
+			transition: all 100ms;
+		}
+
+		.index-body-navigation > section {
+			width: 40vw;
 		}
 
 		.index-body-navigation > section > a,
 		.k3b-chapter-container > section > a {
 			transition: all 100ms;
-			padding: 0 2rem;
 		}
 
-		.index-body-navigation > section > a:hover,
-		.k3b-chapter-container > section > a:hover {
-			transform: scale(1.15);
+		.index-body-navigation > section:hover,
+		.k3b-chapter-container > section:hover {
+			transform: scale(.95);
 		}
 
-		.index-body-navigation > section:nth-child(5) {
+		.index-body-navigation > section:nth-child(3) {
+			width: 70vw;
 			grid-column: span 2;
 		}
 
-	.k3b-sub-chapter-container {
-		width: 70vw;
-	}
-
-	.k3b-sub-chapter-container section {
-		height: 85vh;
-	}
-
-	.k3b-sub-chapter-container a {
-		padding: 5rem;
-	}
-
-	.k3b-sub-chapter-container p {
-		font-size: 1.2rem;
-	}
-
-	.k3b-sub-chapter-container h2 {
-		font-size: 2.5rem;
-	}
-
-	.event-page section {
-		width: 95vw;
-		max-height: 100vh;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-	}
-	
-	.event-page section * {
-		width: 80%;
-	}
-
-	.event-page section div:nth-child(2) {
-		padding: 0 2rem;
-	}
 
 		.js-form-pryr-pts textarea {
 			margin: 2.5rem 0 0;

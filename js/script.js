@@ -203,7 +203,7 @@ if (deadline != null) {
     const hours = futureDate.getHours();
     const minutes = futureDate.getMinutes();
 
-    if (dDay != null) {dDay.textContent = `Webinar akan berlangsung pada ${weekday} ${date} ${month} ${year} ${hours}:${(minutes<10?'0':'')+minutes} WIB`};
+    if (dDay != null) {dDay.textContent = `${weekday} ${date} ${month} ${year}`};
 
     const futureTime = futureDate.getTime();
 
