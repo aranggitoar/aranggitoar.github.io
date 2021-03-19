@@ -329,8 +329,6 @@ if(aBBA90RegistrationForm != null) {
             aBBA90RegistrationFormTextToChange.style.marginTop = "3.5rem";
             aBBA90RegistrationFormTextToChange.style.textAlign = "center";
             aBBA90RegistrationFormTextToChange.appendChild(textChange);
-            document.documentElement.style.setProperty("--layer-height",
-                `${document.querySelector('.footer').offsetTop}px`);
         }, 500);
     });
 };

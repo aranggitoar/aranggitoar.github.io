@@ -1276,7 +1276,8 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		#navigation div:first-child {
 			height: 100%;
 			width: 10%;
-			margin-right: .5rem;
+			display: flex;
+			align-items: center;
 		}
 
 	.sidebar-link-container {
@@ -1309,7 +1310,7 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 		}
 
 	.logo-byb-header {
-		height: 100%;
+		height: 85%;
 	}
 
 	.js-click-fn-burger {
