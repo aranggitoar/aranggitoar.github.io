@@ -44,6 +44,7 @@
 Semua belum selesai di revisi.
 
 
+
 ~~~~~~~
 # about-atrpg.html - Halaman Atribusi
 
@@ -53,5 +54,436 @@ Semua belum selesai di revisi.
 
 
 ~~~~~~~
-Ubah posisi header, pokok doa, dan buku pak Bob.
+# halaman baru
+
+Cari tempat untuk posisikan pokok doa dan buku pak Bob.
+
 Siapkan satu halaman untuk masukkan TSI sebagai Alkitab yang orang bisa akses langsung dalam halaman tersebut dengan format seperti bible.com. Lihat apa yang terbaik untuk ini, bekerja dengan format file USFM (cari tahu apa itu) atau ubah itu menjadi file JSON.
+
+
+
+~~~~~~~
+# event-rgstr.html - Pendaftaran ABBA 90
+
+Persingkat halaman pendaftaran ABBA 90, di atas beri informasi apa itu ABBA 90 dan bagaimana mendaftar dan presentasi diberikan di bagian bawah saja kalau mereka mau baca lebih lanjut.
+
+
+
+~~~~~~~
+# event.html - Halaman Kegiatan
+
+Untuk sementar waktu halaman kegiatan tidak ditampilkan dulu. Kegiatan yang akan berlangsung di paling atas, kemudian di bawahnya ada:
+	- Tahun 2021
+		a. kegiatan 1
+		b. kegiatan 2
+	- Tahun 2020
+		a. kegiatan 1
+		b. kegiatan 2
+
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="/photo/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/photo/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/photo/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/photo/favicons/site.webmanifest">
+        <link rel="mask-icon" href="/photo/favicons/safari-pinned-tab.svg" color="#faf16b">
+        <link rel="shortcut icon" href="/photo/favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#faf16b">
+        <meta name="msapplication-config" content="/photo/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" contents="Benih Yang Baik adalah situs rumah materi pemuridan K3B.">
+        <title>BYB - Kegiatan</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+				integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+				crossorigin="anonymous"></script>
+<script defer>
+			$(function(){$("header").load("header.html")});
+			$(function(){$("footer").load("footer.html")});
+			setTimeout(() => {
+				var script = document.createElement('script');
+				script.src = "js/script.js";
+				script.type = "text/javascript";
+				document.getElementsByTagName('head')[0].appendChild(script);
+			}, 1000);
+		</script>
+    </head>
+    <body>
+		<a class="js-click-fn-burger" href="javascript:void(null);" role="button" alt="Tombol untuk mengaktifkan menu navigasi">
+            <span class="burger"></span>
+            <span class="burger x-burger"></span>
+            <span class="burger"></span>
+        </a>
+		<header class="sidebar-animation header"></header>
+		<main class="main">
+            <article id="title-box">
+				<div class="js-picture-parallax-container title-picture-box">
+					<div class="js-picture-layer-parallax picture-layer"></div>
+					<img class="js-picture-parallax picture" src="photo/main-page/gerakan-baca-alkitab-webinar-alkitabiah.jpg" alt="Foto dua bapak sedang bertegur-sapa.">
+				</div>
+				<div id="title-text-box">
+					<h1>Kegiatan</h1>
+				</div>
+			</article>
+            <article>
+				<section class="text-box event-page">	
+					<hr class="hr-light">
+					<h2>Akan Berlangsung</h2>
+					<hr class="hr-light">
+					<section>
+						<a href="event-rgstr.html" alt="Tautan menuju halaman pendaftaran ABBA90 Gelombang Kedua Tahun 2021">
+							<div>
+								<h3>ABBA 90 II Tahun 2021</h3>
+								<p>(Ayo Bersama Baca Alkitab dalam 90 Hari)</p>
+							</div>
+							<div>
+								<img class="picture" src="photo/event-pages/pendaftaran-gerakan-baca-alkitab-abba-90.jpg" alt="Foto laki-laki membaca Alkitab sambil berdiri.">
+							</div>
+							<div>
+								<p>Sekarang adalah kesempatan Anda untuk memahami seluruh Perjanjian Baru, daftarkan diri untuk ABBA90!</p>
+							</div>
+						</a>
+					</section>
+				</section>
+				<section class="text-box event-page">
+					<hr class="hr-light">
+					<h2>Sedang Berlangsung</h2>
+					<hr class="hr-light">
+					<section>
+						<a href="event-abba9.html" alt="Tautan menuju halaman ABBA90">
+							<div>
+								<h3>ABBA 90</h3>
+								<p>(Ayo Baca dan Belajar Alkitab dalam 90 Hari)</p>
+							</div>
+							<div>
+								<img class="picture" src="photo/event-pages/poster-pendaftaran-peserta-abba-90.png" alt="Poster pendaftaran gerakan baca Alkitab ABBA 90.">
+							</div>
+							<div>
+								<p>Ini adalah halaman dokumentasi ABBA90 I tahun 2021 yang sedang berlangsung.</p>
+							</div>
+						</a>
+					</section>
+				</section>
+				<section class="text-box event-page">
+					<hr class="hr-light">
+					<h2>Telah Terlaksana</h2>
+					<hr class="hr-light">
+					<section>
+						<a href="event-webnr.html" alt="Tautan menuju halaman webinar">
+							<div>
+								<h3>Sekarang Anda Dapat Memahami Alkitab</h3>
+							</div>
+							<div>
+								<img class="picture" src="photo/event-pages/webinar/seminar-13-maret-2021-dr-bob-utley.png" alt="Poster webinar Sekarang Anda Dapat Memahami Alkitab oleh Dr Bob Utley pada 13 Maret 2021.">
+							</div>
+							<div>
+								<p>Webinar ini adalah kesempatan langka untuk Anda dapat memahami Alkitab secara pribadi!</p>
+							</div>
+						</a>
+					</section>
+					<section>
+						<a href="event-ga912.html" alt="Tautan menuju halaman GA90">
+							<div>
+								<h3>GA90</h3>
+								<p>(Gerakan Alkitab 90, Tantangan Membaca Perjanjian Baru dalam 90 Hari)</p>
+							</div>
+							<div>
+								<img class="picture" src="photo/event-pages/byb-gerakan-alkitab-90.jpeg" alt="Poster pendaftaran gerakan baca Alkitab GA90.">
+							</div>
+							<div>
+								<p>Ini adalah halaman dokumentasi ABBA90 pada tahun lalu. Pada waktu itu judulnya adalah Gerakan Alkitab 90, atau Tantangan Membaca Perjanjian Baru dalam 90 Hari.</p>
+							</div>
+						</a>
+					</section>
+				</section>
+                <hr class="hr-light">
+                <a id="return-btn" role="button" href="index.html">Kembali</a>
+            </article>
+        </main>
+		<footer class="footer"></footer>
+	</body>
+</html>
+
+
+
+~~~~~~~
+# event-webnr.html - Halaman Webinar Sekarang Anda Dapat Memahami Alkitab
+
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="/photo/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/photo/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/photo/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/photo/favicons/site.webmanifest">
+        <link rel="mask-icon" href="/photo/favicons/safari-pinned-tab.svg" color="#faf16b">
+        <link rel="shortcut icon" href="/photo/favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#faf16b">
+        <meta name="msapplication-config" content="/photo/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" contents="Benih Yang Baik adalah situs rumah materi pemuridan K3B.">
+        <title>Benih Yang Baik</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+				integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+				crossorigin="anonymous"></script>
+        <script defer>
+			$(function(){$("header").load("header.html")});
+			$(function(){$("footer").load("footer.html")});
+			setTimeout(() => {
+				var script = document.createElement('script');
+				script.src = "js/script.js";
+				script.type = "text/javascript";
+				document.getElementsByTagName('head')[0].appendChild(script);
+			}, 1000);
+		</script>
+    </head>
+    <body>
+		<a class="js-click-fn-burger" href="javascript:void(null);" role="button" alt="Tombol untuk mengaktifkan menu navigasi">
+            <span class="burger"></span>
+            <span class="burger x-burger"></span>
+            <span class="burger"></span>
+        </a>
+		<header class="sidebar-animation header"></header>
+        <main class="main">
+            <article id="title-box">
+                <div class="js-picture-parallax-container title-picture-box"><img class="js-picture-parallax picture" src="photo/event-pages/webinar/seminar-13-maret-2021-dr-bob-utley.png" alt="Poster webinar Sekarang Anda Dapat Memahami Alkitab oleh Dr Bob Utley pada 13 Maret 2021."></div>
+            </article>
+            <article>
+                <section class="text-box">
+                    <h2>Tentang Webinar Sekarang Anda Dapat Memahami Alkitab</h2>
+                    <p>Webinar ini telah dilaksanakan dengan sukses oleh anugerah TUHAN Yesus Kristus pada 13 Maret 2021 kemarin. Kami bersyukur kepada TUHAN atas ketersediaan Dr. Bob Utley dan tim serta 187 peserta yang mengikuti webinar ini.</p>
+                    <p>Tunggu webinar berbobot dan alkitabiah di lain waktu!</p>
+                    <p>Untuk sementara waktu Anda dapat menemukan penjelasan singkat tentang webinar tersebut di bawah.</p>
+                </section>
+                <hr class="hr-light">
+                <section class="text-box">
+                    <h2>Sekarang Anda Dapat Memahami Alkitab</h2>
+                    <p>Webinar <strong>Sekarang Anda Dapat Memahami Alkitab</strong> merupakan kerjasama antara <i>Bible Lessons International</i> dengan gerakan baca Alkitab ABBA 90 yang diselenggarakan oleh Benih Yang Baik (BYB) dan Yayasan Alkitab BahasaKita (Albata).</p>
+                    <p>Webinar ini bersifat interdenominasional dan bertujuan untuk memperkuatkan dan melengkapi Jemaat Indonesia di dalam Firman Allah, yakni Alkitab.</p>
+                    <p>Webinar ini akan memberikan kesempatan yang unik dan baru untuk Anda dapat memperoleh kualifikasi hermeneutik, yang meliputi:</p>
+                    <ol>
+                        <li>Prinsip-prinsip Baca Alkitab</li>                        
+                        <li>Prinsip Pengidentifikasian Jenis Sastra Alkitabiah</li>                        
+                        <li>Prinsip-prinsip Penafsiran Alkitab</li>
+                    </ol>
+                </section>
+                <hr class="hr-light">
+                <section class="text-box">
+                    <img class="picture event-pictures" src="photo/event-pages/webinar/seminar-13-maret-2021-dr-bob-utley.png" alt="Poster webinar Sekarang Anda Dapat Memahami Alkitab oleh Dr Bob Utley pada 13 Maret 2021.">
+                </section>
+                <hr class="hr-light">
+                <a id="return-btn" role="button" href="event.html">Kembali</a>
+            </article>
+        </main>
+        <footer class="footer"></footer>
+    </body>
+</html>
+
+
+
+~~~~~~~
+# prayp.html - Halaman Pokok Doa
+
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="/photo/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/photo/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/photo/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/photo/favicons/site.webmanifest">
+        <link rel="mask-icon" href="/photo/favicons/safari-pinned-tab.svg" color="#faf16b">
+        <link rel="shortcut icon" href="/photo/favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#faf16b">
+        <meta name="msapplication-config" content="/photo/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" contents="Benih Yang Baik adalah situs rumah materi pemuridan K3B.">
+        <title>BYB - Pokok Doa Anda</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+				integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+				crossorigin="anonymous"></script>
+        <script defer>
+			$(function(){$("header").load("header.html")});
+			$(function(){$("footer").load("footer.html")});
+			setTimeout(() => {
+				var script = document.createElement('script');
+				script.src = "js/script.js";
+				script.type = "text/javascript";
+				document.getElementsByTagName('head')[0].appendChild(script);
+			}, 1000);
+		</script>
+    </head>
+    <body>
+		<a class="js-click-fn-burger" href="javascript:void(null);" role="button" alt="Tombol untuk mengaktifkan menu navigasi">
+            <span class="burger"></span>
+            <span class="burger x-burger"></span>
+            <span class="burger"></span>
+        </a>
+		<header class="sidebar-animation header"></header>
+        <main class="main">
+            <article id="title-box">
+				<div class="js-picture-parallax-container title-picture-box"><div class="js-picture-layer-parallax picture-layer"></div><img class="js-picture-parallax picture" src="photo/main-page/jangan-bergumul-sendiri.jpg" alt="Foto laki-laki dengan baju oranye sedang tertunduk berdoa."></div>
+				<div id="title-text-box">
+					<h1>Pokok Doa Anda</h1>
+				</div>
+			</article>
+            <article>
+                <section class="text-box">
+                    <h2>Apakah kami boleh berdoa untuk Anda?</h2>
+                    <!-- <section class="text-picture-box">
+                        <div class="picture-layer"></div>
+                        <img class="picture" src="photo/prayer-points-page/kami-akan-berdoa-untuk-anda.jpg" alt="Foto tiga perempuan saling menguatkan.">
+                    </section>
+                </section>
+                <section class="text-box"> -->
+                    <!-- <h2>Kami akan mendoakan Anda!</h2> -->
+                    <form class="js-form-pryr-pts">
+                        <legend>E-mail:</legend>
+                        <label for="e-mail">
+                            <input id="e-mail" name="e-mail" type="email" placeholder="E-mail Anda.." required>
+                        </label>
+                        <legend>Nama Lengkap:</legend>
+                        <label for="name">
+                            <input id="name" name="name" minlength="3" type="text" placeholder="Nama Anda.." required>
+                        </label>
+                        <legend>Pokok Doa Anda:</legend>
+                        <textarea id="prayer-points" name="prayer-points" placeholder="Pokok doa Anda.." required></textarea>
+                        <button type="submit">Kirim</button>
+                    </form>
+                </section>
+                <!-- <section class="js-picture-parallax-container text-picture-box">
+                    <div class="js-picture-layer-parallax picture-layer"></div>
+                    <img class="js-picture-parallax picture" src="photo/prayer-points-page/persekutuan-persaudaraan-kita.jpg" alt="Foto tiga laki-laki saling menguatkan.">
+                </section> -->
+                <hr class="hr-light">
+                <a id="return-btn" role="button" href="index.html">Kembali</a>
+            </article>
+        </main>
+        <footer class="footer"></footer>
+    </body>
+</html>
+
+
+
+~~~~~~~
+# study.html - Halaman Alkitab TSI dan Tafsiran PB oleh Dr. Bob Utley
+
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="/photo/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/photo/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/photo/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/photo/favicons/site.webmanifest">
+        <link rel="mask-icon" href="/photo/favicons/safari-pinned-tab.svg" color="#faf16b">
+        <link rel="shortcut icon" href="/photo/favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#faf16b">
+        <meta name="msapplication-config" content="/photo/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" contents="Benih Yang Baik adalah situs rumah materi pemuridan K3B.">
+        <title>BYB - Materi Alkitabiah</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+				integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+				crossorigin="anonymous"></script>
+        <script defer>
+			$(function(){$("header").load("header.html")});
+			$(function(){$("footer").load("footer.html")});
+			setTimeout(() => {
+				var script = document.createElement('script');
+				script.src = "js/script.js";
+				script.type = "text/javascript";
+				document.getElementsByTagName('head')[0].appendChild(script);
+			}, 1000);
+		</script>
+    </head>
+    <body>
+		<a class="js-click-fn-burger" href="javascript:void(null);" role="button" alt="Tombol untuk mengaktifkan menu navigasi">
+            <span class="burger"></span>
+            <span class="burger x-burger"></span>
+            <span class="burger"></span>
+        </a>
+		<header class="sidebar-animation header"></header>
+        <main class="main">
+            <article id="title-box">
+				<div class="js-picture-parallax-container title-picture-box"><div class="js-picture-layer-parallax picture-layer"></div><img class="js-picture-parallax picture" src="photo/main-page/materi-pelajaran-alkitabiah-gratis.jpg" alt="Foto Alkitab dan leksikon bahasa Yunani dengan kacamata di atasnya."></div>
+				<div id="title-text-box">
+					<h1>Materi Alkitabiah</h1>
+				</div>
+			</article>
+            <article>
+                <section class="text-box">
+                    <h2>Komentari Alkitab</h2>
+                </section>
+                <section class="text-box">
+                    <h2>Penafsiran Alkitab</h2>
+                </section>
+            </article>
+            <article>
+                <hr class="hr-light">
+                <a href="index.html"><a id="return-btn" role="button" href="index.html">Kembali</a></a>
+</div>
+            </article>
+        </main>
+        <footer class="footer"></footer>
+    </body>
+</html>
+
+
+
+~~~~~~~
+# pryr-pts.php
+
+<?php
+      $servername = "localhost";
+      $username = "root";
+      $password = "";
+      $dbname = "situs-pemuridan";
+      $conn = mysqli_connect($servername, $username, $password, $dbname);
+      if (!$conn) {
+            die("ERROR: Tidak bisa terhubung. " 
+            . mysqli_connect_error());
+      }
+
+      if(!empty($_POST['e-mail'].$_POST['name'].$_POST['prayer-points'])){
+            $email = mysqli_real_escape_string($conn, $_POST['e-mail']);
+            $name = mysqli_real_escape_string($conn, $_POST['name']);
+            $prayerpoints = mysqli_real_escape_string($conn, $_POST['prayer-points']);
+            
+            $sql = "INSERT INTO prayer_points_form(email,name,prayerpoints) VALUES ('$email', '$name', '$prayerpoints')";
+        
+            if(mysqli_query($conn, $sql)){
+                echo 'Message Added...';
+            } else {
+                echo 'ERROR: '. mysqli_error($conn);
+            }
+      }      
+
+      mysqli_close($conn);
+?>

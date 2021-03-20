@@ -169,10 +169,17 @@ if (nextBtn != null) {
         } else if (counter < 0) {
             counter = slidesToCarousel.length - 1;
         }
-        slidesToCarousel.forEach(function(slide){
+        slidesToCarousel.forEach(function(slide) {
             slide.style.transform = `translateX(-${counter * 100}%)`;
         })
     }
+
+    setInterval(() => {
+        counter++;
+        slidesToCarousel.forEach(function(slide) {
+            slide.style.transform = `translateX(-${counter * 100}%)`;
+        })
+    }, 2500);
 };
 
 
