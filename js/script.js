@@ -277,36 +277,6 @@ contactUsForm.addEventListener('submit', (e) => {
 });
 
 
-// AJAX FOR PRAYER POINTS FORM
-const prayerPointsForm = document.getElementsByClassName('js-form-pryr-pts')[0];
-const prayerPointsFormTextToChange = document.querySelector('.text-box > h2');
-if(prayerPointsForm != null) {
-    prayerPointsForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-
-        var email = document.getElementById('e-mail').value;
-        var name = document.getElementById('name').value;
-        var prayerPoints = document.getElementById('prayer-points').value;
-
-        var parameters = `e-mail=${email}&name=${name}&prayer-points=${prayerPoints}`;
-
-        var xhr = new XMLHttpRequest();
-        xhr.open('POST', 'pryr-pts.php', true);
-        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-
-        xhr.send(parameters);
-
-        prayerPointsForm.classList.add('off');
-        setTimeout(() => {
-            prayerPointsForm.parentNode.removeChild(prayerPointsForm);
-            var textChange = document.createTextNode("Terima kasih, kami akan mendoakan Anda!");
-            prayerPointsFormTextToChange.innerHTML = "";
-            prayerPointsFormTextToChange.appendChild(textChange);
-        }, 500);
-    });
-};
-
-
 // AJAX FOR REGISTRATION FORM
 const aBBA90RegistrationForm = document.getElementsByClassName('js-form-rgstr-abba90')[0];
 const aBBA90RegistrationFormTextToChange = document.getElementsByClassName('js-form-rgstr-text-to-change')[0];
