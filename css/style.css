@@ -926,58 +926,58 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 	height: 120vh;
 }
 
-.js-form-pryr-pts.off,
-.js-form-rgstr-abba90.off {
-	animation: js-form-pryr-pts-fades-away 500ms forwards;
-}
-
-@keyframes js-form-pryr-pts-fades-away {
-	100% {
-		transform: scale(0);
-		opacity: 0;
+	.js-form-pryr-pts.off,
+	.js-form-rgstr-abba90.off {
+		animation: js-form-pryr-pts-fades-away 500ms forwards;
 	}
-}
 
-.js-form-pryr-pts label,
-.js-form-rgstr-abba90 label {
-	width: 100%;
-	height: 5%;
-	margin: .5rem 0;
-}
+	@keyframes js-form-pryr-pts-fades-away {
+		100% {
+			transform: scale(0);
+			opacity: 0;
+		}
+	}
 
-.js-form-pryr-pts textarea {
-	width: 100%;
-	height: 40%;
-	margin: 3.5rem 0 0;
-	padding: .5rem;
-	border: 1px solid var(--x-lt-gr);
-	border-radius: 2px;
-}
+	.js-form-pryr-pts label,
+	.js-form-rgstr-abba90 label {
+		width: 100%;
+		height: 5%;
+		margin: .5rem 0;
+	}
 
-.js-form-pryr-pts input,
-.js-form-rgstr-abba90 input {
-	width: 100%;
-	height: 100%;
-	padding: 0 .5rem;
-	border: 1px solid var(--x-lt-gr);
-	border-radius: 2px;
-}
+	.js-form-pryr-pts textarea {
+		width: 100%;
+		height: 40%;
+		margin: 3.5rem 0 0;
+		padding: .5rem;
+		border: 1px solid var(--x-lt-gr);
+		border-radius: 2px;
+	}
 
-.js-form-pryr-pts legend:last-of-type,
-.js-form-rgstr-abba90 legend:last-of-type {
-	position: relative;
-}
+	.js-form-pryr-pts input,
+	.js-form-rgstr-abba90 input {
+		width: 100%;
+		height: 100%;
+		padding: 0 .5rem;
+		border: 1px solid var(--x-lt-gr);
+		border-radius: 2px;
+	}
 
-.js-form-pryr-pts legend:last-of-type::after,
-.js-form-rgstr-abba90 legend:last-of-type::after {
-	content: "Jika Anda sedang bergumul, mari bergumul bersama di dalam doa..";
-	position: absolute;
-	top: 100%;
-	left: 0;
-	right: 0;
-	font-size: 1rem;
-	margin: .1rem 0 0;
-}
+	.js-form-pryr-pts legend:last-of-type,
+	.js-form-rgstr-abba90 legend:last-of-type {
+		position: relative;
+	}
+
+	.js-form-pryr-pts legend:last-of-type::after,
+	.js-form-rgstr-abba90 legend:last-of-type::after {
+		content: "Jika Anda sedang bergumul, mari bergumul bersama di dalam doa..";
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		font-size: 1rem;
+		margin: .1rem 0 0;
+	}
 
 .rgstr-contact-info {
 	width: 100%;
@@ -993,49 +993,49 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 	font-size: 1.1rem;
 }
 
-.radio-btn input {
-	display: inline-block;
-	position: relative;
-	left: 0;
-	height: 1.1rem;
-	width: 1.1rem;
-	padding: 0 !important;
-	background-color: #eee;
-	border-radius: 50%;
-}
+	.radio-btn input {
+		display: inline-block;
+		position: relative;
+		left: 0;
+		height: 1.1rem;
+		width: 1.1rem;
+		padding: 0 !important;
+		background-color: #eee;
+		border-radius: 50%;
+	}
 
-.radio-btn input:hover {
-	background-color: #ccc;
-}
+		.radio-btn input:hover {
+			background-color: #ccc;
+		}
 
-.radio-btn input:checked {
-	background-color: var(--grn);
-}
+		.radio-btn input:checked {
+			background-color: var(--grn);
+		}
 
 
-.radio-btn label {
-	display: inline-block; 
-	position: relative;
-	left: .5rem;
-	width: calc(100% - 2.2rem);
-	height: 1.1rem;
-	vertical-align: baseline;
-}
+	.radio-btn label {
+		display: inline-block; 
+		position: relative;
+		left: .5rem;
+		width: calc(100% - 2.2rem);
+		height: 1.1rem;
+		vertical-align: baseline;
+	}
 
-.js-form-rgstr-abba90 legend:last-of-type::after {
-	content: "(Lengkap)";
-	font-size: 1.2rem;
-}
+		.js-form-rgstr-abba90 legend:last-of-type::after {
+			content: "(Lengkap)";
+			font-size: 1.2rem;
+		}
 
-.js-form-rgstr-abba90 div:last-of-type {
-	margin-top: 1.7rem;
-	padding: 0 .8rem;
-}
+	.js-form-rgstr-abba90 div:last-of-type {
+		margin-top: 1.7rem;
+		padding: 0 .8rem;
+	}
 
-.js-form-rgstr-abba90 div:last-of-type ol li {
-	font-size: .8rem;
-	padding: 0;
-}
+			.js-form-rgstr-abba90 div:last-of-type ol li {
+				font-size: .8rem;
+				padding: 0;
+			}
 
 .webinar-registration-btn {
 	width: 50%;
@@ -1049,13 +1049,13 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 	transition: all 100ms;
 }
 
-.webinar-registration-btn:hover,
-.webinar-registration-btn:active,
-.webinar-registration-btn:focus {
-	transform: scale(.95);
-	color: var(--mw);
-	background-color: var(--lt-grn);
-}
+	.webinar-registration-btn:hover,
+	.webinar-registration-btn:active,
+	.webinar-registration-btn:focus {
+		transform: scale(.95);
+		color: var(--mw);
+		background-color: var(--lt-grn);
+	}
 
 
 /* IV. FOOTER SELECTORS */
@@ -1221,7 +1221,6 @@ button[type="submit"] {
 @media (min-width: 24rem) {
 	#text-box-announcement {
 		font-size: 1.5rem;
-		height: 60vh;
 		padding: 0 2rem;
 	}
 	
@@ -1443,13 +1442,10 @@ button[type="submit"] {
 
 		.index-body-navigation > section,
 		.k3b-chapter-container > section {
+			width: 40vw;
 			background-color: var(--mw);
 			grid-column-gap: 2rem;
 			transition: all 100ms;
-		}
-
-		.index-body-navigation > section {
-			width: 40vw;
 		}
 
 			.index-body-navigation > section:hover,
