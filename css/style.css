@@ -234,10 +234,6 @@ main {
 		background-color: var(--mw);
 	}
 
-	#not-index main > article {
-		z-index: 4;
-	}
-
 .big-quote {
 	margin: 2rem;
 	text-align: center;

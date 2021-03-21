@@ -57,7 +57,7 @@ function ifNotTrueAddNotIndexClass (boolean, element) {
     };
 };
 
-const indexRegExp = /index/;
+const indexRegExp = /index|\//;
 const body = document.querySelector('body');
 
 ifNotTrueAddNotIndexClass(checkIsCurrentURLEqualsTo(indexRegExp),body);
