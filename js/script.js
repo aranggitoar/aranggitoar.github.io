@@ -1,64 +1,18 @@
 // THIS JAVASCRIPT FILE CAN BE THOUGHT OF BEING GROUPED IN 5 PARTS:
 // 1. CSS VARIABLE DYNAMIC SETTER
-// 2. ANIMATION FOR TABLET AND LAPTOP
-// 3. ANIMATION FOR MOBILE DEVICES
-// 4. ANIMASI FOR ALL
-// 5. NON-ANIMATION
+// 2. ANIMATIONS
+// 3. NON-ANIMATIONS
 
 
 
 // 1. CSS VARIABLE DYNAMIC SETTER
 // SIZE OF GREY LAYER FOR FEATURE IMAGES
 document.documentElement.style.setProperty("--pic-layer-height",
-    `${document.querySelector('.title-picture-box > img').offsetHeight}px`);
+    `${document.querySelector('.main-picture-container > img').offsetHeight}px`);
 
 
 
-// 2. ANIMATION FOR TABLET AND LAPTOP
-// ACTIVATION OF SIDEBAR (HEADER)
-function scrollEventListenerForHeaderOnTabletAndLaptop (toggler, elementToToggle) {
-    window.addEventListener('scroll', () => {
-        if (toggler.offsetHeight < window.pageYOffset) {
-            elementToToggle.style.opacity = 1;
-        } else {
-            elementToToggle.style.opacity = 0;
-        }
-    });
-};
-
-const tabletAndDesktopHeader = document.querySelector('.header');
-const tabletAndDesktopHeaderToggler = document.querySelector('main > article:first-child');
-
-if (visualViewport.width > 768) {
-    scrollEventListenerForHeaderOnTabletAndLaptop(tabletAndDesktopHeaderToggler, tabletAndDesktopHeader);
-};
-
-
-
-// 3. ANIMATION FOR MOBILE DEVICES
-// ACTIVATION OF BURGER SIDEBAR BUTTON
-function clickEventListenerForNavbarOnPhone (listener,animations){
-    listener.addEventListener('click',function() {
-        listener.classList.remove('off');
-        animations.classList.remove('off');
-    
-        listener.classList.toggle('on');
-        animations.classList.toggle('on');
-    
-        listener.addEventListener('click',function() {
-            listener.classList.toggle('off');
-            animations.classList.toggle('off');
-        });
-    });    
-};
-
-const burgerClickToggle = document.getElementsByClassName('js-click-fn-burger')[0];
-const sidebarAnimation = document.getElementsByClassName('sidebar-animation')[0];
-clickEventListenerForNavbarOnPhone(burgerClickToggle,sidebarAnimation);
-
-
-
-// 4. ANIMATION FOR ALL
+// 2. ANIMATIONS
 // UNDERLINE AND MAKE BOLD THE NAVBAR LINK FOR CURRENT PAGE
 function whatToIndexFromThisPageURL (startIndex, endIndex) {
     return window.location.pathname.slice(startIndex,endIndex);
@@ -93,6 +47,22 @@ changeBackgroundOfElementWithKnownIndex(sidebarPageElements,
 );
 
 
+// CHANGE HEADER SIZE FOR PAGES OTHER THAN MAIN
+function checkIsCurrentURLEqualsTo (regExp) {
+    return regExp.test(window.location.pathname);
+};
+function ifNotTrueAddNotIndexClass (boolean, element) {
+    if (boolean != true) {
+        element.id = "not-index";
+    };
+};
+
+const indexRegExp = /index/;
+const body = document.querySelector('body');
+
+ifNotTrueAddNotIndexClass(checkIsCurrentURLEqualsTo(indexRegExp),body);
+
+
 // JQUERY PARALLAX ANIMATION FOR EVERY OTHER PAGE THAN K3B SUB CHAPTER PAGE
 let win = $(window);
 $.fn.is_visible = function(){    
@@ -117,13 +87,13 @@ $(window).scroll(function(){
 
 
 // JQUERY PARALLAX ANIMATION FOR K3B SUB CHAPTER PAGE
-const k3BSubChapterContainers = document.querySelectorAll(".k3b-sub-chapter-container section");
+const k3BSubChapterContainers = document.querySelectorAll("#k3b-sub-chapter-container section");
 
 k3BSubChapterContainers.forEach((element) => {
     var moveDistance = (element.querySelector('p').offsetHeight)/2;
     window.addEventListener('DOMContentLoaded', () => {
         element.querySelector('h2').style.transform = `translateY(${moveDistance}px)`;
-    })
+    });
 
     window.addEventListener('scroll', () => {
         if($(element).is_visible()) {
@@ -184,7 +154,7 @@ if (nextBtn != null) {
 
 
 // FOOTER FORM ANIMATION
-const contactUsBtn = document.getElementsByClassName('contact-us-btn')[0];
+const contactUsBtn = document.querySelector('#contact-us-btn');
 const contactUsForm = document.getElementsByClassName('js-form-contact-us')[0];
 
 contactUsBtn.addEventListener('click', function (){
@@ -194,7 +164,7 @@ contactUsBtn.addEventListener('click', function (){
 
 
 
-// 5. NON-ANIMATIONS
+// 3. NON-ANIMATIONS
 // EVENT COUNTDOWNS
 const months = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
 const weekdays = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
@@ -235,9 +205,9 @@ if (deadline != null) {
         function format(item){
             if(item < 10){
                 return item = `0${item}`;
-            }
+            };
             return item;
-        }
+        };
         items.forEach(function(item, index){
             item.innerHTML = format(values[index]);
         });
@@ -245,11 +215,11 @@ if (deadline != null) {
             clearInterval(countdown);
             deadline.innerHTML = `<h4 class="ongoing">Webinar ini sedang dimulai</h4>`
         }
-    }
+    };
 
     let countdown = setInterval(getRemainingTime,1000);
     getRemainingTime();
-}
+};
 
 
 // AJAX FOR CONTACT US FORM

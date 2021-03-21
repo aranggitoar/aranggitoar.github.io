@@ -1,11 +1,13 @@
 /* THIS CSS FILE CAN BE THOUGHT OF BEING GROUPED IN 5 PARTS:
 1. GLOBAL SELECTORS
-2. HEADER/SIDEBAR SELECTORS
+2. HEADER SELECTORS
 3. MAIN PAGES SELECTORS
 4. FOOTER SELECTORS
 5. MEDIA QUERY SELECTORS */
 
 
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap');
 
 *,
 *::before,
@@ -14,14 +16,8 @@
 }
 
 :root {
-	--lt-grn: #37b96f;
 	--grn: #3a6;
 	--lt-ylw: #faf16b;
-	--ylw: #f8e70f;
-	--ylw-org: #f8bf0f;
-	--org: #f8930f;
-	--org-red: #f8450f;
-	--red: #f80f0f;
 	--x-lt-gr: #bbb;
 	--lt-gr-tr: #7772;
 	--lt-gr: #777;
@@ -30,10 +26,8 @@
 	--mw: #fdfff5;
 	--mw-tr: #fdfff566;
 	--prpl: #5e1e83;
-	--prpl-tr: #5e1e8377;
-	--drk-prpl: #38114e;
-	--is: 'Noto Sans JP', sans-serif;
-	font: 300 16px var(--is);
+	--ebgar: 'EB Garamond', serif;
+	font: 300 16px var(--ebgar);
 	letter-spacing: .015rem;
 	word-spacing: .03rem;
 	color: var(--gr);
@@ -43,7 +37,7 @@
 
 
 /* RESET */
-/* Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public do.main) */
+/* Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain) */
 
 
 html, body, div, span, applet, object,
@@ -112,27 +106,29 @@ input, select, textarea {
 }
 
 
+
 /* I. GLOBAL SELECTORS */
 
 
+
 ::placeholder {
-	font: 1.1rem var(--is);
+	font: 1.1rem var(--ebgar);
 }
 
 ::-webkit-input-placeholder {
-	font: 1.1rem var(--is);
+	font: 1.1rem var(--ebgar);
 }
 
 :-moz-placeholder {
-	font: 1.1rem var(--is);
+	font: 1.1rem var(--ebgar);
 }
 
 ::-moz-placeholder {
-	font: 1.1rem var(--is);
+	font: 1.1rem var(--ebgar);
 }
 
 ::-ms-input-placeholder {
-	font: 1.1rem var(--is);
+	font: 1.1rem var(--ebgar);
 }
 
 	input:focus,
@@ -156,9 +152,9 @@ body {
 	margin: auto;
 	display: grid;
 	grid-template-areas:
-		"header main main"
-		"header main main"
-		"header footer footer";
+		"header header header"
+		"main main main"
+		"footer footer footer";
 	justify-content: center;
 	align-items: center;
 	z-index: 4;
@@ -176,17 +172,17 @@ hr {
 }
 
 h1 {
-	font-weight: 500;
+	font-weight: 600;
 }	
 
 h2 {
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 2rem;
 	margin: 1.4rem 0;
 }
 
 h3 {
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 1.8rem;
 	margin: 1rem 0 .7rem;
 }
@@ -195,34 +191,52 @@ ol {
 	list-style: decimal;
 }
 
-.header {
-	height: 100%;
-	width: 60%;
+header {
 	grid-area: header;
-	position: fixed;
-	display: none;
-	z-index: 5;
+	height: 50vh;
+	width: 100vw;
+	padding: 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;	
+	align-items: center;
 	background-color: var(--lt-ylw);
-	filter: drop-shadow(0 0 100px var(--gr-tr));
+	box-shadow: 0 0 10px var(--gr);
+	z-index: 5;
 }
 
-.main {
-	margin: auto;
-	padding: auto;
+main {
+	position: relative;
 	grid-area: main;
 	width: 100vw;
 	height: 100%;
+	margin: auto;
+	padding: auto;
 	z-index: 4;
 }
 
-.main > article {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-color: var(--mw);
-	z-index: 4;
-}
+	main::after {
+		content: "";
+		position: absolute;
+		background-color: #ddd2;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100%;
+		z-index: 1;
+	}
+
+	main > article {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: var(--mw);
+	}
+
+	#not-index main > article {
+		z-index: 4;
+	}
 
 .big-quote {
 	margin: 2rem;
@@ -263,12 +277,12 @@ ol {
 	justify-content: center;
 }
 
-.logo-byb-header {
-	width: 80%;
-	max-width: 250px;
+.logo {
+	width: 70%;
+	max-width: 125px;
 	margin-left: auto;
-	margin-right: auto;
-	display: block;
+	margin-bottom: 1rem;
+	display: flex;
 }
 
 .picture {
@@ -287,230 +301,137 @@ ol {
 }
 
 
-/* II. HEADER/SIDEBAR SELECTORS */
+
+/* II. HEADER SELECTORS */
 
 
-#navigation {
-	top: 0;
-	background-color: rgba(255,255,255,0.0);
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
-	height: auto;
-	width: 100%;
-	padding-top: 2.5rem;
+
+#title-text-container {
+	width: 60%;
+	padding-left: 1.25rem;
+	letter-spacing: .1rem;
+	line-height: 1.2;
+	font-weight: 600;
 }
 
-.sidebar-link-container {
-	margin: 1rem;
-	width: 100%;
-	height: 45vh;
+	#title-text-container > h1 {
+		font-size: 2.75rem;
+		padding-bottom: .5rem;
+	}
+
+	#title-text-container > p {
+		font-weight: 400;
+		letter-spacing: 0;
+		font-size: 1.25rem;
+	}
+
+#navigation {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-	align-items: center;
+	align-items: flex-end;
+	width: 50%;
+	height: 100%;
+	padding: 1rem;
 }
 
-	.sidebar-link-container > a {
+#sidebar-link-container {
+	height: 100%;
+	width: 100%;
+	max-width: 200px;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+	overflow: hidden;
+}
+
+	#sidebar-link-container > a {
 		position: relative;
-		width: 100%;
-		display: block;
-		padding: .4rem .5rem;
-		text-align: center;
+		width: fit-content;
+		text-align: right;
 		font-size: 1.25rem;
 		text-decoration: none;
 		letter-spacing: .1rem;
 		word-spacing: .1rem;
+		color: var(--gr-tr);
 	}
 
-	.sidebar-link-container > a.on {
+	#sidebar-link-container > a.on {
 		color: var(--gr);
 	}
 
-	.sidebar-link-container > a:hover {
+	#sidebar-link-container > a:hover,
+	#sidebar-link-container > a:active,
+	#sidebar-link-container > a:focus {
 		color: var(--gr);
 	}
 
-	.sidebar-link-container > a::before {
+	#sidebar-link-container > a::before {
 		content: "";
 		position: absolute;
-		width: 100%;
-		height: .2rem;
-		left: 0;
+		width: 105%;
+		height: .15rem;
+		right: 0;
 		bottom: 0;
 		background-color: var(--gr);
 		transition: all 200ms;
-		transform: scaleX(0);
+		transform: translateX(200px);
+		opacity: 0;
 	}
 
-	.sidebar-link-container > a:hover::before,
-	.sidebar-link-container > a.on::before {
+	#sidebar-link-container > a:hover::before,
+	#sidebar-link-container > a:active::before,
+	#sidebar-link-container > a:focus::before,
+	#sidebar-link-container > a.on::before {
 		content: "";
-		transform: scaleX(.4);
+		opacity: 1;
+		transform: translateX(0px);
 	}
 	
-	.sidebar-link-container > a:visited {
+	#sidebar-link-container > a:visited {
 		color: 0;
 	}
 
-/* II.A. SIDEBAR ANIMATION
-
-II.A.1. ON THE BURGER BUTTON
-ACTIVATES AND DEACTIVATES THE HEADER */
-
-.js-click-fn-burger {
-	position: fixed;
-	top: .6rem;
-	left: .4rem;
-	flex-direction: column;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	width: 2.4rem;
-	height: 1.4rem;
-	z-index: 6;
+#not-index header {
+	height: 24vh;
+	padding: 0;
 }
 
-	.js-click-fn-burger::after {
-		content: "";
-		position: absolute;
-		width: 2.1rem;
-		height: 1.6rem;
-		background-color: #0001;
-		border: .5px solid #0003;
+	#not-index #navigation {
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+		padding: 1rem;
 	}
 
-		.js-click-fn-burger.on::after {
-			content: "";
-			background-color: inherit;
-			border: inherit;
-		}
-
-	.js-click-fn-burger .burger {
-		height: .1rem;
-	    width: 50%;
-		background-color: black;
-	}
-	
-	.js-click-fn-burger.on {
-		z-index: 6;
+	#not-index #sidebar-link-container {
+		flex-direction: row;
+		flex-wrap: wrap;
+		max-width: 350px;
+		bottom: initial;
+		justify-content: space-between;
+		align-items: center;
 	}
 
-		.js-click-fn-burger.on .burger {
-			animation: normal-burger-dissapear 250ms forwards;
-		}
-
-		@keyframes normal-burger-dissapear {
-			100% {
-				opacity: 0.0;
-			}
-		}
-
-		.js-click-fn-burger.on .x-burger {
-			animation: x-burger-appear 250ms forwards;
-		}
-
-		@keyframes x-burger-appear {
-			100% {
-				transform: rotate(45deg);
-			}
-		}
-
-			.js-click-fn-burger.on .x-burger::before {
-				content: "";
-				animation: x-burger-appear-2 250ms forwards;
-				height: .1rem;
-			    width: 100%;
-				background-color: black;
-				position: absolute;
-				transform: rotate(0deg);
-			}
-
-			@keyframes x-burger-appear-2{
-				100% {
-					transform: rotate(90deg);
-				}
-			}
-
-	.js-click-fn-burger.off {
-		z-index: 6;
+	#not-index #sidebar-link-container a {
+		margin: 0 .7rem;
 	}
 
-		.js-click-fn-burger.off .burger {
-			opacity: 0.0;
-			animation: normal-burger-appear 250ms forwards;
-		}
-
-		@keyframes normal-burger-appear {
-			100% {
-				opacity: 1;
-			}
-		}
-
-		.js-click-fn-burger.off .x-burger {
-			opacity: 1;
-			transform: rotate(45deg);
-			animation: x-burger-dissapear 250ms forwards;
-		}
-
-		@keyframes x-burger-dissapear {
-			100% {
-				transform: initial;
-			}
-		}
-
-			.js-click-fn-burger.off .x-burger::before {
-				content: "";
-				animation: x-burger-dissapear-2 250ms forwards;
-				height: .1rem;
-			    width: 100%;
-				background-color: black;
-				position: absolute;
-				transform: rotate(90deg);
-			}
-
-			@keyframes x-burger-dissapear-2 {
-				100% {
-					transform: initial;
-					opacity: 0.0;
-				}
-			}
-
-/* II.A.2. ON THE HEADER
-ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
-
-.sidebar-animation.on {
-	animation: header-appear 375ms forwards;
-	display: flex;
-}
-
-@keyframes header-appear {
-	0% {
-		transform: translateX(-150px);
-		opacity: 0.0;
+	#not-index #sidebar-link-container a::before {
+		width: 100%;
 	}
-	100% {
-		transform: translateX(0px);
-		opacity: 1;
-	}
-}
 
-.sidebar-animation.off {
-	animation: header-dissapear 375ms forwards;
-	display: flex;
-}
+	#not-index #title-text-container {
+		display: none;
+	}
 
-@keyframes header-dissapear {
-	0% {
-		transform: translateX(0px);
-		opacity: 1;
+	#not-index .logo {
+		margin: auto;
+		max-width: 65px;
 	}
-	100% {
-		transform: translateX(-150px);
-		opacity: 0.0;
-	}
-}
+
 
 
 /* III. MAIN PAGE SELECTORS
@@ -518,45 +439,24 @@ ACTIVATION AND DEACTIVATION DEPENDS ON THE BURGER BUTTON */
 
 III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 
-#title-box {
+#main-picture-box {
 	position: relative;
 	width: 100vw;
-	height: 100vh;
-	z-index: 3;
+	height: 75vh;
+	z-index: 2;
 }
 
-.title-picture-box {
-	position: absolute;
-	top: 0;
-	height: 105%;
-}
+	#not-index #main-picture-box {
+		height: 60vh;
+	}
 
-	.title-picture-box .picture {
+	.main-picture-container .picture {
 		width: 100vw;
 		height: 100vh;
 	}
 
-#title-text-box {
-	text-align: center;
-	max-width: 100vw;
-	padding: 1.5rem;
-	margin: auto;
-	letter-spacing: .1rem;
-	line-height: 1.2;
-	font-weight: 500;
-	color: var(--lt-ylw);
-	filter: drop-shadow(0 0 5px var(--gr-tr));
-	z-index: 4;
-}
-
-	#title-text-box > h1 {
-		font-size: 3rem;
-		padding: .5rem;
-	}
-
-	#title-text-box > p {
-		letter-spacing: 0;
-		font-size: 1.5rem;
+	#not-index .main-picture-container .picture {
+		min-height: 50vh;
 	}
 
 .text-box {
@@ -564,11 +464,10 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
 	font-size: 1.25rem;
 	letter-spacing: .02rem;
 	position: relative;
-	padding: .5rem 3rem;
+	padding: 0 1rem;
 	width: 100vw;
 	background-color: var(--mw);
 	z-index: 4;
@@ -597,41 +496,14 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 	height: 60vh;
 	z-index: 3;
 }
+
 	.text-picture-box .picture {
 	height: 120%;
-}
-
-.deadline {
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	margin: 1rem;
-}
-
-.deadline-format {
-	margin: .4rem;
-}
-
-	.deadline-format > div {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
-		align-items: center;
-		padding: .2rem .5rem;
-		width: 100%;
-		font-size: 1.5rem;
 	}
-
-		.deadline-format > div > h4 {
-			margin: auto;
-			font-size: 1.8rem;
-		}
 
 #return-btn {
 	text-decoration: none;
-	font: 500 1.3rem var(--is);
+	font: 600 1.3rem var(--ebgar);
 	padding: .7rem 7%;
 	margin: 0 0 2rem;
 	border-radius: 5px;
@@ -650,63 +522,73 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 /* III.B. INDEX PAGE AND KAT3B PAGES */
 
 #text-box-announcement {
-	font-size: 1.35rem;
-	color: var(--mw);
-	background-color: var(--prpl);
-	position: relative;
-	width: 100%;
-	height: 65vh;
+	height: 50vh;
 	padding: 0 1rem;
-	box-shadow: 0 0 10px var(--gr);
-	flex-direction: column;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	font-size: 1.3rem;
+	color: var(--mw);
+	background-color: var(--prpl);
+	box-shadow: 0 0 10px var(--gr);
 	z-index: 5;
 }
 
-	#text-box-announcement .deadline {
-		width: 90%;
+#text-box-announcement > a > button {
+	font: 1.2em var(--ebgar);
+	color: var(--mw);
+	padding: .8rem 2rem;
+	background-color: var(--prpl);
+	border: 1px solid var(--prpl);
+	border-radius: 5px;
+	filter: drop-shadow(0 0 2rem var(--gr-tr));
+}
+
+	#text-box-announcement > a > button:hover {
+		transform: scale(.95);
 	}
 
-		#text-box-announcement .deadline-format h4 {
-			font-size: 1.5em;
-		}
+.deadline {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 1rem 1rem;
+}
 
-		#text-box-announcement .deadline-format span {
-			font-size: 1em;
-		}
+	.deadline-format div {
+		display: flex;
+		flex-direction: column;
+	}
 
-		#text-box-announcement > a > button {
-			font: 1.2em var(--is);
-			color: var(--mw);
-			padding: .8rem 2rem;
-			background-color: var(--prpl);
-			border: 1px solid var(--prpl);
-			border-radius: 5px;
-			filter: drop-shadow(0 0 2rem var(--gr-tr));
-		}
+	.deadline-format h4 {
+		margin: auto;
+		font-size: 1.5em;
+	}
 
-			#text-box-announcement > a > button:hover {
-				transform: scale(.95);
-			}
+	.deadline-format span {
+		font-size: 1em;
+	}
 
-.index-body-navigation,
-.k3b-chapter-container {
+#index-body-navigation,
+#k3b-chapter-container {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+	z-index: 2;
 }
 
-	.k3b-chapter-container h3 {
+	#k3b-chapter-container h3 {
 		padding: 0 1rem;
 	}
 
-	.index-body-navigation > section,
-	.k3b-chapter-container > section {
+	#index-body-navigation > section,
+	#k3b-chapter-container > section {
 		width: 80vw;
 		margin: 1.5rem;
 		display: flex;
@@ -721,14 +603,14 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 		transition: all 200ms;
 	}
 
-		.index-body-navigation > section > a,
-		.k3b-chapter-container > section > a {
+		#index-body-navigation > section > a,
+		#k3b-chapter-container > section > a {
 			text-decoration: unset;
 			color: var(--gr);
 		}
 
-		.index-body-navigation > section img,
-		.k3b-chapter-container > section img {
+		#index-body-navigation > section img,
+		#k3b-chapter-container > section img {
 			width: 100%;
 			bottom: 0;
 			object-fit: cover;
@@ -739,8 +621,8 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 			border-top-right-radius: 5px;
 		}
 
-		.index-body-navigation > section p,
-		.k3b-chapter-container > section p {
+		#index-body-navigation > section p,
+		#k3b-chapter-container > section p {
 			text-align: center;
 			padding: 0 2rem 1.5rem;
 			opacity: .85;
@@ -748,24 +630,25 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 			font-style: italic;
 		}
 
-		.index-body-navigation > section:active,
-		.index-body-navigation > section:hover,
-		.index-body-navigation > section:focus,
-		.k3b-chapter-container > section:active,
-		.k3b-chapter-container > section:hover,
-		.k3b-chapter-container > section:focus {
+		#index-body-navigation > section:active,
+		#index-body-navigation > section:hover,
+		#index-body-navigation > section:focus,
+		#k3b-chapter-container > section:active,
+		#k3b-chapter-container > section:hover,
+		#k3b-chapter-container > section:focus {
 			transform: scale(.95);
 		}
 
-	.k3b-sub-chapter-container section {
+	#k3b-sub-chapter-container section {
+		z-index: 5;
 		position: relative;
 		width: 100%;
 		height: 70vh;
-		margin: 4rem 0;
+		margin: 5rem 0;
 		overflow: hidden;
 	}
 
-	.k3b-sub-chapter-container a {
+	#k3b-sub-chapter-container a {
 		text-decoration: none;
 		width: 100%;
 		height: 100%;
@@ -778,24 +661,24 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 		color: var(--mw);
 	}
 
-	.k3b-sub-chapter-container a:hover,
-	.k3b-sub-chapter-container a:active,
-	.k3b-sub-chapter-container a:focus {
+	#k3b-sub-chapter-container a:hover,
+	#k3b-sub-chapter-container a:active,
+	#k3b-sub-chapter-container a:focus {
 		color: var(--mw);
 	}
 
-	.k3b-sub-chapter-container h2 {
+	#k3b-sub-chapter-container h2 {
 		opacity: 0;
-		transition: all 500ms;
+		transition: all 600ms;
 	}
 
-	.k3b-sub-chapter-container p {
-		font: italic 1rem var(--is);
+	#k3b-sub-chapter-container p {
+		font: italic 1rem var(--ebgar);
 		opacity: 0;
-		transition: all 500ms;
+		transition: all 600ms;
 	}
 
-	.k3b-sub-chapter-container .picture-layer {
+	#k3b-sub-chapter-container .picture-layer {
 		position: absolute;
 		opacity: .15;
 		left: 0;
@@ -803,19 +686,25 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 		height: 100%;
 		z-index: -1;
 		background-color: var(--gr-tr);
-		transition: all 500ms;
+		transition: all 600ms;
 	}
 
-	.k3b-sub-chapter-container .picture {
+	#k3b-sub-chapter-container .picture {
 		position: absolute;
 		left: 0;
 		width: 100%;
 		height: 100%;
 		z-index: -2;
-		transition: all 500ms;
+		transition: all 600ms;
 	}
 
-/* III.C. EVENT PAGES AND PRAYER POINTS PAGE */
+	#k3b-sub-chapter-title-container {
+		font-size: 3rem;
+		padding: 3rem 2rem 1rem;
+		text-align: center;
+	}
+
+/* III.C. EVENT PAGES */
 
 	.event-page {
 		flex-direction: row;
@@ -864,7 +753,6 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 			font-size: initial;
 			padding: 0 1rem;
 		}
-		
 			
 .container-slider {
 	position: relative;
@@ -914,7 +802,6 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 	object-fit: contain;
 }
 
-.js-form-pryr-pts,
 .js-form-rgstr-abba90 {
 	width: 100%;
 	height: 75vh;
@@ -925,7 +812,7 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 	padding: 2rem;
 	margin: 1rem 0 1.5rem;
 	text-align: left;
-	font: 1.4rem var(--is);
+	font: 1.4rem var(--ebgar);
 	filter: drop-shadow(0 0 50px var(--x-lt-gr));
 	border: 1px solid var(--x-lt-gr);
 	border-radius: 10px;
@@ -935,35 +822,23 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 	height: 120vh;
 }
 
-	.js-form-pryr-pts.off,
 	.js-form-rgstr-abba90.off {
-		animation: js-form-pryr-pts-fades-away 500ms forwards;
+		animation: js-form-rgstr-abba90-fades-away 600ms forwards;
 	}
 
-	@keyframes js-form-pryr-pts-fades-away {
+	@keyframes js-form-rgstr-abba90-fades-away {
 		100% {
 			transform: scale(0);
 			opacity: 0;
 		}
 	}
 
-	.js-form-pryr-pts label,
 	.js-form-rgstr-abba90 label {
 		width: 100%;
 		height: 5%;
 		margin: .5rem 0;
 	}
 
-	.js-form-pryr-pts textarea {
-		width: 100%;
-		height: 40%;
-		margin: 3.5rem 0 0;
-		padding: .5rem;
-		border: 1px solid var(--x-lt-gr);
-		border-radius: 2px;
-	}
-
-	.js-form-pryr-pts input,
 	.js-form-rgstr-abba90 input {
 		width: 100%;
 		height: 100%;
@@ -972,21 +847,29 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 		border-radius: 2px;
 	}
 
-	.js-form-pryr-pts legend:last-of-type,
 	.js-form-rgstr-abba90 legend:last-of-type {
 		position: relative;
 	}
 
-	.js-form-pryr-pts legend:last-of-type::after,
 	.js-form-rgstr-abba90 legend:last-of-type::after {
-		content: "Jika Anda sedang bergumul, mari bergumul bersama di dalam doa..";
+		content: "(Lengkap)";
 		position: absolute;
 		top: 100%;
 		left: 0;
 		right: 0;
-		font-size: 1rem;
 		margin: .1rem 0 0;
+		font-size: 1.2rem;
 	}
+
+	.js-form-rgstr-abba90 div:last-of-type {
+		margin-top: 1.7rem;
+		padding: 0 .8rem;
+	}
+
+			.js-form-rgstr-abba90 div:last-of-type ol li {
+				font-size: .8rem;
+				padding: 0;
+			}
 
 .rgstr-contact-info {
 	width: 100%;
@@ -1031,59 +914,26 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 		vertical-align: baseline;
 	}
 
-		.js-form-rgstr-abba90 legend:last-of-type::after {
-			content: "(Lengkap)";
-			font-size: 1.2rem;
-		}
-
-	.js-form-rgstr-abba90 div:last-of-type {
-		margin-top: 1.7rem;
-		padding: 0 .8rem;
-	}
-
-			.js-form-rgstr-abba90 div:last-of-type ol li {
-				font-size: .8rem;
-				padding: 0;
-			}
-
-.webinar-registration-btn {
-	width: 50%;
-	height: auto;
-	padding: .25rem;
-	font: 2rem var(--is);
-	color: var(--mw);
-	text-decoration: none;
-	border-radius: 5px;
-	background-color: var(--grn);
-	transition: all 100ms;
-}
-
-	.webinar-registration-btn:hover,
-	.webinar-registration-btn:active,
-	.webinar-registration-btn:focus {
-		transform: scale(.95);
-		color: var(--mw);
-		background-color: var(--lt-grn);
-	}
 
 
 /* IV. FOOTER SELECTORS */
 
 
-.footer {
+
+footer {
 	background-color: var(--lt-ylw);
 	padding: 2vh 15vw;
 	z-index: 4;
 }
 
-	.footer > div {
+	footer > div {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
 	}
-	.footer > div:first-child {
+	footer > div:first-child {
 		letter-spacing: .03rem;
 	}
 
@@ -1108,7 +958,6 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 			font-style: italic;
 			margin: .2rem;
 		}
-
 
 .js-form-contact-us {
 	flex-direction: column;
@@ -1142,7 +991,7 @@ button[type="submit"] {
 	border-radius: 5px;
 	align-self: center;
 	background-color: var(--grn);
-	font: 1.4rem var(--is);
+	font: 1.4rem var(--ebgar);
 	color: var(--mw);
 	transition: all 75ms;
 }
@@ -1166,10 +1015,10 @@ button[type="submit"] {
 			border-radius: 2px;
 		}
 
-.contact-us-btn {
+#contact-us-btn {
 	text-align: center;
 	text-decoration: unset;
-	font: 500 1.7rem var(--is);
+	font: 600 1.7rem var(--ebgar);
 	margin: 1.5rem 0;
 	padding: .7rem 1rem;
 	display: block;
@@ -1178,25 +1027,25 @@ button[type="submit"] {
 	transition: all 100ms;
 }
 
-	.contact-us-btn:active,
-	.contact-us-btn:hover,
-	.contact-us-btn:focus {
+	#contact-us-btn:active,
+	#contact-us-btn:hover,
+	#contact-us-btn:focus {
 		transform: scale(.95);
 		color: var(--gr);
 	}
 
-	.contact-us-btn:visited {
+	#contact-us-btn:visited {
 		color: black;
 	}
 
 	.js-form-contact-us.on {
-		animation: js-form-contact-us-appear 500ms forwards ease-out;
+		animation: js-form-contact-us-appear 600ms forwards ease-out;
 		display: flex;
 	}
 
 	@keyframes js-form-contact-us-appear {
 		0% {
-			transform: translateX(-1500px) scale(.7);
+			transform: translateX(-1600px) scale(.7);
 		}
 		75% {
 			transform: translateX(0px) scale(.7);
@@ -1207,7 +1056,7 @@ button[type="submit"] {
 	}
 
 	.js-form-contact-us.off {
-		animation: js-form-contact-us-disappear 500ms forwards ease-in;
+		animation: js-form-contact-us-disappear 600ms forwards ease-in;
 		display: flex;
 	}
 
@@ -1219,14 +1068,43 @@ button[type="submit"] {
 			transform: translateX(0px) scale(.7);
 		}
 		100% {
-			transform: translateX(1500px) scale(.7);
+			transform: translateX(1600px) scale(.7);
 		}
 	}
 
 
+
 /* V. MEDIA QUERY SELECTORS */
 
+
+
+@media (min-width: 21rem) {	
+	#not-index header {
+		height: 15vh;
+	}
+
+	#not-index #navigation {
+		flex-direction: row;
+	}
+
+	#not-index #sidebar-link-container a {
+		margin: 0 .5rem;
+	}
+}
+
 @media (min-width: 24rem) {
+	#title-text-container h1 {
+		font-size: 2.75rem;
+	}
+
+	#title-text-container p {
+		font-size: 1.5rem;
+	}
+
+	#not-index #sidebar-link-container a {
+		margin: 0 1rem;
+	}
+
 	#text-box-announcement {
 		font-size: 1.5rem;
 		padding: 0 2rem;
@@ -1241,9 +1119,18 @@ button[type="submit"] {
 	}
 }
 
-@media (min-width: 30rem) {
+@media (min-width: 29rem) {
+	.text-box {
+		padding: 0 1rem;
+	}
+
+	#title-text-container h1 {
+		font-size: 3.6rem;
+	}
+
 	#text-box-announcement {
-		font-size: 1.7rem;
+		height: 60vh;
+		font-size: 1.75rem;
 	}
 
 	#text-box-announcement .deadline-format h4 {
@@ -1259,148 +1146,90 @@ button[type="submit"] {
 	}
 }
 
-@media (min-width: 36rem) {
+@media (min-width: 37rem) {
+	#title-text-container {
+		width: 100%;
+	}
+	
+	#title-text-container h1 {
+		font-size: 4rem;
+	}
+	
+	#title-text-container p {
+		font-size: 2rem;	
+	}
+
+	#text-box-announcement {
+		font-size: 2rem;
+	}
+	
 	.container-slider {
 		height: 25rem;
 	}
 }
 
-@media (min-width: 48rem) {
-	body {
-		grid-template-areas:
-			"header header header"
-			"main main main"
-			"footer footer footer";
+@media (min-width: 39rem) {
+	#not-index header {
+		height: 10vh;
 	}
 
-	.header {
-		height: 10%;
-		max-height: 100px;
-		width: 100%;
-		margin: auto;
-		position: fixed;
-		display: flex;
-		top: 0;
-		left: 0;
-		opacity: 0;
-		filter: drop-shadow(0 0 5px var(--lt-gr));
-		transition: all 300ms;
-	}
-
-		.header.off {
-			opacity: 0;
-		}
-	
-		.header.on {
-			opacity: 1;
-		}
-	
-	#navigation {
-		display: flex;
-		flex-direction: row;
+	#not-index #navigation {
 		justify-content: center;
-		align-items: center;
-		padding-top: 0;
 	}
 
-		#navigation div:first-child {
-			height: 100%;
-			width: 10%;
-			display: flex;
-			align-items: center;
+	#not-index #logo-container {
+		width: 8%;
+	}
+
+	#not-index #sidebar-link-container {
+		max-width: 90%;
+		justify-content: space-around;
+	}
+	
+	#not-index #sidebar-link-container a {
+		margin: 0 1rem;
+	}
+}
+
+@media (min-width: 48rem) {
+		#title-text-container h1 {
+			font-size: 4rem;
 		}
 
-	.sidebar-link-container {
-		height: 100%;
-		width: 50%;
-		margin: 0;
-		flex-direction: row;
-	}
-
-		.sidebar-link-container > a {
-			position: relative;
-			height: 65%;
-			margin: 0 .5rem;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			text-align: center;
-			font-size: 1.05rem;
-			color: var(--gr-tr);
-			line-height: 1;
-			border-top-left-radius: 7px;
-			border-top-right-radius: 7px;
-			transition: all 150ms ease-in-out;
+		#title-text-container p {
+			font-size: 2rem;	
 		}
 
-			.sidebar-link-container > a:hover::before,
-			.sidebar-link-container > a.on::before {
-				content: "";
-				transform: scaleX(.8);
-			}
+		#sidebar-link-container > a {
+			font-size: 1.5rem;
+		}
 
-	.logo-byb-header {
-		height: 75%;
-	}
-
-	.js-click-fn-burger {
-		display: none;
-	}
-
-	.main {
+	main {
 		position: relative;
-		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-		.main::after {
-			content: "";
-			position: absolute;
-			background-color: #ddd2;
-			top: 0;
-			left: 0;
-			width: 100vw;
-			height: 100%;
-			z-index: 2;
-		}
-
-	.main > article {
-		max-width: 80vw;
-	}
-
-			.main > article:nth-child(2),
-			.main > article:nth-child(2) > section:first-child {
-				border-top-left-radius: 1rem;
-				border-top-right-radius: 1rem;
-			}
-
 	.text-box {
-		width: 100%;
+		padding: 2rem;
 		background-color: var(--mw);
 	}
 
-		#text-box-announcement + article .text-box {
-			max-width: 70%;
-			padding: 0 3rem;
-		}
-
-		#title-text-box > h1 {
-			font-size: 4.5rem;
-		}
-
-		#title-text-box > p {
-			font-size: 1.75rem;
+		.text-box > * {
+			max-width: 70ch;
 		}
 
 	#text-box-announcement {
-		width: 90%;
-		height: 65vh;
-		max-height: 450px;
-		font-size: 1.9rem;
+		width: 80vw;
+		height: 75vh;
+		max-height: 550px;
 		padding: 0 3rem;
-		border-radius: 1rem;
+		border-radius: .5rem;
 	}
+
+		#text-box-announcement p {
+			width: 80%;
+		}
 
 		#text-box-announcement .deadline-format {
 			background-color: var(--prpl);
@@ -1418,52 +1247,52 @@ button[type="submit"] {
 				padding: .8rem 4rem;
 			}
 
-	.index-body-navigation,
-	.k3b-chapter-container {
+	#index-body-navigation,
+	#k3b-chapter-container {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		align-items: center;
 	}
 
-	.k3b-chapter-container {
+	#k3b-chapter-container {
 		width: 70vw;
 	}
 	
-		.k3b-sub-chapter-container a {
+		#k3b-sub-chapter-container a {
 			padding: 5rem;
 		}
 
-		.k3b-sub-chapter-container p {
+		#k3b-sub-chapter-container p {
 			font-size: 1.2rem;
 		}
 
-		.k3b-sub-chapter-container h2 {
+		#k3b-sub-chapter-container h2 {
 				font-size: 2.5rem;
 		}
 		
-		.k3b-sub-chapter-container section {
+		#k3b-sub-chapter-container section {
 			height: 85vh;
 		}
 
-		.index-body-navigation > section,
-		.k3b-chapter-container > section {
+		#index-body-navigation > section,
+		#k3b-chapter-container > section {
 			width: 40vw;
 			background-color: var(--mw);
 			grid-column-gap: 2rem;
 			transition: all 100ms;
 		}
 
-			.index-body-navigation > section:hover,
-			.k3b-chapter-container > section:hover {
+			#index-body-navigation > section:hover,
+			#k3b-chapter-container > section:hover {
 				transform: scale(.95);
 			}
 
-			.index-body-navigation > section > a,
-			.k3b-chapter-container > section > a {
+			#index-body-navigation > section > a,
+			#k3b-chapter-container > section > a {
 				transition: all 100ms;
 			}
 
-			.index-body-navigation > section:nth-child(3) {
+			#index-body-navigation > section:nth-child(3) {
 				width: 70vw;
 				grid-column: span 2;
 			}
@@ -1475,4 +1304,18 @@ button[type="submit"] {
 		.js-form-pryr-pts textarea {
 			margin: 2.5rem 0 0;
 		}
+}
+
+@media (min-width: 57rem) {
+	#title-text-container h1 {
+		font-size: 5rem;
+	}
+
+	#title-text-container p {
+		font-size: 2.5rem;	
+	}
+
+	#text-box-announcement {
+		height: 67.5vh;
+	}
 }

@@ -10,8 +10,7 @@
         <meta name="msapplication-TileColor" content="#faf16b">
         <meta name="msapplication-config" content="photo/favicons/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap" rel="stylesheet">
+
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,58 +29,48 @@
 				script.src = "js/script.js";
 				script.type = "text/javascript";
 				document.getElementsByTagName('head')[0].appendChild(script);
-			}, 1000);
+			}, 100);
 		</script>
     </head>
     <body>
-		<a class="js-click-fn-burger" href="javascript:void(null);" role="button" alt="Tombol untuk mengaktifkan menu navigasi">
-            <span class="burger"></span>
-            <span class="burger x-burger"></span>
-            <span class="burger"></span>
-        </a>
-		<header class="sidebar-animation header"></header>
+		<header></header>
 		<main class="main">
-			<article id="title-box">
-				<div class="js-picture-parallax-container title-picture-box">
-					<div class="js-picture-layer-parallax picture-layer"></div>
+			<article id="main-picture-box">
+				<div class="js-picture-parallax-container main-picture-container">
 					<img class="js-picture-parallax picture" src="photo/main-page/situs-penyedia-materi-pemuridan-alkitabiah.jpg" alt="Tangkapan layar dari film Injil oleh Lumo Project, foto tangan orang yang sedang menabur biji.">
 				</div>
-				<div id="title-text-box">
-					<h1>Benih Yang Baik</h1>
-					<p>Menguatkan Jemaat dalam Prinsip-prinsip Dasar Alkitab</p>
-				</div>
-			</article>
-			<article id="text-box-announcement">
-				<p>Gelombang Kedua Tahun 2021 untuk <em>Ayo Baca dan Belajar Alkitab dalam 90 Hari</em> (ABBA90) akan dimulai dalam:</p>
-				<div class="deadline">
-					<div class="deadline-format">
-						<div>
-							<h4 class="deadline-days"></h4>
-							<span>hari</span>
-						</div>
-					</div>
-					<div class="deadline-format">
-						<div>
-							<h4 class="deadline-hours"></h4>
-							<span>jam</span>
-						</div>
-					</div>
-					<div class="deadline-format">
-						<div>
-							<h4 class="deadline-minutes"></h4>
-							<span>menit</span>
-						</div>
-					</div>
-					<div class="deadline-format">
-						<div>
-							<h4 class="deadline-seconds"></h4>
-							<span>detik</span>
-						</div>
-					</div>
-				</div>
-				<a href="event-rgstr.html"><button>Mendaftar sekarang!</button></a>
 			</article>
 			<article>
+				<section id="text-box-announcement">
+					<p>Gelombang Kedua Tahun 2021 untuk <em>Ayo Baca dan Belajar Alkitab dalam 90 Hari</em> (ABBA90) akan dimulai dalam:</p>
+					<div class="deadline">
+						<div class="deadline-format">
+							<div>
+								<h4 class="deadline-days"></h4>
+								<span>hari</span>
+							</div>
+						</div>
+						<div class="deadline-format">
+							<div>
+								<h4 class="deadline-hours"></h4>
+								<span>jam</span>
+							</div>
+						</div>
+						<div class="deadline-format">
+							<div>
+								<h4 class="deadline-minutes"></h4>
+								<span>menit</span>
+							</div>
+						</div>
+						<div class="deadline-format">
+							<div>
+								<h4 class="deadline-seconds"></h4>
+								<span>detik</span>
+							</div>
+						</div>
+					</div>
+					<a href="event-rgstr.html"><button>Mendaftar sekarang!</button></a>
+				</section>
 				<section class="text-box">
 					<hr class="hr-light">
 					<p class="quote">Benih yang baik itu adalah orang-orang yang sudah menjadi umat Allah. Matius 13:18 (BIS)</p>
@@ -89,7 +78,7 @@
 					<p> Kami berusaha untuk melaksanakan itu dengan menyediakan materi pemuridan Alkitabiah yang berkualitas serta memudahkan akses kepada materi tersebut.</p>
 					<hr class="hr-light">
 				</section>
-				<section class="index-body-navigation">
+				<section id="index-body-navigation">
 					<section>
 						<a href="kat3b.html" alt="Tautan menuju halaman K3B.">
 							<img src="photo/main-page/materi-pemuridan-alkitabiah-gratis.jpg" alt="Foto Alkitab terbuka, pena, dan kertas-kertas catatan.">

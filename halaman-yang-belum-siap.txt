@@ -111,6 +111,7 @@ Untuk sementar waktu halaman kegiatan tidak ditampilkan dulu. Kegiatan yang akan
 				var script = document.createElement('script');
 				script.src = "js/script.js";
 				script.type = "text/javascript";
+                                script.setAttribute  =  "defer";
 				document.getElementsByTagName('head')[0].appendChild(script);
 			}, 1000);
 		</script>
@@ -128,7 +129,7 @@ Untuk sementar waktu halaman kegiatan tidak ditampilkan dulu. Kegiatan yang akan
 					<div class="js-picture-layer-parallax picture-layer"></div>
 					<img class="js-picture-parallax picture" src="photo/main-page/gerakan-baca-alkitab-webinar-alkitabiah.jpg" alt="Foto dua bapak sedang bertegur-sapa.">
 				</div>
-				<div id="title-text-box">
+				<div id="title-text-container">
 					<h1>Kegiatan</h1>
 				</div>
 			</article>
@@ -247,6 +248,7 @@ Untuk sementar waktu halaman kegiatan tidak ditampilkan dulu. Kegiatan yang akan
 				var script = document.createElement('script');
 				script.src = "js/script.js";
 				script.type = "text/javascript";
+                                script.setAttribute  =  "defer";
 				document.getElementsByTagName('head')[0].appendChild(script);
 			}, 1000);
 		</script>
@@ -329,6 +331,7 @@ Untuk sementar waktu halaman kegiatan tidak ditampilkan dulu. Kegiatan yang akan
 				var script = document.createElement('script');
 				script.src = "js/script.js";
 				script.type = "text/javascript";
+                                script.setAttribute  =  "defer";
 				document.getElementsByTagName('head')[0].appendChild(script);
 			}, 1000);
 		</script>
@@ -343,7 +346,7 @@ Untuk sementar waktu halaman kegiatan tidak ditampilkan dulu. Kegiatan yang akan
         <main class="main">
             <article id="title-box">
 				<div class="js-picture-parallax-container title-picture-box"><div class="js-picture-layer-parallax picture-layer"></div><img class="js-picture-parallax picture" src="photo/main-page/jangan-bergumul-sendiri.jpg" alt="Foto laki-laki dengan baju oranye sedang tertunduk berdoa."></div>
-				<div id="title-text-box">
+				<div id="title-text-container">
 					<h1>Pokok Doa Anda</h1>
 				</div>
 			</article>
@@ -419,6 +422,7 @@ Untuk sementar waktu halaman kegiatan tidak ditampilkan dulu. Kegiatan yang akan
 				var script = document.createElement('script');
 				script.src = "js/script.js";
 				script.type = "text/javascript";
+                                script.setAttribute  =  "defer";
 				document.getElementsByTagName('head')[0].appendChild(script);
 			}, 1000);
 		</script>
@@ -433,7 +437,7 @@ Untuk sementar waktu halaman kegiatan tidak ditampilkan dulu. Kegiatan yang akan
         <main class="main">
             <article id="title-box">
 				<div class="js-picture-parallax-container title-picture-box"><div class="js-picture-layer-parallax picture-layer"></div><img class="js-picture-parallax picture" src="photo/main-page/materi-pelajaran-alkitabiah-gratis.jpg" alt="Foto Alkitab dan leksikon bahasa Yunani dengan kacamata di atasnya."></div>
-				<div id="title-text-box">
+				<div id="title-text-container">
 					<h1>Materi Alkitabiah</h1>
 				</div>
 			</article>

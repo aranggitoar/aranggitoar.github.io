@@ -10,8 +10,7 @@
         <meta name="msapplication-TileColor" content="#faf16b">
         <meta name="msapplication-config" content="/photo/favicons/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap" rel="stylesheet">
+
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,27 +29,19 @@
 				script.src = "js/script.js";
 				script.type = "text/javascript";
 				document.getElementsByTagName('head')[0].appendChild(script);
-			}, 1000);
+			}, 100);
 		</script>
     </head>
     <body>
-		<a class="js-click-fn-burger" href="javascript:void(null);" role="button" alt="Tombol untuk mengaktifkan menu navigasi">
-            <span class="burger"></span>
-            <span class="burger x-burger"></span>
-            <span class="burger"></span>
-        </a>
-		<header class="sidebar-animation header"></header>
+		<header></header>
         <main class="main">
-            <article id="title-box">
-                <div class="js-picture-parallax-container title-picture-box">
-                    <div class="js-picture-layer-parallax picture-layer"></div>
-                    <img class="js-picture-parallax picture" src="photo/for-each-article/rencana-agung-allah.jpg" alt="Ilustrasi digital penciptaan segala sesuatu."></div>
-                <div id="title-text-box">
-                    <h1>1. Rencana Agung Allah</h1>
+            <article id="main-picture-box">
+                <div class="js-picture-parallax-container main-picture-container">
+                    <img class="js-picture-parallax picture" src="photo/for-each-article/rencana-agung-allah.jpg" alt="Ilustrasi digital penciptaan segala sesuatu.">
                 </div>
             </article>
             <article>
-                <section class="k3b-sub-chapter-container">
+                <section id="k3b-sub-chapter-container">
                     <section>
                         <a href="kat3b-11raa.html" alt="Tautan menuju halaman artikel pasal pertama poin ke lime K3B, Kenapa Allah Menciptakan Manusia?">
                             <div class="picture-layer"></div>
@@ -96,6 +87,6 @@
                 <a id="return-btn" role="button" href="index.html">Kembali</a>
             </article>
         </main>
-        <footer class="footer"></footer>
+        <footer></footer>
     </body>
 </html>

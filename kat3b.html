@@ -10,14 +10,13 @@
         <meta name="msapplication-TileColor" content="#faf16b">
         <meta name="msapplication-config" content="/photo/favicons/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap" rel="stylesheet">
+
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <meta name="description" contents="Benih Yang Baik adalah situs rumah materi pemuridan K3B.">
-        <title>BYB - K3B</title>
+        <title>Katekisme</title>
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"
 				integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
@@ -30,24 +29,15 @@
 				script.src = "js/script.js";
 				script.type = "text/javascript";
 				document.getElementsByTagName('head')[0].appendChild(script);
-			}, 1000);
+			}, 100);
 		</script>
     </head>
     <body>
-		<a class="js-click-fn-burger" href="javascript:void(null);" role="button" alt="Tombol untuk mengaktifkan menu navigasi">
-            <span class="burger"></span>
-            <span class="burger x-burger"></span>
-            <span class="burger"></span>
-        </a>
-		<header class="sidebar-animation header"></header>
+		<header></header>
         <main class="main">
-            <article id="title-box">
-                <div class="js-picture-parallax-container title-picture-box">
-                    <div class="js-picture-layer-parallax picture-layer"></div>
+            <article id="main-picture-box">
+                <div class="js-picture-parallax-container main-picture-container">
                     <img class="js-picture-parallax picture" src="photo/main-page/materi-pemuridan-alkitabiah-gratis.jpg" alt="Foto Alkitab terbuka, pena, dan kertas-kertas catatan."></div>
-                <div id="title-text-box">
-                    <h1>K3B</h1>
-                </div>
             </article>
             <article>
                 <section class="text-box">
@@ -63,7 +53,7 @@
                     <hr class="hr-light">
                     <h2>Apa isinya K3B?</h2>
                     <p>Katekisme ini terdiri dari <strong>tujuh pasal</strong> dengan tiga butir pendahuluan. Tetapi untuk sekarang kami baru menyiapkan ketiga butir pendahuluan dan pasal pertama yang dapat Saudara-saudari akses melalui tautan-tautan berikut:</p>
-                    <div class="k3b-chapter-container">
+                    <div id="k3b-chapter-container">
                         <section>
                             <a href="kat3b-01fon.html" alt="Tautan menuju halaman artikel pendahuluan K3B, Pola Mengajar Jemaat Mula-mula.">
                                 <img class="picture" src="photo/for-each-article/pola-mengajar-jemaat-mula-mula.jpg" alt="Foto keluarga di depan sebuah rumah.">
@@ -98,6 +88,6 @@
                 <a id="return-btn" role="button" href="index.html">Kembali</a>
             </article>
         </main>
-        <footer class="footer"></footer>
+        <footer></footer>
     </body>
 </html>
