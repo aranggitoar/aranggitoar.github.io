@@ -91,7 +91,7 @@ function ifNotTrueAddNotIndexClass (boolean, element) {
     };
 };
 
-const indexRegExp = /index|^\/$/;
+const indexRegExp = /index|^\/$|situs-pemuridan\/index/;
 const body = document.querySelector('body');
 
 ifNotTrueAddNotIndexClass(checkIsCurrentURLEqualsTo(indexRegExp),body);
