@@ -29,7 +29,7 @@
 				script.src = "js/script.js";
 				script.type = "text/javascript";
 				document.getElementsByTagName('head')[0].appendChild(script);
-			}, 100);
+			}, 300);
 		</script>
     </head>
     <body>
@@ -37,7 +37,12 @@
 		<main class="main">
 			<article id="main-picture-box">
 				<div class="js-picture-parallax-container main-picture-container">
+					<div class="js-picture-layer-parallax index-picture-layer"></div>
 					<img class="js-picture-parallax picture" src="photo/main-page/situs-penyedia-materi-pemuridan-alkitabiah.jpg" alt="Tangkapan layar dari film Injil oleh Lumo Project, foto tangan orang yang sedang menabur biji.">
+				</div>
+				<div id="title-text-container">
+					<h1>Benih Yang Baik</h1>
+					<p>Menguatkan Jemaat melalui Firman Allah</p>
 				</div>
 			</article>
 			<article>
@@ -96,17 +101,43 @@
 				</section>
 				<section class="text-box">
 					<hr class="hr-light">
-					<h2>Pokok Doa</h2>
-						<ol>
-							<li>Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor.</li>
-							<li>Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.</li>
-							<li>Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor.</li>
-							<li>Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor.</li>
-						</ol>
+					<div id="dropdown-carousel-container">
+						<div>
+							<a href="javascript:void(null);" class="dropdown-carousel-toggler">
+								<h2>Pokok Doa</h2>
+								<div>
+									<span></span>
+									<span></span>
+								</div>
+							</a>
+						</div>
+						<div class="dropdown-carousel-slider-container">
+							<div class="slider-container">
+								<div class="slide">
+									<h3>Bulan Maret 2021</h3>
+									<ol>
+										<li>Pokok doa 1</li>
+										<li>Pokok doa 2</li>
+										<li>Pokok doa 3</li>
+										<li>Pokok doa 4</li>
+									</ol>
+									<a href="#">Baca lebih...</a>
+								</div>
+							</div>
+							<div class="slider-button-container">
+								<button type="button" class="prev-btn">
+									&#x27F5;
+								</button>
+								<button type="button" class="next-btn">
+									&#x27F6;
+								</button>
+							</div>
+						</div>
+					</div>
 					<hr class="hr-light">
 				</section>
 			</article>
 		</main>
-		<footer class="footer"></footer>
+		<footer></footer>
 	</body>
 </html>
