@@ -256,7 +256,7 @@ Untuk sementar waktu halaman kegiatan tidak ditampilkan dulu. Kegiatan yang akan
             <span class="burger"></span>
         </a>
 		<header class="sidebar-animation header"></header>
-        <main class="main">
+        <main>
             <article id="title-box">
                 <div class="js-picture-parallax-container title-picture-box"><img class="js-picture-parallax picture" src="photo/event-pages/webinar/seminar-13-maret-2021-dr-bob-utley.png" alt="Poster webinar Sekarang Anda Dapat Memahami Alkitab oleh Dr Bob Utley pada 13 Maret 2021."></div>
             </article>
@@ -337,7 +337,7 @@ Untuk sementar waktu halaman kegiatan tidak ditampilkan dulu. Kegiatan yang akan
             <span class="burger"></span>
         </a>
 		<header class="sidebar-animation header"></header>
-        <main class="main">
+        <main>
             <article id="title-box">
 				<div class="js-picture-parallax-container title-picture-box"><div class="js-picture-layer-parallax picture-layer"></div><img class="js-picture-parallax picture" src="photo/main-page/jangan-bergumul-sendiri.jpg" alt="Foto laki-laki dengan baju oranye sedang tertunduk berdoa."></div>
 				<div id="index-title-text-container">
@@ -426,7 +426,7 @@ Untuk sementar waktu halaman kegiatan tidak ditampilkan dulu. Kegiatan yang akan
             <span class="burger"></span>
         </a>
 		<header class="sidebar-animation header"></header>
-        <main class="main">
+        <main>
             <article id="title-box">
 				<div class="js-picture-parallax-container title-picture-box"><div class="js-picture-layer-parallax picture-layer"></div><img class="js-picture-parallax picture" src="photo/main-page/materi-pelajaran-alkitabiah-gratis.jpg" alt="Foto Alkitab dan leksikon bahasa Yunani dengan kacamata di atasnya."></div>
 				<div id="index-title-text-container">

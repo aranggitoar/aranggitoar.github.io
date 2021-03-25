@@ -207,7 +207,7 @@ function prepareCarouselAndRunCarousel(nextBtnSelector, prevBtnSelector, slidesT
             } else {
                 counter = -1;
             };
-        }, 2500);
+        }, 10000);
     }
 };
 
@@ -263,7 +263,7 @@ if (deadline != null) {
     const hours = futureDate.getHours();
     const minutes = futureDate.getMinutes();
 
-    if (dDay != null) { dDay.textContent = `${weekday} ${date} ${month} ${year}` };
+    if (dDay != null) { dDay.textContent = `${weekday}, ${date} ${month} ${year}` };
 
     const futureTime = futureDate.getTime();
     const futureTime2 = futureDate2.getTime();
@@ -299,7 +299,7 @@ if (deadline != null) {
         });
 
         if (onlyDay != null) {
-            onlyDay.innerHTML = `ABBA 90 Gelombang Ketiga sedang berlangsung! Bahkan sudah berlangsung selama ${-(days2 - 90)} hari. Para peserta masih terus menekuni Firman Allah setiap hari! Kami benar-benar berharap bahwa Anda akan bergabung dalam ABBA 90 yang berikutnya. Dokumentasi untuk Gelombang Ketiga akan segera kami sediakan.`
+            onlyDay.innerHTML = `ABBA 90 Gelombang Ketiga sudah berlangsung selama ${-(days2 - 90)} hari. Para peserta masih terus menekuni Firman Allah setiap hari! BYB mengundang Anda bergabung dalam ABBA 90 yang berikutnya.`
         }
 
         if (t < 0) {
