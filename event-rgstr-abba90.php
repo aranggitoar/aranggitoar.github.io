@@ -1,8 +1,8 @@
 <?php
-      $servername = "localhost";
-      $username = "root";
-      $password = "";
-      $dbname = "rgstrabba90";
+      $servername = "localhost:3306";
+      $username = "benihyan";
+      $password = "][:S'.d209AS=";
+      $dbname = "benihyan_situs-pemuridan";
       $conn = mysqli_connect($servername, $username, $password, $dbname);
       if (!$conn) {
             die("ERROR: Tidak bisa terhubung. " 
@@ -17,10 +17,10 @@
             $phonenumber = mysqli_real_escape_string($conn, $_POST['phone-number']);
             $homeaddress = mysqli_real_escape_string($conn, $_POST['home-address']);
             // echo 'SUCCESS: The data is '. $_POST['name'].$_POST['e-mail'].$_POST['message'];  
-            $sql = "INSERT INTO rgstrabba90_2021g2(email,name,gender,age,phonenumber,homeaddress) VALUES ('$email', '$name', '$gender', '$age', '$phonenumber', '$homeaddress')";
+            $sql = "INSERT INTO peserta_abba90_iv(email,name,gender,age,phonenumber,homeaddress) VALUES ('$email', '$name', '$gender', '$age', '$phonenumber', '$homeaddress')";
         
             if(mysqli_query($conn, $sql)){
-                echo 'Message Added...';
+                echo 'Anda telah terdaftar!';
             } else {
                 echo 'ERROR: '. mysqli_error($conn);
             }

@@ -1055,11 +1055,11 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 		left: 0;
 		right: 0;
 		margin: .1rem 0 0;
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 	}
 
 	.js-form-rgstr-abba90 div:last-of-type {
-		margin-top: 1.7rem;
+		margin-top: 1rem;
 		padding: 0 .8rem;
 	}
 
@@ -1368,6 +1368,7 @@ footer {
 
 	#text-box-announcement {
 		width: 70%;
+		max-height: 500px;
 		min-height: 450px;
 		padding: 0 2.5rem;
 		font-size: 1.8rem;

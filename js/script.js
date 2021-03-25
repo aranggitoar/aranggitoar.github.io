@@ -322,7 +322,12 @@ if (aBBA90RegistrationForm != null) {
 
         var email = document.getElementById('e-mail').value;
         var name = document.getElementById('name').value;
-        var gender = document.querySelector('input[name="gender"]').value;
+        var gender;
+        if (document.getElementById('man').checked == true) {
+            gender = document.getElementById('man').value;
+        } else if (document.getElementById('women').checked == true) {
+            gender = document.getElementById('women').value;
+        };
         var age = document.getElementById('age').value;
         var phoneNumber = document.getElementById('phone-number').value;
         var homeAddress = document.getElementById('home-address').value;
@@ -333,14 +338,22 @@ if (aBBA90RegistrationForm != null) {
         xhr.open('POST', 'event-rgstr-abba90.php', true);
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
-        xhr.send(parameters);
+        xhr.onload = function() {
+            if (xhr.readyState === xhr.DONE) {
+                if (xhr.status === 200) {
+                    aBBA90RegistrationForm.classList.add('off');
+                    setTimeout(() => {
+                        aBBA90RegistrationForm.parentNode.removeChild(aBBA90RegistrationForm);
+                        var textChange = document.createTextNode("Anda telah terdaftar, tunggu  e-mail dari kami!");
+                        aBBA90RegistrationFormTextToChange.innerHTML = "";
+                        aBBA90RegistrationFormTextToChange.appendChild(textChange);
+                    }, 500);
+                } else {
+                    alert("Ada permasalahan dengan server kami, mohon muat ulang halaman dan mengisi kembali formulir pendaftaran. Kalau sudah dua kali Anda mendapatkan peringatan ini, tolong beritahu kami di info@benihyangbaik.com. Mohon maaf atas ketidaknyamanannya.");
+                };
+            } ;
+        };
 
-        aBBA90RegistrationForm.classList.add('off');
-        setTimeout(() => {
-            aBBA90RegistrationForm.parentNode.removeChild(aBBA90RegistrationForm);
-            var textChange = document.createTextNode("Anda telah terdaftar, tunggu e-mail dari kami!");
-            aBBA90RegistrationFormTextToChange.innerHTML = "";
-            aBBA90RegistrationFormTextToChange.appendChild(textChange);
-        }, 500);
+        xhr.send(parameters);
     });
 };
