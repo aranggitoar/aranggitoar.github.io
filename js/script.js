@@ -340,10 +340,6 @@ if (aBBA90RegistrationForm != null) {
             aBBA90RegistrationForm.parentNode.removeChild(aBBA90RegistrationForm);
             var textChange = document.createTextNode("Anda telah terdaftar, tunggu e-mail dari kami!");
             aBBA90RegistrationFormTextToChange.innerHTML = "";
-            aBBA90RegistrationFormTextToChange.style.fontSize = "1.6rem";
-            aBBA90RegistrationFormTextToChange.style.fontWeight = "bold";
-            aBBA90RegistrationFormTextToChange.style.marginTop = "3.5rem";
-            aBBA90RegistrationFormTextToChange.style.textAlign = "center";
             aBBA90RegistrationFormTextToChange.appendChild(textChange);
         }, 500);
     });
