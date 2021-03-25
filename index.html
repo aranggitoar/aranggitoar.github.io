@@ -18,18 +18,14 @@
         <meta name="description" contents="Benih Yang Baik adalah situs rumah materi pemuridan K3B.">
         <title>Benih Yang Baik</title>
         <link rel="stylesheet" href="css/style.css" type="text/css">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-				integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-				crossorigin="anonymous"></script>
-		<script defer>
-			$(function(){$("header").load("header.html")});
-			$(function(){$("footer").load("footer.html")});
+		<script src="js/fragmentsLoader.js"></script>
+		<script>
 			setTimeout(() => {
 				var script = document.createElement('script');
 				script.src = "js/script.js";
 				script.type = "text/javascript";
 				document.getElementsByTagName('head')[0].appendChild(script);
-			}, 300);
+			}, 100);
 		</script>
     </head>
     <body>
@@ -40,7 +36,7 @@
 					<div class="js-picture-layer-parallax index-picture-layer"></div>
 					<img class="js-picture-parallax picture" src="photo/main-page/situs-penyedia-materi-pemuridan-alkitabiah.jpg" alt="Tangkapan layar dari film Injil oleh Lumo Project, foto tangan orang yang sedang menabur biji.">
 				</div>
-				<div id="title-text-container">
+				<div id="index-title-text-container">
 					<h1>Benih Yang Baik</h1>
 					<p>Menguatkan Jemaat melalui Firman Allah</p>
 				</div>
@@ -113,15 +109,10 @@
 						</div>
 						<div class="dropdown-carousel-slider-container">
 							<div class="slider-container">
-								<div class="slide">
+								<div class="dropdown-slide">
 									<h3>Bulan Maret 2021</h3>
-									<ol>
-										<li>Pokok doa 1</li>
-										<li>Pokok doa 2</li>
-										<li>Pokok doa 3</li>
-										<li>Pokok doa 4</li>
-									</ol>
-									<a href="#">Baca lebih...</a>
+									<p>Bulan ini kami mohon doa Saudara/i untuk tiga hal berikut: (1) peluncuran Alkitab Edisi Studi Gratis dari kami dan beberapa mitra, (2) tim sukarelawan BYB agar terus melayani dengan penuh kasih, dan (3) pelaksanaan ABBA 90 Gelombang Keempat yang akan terjadi pada 1 Mei 2021.</p>
+									<a href="about-p0321.html">Baca lebih...</a>
 								</div>
 							</div>
 							<div class="slider-button-container">

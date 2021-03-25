@@ -18,18 +18,14 @@
         <meta name="description" contents="Benih Yang Baik adalah situs rumah materi pemuridan K3B.">
         <title>Katekisme</title>
         <link rel="stylesheet" href="css/style.css" type="text/css">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-				integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-				crossorigin="anonymous"></script>
-        <script defer>
-			$(function(){$("header").load("header.html")});
-			$(function(){$("footer").load("footer.html")});
+		<script src="js/fragmentsLoader.js"></script>
+		<script>
 			setTimeout(() => {
 				var script = document.createElement('script');
 				script.src = "js/script.js";
 				script.type = "text/javascript";
 				document.getElementsByTagName('head')[0].appendChild(script);
-			}, 300);
+			}, 100);
 		</script>
     </head>
     <body>
@@ -40,6 +36,10 @@
                     <img class="js-picture-parallax picture" src="photo/main-page/materi-pemuridan-alkitabiah-gratis.jpg" alt="Foto Alkitab terbuka, pena, dan kertas-kertas catatan."></div>
             </article>
             <article>
+                <section id="page-title-text-container">
+                    <h1>K3B</h1>
+                </section>
+                <hr class="hr-light">
                 <section class="text-box">
                     <h2>Apa itu K3B?</h2>
                     <p>Ini adalah materi pemuridan dari Benih Yang Baik yang kami beri nama <i>Katekisme: Berakar, Bertumbuh, dan Berbuah</i> atau singkatnya, K3B. Materi pemuridan ini mengandung dasar-dasar iman seorang pengikut/peniru Kristus, arti sebenarnya dari sebutan "Kristen" (bdk. Kis. 11:26). Tujuan kami menyediakan materi ini adalah agar kita yang mempelajarinya akan berakar, bertumbuh, dan berbuah di dalam Tuhan Yesus Kristus dan bagi Tuhan Yesus Kristus.</p>

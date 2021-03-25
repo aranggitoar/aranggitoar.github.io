@@ -101,9 +101,7 @@ Untuk sementar waktu halaman kegiatan tidak ditampilkan dulu. Kegiatan yang akan
         <meta name="description" contents="Benih Yang Baik adalah situs rumah materi pemuridan K3B.">
         <title>BYB - Kegiatan</title>
         <link rel="stylesheet" href="css/style.css" type="text/css">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-				integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-				crossorigin="anonymous"></script>
+
 <script defer>
 			$(function(){$("header").load("header.html")});
 			$(function(){$("footer").load("footer.html")});
@@ -129,7 +127,7 @@ Untuk sementar waktu halaman kegiatan tidak ditampilkan dulu. Kegiatan yang akan
 					<div class="js-picture-layer-parallax picture-layer"></div>
 					<img class="js-picture-parallax picture" src="photo/main-page/gerakan-baca-alkitab-webinar-alkitabiah.jpg" alt="Foto dua bapak sedang bertegur-sapa.">
 				</div>
-				<div id="title-text-container">
+				<div id="index-title-text-container">
 					<h1>Kegiatan</h1>
 				</div>
 			</article>
@@ -238,9 +236,7 @@ Untuk sementar waktu halaman kegiatan tidak ditampilkan dulu. Kegiatan yang akan
         <meta name="description" contents="Benih Yang Baik adalah situs rumah materi pemuridan K3B.">
         <title>Benih Yang Baik</title>
         <link rel="stylesheet" href="css/style.css" type="text/css">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-				integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-				crossorigin="anonymous"></script>
+
         <script defer>
 			$(function(){$("header").load("header.html")});
 			$(function(){$("footer").load("footer.html")});
@@ -321,9 +317,7 @@ Untuk sementar waktu halaman kegiatan tidak ditampilkan dulu. Kegiatan yang akan
         <meta name="description" contents="Benih Yang Baik adalah situs rumah materi pemuridan K3B.">
         <title>BYB - Pokok Doa Anda</title>
         <link rel="stylesheet" href="css/style.css" type="text/css">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-				integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-				crossorigin="anonymous"></script>
+
         <script defer>
 			$(function(){$("header").load("header.html")});
 			$(function(){$("footer").load("footer.html")});
@@ -346,7 +340,7 @@ Untuk sementar waktu halaman kegiatan tidak ditampilkan dulu. Kegiatan yang akan
         <main class="main">
             <article id="title-box">
 				<div class="js-picture-parallax-container title-picture-box"><div class="js-picture-layer-parallax picture-layer"></div><img class="js-picture-parallax picture" src="photo/main-page/jangan-bergumul-sendiri.jpg" alt="Foto laki-laki dengan baju oranye sedang tertunduk berdoa."></div>
-				<div id="title-text-container">
+				<div id="index-title-text-container">
 					<h1>Pokok Doa Anda</h1>
 				</div>
 			</article>
@@ -412,9 +406,7 @@ Untuk sementar waktu halaman kegiatan tidak ditampilkan dulu. Kegiatan yang akan
         <meta name="description" contents="Benih Yang Baik adalah situs rumah materi pemuridan K3B.">
         <title>BYB - Materi Alkitabiah</title>
         <link rel="stylesheet" href="css/style.css" type="text/css">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-				integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-				crossorigin="anonymous"></script>
+
         <script defer>
 			$(function(){$("header").load("header.html")});
 			$(function(){$("footer").load("footer.html")});
@@ -437,7 +429,7 @@ Untuk sementar waktu halaman kegiatan tidak ditampilkan dulu. Kegiatan yang akan
         <main class="main">
             <article id="title-box">
 				<div class="js-picture-parallax-container title-picture-box"><div class="js-picture-layer-parallax picture-layer"></div><img class="js-picture-parallax picture" src="photo/main-page/materi-pelajaran-alkitabiah-gratis.jpg" alt="Foto Alkitab dan leksikon bahasa Yunani dengan kacamata di atasnya."></div>
-				<div id="title-text-container">
+				<div id="index-title-text-container">
 					<h1>Materi Alkitabiah</h1>
 				</div>
 			</article>

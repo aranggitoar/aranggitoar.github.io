@@ -18,18 +18,14 @@
         <meta name="description" contents="Benih Yang Baik adalah situs rumah materi pemuridan K3B.">
         <title>Rencana Agung Allah</title>
         <link rel="stylesheet" href="css/style.css" type="text/css">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-				integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-				crossorigin="anonymous"></script>
-        <script defer>
-			$(function(){$("header").load("header.html")});
-			$(function(){$("footer").load("footer.html")});
+		<script src="js/fragmentsLoader.js"></script>
+		<script>
 			setTimeout(() => {
 				var script = document.createElement('script');
 				script.src = "js/script.js";
 				script.type = "text/javascript";
 				document.getElementsByTagName('head')[0].appendChild(script);
-			}, 300);
+			}, 100);
 		</script>
     </head>
     <body>
@@ -41,6 +37,10 @@
                 </div>
             </article>
             <article>
+                <section id="page-title-text-container">
+                    <h1>1. Rencana Agung Allah</h1>
+                </section>
+                <hr class="hr-light">
                 <section id="k3b-sub-chapter-container">
                     <section>
                         <a href="kat3b-11raa.html" alt="Tautan menuju halaman artikel pasal pertama poin ke lime K3B, Kenapa Allah Menciptakan Manusia?">
