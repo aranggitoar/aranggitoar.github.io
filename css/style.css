@@ -215,7 +215,6 @@ main {
 	position: relative;
 	grid-area: main;
 	width: 100vw;
-	height: 100%;
 	margin: auto;
 	padding: auto;
 	z-index: 4;
