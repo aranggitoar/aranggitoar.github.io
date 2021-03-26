@@ -1,22 +1,27 @@
 const scriptLoaderPromise = new Promise(function(resolve, reject) {
 
-    function loadHtml(parentElementSelector, filePath) {
+    function loadHtml(parentElementSelector, filePath, runPromise) {
         const xhr = new XMLHttpRequest();
-        xhr.open('GET', filePath, true)
+        xhr.open('GET', filePath, true);
+
         xhr.onload = function () {
             if (xhr.status >= 200 && xhr.status < 400) {
                 var response = xhr.responseText;
                 document.querySelector(parentElementSelector).innerHTML = response;
-                resolve(xhr.response);
+                if (runPromise === true) {
+                    resolve(xhr.response);
+                }
             } else {
-                reject(xhr.status);
+                if (runPromise === true) {
+                    reject(xhr.status);
+                }
             }
         };
         xhr.send();
-    };
+    }
 
-    loadHtml('header', 'header.html');
-    loadHtml('footer', 'footer.html');
+    loadHtml('header', 'header.html', false);
+    loadHtml('footer', 'footer.html', true);
 
 });
 
@@ -25,6 +30,7 @@ scriptLoaderPromise
         let script = document.createElement('script');
         script.src = "js/script.js";
         script.type = "text/javascript";
+        script.setAttribute("defer", "");
         document.getElementsByTagName('head')[0].appendChild(script);
     })
     .catch(() => {

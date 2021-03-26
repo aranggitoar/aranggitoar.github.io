@@ -16,35 +16,37 @@ document.documentElement.style.setProperty("--pic-layer-height",
 // UNDERLINE AND MAKE BOLD THE NAVBAR LINK FOR CURRENT PAGE
 function whatToIndexFromThisPageURL(startIndex, endIndex) {
     return window.location.pathname.slice(startIndex, endIndex);
-};
+}
 function makeRegExpOutOf(thisString) {
     return new RegExp(thisString);
-};
+}
 function makeArrayOutOf(hTMLCollection) {
     return Array.from(hTMLCollection);
-};
+}
 function extractContentOfArrayWithRegExp(content, regExp) {
     return content.find((elements) => regExp.test(elements));
-};
+}
 function getIndexOfAnElementFromHTMLCollection(arrayOfHTMLCollection, content) {
     return arrayOfHTMLCollection.indexOf(content);
-};
+}
 function changeBackgroundOfElementWithKnownIndex(hTMLCollection, index) {
     hTMLCollection[index].classList.add('on');
-};
+}
 
 const sidebarPageElements = document.querySelectorAll('.js-sidebar-page-track');
 const sidebarPageTrackerEndIndex = window.location.pathname.search(/([-][a-z0-9]{5})?\.html/);
 const sidebarPageTrackerStartIndex = sidebarPageTrackerEndIndex - 5;
 
-changeBackgroundOfElementWithKnownIndex(sidebarPageElements,
-    getIndexOfAnElementFromHTMLCollection(makeArrayOutOf(sidebarPageElements),
-        extractContentOfArrayWithRegExp(makeArrayOutOf(sidebarPageElements),
-            makeRegExpOutOf(whatToIndexFromThisPageURL(sidebarPageTrackerStartIndex, sidebarPageTrackerEndIndex)
+sidebarPageElements.onload = function() {
+    changeBackgroundOfElementWithKnownIndex(sidebarPageElements,
+        getIndexOfAnElementFromHTMLCollection(makeArrayOutOf(sidebarPageElements),
+            extractContentOfArrayWithRegExp(makeArrayOutOf(sidebarPageElements),
+                makeRegExpOutOf(whatToIndexFromThisPageURL(sidebarPageTrackerStartIndex, sidebarPageTrackerEndIndex)
+                )
             )
         )
     )
-);
+};
 
 
 // SWITCH HEADER STYLE AFTER SCROLLING DOWN AS MUCH AS header.offsetHeight
@@ -76,7 +78,7 @@ window.addEventListener('scroll', () => {
         setTimeout(() => {
             header.style.transform = "translateY(0)";
         }, 250);
-    } else if (document.body.getBoundingClientRect().top < scrollPos && (mainPictureBox.offsetHeight >= window.pageYOffset) == false) {
+    } else if (document.body.getBoundingClientRect().top < scrollPos && (mainPictureBox.offsetHeight >= window.pageYOffset) === false) {
         setTimeout(() => {
             header.style.transform = "translateY(-70px)";
         }, 250);
@@ -88,12 +90,12 @@ window.addEventListener('scroll', () => {
 // CHANGE HEADER SIZE FOR PAGES OTHER THAN MAIN
 function checkIsCurrentURLEqualsTo(regExp) {
     return regExp.test(window.location.pathname);
-};
+}
 function ifNotTrueAddNotIndexClass(boolean, element) {
-    if (boolean != true) {
+    if (boolean !== true) {
         element.id = "not-index";
-    };
-};
+    }
+}
 
 const indexRegExp = /index|^\/$|situs-pemuridan\/index/;
 const body = document.querySelector('body');
@@ -110,7 +112,7 @@ function isVisible(element) {
     bounds.bottom = bounds.top + element.offsetHeight;
     // ignore this code, it is used for debugging // console.log(`Viewport.top: ${viewport.top}, viewport.bottom: ${viewport.bottom}, bounds.top: ${bounds.top}, bounds.bottom: ${bounds.bottom}. Viewport.bottom < bounds.top: ${viewport.bottom < bounds.top}, viewport.top > bounds.bottom: ${viewport.top > bounds.bottom}. Is the element visible? ${(!(viewport.bottom < bounds.top || viewport.top > bounds.bottom))}`)
     return (!(viewport.bottom < bounds.top || viewport.top > bounds.bottom));
-};
+}
 
 const parallaxContainer = document.querySelectorAll('.js-picture-parallax-container');
 const picturesToParallax = document.querySelectorAll('.js-picture-parallax');
@@ -119,16 +121,16 @@ const parallaxSpeed = 0.2;
 
 window.addEventListener('scroll', function () {
     parallaxContainer.forEach(function (element) {
-        if (isVisible(element) == true) {
+        if (isVisible(element) === true) {
             let elmTop = element.offsetTop;
             let shiftDistance = (window.pageYOffset - elmTop) * parallaxSpeed;
             for (let i = 0; i < picturesToParallax.length; i++) {
                 picturesToParallax[i].style.transform = `translateY(${shiftDistance}px)`;
-            };
+            }
             for (let i = 0; i < pictureLayersToParallax.length; i++) {
                 pictureLayersToParallax[i].style.transform = `translateY(${shiftDistance}px)`;
-            };
-        };
+            }
+        }
     });
 });
 
@@ -136,7 +138,7 @@ window.addEventListener('scroll', function () {
 // PARALLAX ANIMATION FOR K3B SUB CHAPTER PAGE
 const k3BSubChapterContainers = document.querySelectorAll("#k3b-sub-chapter-container section");
 
-if (k3BSubChapterContainers[0] != null) {
+if (k3BSubChapterContainers[0] !== null) {
     k3BSubChapterContainers.forEach((element) => {
         var moveDistance = (element.querySelector('p').offsetHeight) / 2;
         window.addEventListener('DOMContentLoaded', () => {
@@ -156,10 +158,10 @@ if (k3BSubChapterContainers[0] != null) {
                 element.querySelector('h2').style.transform = `scale(1) translateY($    {moveDistance}px)`;
                 element.querySelector('h2').style.opacity = "0";
                 element.querySelector('p').style.opacity = "0";
-            };
+            }
         });
     });
-};
+}
 
 
 // CAROUSEL ANIMATIONS
@@ -173,8 +175,8 @@ const dropdownSlidesPrevBtn = document.querySelector('.dropdown-slide-prev-btn')
 function prepareCarousel(slidesToCarousel) {
     slidesToCarousel.forEach(function (slide, index) {
         slide.style.left = `${index * 100}%`;
-    });
-};
+    })
+}
 function prepareCarouselAndRunCarousel(nextBtnSelector, prevBtnSelector, slidesToCarousel, intervalOrNo) {
     let counter = 0
     nextBtnSelector.addEventListener('click', function () {
@@ -197,7 +199,7 @@ function prepareCarouselAndRunCarousel(nextBtnSelector, prevBtnSelector, slidesT
         })
     }
 
-    if (intervalOrNo == true) {
+    if (intervalOrNo === true) {
         setInterval(() => {
             counter++;
             if (counter < slidesToCarousel.length) {
@@ -206,19 +208,19 @@ function prepareCarouselAndRunCarousel(nextBtnSelector, prevBtnSelector, slidesT
                 })
             } else {
                 counter = -1;
-            };
+            }
         }, 10000);
     }
-};
+}
 
-if (nextBtn != null) {
+if (nextBtn !== null && nextBtn !== undefined) {
     prepareCarousel(presentationSlides);
     prepareCarouselAndRunCarousel(nextBtn, prevBtn, presentationSlides, true);
-};
-if (dropdownSlidesNextBtn != null) {
+}
+if (dropdownSlidesNextBtn !== null && dropdownSlidesNextBtn !== undefined) {
     prepareCarousel(dropdownSlides);
     prepareCarouselAndRunCarousel(dropdownSlidesNextBtn, dropdownSlidesPrevBtn, dropdownSlides, false);
-};
+}
 
 
 // DROPDOWN CAROUSEL ANIMATION
@@ -226,7 +228,7 @@ const dropdownCarouselToggler = document.querySelector('.dropdown-carousel-toggl
 const dropdownCarouselContainer = document.querySelector('#dropdown-carousel-container');
 const dropdownCarouselSliderContainer = document.querySelector('.dropdown-carousel-slider-container');
 
-if (dropdownCarouselToggler != null) {
+if (dropdownCarouselToggler !== null && dropdownCarouselToggler !== undefined) {
     dropdownCarouselToggler.addEventListener('click', () => {
         
         dropdownCarouselContainer.classList.toggle('on');
@@ -238,7 +240,7 @@ if (dropdownCarouselToggler != null) {
             }, 200);
         });
     });
-};
+}
 
 
 
@@ -252,7 +254,7 @@ const deadline = document.querySelector('.deadline');
 const items = document.querySelectorAll('.deadline-format h4');
 const onlyDay = document.querySelector('.ongoing-abba90');
 
-if (deadline != null) {
+if (deadline !== null && deadline !== undefined) {
     let futureDate = new Date(2021, 4, 1, 00, 00, 0); // Month count starts from 0 because indexing starts from 0 // This is the starting date for ABBA 90 IV
     let futureDate2 = new Date(2021, 3, 30, 24, 00, 0); // This is the end date for ABBA 90 III
 
@@ -263,7 +265,7 @@ if (deadline != null) {
     const hours = futureDate.getHours();
     const minutes = futureDate.getMinutes();
 
-    if (dDay != null) { dDay.textContent = `${weekday}, ${date} ${month} ${year}` };
+    if (dDay !== null && dDay !== undefined) { dDay.textContent = `${weekday}, ${date} ${month} ${year}` }
 
     const futureTime = futureDate.getTime();
     const futureTime2 = futureDate2.getTime();
@@ -298,36 +300,36 @@ if (deadline != null) {
             item.innerHTML = format(values[index]);
         });
 
-        if (onlyDay != null) {
-            onlyDay.innerHTML = `ABBA 90 Gelombang Ketiga sudah berlangsung selama ${-(days2 - 90)} hari. Para peserta masih terus menekuni Firman Allah setiap hari! BYB mengundang Anda bergabung dalam ABBA 90 yang berikutnya.`
+        if (onlyDay !== null && onlyDay !== undefined) {
+            onlyDay.innerHTML = `ABBA 90 Gelombang Ketiga sudah berlangsung selama ${-(days2 - 90)} hari. Para peserta masih terus menekuni Firman Allah setiap hari! BYB mengundang Anda bergabung dalam ABBA 90 yang berikutnya.`;
         }
 
         if (t < 0) {
             clearInterval(countdown);
-            deadline.innerHTML = `<h4 class="ongoing">Webinar ini sedang dimulai</h4>`
+            deadline.innerHTML = `<h4 class="ongoing">Webinar ini sedang dimulai</h4>`;
         }
-    };
+    }
 
     let countdown = setInterval(getRemainingTime, 1000);
     getRemainingTime();
-};
+}
 
 
 // AJAX FOR REGISTRATION FORM
 const aBBA90RegistrationForm = document.getElementsByClassName('js-form-rgstr-abba90')[0];
 const aBBA90RegistrationFormTextToChange = document.getElementsByClassName('js-form-rgstr-text-to-change')[0];
-if (aBBA90RegistrationForm != null) {
+if (aBBA90RegistrationForm !== null && aBBA90RegistrationForm !== undefined) {
     aBBA90RegistrationForm.addEventListener('submit', (e) => {
         e.preventDefault();
 
         var email = document.getElementById('e-mail').value;
         var name = document.getElementById('name').value;
         var gender;
-        if (document.getElementById('man').checked == true) {
+        if (document.getElementById('man').checked === true) {
             gender = document.getElementById('man').value;
-        } else if (document.getElementById('women').checked == true) {
+        } else if (document.getElementById('women').checked === true) {
             gender = document.getElementById('women').value;
-        };
+        }
         var age = document.getElementById('age').value;
         var phoneNumber = document.getElementById('phone-number').value;
         var homeAddress = document.getElementById('home-address').value;
@@ -353,10 +355,9 @@ if (aBBA90RegistrationForm != null) {
                 } else {
                     alert("`Status: ${xhr.status} ${xhr.statusText}. Maaf, ada permasalahan dengan server kami. Mohon kirim tangkapan layar ini kepada kami di info@benihyangbaik.com. Mohon maaf atas ketidaknyamanannya.");
                 }
-                ;
-            } ;
-        };
+            }
+        }
 
         xhr.send(parameters);
     });
-};
+}
