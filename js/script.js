@@ -340,7 +340,7 @@ if (aBBA90RegistrationForm != null) {
 
         xhr.onload = function() {
             if (xhr.readyState === xhr.DONE) {
-                if (xhr.status === 200) {
+                if (xhr.status >= 200 && xhr.status < 400) {
                     aBBA90RegistrationForm.classList.add('off');
                     setTimeout(() => {
                         aBBA90RegistrationForm.parentNode.removeChild(aBBA90RegistrationForm);
@@ -348,9 +348,12 @@ if (aBBA90RegistrationForm != null) {
                         aBBA90RegistrationFormTextToChange.innerHTML = "";
                         aBBA90RegistrationFormTextToChange.appendChild(textChange);
                     }, 500);
+                } else if (xhr.status >= 400 && xhr.status < 500) {
+                    alert("`Status: ${xhr.status} ${xhr.statusText}. Maaf, tolong muat ulang halaman dan mengisi kembali formulir pendaftaran. Kalau tetap bermasalah, mohon kirim tangkapan layar ini kepada kami di info@benihyangbaik.com. Mohon maaf atas ketidaknyamanannya.");
                 } else {
-                    alert("Ada permasalahan dengan server kami, mohon muat ulang halaman dan mengisi kembali formulir pendaftaran. Kalau sudah dua kali Anda mendapatkan peringatan ini, tolong beritahu kami di info@benihyangbaik.com. Mohon maaf atas ketidaknyamanannya.");
-                };
+                    alert("`Status: ${xhr.status} ${xhr.statusText}. Maaf, ada permasalahan dengan server kami. Mohon kirim tangkapan layar ini kepada kami di info@benihyangbaik.com. Mohon maaf atas ketidaknyamanannya.");
+                }
+                ;
             } ;
         };
 
