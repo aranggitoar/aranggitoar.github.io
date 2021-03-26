@@ -1062,13 +1062,13 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 
 .radio-btn {
 	position: relative;
-	margin: 0 0 .5rem;
+	margin: 0 0 .5rem !important;
 	display: inline-flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-items: center;
 	width: 100%;
-	height: 100%;
+	height: auto;
 	font-size: 1.1rem;
 }
 
