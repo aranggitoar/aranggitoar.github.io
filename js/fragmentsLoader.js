@@ -32,6 +32,13 @@ scriptLoaderPromise
         script.type = "text/javascript";
         script.setAttribute("defer", "");
         document.getElementsByTagName('head')[0].appendChild(script);
+        if (/study/.test(window.location.pathname) === true) {
+            let script = document.createElement('script');
+            script.src = "js/studyBible.js";
+            script.type = "text/javascript";
+            script.setAttribute("defer", "");
+            document.getElementsByTagName('head')[0].appendChild(script);
+        }
     })
     .catch(() => {
         alert('Ada masalah dengan server kami, mohon memuat ulang halaman sejenak.')
