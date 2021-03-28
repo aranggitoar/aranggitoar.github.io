@@ -50,7 +50,7 @@ function chapterPickerGenerator(stagedBookContainerVariable) {
     chapterPicker.textContent = '';
     for (let i = 0; i < stagedBookContainerVariable.chapters.length; i++) {
         var optionElement = document.createElement('option');
-        optionElement.setAttribute('value', i + 1);
+        optionElement.setAttribute('value', i);
         optionElement.textContent = i + 1;
         chapterPicker.appendChild(optionElement);
     }
