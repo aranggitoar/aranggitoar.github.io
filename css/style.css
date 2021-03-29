@@ -1142,12 +1142,16 @@ button[type="submit"] {
 }
 
 #bible-contents {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	margin: 1rem 0;
 }
 
 	#bible-contents div {
 		display: inline-flex;
 		flex-direction: row;
+		margin: .3rem 0;
 	}
 	
 	#bible-contents sup {
@@ -1158,6 +1162,22 @@ button[type="submit"] {
 		margin: 0;
 		padding: 0 0 0 .25rem;	
 	}
+
+/* #bible-contents {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 1rem 0;
+}
+	
+	#bible-contents sup {
+		font-weight: 700;
+	}
+	
+	#bible-contents p {
+		margin: 0;
+		padding: 0 0 0 .25rem;	
+	} */
 
 
 /* IV. FOOTER SELECTORS */
