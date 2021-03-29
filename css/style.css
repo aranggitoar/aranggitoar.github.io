@@ -1141,16 +1141,22 @@ button[type="submit"] {
 	width: 10vw;
 }
 
-	#bible-contents * {
+#bible-contents {
+	margin: 1rem 0;
+}
+
+	#bible-contents div {
 		display: inline-flex;
+		flex-direction: row;
 	}
 	
 	#bible-contents sup {
-		width: 5%;
+		font-weight: 700;
 	}
 	
 	#bible-contents p {
-		width: 95%;
+		margin: 0;
+		padding: 0 0 0 .25rem;	
 	}
 
 

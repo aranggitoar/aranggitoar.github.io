@@ -46,7 +46,6 @@ function stageBibleBook(stagedBookContainerVariable, addressArray) {
     xhr.send();
 }
 function chapterPickerGenerator(stagedBookContainerVariable) {
-    console.log(stagedBookContainerVariable.chapters.length);
     chapterPicker.textContent = '';
     for (let i = 0; i < stagedBookContainerVariable.chapters.length; i++) {
         var optionElement = document.createElement('option');
@@ -74,16 +73,19 @@ function chapterContentsGenerator(stagedBookContainerVariable, chapterIndex) {
     }
 }
 
-// Listeners
+// Book picker and chapter picker listeners
 bookPicker.addEventListener('change', (e) => {
     e.preventDefault();
     var bookIndex = bookPicker.value;
     stageBibleBook(stagedBook, pickeringFamily35NTAddress[bookIndex]);
-    setTimeout(() => {
+    setTimeout(() => { // Wait for the chosen book to be staged
         chapterPickerGenerator(stagedBook);
-    }, 100);
+        setTimeout(() => { // Wait for the default chapters to be staged
+            var chapterIndex = chapterPicker.value;
+            chapterContentsGenerator(stagedBook, chapterIndex);
+        }, 200);
+    }, 200);
 });
-
 chapterPicker.addEventListener('change', (e) => {
     e.preventDefault();
     var chapterIndex = chapterPicker.value;
