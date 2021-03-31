@@ -87,46 +87,84 @@ function verseByVerse(bookObject, container) {
 }
 // 2. c. 2. Paragraph by paragraph
 function paragraphByParagraph(bookObject, container) {
-    var index;
-    markupCheckRecursions(index, bookObject, container);
+	var objectOfParametersForRecursion = {
+		index : 0,
+		indentParam : undefined,
+		textExistenceParam : undefined,
+		containerContent : ""
+	};
+    paragraphGeneratorRecursion(objectOfParametersForRecursion, bookObject, container);
+	container.innerHTML = objectOfParametersForRecursion.containerContent;
 }
-function markupCheckRecursions (index, bookObject, container) {
-    if (index >= bookObject.length) {
-        return;
+function paragraphGeneratorRecursion (objectOfParameters, bookObject, container) {
+    if (objectOfParameters.index >= bookObject.length) {
+        return objectOfParameters.containerContent;
     } else {
-        if (bookObject[0]) {
-            var newParagraph = document.createElement('p');
-
-        } else if (bookObject[i].verseNumber !== null && bookObject[i].verseText !== undefined) {
-                var newSuperscript = document.createElement('sup');
-
-                newSuperscript.textContent = bookObject[i].verseNumber;
-                newParagraph.textContent = bookObject[i].verseText;
-
-            switch (checkIfFollowedByParagraphOrMargin(stagedBookContainerVariable, chapterIndex, i)) {
-                case 'paragraph':
-
-
-            }
-                container.appendChild(newSuperscript);
-                container.appendChild(newParagraph);
-        }
+		checkIfFollowedByParagraphOrMargin(bookObject, chapterIndex, verseIndex)
+		if (bookObject.hasOwnProperty('contents') && objectOfParameters.textExistenceParam === true) {
+			generateParagraphSwitchCase(objectOfParameters, bookObject, container);
+			objectOfParameters.textExistenceParam = undefined;
+			paragraphGeneratorRecursion(objectOfParameters, bookObject, container);
+		} else if (typeof(bookObject) === object && bookObject.hasOwnProperty('p') === false && bookObject.hasOwnProperty('m') === false && objectOfParameters.textExistenceParam === undefined) {
+			generatePericopes(objectOfParameters, bookObject, container);
+			objectOfParameters.textExistenceParam = true;
+			objectOfParameters.indentParam = undefined;
+			objectOfParameters.index++;
+			paragraphGeneratorRecursion(objectOfParameters, bookObject, container);
+		} else if (bookObject.hasOwnProperty('p') && objectOfParameters.textExistenceParam === undefined) {
+			objectOfParameters.textExistenceParam = true;
+			objectOfParameters.indentParam = 'p';
+			objectOfParameters.index++;
+			paragraphGeneratorRecursion(objectOfParameters, bookObject, container);
+		} else if (bookObject.hasOwnProperty('m') && objectOfParameters.textExistenceParam === undefined) {
+			objectOfParameters.textExistenceParam = true;
+			objectOfParameters.indentParam = 'm';
+			objectOfParameters.index++;
+			paragraphGeneratorRecursion(objectOfParameters, bookObject, container);
+		}
     }
+}
+// Gunakan <sup>&#x203B;</sup> untuk tanda catatan kaki inline.
+function generateParagraphSwitchCase(objectOfParameters, bookObject, container) {
+	switch (objectOfParameters.indentParam) {
+		case 'p':
+			generateNewParagraph(objectOfParameters, bookObject, container);
+			generateNewParagraph(objectOfParameters, bookObject, container);
+		case 'm':
+			if (objectOfParameters.containerContent === undefined) {
+				generateContinuedParagraph(objectOfParameters, bookObject, container);
+			}
+		case undefined:
+			generatePartsOfParagraph(objectOfParameters, bookObject, container);
+	}
+}
+function generateNewParagraph(objectOfParameters, bookObject, container) {
+	if (objectOfParameters.containerContent === undefined) {
+		objectOfParameters.containerContent = `<p>`
+
+	}
+}
+function generateContinuedParagraph(objectOfParameters, bookObject, container) {
+
+}
+function generatePartsOfParagraph(objectOfParameters, bookObject, container) {
+
+}
+function generatePericopes(objectOfParameters, bookObject, container) {
+
 }
 // 2. c. 2. a. Separate the requested contents by
 // new paragraphs and continuation paragraphs
 // in the USFM syntax: p and m.
 function checkIfFollowedByParagraphOrMargin(stagedBookContainerVariable, chapterIndex, verseIndex) {
-    var newParagraphNotation = 'p';
-    var continuationParagraphNotation = 'm';
     var isItFollowedByANewParagraph;
     var isItFollowedByAContinuationParagraph;
 
     for (let i = 0; i < stagedBookContainerVariable.chapters[chapterIndex].contents[verseIndex].contents.length; i++) {
-        if (stagedBookContainerVariable.chapters[chapterIndex].contents[verseIndex].contents[i].hasOwnProperty(newParagraphNotation)) {
+        if (stagedBookContainerVariable.chapters[chapterIndex].contents[verseIndex].contents[i].hasOwnProperty('p')) {
             isItFollowedByANewParagraph = true;
             break;
-        } else if (stagedBookContainerVariable.chapters[chapterIndex].contents[verseIndex].contents[i].hasOwnProperty(continuationParagraphNotation)) {
+        } else if (stagedBookContainerVariable.chapters[chapterIndex].contents[verseIndex].contents[i].hasOwnProperty('m')) {
             isItFollowedByAContinuationParagraph = true;
             break;
         } else {
@@ -135,8 +173,8 @@ function checkIfFollowedByParagraphOrMargin(stagedBookContainerVariable, chapter
         }
     }
 
-    return (isItFollowedByANewParagraph === true ? 'paragraph' : (
-        isItFollowedByAContinuationParagraph === true ? 'margin' : 'none'));
+    return (isItFollowedByANewParagraph === true ? 'p' : (
+        isItFollowedByAContinuationParagraph === true ? 'm' : undefined));
 }
 
 

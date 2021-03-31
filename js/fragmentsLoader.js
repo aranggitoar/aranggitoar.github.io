@@ -35,7 +35,7 @@ scriptLoaderPromise
         // add the following script too.
         if (/study/.test(window.location.pathname) === true) {
             let script = document.createElement('script');
-            script.src = "js/studyBible.js";
+            script.src = "js/studyBibleLogic.js";
             script.type = "text/javascript";
             script.setAttribute("defer", "");
             document.getElementsByTagName('head')[0].appendChild(script);
