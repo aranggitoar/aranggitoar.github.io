@@ -1125,7 +1125,7 @@ button[type="submit"] {
 		outline: 0;
 	}
 
-	#book-and-chapter-picker select {
+	#bible-book-and-chapter-picker select {
 		height: 45px;
 		padding: .5rem;
 		font: 1.2rem var(--ebgar);
@@ -1133,48 +1133,48 @@ button[type="submit"] {
 		border-radius: 2px;
 	}
 	
-#book-picker {
+#bible-book-picker {
 	width: 30vw;
 }
 
-#chapter-picker {
+#bible-chapter-picker {
 	width: 10vw;
 }
 
-#bible-contents {
+#bible-book-contents {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	margin: 1rem 0;
 }
 
-	#bible-contents div {
+	#bible-book-contents div {
 		display: inline-flex;
 		flex-direction: row;
 		margin: .3rem 0;
 	}
 	
-	#bible-contents sup {
+	#bible-book-contents sup {
 		font-weight: 700;
 	}
 	
-	#bible-contents p {
+	#bible-book-contents p {
 		margin: 0;
 		padding: 0 0 0 .25rem;	
 	}
 
-/* #bible-contents {
+/* #bible-book-contents {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	margin: 1rem 0;
 }
 	
-	#bible-contents sup {
+	#bible-book-contents sup {
 		font-weight: 700;
 	}
 	
-	#bible-contents p {
+	#bible-book-contents p {
 		margin: 0;
 		padding: 0 0 0 .25rem;	
 	} */

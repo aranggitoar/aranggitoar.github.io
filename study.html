@@ -1,84 +1,94 @@
 <!DOCTYPE html>
 <html lang="id">
-    <head>
-        <link rel="apple-touch-icon" sizes="180x180" href="/photo/favicons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/photo/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/photo/favicons/favicon-16x16.png">
-        <link rel="manifest" href="/photo/favicons/site.webmanifest">
-        <link rel="mask-icon" href="/photo/favicons/safari-pinned-tab.svg" color="#faf16b">
-        <link rel="shortcut icon" href="/photo/favicons/favicon.ico">
-        <meta name="msapplication-TileColor" content="#faf16b">
-        <meta name="msapplication-config" content="/photo/favicons/browserconfig.xml">
-        <meta name="theme-color" content="#ffffff">
 
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" contents="Benih Yang Baik adalah situs rumah materi pemuridan K3B.">
-        <title>Alkitab Studi</title>
-        <link rel="stylesheet" href="css/style.css" type="text/css">
-		<script src="js/fragmentsLoader.js"></script>
-    </head>
-    <body>
-		<header></header>
-        <main>
-            <article id="main-picture-box">
-                <div class="js-picture-parallax-container main-picture-container">
-                    <img class="js-picture-parallax picture" src="photo/main-page/membaca-dan-mendengar-alkitab-dimana-saja.jpg" alt="Foto Alkitab terbuka, pena, dan kertas-kertas catatan."></div>
-            </article>
-            <article>
-                <section id="page-title-text-container">
-                    <h1>Alkitab Studi</h1>
-                </section>
-                <hr class="hr-light">
-                <section class="text-box">
-                    <div id="book-and-chapter-picker">
-                        <label for="book-picker">
-                            <select id="book-picker" name="book-picker">
-                                <option disabled selected value>Pilih buku</option>
-                                <option value="0">Matius</option>
-                                <option value="1">Markus</option>
-                                <option value="2">Lukas</option>
-                                <option value="3">Yohanes</option>
-                                <option value="4">Kisah Para Rasul</option>
-                                <option value="5">Roma</option>
-                                <option value="6">1 Korintus</option>
-                                <option value="7">2 Korintus</option>
-                                <option value="8">Galatia</option>
-                                <option value="9">Efesus</option>
-                                <option value="10">Filipi</option>
-                                <option value="11">Kolose</option>
-                                <option value="12">1 Tesalonika</option>
-                                <option value="13">2 Tesalonika</option>
-                                <option value="14">1 Timotius</option>
-                                <option value="15">2 Timotius</option>
-                                <option value="16">Titus</option>
-                                <option value="17">Filemon</option>
-                                <option value="18">Ibrani</option>
-                                <option value="19">Yakobus</option>
-                                <option value="20">1 Petrus</option>
-                                <option value="21">2 Petrus</option>
-                                <option value="22">1 Yohanes</option>
-                                <option value="23">2 Yohanes</option>
-                                <option value="24">3 Yohanes</option>
-                                <option value="25">Yudas</option>
-                                <option value="26">Wahyu</option>
-                            </select>
-                        </label>
-                        <label for="chapter-picker">
-                            <select id="chapter-picker" name="chapter-picker">
-                                <option disabled selected value>---</option>
-                            </select>
-                        </label>
-                    </div>
-                    <section id="bible-contents">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/photo/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/photo/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/photo/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/photo/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/photo/favicons/safari-pinned-tab.svg" color="#faf16b">
+    <link rel="shortcut icon" href="/photo/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#faf16b">
+    <meta name="msapplication-config" content="/photo/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 
-                    </section>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" contents="Benih Yang Baik adalah situs rumah materi pemuridan K3B.">
+    <title>Alkitab Studi</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/fragmentsLoader.js"></script>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <article id="main-picture-box">
+            <div class="js-picture-parallax-container main-picture-container">
+                <img class="js-picture-parallax picture"
+                    src="photo/main-page/membaca-dan-mendengar-alkitab-dimana-saja.jpg"
+                    alt="Foto Alkitab terbuka, pena, dan kertas-kertas catatan.">
+            </div>
+        </article>
+        <article>
+            <section id="page-title-text-container">
+                <h1>Alkitab Studi</h1>
+            </section>
+            <hr class="hr-light">
+            <section class="text-box">
+                <div id="bible-book-and-chapter-picker">
+                    <label for="bible-book-picker">
+                        <select id="bible-book-picker" name="bible-book-picker">
+                            <option disabled selected value>Pilih buku</option>
+                            <option value="0">Kejadian</option>
+                            <option value="1">Keluaran</option>
+                            <option value="2">Ester</option>
+                            <option value="3">Pengkhotbah</option>
+                            <option value="4">Matius</option>
+                            <option value="5">Markus</option>
+                            <option value="6">Lukas</option>
+                            <option value="7">Yohanes</option>
+                            <option value="8">Kisah Para Rasul</option>
+                            <option value="9">Roma</option>
+                            <option value="10">1 Korintus</option>
+                            <option value="11">2 Korintus</option>
+                            <option value="12">Galatia</option>
+                            <option value="13">Efesus</option>
+                            <option value="14">Filipi</option>
+                            <option value="15">Kolose</option>
+                            <option value="16">1 Tesalonika</option>
+                            <option value="17">2 Tesalonika</option>
+                            <option value="18">1 Timotius</option>
+                            <option value="19">2 Timotius</option>
+                            <option value="20">Titus</option>
+                            <option value="21">Filemon</option>
+                            <option value="22">Ibrani</option>
+                            <option value="23">Yakobus</option>
+                            <option value="24">1 Petrus</option>
+                            <option value="25">2 Petrus</option>
+                            <option value="26">1 Yohanes</option>
+                            <option value="27">2 Yohanes</option>
+                            <option value="28">3 Yohanes</option>
+                            <option value="29">Yudas</option>
+                            <option value="30">Wahyu</option>
+                        </select>
+                    </label>
+                    <label for="bible-chapter-picker">
+                        <select id="bible-chapter-picker" name="bible-chapter-picker">
+                            <option disabled selected value>---</option>
+                        </select>
+                    </label>
+                </div>
+                <section id="bible-book-contents">
+
                 </section>
-                <hr class="hr-light">
-                <a id="return-btn" role="button" href="index.html">Kembali</a>
-            </article>
-        </main>
-        <footer></footer>
-    </body>
+            </section>
+            <hr class="hr-light">
+            <a id="return-btn" role="button" href="index.html">Kembali</a>
+        </article>
+    </main>
+    <footer></footer>
+</body>
+
 </html>

@@ -21,24 +21,29 @@ const scriptLoaderPromise = new Promise(function(resolve, reject) {
     loadHtml('header', 'header.html', false);
     loadHtml('footer', 'footer.html', true);
 });
+// Maybe doing module imports will be better than creating a script element
+function generateScript(scriptName) {
+    let script = document.createElement('script');
+    script.src = `js/${scriptName}.js`;
+    script.type = "text/javascript";
+    script.setAttribute("defer", "");
+    document.getElementsByTagName('head')[0].appendChild(script);
+}
 
 // Only after the header and footer is loaded
 // the other scripts will be loaded.
 scriptLoaderPromise
     .then(() => {
-        let script = document.createElement('script');
-        script.src = "js/script.js";
-        script.type = "text/javascript";
-        script.setAttribute("defer", "");
-        document.getElementsByTagName('head')[0].appendChild(script);
+        generateScript("animations");
         // If the page is the Study Bible page,
         // add the following script too.
         if (/study/.test(window.location.pathname) === true) {
-            let script = document.createElement('script');
-            script.src = "js/studyBibleLogic.js";
-            script.type = "text/javascript";
-            script.setAttribute("defer", "");
-            document.getElementsByTagName('head')[0].appendChild(script);
+            generateScript("studyBibleLogic");
+        } else if (/event-rgstr/.test(window.location.pathname) === true) {
+            generateScript("registrationFormAJAX");
+            generateScript("countdown");
+        } else if (/index/ || /\s/.test(window.location.pathname) === true) {
+            generateScript("countdown");
         }
     })
     .catch(() => {

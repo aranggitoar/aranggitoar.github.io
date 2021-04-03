@@ -7,19 +7,19 @@
 
 // 1. REQUIRED VARIABLES/OBJECTS/ARRAYS
 // ARRAYS OF THE BIBLE TRANSLATIONS
-const pickeringFamily35NTContents = [];
 
 // ADDRESSES OF THE BIBLE TRANSLATIONS IN .JSON FORMAT
-const pickeringFamily35NTAddress = ['assets/pickeringfamily35nt_json/MAT.json', 'assets/pickeringfamily35nt_json/MRK.json', 'assets/pickeringfamily35nt_json/LUK.json', 'assets/pickeringfamily35nt_json/JHN.json', 'assets/pickeringfamily35nt_json/ACT.json', 'assets/pickeringfamily35nt_json/ROM.json', 'assets/pickeringfamily35nt_json/1CO.json', 'assets/pickeringfamily35nt_json/2CO.json', 'assets/pickeringfamily35nt_json/GAL.json', 'assets/pickeringfamily35nt_json/EPH.json', 'assets/pickeringfamily35nt_json/PHI.json', 'assets/pickeringfamily35nt_json/COL.json', 'assets/pickeringfamily35nt_json/1TH.json', 'assets/pickeringfamily35nt_json/2TH.json', 'assets/pickeringfamily35nt_json/1TI.json', 'assets/pickeringfamily35nt_json/2TI.json', 'assets/pickeringfamily35nt_json/TIT.json', 'assets/pickeringfamily35nt_json/PHM.json', 'assets/pickeringfamily35nt_json/HEB.json', 'assets/pickeringfamily35nt_json/JAS.json', 'assets/pickeringfamily35nt_json/1PE.json', 'assets/pickeringfamily35nt_json/2PE.json', 'assets/pickeringfamily35nt_json/1JN.json', 'assets/pickeringfamily35nt_json/2JN.json', 'assets/pickeringfamily35nt_json/3JN.json', 'assets/pickeringfamily35nt_json/JUD.json', 'assets/pickeringfamily35nt_json/REV.json']
+// const pickeringFamily35NTAddress = ['assets/pickeringfamily35nt_json/MAT.json', 'assets/pickeringfamily35nt_json/MRK.json', 'assets/pickeringfamily35nt_json/LUK.json', 'assets/pickeringfamily35nt_json/JHN.json', 'assets/pickeringfamily35nt_json/ACT.json', 'assets/pickeringfamily35nt_json/ROM.json', 'assets/pickeringfamily35nt_json/1CO.json', 'assets/pickeringfamily35nt_json/2CO.json', 'assets/pickeringfamily35nt_json/GAL.json', 'assets/pickeringfamily35nt_json/EPH.json', 'assets/pickeringfamily35nt_json/PHI.json', 'assets/pickeringfamily35nt_json/COL.json', 'assets/pickeringfamily35nt_json/1TH.json', 'assets/pickeringfamily35nt_json/2TH.json', 'assets/pickeringfamily35nt_json/1TI.json', 'assets/pickeringfamily35nt_json/2TI.json', 'assets/pickeringfamily35nt_json/TIT.json', 'assets/pickeringfamily35nt_json/PHM.json', 'assets/pickeringfamily35nt_json/HEB.json', 'assets/pickeringfamily35nt_json/JAS.json', 'assets/pickeringfamily35nt_json/1PE.json', 'assets/pickeringfamily35nt_json/2PE.json', 'assets/pickeringfamily35nt_json/1JN.json', 'assets/pickeringfamily35nt_json/2JN.json', 'assets/pickeringfamily35nt_json/3JN.json', 'assets/pickeringfamily35nt_json/JUD.json', 'assets/pickeringfamily35nt_json/REV.json'];
+const tsiAddress = ['assets/tsi_json/GEN.json', 'assets/tsi_json/EXO.json', 'assets/tsi_json/EST.json', 'assets/tsi_json/ECC.json', 'assets/tsi_json/MAT.json', 'assets/tsi_json/MRK.json', 'assets/tsi_json/LUK.json', 'assets/tsi_json/JHN.json', 'assets/tsi_json/ACT.json', 'assets/tsi_json/ROM.json', 'assets/tsi_json/1CO.json', 'assets/tsi_json/2CO.json', 'assets/tsi_json/GAL.json', 'assets/tsi_json/EPH.json', 'assets/tsi_json/PHI.json', 'assets/tsi_json/COL.json', 'assets/tsi_json/1TH.json', 'assets/tsi_json/2TH.json', 'assets/tsi_json/1TI.json', 'assets/tsi_json/2TI.json', 'assets/tsi_json/TIT.json', 'assets/tsi_json/PHM.json', 'assets/tsi_json/HEB.json', 'assets/tsi_json/JAS.json', 'assets/tsi_json/1PE.json', 'assets/tsi_json/2PE.json', 'assets/tsi_json/1JN.json', 'assets/tsi_json/2JN.json', 'assets/tsi_json/3JN.json', 'assets/tsi_json/JUD.json', 'assets/tsi_json/REV.json'];
 
 // DOM SELECTORS
-const bookAndChapterPickerContainer = document.querySelector('#book-and-chapter-picker');
-const bookPicker = document.querySelector('#book-picker');
-const chapterPicker = document.querySelector('#chapter-picker');
-const contentsContainer = document.querySelector('#bible-contents');
+const bibleBookAndbibleChapterContainer = document.querySelector('#bible-book-and-chapter-picker');
+const bibleBookPicker = document.querySelector('#bible-book-picker');
+const bibleChapter = document.querySelector('#bible-chapter-picker');
+const contentsContainer = document.querySelector('#bible-book-contents');
 
 // OTHER GLOBAL VARIABLES
-const stagedBook = {};
+const stagedBibleBook = {};
 
 
 
@@ -33,51 +33,51 @@ const stagedBook = {};
 // The books can be shown with or without footnotes per request.
 // -> default is with footnotes.
 // 2a. Stage the requested book
-function stageBibleBook(stagedBookContainerVariable, addressArray) {
+function stageBibleBook(stagedBibleBookContainerVariable, addressArray) {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', addressArray, true);
     xhr.onload = function() {
             if (xhr.readyState === 4 && xhr.status === 200) {
-                Object.assign(stagedBookContainerVariable, JSON.parse(xhr.responseText));
+                Object.assign(stagedBibleBookContainerVariable, JSON.parse(xhr.responseText));
         }
-        return stagedBookContainerVariable;
+        return stagedBibleBookContainerVariable;
     }
     xhr.send();
 }
 
 // In the future per-book display can be implemented
 // 2. b. Generate the picker for chapters of the requested book
-function chapterPickerGenerator(stagedBookContainerVariable) {
-    chapterPicker.textContent = '';
-    for (let i = 0; i < stagedBookContainerVariable.chapters.length; i++) {
+function bibleChapterGenerator(stagedBibleBookContainerVariable) {
+    bibleChapter.textContent = '';
+    for (let i = 0; i < stagedBibleBookContainerVariable.chapters.length; i++) {
         var optionElement = document.createElement('option');
         optionElement.setAttribute('value', i);
         optionElement.textContent = i + 1;
-        chapterPicker.appendChild(optionElement);
+        bibleChapter.appendChild(optionElement);
     }
 }
 
 // 2. c. Generate the contents
 // for the requested chapter of the requested book
-function chapterContentsGenerator(stagedBookContainerVariable, chapterIndex, byVerseOrByParagraph) {
+function bibleChapterContentsGenerator(stagedBibleBookContainerVariable, bibleChaptersIndex, byVerseOrByParagraph) {
     contentsContainer.textContent = '';
-    var chapterContentsObject = stagedBookContainerVariable.chapters[chapterIndex].contents;
+    var bibleChapterContentsObject = stagedBibleBookContainerVariable.chapters[bibleChaptersIndex].contents;
     if (byVerseOrByParagraph === 'byVerse') { // Apakah pilihan dengan atau tidak dengan judul perikop serta footnote dibuat di sini? Kalau begitu berarti fungsi if dan else if ini diubah menjadi fungsi switch?
-        verseByVerse(chapterContentsObject, contentsContainer);
+        verseByVerse(bibleChapterContentsObject, contentsContainer);
     } else if (byVerseOrByParagraph === 'byParagraph') {
-        paragraphByParagraph(chapterContentsObject, contentsContainer);
+        paragraphByParagraph(bibleChapterContentsObject, contentsContainer);
     }
 }
 // 2. c. 1. Verse by verse
-function verseByVerse(bookObject, container) {
-    for (let i = 0; i < bookObject.length; i++) {
-        if (bookObject[i].verseNumber !== null && bookObject[i].verseText !== undefined) {
+function verseByVerse(bibleBookObjectChapters, container) {
+    for (let i = 0; i < bibleBookObjectChapters.length; i++) {
+        if (bibleBookObjectChapters[i].verseNumber !== null && bibleBookObjectChapters[i].verseText !== undefined) {
                 var newTextContainer = document.createElement('div');
                 var newSuperscript = document.createElement('sup');
                 var newParagraph = document.createElement('p');
 
-                newSuperscript.textContent = bookObject[i].verseNumber;
-                newParagraph.textContent = bookObject[i].verseText;
+                newSuperscript.textContent = bibleBookObjectChapters[i].verseNumber;
+                newParagraph.textContent = bibleBookObjectChapters[i].verseText;
 
                 container.appendChild(newTextContainer);
                 newTextContainer.appendChild(newSuperscript);
@@ -86,114 +86,158 @@ function verseByVerse(bookObject, container) {
     }
 }
 // 2. c. 2. Paragraph by paragraph
-function paragraphByParagraph(bookObject, container) {
+function paragraphByParagraph(bibleBookObjectChapters, container) {
 	var objectOfParametersForRecursion = {
 		index : 0,
 		indentParam : undefined,
-		textExistenceParam : undefined,
 		containerContent : ""
 	};
-    paragraphGeneratorRecursion(objectOfParametersForRecursion, bookObject, container);
+    paragraphGeneratorRecursion(objectOfParametersForRecursion, bibleBookObjectChapters);
 	container.innerHTML = objectOfParametersForRecursion.containerContent;
 }
-function paragraphGeneratorRecursion (objectOfParameters, bookObject, container) {
-    if (objectOfParameters.index >= bookObject.length) {
-        return objectOfParameters.containerContent;
+function paragraphGeneratorRecursion (objectOfParameters, bibleBookObjectChapters) {
+    if (objectOfParameters.index >= bibleBookObjectChapters.length) {
+        return objectOfParameters.containerContent.concat("</p>");
     } else {
-		checkIfFollowedByParagraphOrMargin(bookObject, chapterIndex, verseIndex)
-		if (bookObject.hasOwnProperty('contents') && objectOfParameters.textExistenceParam === true) {
-			generateParagraphSwitchCase(objectOfParameters, bookObject, container);
-			objectOfParameters.textExistenceParam = undefined;
-			paragraphGeneratorRecursion(objectOfParameters, bookObject, container);
-		} else if (typeof(bookObject) === object && bookObject.hasOwnProperty('p') === false && bookObject.hasOwnProperty('m') === false && objectOfParameters.textExistenceParam === undefined) {
-			generatePericopes(objectOfParameters, bookObject, container);
-			objectOfParameters.textExistenceParam = true;
+        console.log(objectOfParameters);
+		if (bibleBookObjectChapters[objectOfParameters.index].hasOwnProperty('contents')) {
+
+			generateParagraphSwitchCase(objectOfParameters, bibleBookObjectChapters[objectOfParameters.index]);
+            console.log("passing through first check, indent parameter: " + objectOfParameters.indentParam);
+            objectOfParameters.index++;
+			paragraphGeneratorRecursion(objectOfParameters, bibleBookObjectChapters);
+
+		} else if (typeof(bibleBookObjectChapters[objectOfParameters.index]) === "object" && bibleBookObjectChapters[objectOfParameters.index].hasOwnProperty('p') === false && bibleBookObjectChapters[objectOfParameters.index].hasOwnProperty('m') === false && bibleBookObjectChapters[objectOfParameters.index].hasOwnProperty('verseText') === false) {
+
+			generatePericopes(objectOfParameters, bibleBookObjectChapters[objectOfParameters.index]);
 			objectOfParameters.indentParam = undefined;
 			objectOfParameters.index++;
-			paragraphGeneratorRecursion(objectOfParameters, bookObject, container);
-		} else if (bookObject.hasOwnProperty('p') && objectOfParameters.textExistenceParam === undefined) {
-			objectOfParameters.textExistenceParam = true;
+            console.log("passing through second check" + objectOfParameters.containerContent);
+			paragraphGeneratorRecursion(objectOfParameters, bibleBookObjectChapters);
+
+		} else if (bibleBookObjectChapters[objectOfParameters.index].hasOwnProperty('p')) {
+
 			objectOfParameters.indentParam = 'p';
 			objectOfParameters.index++;
-			paragraphGeneratorRecursion(objectOfParameters, bookObject, container);
-		} else if (bookObject.hasOwnProperty('m') && objectOfParameters.textExistenceParam === undefined) {
-			objectOfParameters.textExistenceParam = true;
+            console.log("passing through third check" + objectOfParameters.containerContent);
+			paragraphGeneratorRecursion(objectOfParameters, bibleBookObjectChapters);
+
+		} else if (bibleBookObjectChapters[objectOfParameters.index].hasOwnProperty('m')) {
+
 			objectOfParameters.indentParam = 'm';
 			objectOfParameters.index++;
-			paragraphGeneratorRecursion(objectOfParameters, bookObject, container);
+            console.log("passing through fourth check" + objectOfParameters.containerContent + "with index value of" + objectOfParameters.index);
+			paragraphGeneratorRecursion(objectOfParameters, bibleBookObjectChapters);
 		}
     }
 }
-// Gunakan <sup>&#x203B;</sup> untuk tanda catatan kaki inline.
-function generateParagraphSwitchCase(objectOfParameters, bookObject, container) {
+function generateParagraphSwitchCase(objectOfParameters, bibleBookObjectChapters) {
+    // Cases here only works for first paragraphs
 	switch (objectOfParameters.indentParam) {
 		case 'p':
-			generateNewParagraph(objectOfParameters, bookObject, container);
-			generateNewParagraph(objectOfParameters, bookObject, container);
+			return objectOfParameters.containerContent = generateNewParagraph(objectOfParameters, bibleBookObjectChapters);
 		case 'm':
-			if (objectOfParameters.containerContent === undefined) {
-				generateContinuedParagraph(objectOfParameters, bookObject, container);
-			}
+			return (bibleBookObjectChapters.length > 1 ?
+                objectOfParameters.containerContent = generateContinuedParagraphPlus(objectOfParameters, bibleBookObjectChapters) :
+                objectOfParameters.containerContent = generateContinuedParagraph(objectOfParameters, bibleBookObjectChapters));
 		case undefined:
-			generatePartsOfParagraph(objectOfParameters, bookObject, container);
+			return (bibleBookObjectChapters.length > 1 ?
+                objectOfParameters.containerContent = generatePartsOfParagraphPlus(objectOfParameters, bibleBookObjectChapters) :
+                objectOfParameters.containerContent = generatePartsOfParagraph(objectOfParameters, bibleBookObjectChapters));
 	}
 }
-function generateNewParagraph(objectOfParameters, bookObject, container) {
-	if (objectOfParameters.containerContent === undefined) {
-		objectOfParameters.containerContent = `<p>`
 
-	}
+function generatePericopes(objectOfParameters, bibleBookObjectChapters) {
+    var pericopeType = Object.keys(bibleBookObjectChapters);
+    if (/ms/.test(pericopeType)) {
+        return objectOfParameters.containerContent.concat(`<h2>${bibleBookObjectChapters[0].pericopeType[0]}</h2>`);
+    } else if (/s/.test(pericopeType)) {
+        return objectOfParameters.containerContent.concat(`<h3>${bibleBookObjectChapters[0].pericopeType[0]}</h3>`);
+    }
 }
-function generateContinuedParagraph(objectOfParameters, bookObject, container) {
 
+function generateNewParagraph(objectOfParameters, bibleBookObjectChapters) {
+    if (bibleBookObjectChapters.contents.length > 2) {
+        return generateInlineFootnote(objectOfParameters, bibleBookObjectChapters.contents);
+    }
+	if (objectOfParameters.containerContent === "") {
+		return objectOfParameters.containerContent.concat(`<p>&emsp;<sup>${bibleBookObjectChapters.verseNumber}</sup>${bibleBookObjectChapters.contents[0]}`);
+	} else {
+        return objectOfParameters.containerContent.concat(`</p><p>&emsp;<sup>${bibleBookObjectChapters.verseNumber}</sup>${bibleBookObjectChapters.contents[0]}`);
+    }
 }
-function generatePartsOfParagraph(objectOfParameters, bookObject, container) {
-
+function generateInlineFootnote(objectOfParameters, bibleBookObjectChaptersContent) {
+    var objectOfKeysAndIndex = {};
+    objectInContentsAndItsIndex(objectOfParameters, bibleBookObjectChaptersContent, objectOfKeysAndIndex);
+    bibleBookObjectChaptersContent[objectOfKeysAndIndex.footnote] = `<sup data-footnote-text:"${inlineFootnoteStringify(objectOfKeysAndIndex.footnote)}">&#x203B;</sup>`;
+    return objectOfParameters.containerContent.concat(bibleBookObjectChaptersContent.toString().replaceAll(",", " ").replaceAll(/\[.*?\]/g, ""));
 }
-function generatePericopes(objectOfParameters, bookObject, container) {
-
-}
-// 2. c. 2. a. Separate the requested contents by
-// new paragraphs and continuation paragraphs
-// in the USFM syntax: p and m.
-function checkIfFollowedByParagraphOrMargin(stagedBookContainerVariable, chapterIndex, verseIndex) {
-    var isItFollowedByANewParagraph;
-    var isItFollowedByAContinuationParagraph;
-
-    for (let i = 0; i < stagedBookContainerVariable.chapters[chapterIndex].contents[verseIndex].contents.length; i++) {
-        if (stagedBookContainerVariable.chapters[chapterIndex].contents[verseIndex].contents[i].hasOwnProperty('p')) {
-            isItFollowedByANewParagraph = true;
-            break;
-        } else if (stagedBookContainerVariable.chapters[chapterIndex].contents[verseIndex].contents[i].hasOwnProperty('m')) {
-            isItFollowedByAContinuationParagraph = true;
-            break;
-        } else {
-            isItFollowedByANewParagraph = false;
-            isItFollowedByAContinuationParagraph = false;
+function inlineFootnoteStringify(arrayOfFootnoteMarkups) {
+    var footnoteString;
+    for (let i = 0; i < arrayOfFootnoteMarkups.length; i++) {
+        if (arrayOfFootnoteMarkups[i].hasOwnProperty(fk)) {
+            footnoteString = `<i>${arrayOfFootnoteMarkups[i].fk}</i> &#8212; `;
+        } else if (arrayOfFootnoteMarkups[i].hasOwnProperty(ft)) {
+            footnoteString.concat(arrayOfFootnoteMarkups[i].ft);
         }
     }
-
-    return (isItFollowedByANewParagraph === true ? 'p' : (
-        isItFollowedByAContinuationParagraph === true ? 'm' : undefined));
+    return footnoteString;
+}
+function objectInContentsAndItsIndex(objectOfParameters, bibleBookObjectChaptersContents, objectOfKeysAndIndex) {
+    for (var i = 0; i < bibleBookObjectChaptersContents.length; i++) {
+        if (typeof(bibleBookObjectChaptersContents[i]) === "object") {
+            objectOfKeysAndIndex[Object.keys(bibleBookObjectChaptersContents[i])] = i;
+        }
+    }
+    console.log("object of keys and index: " + objectOfKeysAndIndex.footnote);
+    objectInContentsAndItsIndexIndentation(objectOfParameters, objectOfKeysAndIndex);
+    return objectOfKeysAndIndex, objectOfParameters.indentParam;
+}
+function objectInContentsAndItsIndexIndentation(objectOfParameters, objectOfKeysAndIndex) {
+    if (objectOfKeysAndIndex.hasOwnProperty('p')) {
+        objectOfParameters.indentParam = 'p';
+    } else if (objectOfKeysAndIndex.hasOwnProperty('m')) {
+        objectOfParameters.indentParam = 'm';
+    } else {
+        objectOfParameters.indentParam = undefined;
+    }
+    return objectOfParameters.indentParam;
+}
+// function generateNewParagraph(objectOfParameters, bibleBookObject) {
+// 	if (objectOfParameters.containerContent === "") {
+// 		return objectOfParameters.containerContent.concat(`<p>&emsp;<sup>${bibleBookObject.verseNumber}</sup>${bibleBookObject.content[0]}`);
+// 	} else {
+//         return objectOfParameters.containerContent.concat(`</p><p>&emsp;<sup>${bibleBookObject.verseNumber}</sup>${bibleBookObject.content[0]}`);
+//     }
+// }
+function generateContinuedParagraph(objectOfParameters, bibleBookObject) {
+	if (objectOfParameters.containerContent === "") {
+		return objectOfParameters.containerContent.concat(`<p><sup>${bibleBookObject.verseNumber}</sup>${bibleBookObject.content[0]}`);
+	} else {
+        return objectOfParameters.containerContent.concat(`</p><p><sup>${bibleBookObject.verseNumber}</sup>${bibleBookObject.content[0]}`);
+    }
+}
+function generatePartsOfParagraph(objectOfParameters, bibleBookObject) {
+    return objectOfParameters.containerContent.concat(` <sup>${bibleBookObject.verseNumber}</sup>${bibleBookObject.content[0]}`);
 }
 
 
 
 // 3. FUNCTION CALLS
-bookPicker.addEventListener('change', (e) => {
+bibleBookPicker.addEventListener('change', (e) => {
     e.preventDefault();
-    var bookIndex = bookPicker.value;
-    stageBibleBook(stagedBook, pickeringFamily35NTAddress[bookIndex]);
+    var bibleBookIndex = bibleBookPicker.value;
+    stageBibleBook(stagedBibleBook, tsiAddress[bibleBookIndex]);
     setTimeout(() => { // Wait for the chosen book to be staged
-        chapterPickerGenerator(stagedBook);
+        bibleChapterGenerator(stagedBibleBook);
         setTimeout(() => { // Wait for the default chapters to be staged
-            var chapterIndex = chapterPicker.value;
-            chapterContentsGenerator(stagedBook, chapterIndex, 'byVerse');
+            var bibleChaptersIndex = bibleChapter.value;
+            bibleChapterContentsGenerator(stagedBibleBook, bibleChaptersIndex, 'byParagraph');
         }, 200);
     }, 200);
 });
-chapterPicker.addEventListener('change', (e) => {
+bibleChapter.addEventListener('change', (e) => {
     e.preventDefault();
-    var chapterIndex = chapterPicker.value;
-    chapterContentsGenerator(stagedBook, chapterIndex, 'byVerse');
+    var bibleChaptersIndex = bibleChapter.value;
+    bibleChapterContentsGenerator(stagedBibleBook, bibleChaptersIndex, 'byParagraph');
 });

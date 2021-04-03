@@ -1,0 +1,244 @@
+{
+  "book": {
+    "bookCode": "2JN",
+    "description": "- Terjemahan Sederhana Indonesia NT -Indonesia 2014 (Web 2014)",
+    "meta": [
+      {
+        "h": "2 Yohanes"
+      },
+      {
+        "toc1": [
+          "Surat Yohanes yang kedua"
+        ]
+      },
+      {
+        "toc2": [
+          "2 Yohanes"
+        ]
+      },
+      {
+        "toc3": [
+          "2Yoh."
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "Surat Yohanes yang kedua"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Kepada Ibu yang terkasih, yang sudah dipilih oleh Allah, juga kepada anak-anakmu. Salam dari saya, pemimpin [@umat//jemaat]. Saya mengasihi kalian masing-masing sesuai dengan ajaran benar yang kita terima dari Allah! Bukan hanya saya, tetapi semua orang yang sudah mengenal ajaran benar itu juga mengasihi kalian,",
+          "contents": [
+            "Kepada Ibu yang terkasih, yang sudah dipilih oleh Allah, juga kepada anak-anakmu.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:1"
+                },
+                {
+                  "fk": "Ibu … anak-anakmu"
+                },
+                {
+                  "ft": "Kata ‘Ibu’ dalam surat ini kemungkinan besar adalah kiasan yang artinya kumpulan jemaat di suatu lokasi. Dan ‘anak-anakmu’ berarti para anggota jemaat itu. Ketika Yohanes menulis surat ini, pemerintah Roma sudah mulai menganiaya orang-orang Kristen. Jadi, kemungkinan besar Yohanes sengaja menuliskan tujuan surat ini dengan kurang jelas, supaya tidak bisa menjadi petunjuk bagi musuh-musuh jemaat yang sedang memburu pengikut Kristus."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "p": null
+            },
+            "Salam dari saya, pemimpin [@umat//jemaat].",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:1"
+                },
+                {
+                  "fk": "pemimpin umat …"
+                },
+                {
+                  "ft": "Sebenarnya, Yohanes juga seorang rasul, tetapi dia tidak meninggikan diri dengan menyebutkan jabatan itu. Posisinya pada waktu ini bukan saja penatua satu jemaat, tetapi sebagai koordinator untuk banyak jemaat. Jabatan ini diyakini menjadi awal mula dari jabatan paus di gereja. Yohanes juga sudah melatih dan mengirim para pengkhotbah keliling."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "p": null
+            },
+            "Saya mengasihi kalian masing-masing sesuai dengan ajaran benar yang kita terima dari Allah!",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:1"
+                },
+                {
+                  "fk": "sesuai ajaran benar … dari Allah"
+                },
+                {
+                  "ft": "Kata-kata ini menerjemahkan “kebenaran.” Maksudnya ajaran benar atau Kabar Baik tentang Kristus Yesus, yang mempersatukan semua orang percaya."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "Bukan hanya saya, tetapi semua orang yang sudah mengenal ajaran benar itu juga mengasihi kalian,"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "sebab ajaran benar itu ada dalam hati kita, dan akan menyertai kita selama-lamanya.",
+          "contents": [
+            "sebab ajaran benar itu ada dalam hati kita, dan akan menyertai kita selama-lamanya.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Karena kita saling mengasihi dan hidup sesuai ajaran benar, maka Allah Bapa dan Anak-Nya, yaitu Penguasa kita Kristus Yesus, akan selalu berbaik hati kepada kita, mengasihani, dan menjaga kita sehingga hidup kita tetap tenang dalam perlindungan Allah.",
+          "contents": [
+            "Karena kita saling mengasihi dan hidup sesuai ajaran benar, maka Allah Bapa dan Anak-Nya, yaitu Penguasa kita Kristus Yesus, akan selalu berbaik hati kepada kita, mengasihani, dan menjaga kita sehingga hidup kita tetap tenang dalam perlindungan Allah.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Saya sangat bersukacita karena sudah mendapati beberapa anak Ibu hidup sesuai dengan ajaran benar, seperti yang sudah diperintahkan Bapa kepada kita.",
+          "contents": [
+            "Saya sangat bersukacita karena sudah mendapati beberapa anak Ibu hidup sesuai dengan ajaran benar, seperti yang sudah diperintahkan Bapa kepada kita."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Sekarang saya mengatakan kepadamu, Ibu, supaya kita semua saling mengasihi. Yang saya tulis ini bukan perintah baru bagimu. Perintah ini sudah ada pada kita sejak semula.",
+          "contents": [
+            "Sekarang saya mengatakan kepadamu, Ibu, supaya kita semua saling mengasihi. Yang saya tulis ini bukan perintah baru bagimu. Perintah ini sudah ada pada kita sejak semula."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Dan yang dimaksud dengan mengasihi adalah kita harus hidup menurut perintah-perintah Allah. Inilah perintah-Nya, yang saya tegaskan sekali lagi: Hendaklah kita hidup dalam kasih, seperti yang sudah kita dengar sejak semula.",
+          "contents": [
+            "Dan yang dimaksud dengan mengasihi adalah kita harus hidup menurut perintah-perintah Allah. Inilah perintah-Nya, yang saya tegaskan sekali lagi: Hendaklah kita hidup dalam kasih, seperti yang sudah kita dengar sejak semula.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Karena sekarang ini banyak guru palsu sudah muncul di seluruh dunia. Mereka tidak mengakui bahwa Kristus Yesus sudah datang ke dunia ini sebagai manusia dengan tubuh biasa. Siapa saja yang tidak mengakui hal itu adalah guru palsu dan pengikut antikristus.",
+          "contents": [
+            "Karena sekarang ini banyak guru palsu sudah muncul di seluruh dunia. Mereka tidak mengakui bahwa Kristus Yesus sudah datang ke dunia ini sebagai manusia dengan tubuh biasa. Siapa saja yang tidak mengakui hal itu adalah guru palsu dan pengikut antikristus.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:7"
+                },
+                {
+                  "fk": "antikristus"
+                },
+                {
+                  "ft": "Seorang raja kejahatan yang akan melawan Allah dan Kristus. Lihat 2Tes. 1-12."
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Karena itu, hendaklah kita masing-masing menjaga diri. Jangan sampai ada yang tidak menerima upah kemenangan yang sedang kita perjuangkan dan jangan sampai upahmu dikurangi.",
+          "contents": [
+            "Karena itu, hendaklah kita masing-masing menjaga diri. Jangan sampai ada yang tidak menerima upah kemenangan yang sedang kita perjuangkan dan jangan sampai upahmu dikurangi."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Sebab kalau kamu mengikuti ajaran sesat dan tidak taat kepada ajaran benar tentang Kristus, maka kamu sudah meninggalkan Allah. Tetapi kalau kamu tetap mengikuti ajaran benar itu, maka kamu tetap mempunyai hubungan erat dengan Allah Bapa dan Anak-Nya.",
+          "contents": [
+            "Sebab kalau kamu mengikuti ajaran sesat dan tidak taat kepada ajaran benar tentang Kristus, maka kamu sudah meninggalkan Allah. Tetapi kalau kamu tetap mengikuti ajaran benar itu, maka kamu tetap mempunyai hubungan erat dengan Allah Bapa dan Anak-Nya."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Kalau seseorang datang membawa ajaran lain tentang Kristus, janganlah terima dia di rumahmu, bahkan jangan memberi salam kepadanya.",
+          "contents": [
+            "Kalau seseorang datang membawa ajaran lain tentang Kristus, janganlah terima dia di rumahmu, bahkan jangan memberi salam kepadanya."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Karena kalau kamu menerima dia, berarti kamu sudah mendukung pekerjaannya yang jahat itu.",
+          "contents": [
+            "Karena kalau kamu menerima dia, berarti kamu sudah mendukung pekerjaannya yang jahat itu.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Masih banyak lagi yang saya mau katakan kepada kalian, tetapi rasanya lebih baik tidak disampaikan lewat tulisan. Saya berharap bisa datang mengunjungi kalian, dan kita akan berbicara tatap muka. Dengan demikian kita sangat bersukacita.",
+          "contents": [
+            "Masih banyak lagi yang saya mau katakan kepada kalian, tetapi rasanya lebih baik tidak disampaikan lewat tulisan. Saya berharap bisa datang mengunjungi kalian, dan kita akan berbicara tatap muka. Dengan demikian kita sangat bersukacita."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Anak-anak dari saudarimu seiman, yang juga sudah dipilih oleh Allah, mengirim salam kepadamu. Amin.",
+          "contents": [
+            "Anak-anak dari saudarimu seiman,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:13"
+                },
+                {
+                  "fk": "saudarimu"
+                },
+                {
+                  "ft": "Saudari dari ‘ibu’ yang disebutkan dalam ayat 1, maksudnya kumpulan jemaat lain."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "yang juga sudah dipilih oleh Allah, mengirim salam kepadamu. Amin."
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": []
+  }
+}

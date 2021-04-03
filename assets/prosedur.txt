@@ -59,7 +59,7 @@ Di bawah, variabel-variabel ini akan disebut parameter karena fungsi utamanya se
 6. Cek apa parameter keterangan indentasi yang diterima
   --> kalau 'p'
     --> kalau parameter isi kontainer undefined
-      --> ciptakan tag paragraf baru dengan &emsp; untuk indentasi dalam .innerHTML dari #book-contents
+      --> ciptakan tag paragraf baru dengan &emsp; untuk indentasi dalam .innerHTML dari #bible-book-contents
       --> tambahkan nilai kunci "verseNumber" ke dalam sebuah superskrip ke belakang tag paragraf baru
       --> tambahkan semua isi kunci "contents" ke belakang superskrip yang baru ditambahkan
       --> panggil fungsi rekursif dengan index, parameter keterangan indentasi null, parameter keterangan konten undefined, dan parameter isi kontainer
@@ -67,7 +67,7 @@ Di bawah, variabel-variabel ini akan disebut parameter karena fungsi utamanya se
       --> lakukan semua hal yang sama dengan tambahan </p> sebelum tag paragraf baru
   --> kalau 'm'
     --> kalau parameter isi kontainer undefined
-      --> ciptakan tag paragraf baru tanpa indentasi dalam .innerHTML dari #book-contents
+      --> ciptakan tag paragraf baru tanpa indentasi dalam .innerHTML dari #bible-book-contents
       --> idem.
       --> idem.
       --> idem.
