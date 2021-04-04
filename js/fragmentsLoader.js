@@ -1,3 +1,7 @@
+(function() {
+
+
+    
 // Header and footer will be loaded first
 const scriptLoaderPromise = new Promise(function(resolve, reject) {
     function loadHtml(parentElementSelector, filePath, runPromise) {
@@ -22,10 +26,10 @@ const scriptLoaderPromise = new Promise(function(resolve, reject) {
     loadHtml('footer', 'footer.html', true);
 });
 // Maybe doing module imports will be better than creating a script element
-function generateScript(scriptName) {
+function generateScript(scriptName, scriptType) {
     let script = document.createElement('script');
     script.src = `js/${scriptName}.js`;
-    script.type = "text/javascript";
+    script.type = scriptType;
     script.setAttribute("defer", "");
     document.getElementsByTagName('head')[0].appendChild(script);
 }
@@ -34,18 +38,22 @@ function generateScript(scriptName) {
 // the other scripts will be loaded.
 scriptLoaderPromise
     .then(() => {
-        generateScript("animations");
+        generateScript("animations", "text/javascript");
         // If the page is the Study Bible page,
         // add the following script too.
         if (/study/.test(window.location.pathname) === true) {
-            generateScript("studyBibleLogic");
+            generateScript("studyBibleLogic", "text/javascript");
         } else if (/event-rgstr/.test(window.location.pathname) === true) {
-            generateScript("registrationFormAJAX");
-            generateScript("countdown");
+            generateScript("registrationFormAJAX", "text/javascript");
+            generateScript("countdown", "text/javascript");
         } else if (/index/ || /\s/.test(window.location.pathname) === true) {
-            generateScript("countdown");
+            generateScript("countdown", "text/javascript");
         }
     })
     .catch(() => {
         alert('Ada masalah dengan server kami, mohon memuat ulang halaman sejenak.')
     })
+
+
+
+}());

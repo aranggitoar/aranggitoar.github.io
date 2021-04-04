@@ -1,3 +1,7 @@
+(function() {
+
+
+
 const abba90RegistrationForm = document.getElementsByClassName('js-form-rgstr-abba90')[0];
 const abba90RegistrationFormTextToChange = document.getElementsByClassName('js-form-rgstr-text-to-change')[0];
 abba90RegistrationForm.addEventListener('submit', (e) => {
@@ -38,3 +42,7 @@ abba90RegistrationForm.addEventListener('submit', (e) => {
     }
     xhr.send(parameters);
 });
+
+
+
+}());
