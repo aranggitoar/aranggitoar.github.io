@@ -1,3 +1,17 @@
+The current logic is applied only for Terjemahan Sederhana Indonesia bible.
+
+If you would go back through time on this repository's checkout history, you would see that the logic was different at first.
+It was originally made for the Wilbur Pickering's Family 35.
+Which has a different format of USFM.
+For example: they separate pericopes from verse contents, TSI doesn't;
+	they have ms# and s# types of pericopes, TSI only have s# and without numberings.
+
+This is the most practical way of doing it for now.
+If there is more manpower a better way could be thought of.
+May Jesus send more workers.
+
+
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 LOGIKA FUNGSI REKURSIF PENYUSUNAN PARAGRAF ALKITAB STUDI
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -5,7 +19,7 @@ LOGIKA FUNGSI REKURSIF PENYUSUNAN PARAGRAF ALKITAB STUDI
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 BEBERAPA CATATAN PENTING
 1. Yang disebut "obyek" di bawah sama dengan notasi sbb.,
-  --> stagedBook.chapters[i].contents[i]
+  --> stagedBook.chapters[i].contents
 2. Nilai i sudah ditentukan melalui for loop/ forEach yang mengandung fungsi rekursif ini.
 3. Obyek ini mengandung isi dari sebuah pasal, yaitu:
    - keterangan indentasi
@@ -83,4 +97,4 @@ Di bawah, variabel-variabel ini akan disebut parameter karena fungsi utamanya se
   --> semua sama saja dengan nomor 6, kecuali metode penambahan kepada parameter isi kontainer
     --> penambahan akan dilakukan satu per satu dengan iterasi
       --> kalau mengandung kunci "footnote"
-        --> lakukan iterasi dalam obyek ini untuk mencari kunci "ft" dan 
+        --> lakukan iterasi dalam obyek ini untuk mencari kunci "ft" dan
