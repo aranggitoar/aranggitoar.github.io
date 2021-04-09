@@ -16,15 +16,23 @@
             $age = mysqli_real_escape_string($conn, $_POST['age']);
             $phonenumber = mysqli_real_escape_string($conn, $_POST['phone-number']);
             $homeaddress = mysqli_real_escape_string($conn, $_POST['home-address']);
-            // echo 'SUCCESS: The data is '. $_POST['name'].$_POST['e-mail'].$_POST['message'];  
-            $sql = "INSERT INTO table_name(email,name,gender,age,phonenumber,homeaddress) VALUES ('$email', '$name', '$gender', '$age', '$phonenumber', '$homeaddress')";
-        
-            if(mysqli_query($conn, $sql)){
-                echo 'Anda telah terdaftar!';
-            } else {
-                echo 'ERROR: '. mysqli_error($conn);
-            }
-      }      
+
+		// Prepare queries
+        $db_check_query = "SELECT email, name FROM table_name WHERE email = '$email' OR name = '$name';";
+		$db_insertion_query = "INSERT INTO table_name(email,name,gender,age,phonenumber,homeaddress) VALUES ('$email', '$name', '$gender', '$age', '$phonenumber', '$homeaddress');";
+
+		// Check if already registered
+        $db_check_result = mysqli_query($conn, $db_check_query);
+		$encoded_db_check_result = json_encode(mysqli_fetch_array($db_check_result));
+
+		// Send back the result to AJAX
+        echo $encoded_db_check_result;
+
+		// Save to database if registrar is not already registered
+		if ($encoded_db_check_result === "null") {
+            mysqli_query($conn, $db_insertion_query);
+		}
+      }
 
       mysqli_close($conn);
 ?>
