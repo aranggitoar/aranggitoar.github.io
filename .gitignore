@@ -1,2 +1,4 @@
 .vscode/settings.json
-automail/PHPMailer
+automail/PHPMailer/*
+assets/json_bible_files/*
+!assets/json_bible_files/tsi_json
