@@ -1,0 +1,630 @@
+{
+  "book": {
+    "bookCode": "JON",
+    "meta": [
+      {
+        "h": "Yunus"
+      },
+      {
+        "toc1": [
+          "Yunus"
+        ]
+      },
+      {
+        "toc2": [
+          "Yunus"
+        ]
+      },
+      {
+        "toc3": [
+          "Yun"
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "YUNUS"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Yunus menolak perintah TUHAN untuk pergi memperingatkan penduduk kota Niniwe"
+            ]
+          }
+        ],
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Beberapa puluh tahun yang lalu, ada seorang nabi Israel bernama Yunus, anak Amitai. TUHAN memberi perintah ini kepadanya,",
+          "contents": [
+            "Beberapa puluh tahun yang lalu, ada seorang nabi Israel bernama Yunus, anak Amitai. TUHAN memberi perintah ini kepadanya,"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "“Pergi dan peringatkanlah penduduk ibukota besar Niniwe bahwa Aku akan segera menghukum mereka, karena perbuatan mereka jahat sekali.”",
+          "contents": [
+            "“Pergi dan peringatkanlah penduduk ibukota besar Niniwe",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:2"
+                },
+                {
+                  "fk": "Niniwe"
+                },
+                {
+                  "ft": "Niniwe adalah ibukota Asyur, suatu bangsa yang sangat fasik, kejam dan dursila (Nah.1:11; 2:12-13; 3:1, 4, 16, 19). Orang Yahudi membenci orang Asyur dan memandang mereka sebagai ancaman. Yunus sangat marah karena penduduk Niniwe bukan keturunan orang Yahudi. Yunus berharap Tuhan tidak mengasihani mereka."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "bahwa Aku akan segera menghukum mereka, karena perbuatan mereka jahat sekali.”",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Tetapi Yunus tidak mau pergi ke Niniwe! Dia malah mencoba melarikan diri dari hadapan TUHAN dengan pergi ke Yopa— tempat yang berlawanan arah dari perintah TUHAN. Di sana, dia mencari kapal yang menuju kota Tarsis, membayar ongkos untuk perjalanan tersebut, dan menaiki kapal itu.",
+          "contents": [
+            "Tetapi Yunus tidak mau pergi ke Niniwe! Dia malah mencoba melarikan diri dari hadapan TUHAN dengan pergi ke Yopa— tempat yang berlawanan arah dari perintah TUHAN. Di sana, dia mencari kapal yang menuju kota Tarsis, membayar ongkos untuk perjalanan tersebut, dan menaiki kapal itu."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Kemudian TUHAN mengirimkan angin yang sangat kencang ke laut dan terjadilah badai yang sangat besar dan kuat, sehingga kapal itu hampir pecah.",
+          "contents": [
+            "Kemudian TUHAN mengirimkan angin yang sangat kencang ke laut dan terjadilah badai yang sangat besar dan kuat, sehingga kapal itu hampir pecah."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Karena itu, anak buah kapal menjadi sangat takut dan setiap orang berdoa kepada dewanya masing-masing untuk meminta pertolongan. Mereka membuang barang-barang ke laut untuk meringankan beban kapal itu supaya tidak mudah tenggelam. Sementara itu, Yunus sudah turun ke lantai yang bagian bawah, lalu berbaring di situ, sampai tertidur nyenyak.",
+          "contents": [
+            "Karena itu, anak buah kapal menjadi sangat takut dan setiap orang berdoa kepada dewanya masing-masing untuk meminta pertolongan. Mereka membuang barang-barang ke laut untuk meringankan beban kapal itu supaya tidak mudah tenggelam. Sementara itu, Yunus sudah turun ke lantai yang bagian bawah, lalu berbaring di situ, sampai tertidur nyenyak."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Pada waktu kapten kapal itu turun ke lantai bagian bawah, dia melihat Yunus sedang tertidur nyenyak. Lalu kapten kapal itu membangunkan Yunus dan berkata, “Bagaimana mungkin kamu bisa tidur nyenyak dalam keadaan begini? Bangunlah, berdoalah kepada dewamu! Mungkin dewamu itu mau mengasihani dan menyelamatkan kita dari bencana ini.”",
+          "contents": [
+            "Pada waktu kapten kapal itu turun ke lantai bagian bawah, dia melihat Yunus sedang tertidur nyenyak. Lalu kapten kapal itu membangunkan Yunus dan berkata, “Bagaimana mungkin kamu bisa tidur nyenyak dalam keadaan begini? Bangunlah, berdoalah kepada dewamu! Mungkin dewamu itu mau mengasihani dan menyelamatkan kita dari bencana ini.”",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Setelah kapten kapal itu dan Yunus naik ke lantai atas kapal, para anak buah kapal itu berkata seorang kepada yang lain, “Untuk mencari tahu siapa sebenarnya penyebab bencana ini, kita harus melakukan undian.” Dan ketika mereka melakukan itu, Yunuslah yang kena.",
+          "contents": [
+            "Setelah kapten kapal itu dan Yunus naik ke lantai atas kapal, para anak buah kapal itu berkata seorang kepada yang lain, “Untuk mencari tahu siapa sebenarnya penyebab bencana ini, kita harus melakukan undian.” Dan ketika mereka melakukan itu, Yunuslah yang kena."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Anak buah kapal itu berkata kepada Yunus, “Apa betul kamulah penyebab terjadinya bencana ini? Apa pekerjaanmu? Kamu dari mana dan suku bangsa apa?”",
+          "contents": [
+            "Anak buah kapal itu berkata kepada Yunus, “Apa betul kamulah penyebab terjadinya bencana ini? Apa pekerjaanmu? Kamu dari mana dan suku bangsa apa?”",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9-10",
+          "verseText": "Jawab Yunus, “Saya orang Ibrani. Saya menyembah TUHAN yang bertakhta di surga dan yang menciptakan lautan dan daratan. Saya sedang berusaha melarikan diri dari hadapan-Nya.” Setelah mendengar apa yang disampaikan oleh Yunus, maka para anak buah kapal itu menjadi sangat ketakutan. Lalu mereka berkata kepadanya, “Apa? Lalu mengapa kamu melakukan itu?!”",
+          "contents": [
+            "Jawab Yunus, “Saya orang Ibrani. Saya menyembah TUHAN yang bertakhta di surga dan yang menciptakan lautan dan daratan. Saya sedang berusaha melarikan diri dari hadapan-Nya.”",
+            {
+              "p": null
+            },
+            "Setelah mendengar apa yang disampaikan oleh Yunus, maka para anak buah kapal itu menjadi sangat ketakutan. Lalu mereka berkata kepadanya, “Apa? Lalu mengapa kamu melakukan itu?!”",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Sementara itu, badai semakin memburuk dan gelombang semakin besar. Anak buah kapal berkata kepada Yunus, “Apa yang harus kami lakukan terhadap kamu supaya badai ini bisa tenang kembali?”",
+          "contents": [
+            "Sementara itu, badai semakin memburuk dan gelombang semakin besar. Anak buah kapal berkata kepada Yunus, “Apa yang harus kami lakukan terhadap kamu supaya badai ini bisa tenang kembali?”",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Jawab Yunus, “Sekarang saya tahu bahwa sayalah penyebab badai ini. Angkat dan buanglah saya ke laut, maka badai ini pasti akan tenang kembali.”",
+          "contents": [
+            "Jawab Yunus, “Sekarang saya tahu bahwa sayalah penyebab badai ini. Angkat dan buanglah saya ke laut, maka badai ini pasti akan tenang kembali.”",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Tetapi para anak buah kapal tidak mau langsung membuang Yunus ke laut. Mereka berusaha sekuat tenaga mendayung kapal itu kembali ke darat. Namun mereka tidak mampu karena badai itu semakin besar dan menyerang mereka.",
+          "contents": [
+            "Tetapi para anak buah kapal tidak mau langsung membuang Yunus ke laut. Mereka berusaha sekuat tenaga mendayung kapal itu kembali ke darat. Namun mereka tidak mampu karena badai itu semakin besar dan menyerang mereka."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Karena itu, mereka pun berseru kepada TUHAN, “Ya TUHAN, janganlah binasakan kami karena nyawa orang ini— yang tidak melakukan kesalahan apa pun kepada kami. Ya TUHAN, Engkau sudah melakukan apa yang Engkau kehendaki!”",
+          "contents": [
+            "Karena itu, mereka pun berseru kepada TUHAN, “Ya TUHAN, janganlah binasakan kami karena nyawa orang ini— yang tidak melakukan kesalahan apa pun kepada kami. Ya TUHAN, Engkau sudah melakukan apa yang Engkau kehendaki!”"
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Lalu mereka mengangkat Yunus dan membuangnya ke laut, maka laut menjadi tenang kembali.",
+          "contents": [
+            "Lalu mereka mengangkat Yunus dan membuangnya ke laut, maka laut menjadi tenang kembali."
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Para anak buah kapal itu menjadi sangat ketakutan akan kebesaran kuasa TUHAN. Karena itu, mereka berjanji bahwa nanti mereka akan melakukan hal-hal yang menyenangkan hati-Nya dan akan mempersembahkan kurban sembelihan.",
+          "contents": [
+            "Para anak buah kapal itu menjadi sangat ketakutan akan kebesaran kuasa TUHAN. Karena itu, mereka berjanji bahwa nanti mereka akan melakukan hal-hal yang menyenangkan hati-Nya dan akan mempersembahkan kurban sembelihan.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:16"
+                },
+                {
+                  "fk": "berjanji bahwa nanti …"
+                },
+                {
+                  "ft": "Secara harfiah, “Mereka mempersembahkan kurban sembelihan serta bernazar.” Terjemahan TSI sesuai dengan tafsiran bahwa penulis menggunakan sejenis gaya bahasa di mana kedua kegiatan tersebut disatukan seperti ini, ‘berjanji (bernazar) untuk mempersembahkan kurban sembelihan’. (Lihat NET dan catatan kaki keempat untuk ayat ini.) Pada waktu keajaiban yang diceritakan dalam ayat 15 terjadi, kemungkinan besar para awak kapal tidak mempunyai binatang di dalam kapal itu yang dapat dipersembahkan."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Sementara itu, TUHAN mendatangkan ikan besar untuk menelan Yunus. Maka tinggallah Yunus di dalam perut ikan itu selama tiga hari tiga malam.",
+          "contents": [
+            "Sementara itu, TUHAN mendatangkan ikan besar untuk menelan Yunus. Maka tinggallah Yunus di dalam perut ikan itu selama tiga hari tiga malam."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "2",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Doa Yunus"
+            ]
+          }
+        ],
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1-2",
+          "verseText": "Dari dalam perut ikan itu, Yunus berdoa kepada Allah-nya. Katanya, “Ya TUHAN, seperti penulis Mazmur berkata, ‘Waktu aku dalam kesusahan besar, aku berseru kepada-Mu minta tolong, dan Engkau sudah menjawab aku! Ketika aku berada jauh dan seperti sudah dalam kuburan, aku berseru kepada-Mu, dan Engkau pernah mendengar seruanku dan menyelamatkanku.",
+          "contents": [
+            "Dari dalam perut ikan itu, Yunus berdoa kepada Allah-nya. Katanya,",
+            {
+              "q1": null
+            },
+            "“Ya TUHAN, seperti penulis Mazmur berkata,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:1-2"
+                },
+                {
+                  "fk": "seperti penulis Mazmur berkata"
+                },
+                {
+                  "ft": "Banyak orang sudah bertanya kenapa— kalau menurut ayat 1 dan 10 Yunus masih di dalam perut ikan besar— dia berdoa seperti sudah diselamatkan dari bahaya maut? Salah satu jawaban yang baik adalah bahwa dia mengutip dari pengalaman penulis Mazmur. Walaupun doa Yunus tidak mengutip persis seperti ayat-ayat di Mazmur, tetapi terdapat kemiripan frasa dengan Mzm. 2:9; 3:8; 18:4-6; 22:22-28; 32:5; 42:5-8; 50:13-17; 66:13-15; 69:1-2, 5-6, 13-15; 116:3-5. Untuk informasi lebih lanjut, lihat artikel oleh Bob Deffinbaugh, “The Psalm of the Prodigal Prophet.”"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            },
+            "‘Waktu aku dalam kesusahan besar,",
+            {
+              "q2": null
+            },
+            "aku berseru kepada-Mu minta tolong, dan Engkau sudah menjawab aku!",
+            {
+              "q1": null
+            },
+            "Ketika aku berada jauh dan seperti sudah dalam kuburan,",
+            {
+              "q2": null
+            },
+            "aku berseru kepada-Mu,",
+            {
+              "q2": null
+            },
+            "dan Engkau pernah mendengar seruanku dan menyelamatkanku.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Engkau sudah melemparkan aku di tengah laut yang paling dalam. Di sana arus air semuanya sudah mengelilingi aku. Ombak dan gelombang— yang Engkau kirim, menenggelamkan aku ke bawah.",
+          "contents": [
+            "Engkau sudah melemparkan aku di tengah laut yang paling dalam.",
+            {
+              "q2": null
+            },
+            "Di sana arus air semuanya sudah mengelilingi aku.",
+            {
+              "q2": null
+            },
+            "Ombak dan gelombang— yang Engkau kirim, menenggelamkan aku ke bawah.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Aku pikir Engkau sudah mengusir aku jauh dari hadapan-Mu, dan bagaimana mungkin aku melihat lagi Rumah-Mu yang kudus di Yerusalem?",
+          "contents": [
+            "Aku pikir Engkau sudah mengusir aku jauh dari hadapan-Mu,",
+            {
+              "q2": null
+            },
+            "dan bagaimana mungkin aku melihat lagi Rumah-Mu yang kudus di Yerusalem?",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:4"
+                },
+                {
+                  "fk": "baris 4b"
+                },
+                {
+                  "ft": "Baris ini bisa diterjemahkan sebagai pernyataan keyakinan Yunus, “namun aku pasti akan lagi melihat Rumah-Mu yang kudus.”"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Lautan luas menutupi seluruh tubuhku! Air laut menenggelamkan aku, dan rumput laut seolah-olah sudah melilit kepalaku.",
+          "contents": [
+            "Lautan luas menutupi seluruh tubuhku!",
+            {
+              "q2": null
+            },
+            "Air laut menenggelamkan aku,",
+            {
+              "q2": null
+            },
+            "dan rumput laut seolah-olah sudah melilit kepalaku.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Aku tenggelam sampai ke bagian paling dasar dari gunung-gunung yang berada di bawah laut. Seolah-olah pintu gerbang dunia orang mati sudah terkunci dan aku dipenjarakan di sana untuk selama-lamanya. Tetapi Engkau, ya TUHAN, sudah menyelamatkanku dari liang kuburku dan memberikan hidupku kembali.",
+          "contents": [
+            "Aku tenggelam sampai ke bagian paling dasar dari gunung-gunung yang berada di bawah laut.",
+            {
+              "q2": null
+            },
+            "Seolah-olah pintu gerbang dunia orang mati sudah terkunci dan aku dipenjarakan di sana untuk selama-lamanya.",
+            {
+              "q2": null
+            },
+            "Tetapi Engkau, ya TUHAN, sudah menyelamatkanku dari liang kuburku dan memberikan hidupku kembali.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Ketika aku semakin melemah dan hampir mati, aku teringat kepada-Mu, dan doaku sampai kepada-Mu, ke dalam Rumah-Mu yang kudus.",
+          "contents": [
+            "Ketika aku semakin melemah dan hampir mati, aku teringat kepada-Mu,",
+            {
+              "q2": null
+            },
+            "dan doaku sampai kepada-Mu, ke dalam Rumah-Mu yang kudus.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Sia-sia saja ketika orang-orang menyembah berhala-berhala, karena mereka meninggalkan Engkau yang mengasihi mereka dengan setia.",
+          "contents": [
+            "Sia-sia saja ketika orang-orang menyembah berhala-berhala,",
+            {
+              "q2": null
+            },
+            "karena mereka meninggalkan Engkau yang mengasihi mereka dengan setia.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Tetapi aku akan menyanyikan syukur dan mempersembahkan kurban kepada-Mu. Semua janjiku pasti aku akan lakukan, ya TUHAN Penyelamatku!’”",
+          "contents": [
+            "Tetapi aku akan menyanyikan syukur dan mempersembahkan kurban kepada-Mu.",
+            {
+              "q2": null
+            },
+            "Semua janjiku pasti aku akan lakukan, ya TUHAN Penyelamatku!’”",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Kemudian TUHAN memerintahkan ikan itu supaya memuntahkan Yunus ke darat.",
+          "contents": [
+            "Kemudian TUHAN memerintahkan ikan itu supaya memuntahkan Yunus ke darat."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "3",
+      "contents": [
+        [
+          {
+            "s": [
+              "Pertobatan penduduk Niniwe"
+            ]
+          }
+        ],
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Untuk kedua kalinya TUHAN berbicara kepada Yunus,",
+          "contents": [
+            "Untuk kedua kalinya TUHAN berbicara kepada Yunus,"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "“Pergilah ke Niniwe, kota besar itu, dan sampaikanlah kepada penduduknya pesan yang Aku berikan kepadamu.”",
+          "contents": [
+            "“Pergilah ke Niniwe, kota besar itu, dan sampaikanlah kepada penduduknya pesan yang Aku berikan kepadamu.”"
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Kali ini Yunus menaati perintah TUHAN untuk pergi ke sana. Kota Niniwe sangat besar karena butuh waktu tiga hari bagi seseorang untuk melintasi kota itu dengan berjalan kaki.",
+          "contents": [
+            "Kali ini Yunus menaati perintah TUHAN untuk pergi ke sana. Kota Niniwe sangat besar karena butuh waktu tiga hari bagi seseorang untuk melintasi kota itu dengan berjalan kaki.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Yunus memasuki kota itu dan sesudah berjalan sepanjang hari, dia mulai menyampaikan pesan Allah, katanya, “Empat puluh hari lagi, Niniwe akan dibinasakan!”",
+          "contents": [
+            "Yunus memasuki kota itu dan sesudah berjalan sepanjang hari, dia mulai menyampaikan pesan Allah, katanya, “Empat puluh hari lagi, Niniwe akan dibinasakan!”"
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Penduduk Niniwe menjadi percaya dengan pesan Allah yang disampaikan oleh Yunus. Mereka memutuskan untuk berpuasa— baik orang besar maupun orang kecil, memakai kain karung untuk menunjukkan bahwa mereka menyesali dosa-dosa mereka.",
+          "contents": [
+            "Penduduk Niniwe menjadi percaya dengan pesan Allah yang disampaikan oleh Yunus. Mereka memutuskan untuk berpuasa— baik orang besar maupun orang kecil, memakai kain karung untuk menunjukkan bahwa mereka menyesali dosa-dosa mereka.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Setelah raja Niniwe mendengar kabar itu, dia langsung turun dari takhtanya. Dia melepaskan jubah kerajaannya dan memakai kain karung, lalu dia duduk di atas abu sebagai tanda penyesalannya atas dosanya.",
+          "contents": [
+            "Setelah raja Niniwe mendengar kabar itu, dia langsung turun dari takhtanya. Dia melepaskan jubah kerajaannya dan memakai kain karung, lalu dia duduk di atas abu sebagai tanda penyesalannya atas dosanya."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Lalu Raja dan para menteri mengeluarkan perintah untuk diumumkan kepada seluruh penduduk Niniwe sebagai berikut, “Semua orang, sapi, domba dan ternak lainnya dilarang makan dan minum.",
+          "contents": [
+            "Lalu Raja dan para menteri mengeluarkan perintah untuk diumumkan kepada seluruh penduduk Niniwe sebagai berikut,",
+            {
+              "pi": null
+            },
+            "“Semua orang, sapi, domba dan ternak lainnya dilarang makan dan minum."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Semua orang dan binatang harus memakai kain karung. Sebagai tanda penyesalan, kamu masing-masing harus berdoa dengan sungguh-sungguh kepada Allah dan harus bertobat dari segala kejahatanmu— termasuk kekerasan terhadap orang lain.",
+          "contents": [
+            "Semua orang dan binatang harus memakai kain karung. Sebagai tanda penyesalan, kamu masing-masing harus berdoa dengan sungguh-sungguh kepada Allah dan harus bertobat dari segala kejahatanmu— termasuk kekerasan terhadap orang lain."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Siapa tahu? Mungkin dengan demikian Allah akan mengubah keputusan-Nya dan murka-Nya akan reda sehingga kita tidak jadi binasa.”",
+          "contents": [
+            "Siapa tahu? Mungkin dengan demikian Allah akan mengubah keputusan-Nya dan murka-Nya akan reda sehingga kita tidak jadi binasa.”",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Ketika Allah melihat penduduk Niniwe sungguh-sungguh menyesal dan tidak melakukan perbuatan jahat lagi, maka Allah berhenti marah kepada kota Niniwe dan membatalkan keputusan-Nya untuk membinasakan mereka.",
+          "contents": [
+            "Ketika Allah melihat penduduk Niniwe sungguh-sungguh menyesal dan tidak melakukan perbuatan jahat lagi, maka Allah berhenti marah kepada kota Niniwe dan membatalkan keputusan-Nya untuk membinasakan mereka."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "4",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Yunus marah karena kebaikan hati Allah kepada penduduk Niniwe"
+            ]
+          }
+        ],
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Yunus menjadi sakit hati dan sangat marah karena Allah tidak jadi membinasakan Niniwe.",
+          "contents": [
+            "Yunus menjadi sakit hati dan sangat marah karena Allah tidak jadi membinasakan Niniwe."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Beginilah doa Yunus kepada TUHAN, “Ya TUHAN, dulu waktu masih di negeriku aku sudah menyangka bahwa Engkau akan melakukan hal seperti ini! Itulah sebabnya aku melarikan diri ke Tarsis. Engkau Maha Pengasih, berbelas kasihan, panjang sabar, dan setia kepada janji-janji-Mu. Ketika orang melakukan kejahatan, Engkau tidak cepat marah dan selalu siap mengubah rencana sehingga mereka tidak jadi dihukum.",
+          "contents": [
+            "Beginilah doa Yunus kepada TUHAN, “Ya TUHAN, dulu waktu masih di negeriku aku sudah menyangka bahwa Engkau akan melakukan hal seperti ini! Itulah sebabnya aku melarikan diri ke Tarsis. Engkau Maha Pengasih, berbelas kasihan, panjang sabar, dan setia kepada janji-janji-Mu. Ketika orang melakukan kejahatan, Engkau tidak cepat marah dan selalu siap mengubah rencana sehingga mereka tidak jadi dihukum."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Jadi, sekarang ya TUHAN, karena Engkau tidak jadi membinasakan Niniwe, cabut sajalah nyawaku! Karena lebih baik aku mati daripada hidup!”",
+          "contents": [
+            "Jadi, sekarang ya TUHAN, karena Engkau tidak jadi membinasakan Niniwe, cabut sajalah nyawaku! Karena lebih baik aku mati daripada hidup!”",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Lalu TUHAN berkata, “Pantaskah kamu marah karena Aku tidak membinasakan Niniwe?!”",
+          "contents": [
+            "Lalu TUHAN berkata, “Pantaskah kamu marah karena Aku tidak membinasakan Niniwe?!”",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Lalu Yunus pergi ke sebelah timur kota itu dan membangun pondok kecil di situ lalu duduk berteduh di bawahnya sambil menunggu dan melihat apa yang akan terjadi pada kota itu.",
+          "contents": [
+            "Lalu Yunus pergi ke sebelah timur kota itu dan membangun pondok kecil di situ lalu duduk berteduh di bawahnya sambil menunggu dan melihat apa yang akan terjadi pada kota itu."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Kemudian TUHAN Allah menumbuhkan tanaman yang merambat untuk melindungi kepala Yunus dari sinar matahari untuk membuat dia merasa lebih nyaman. Yunus pun sangat senang dengan tanaman itu.",
+          "contents": [
+            "Kemudian TUHAN Allah menumbuhkan tanaman yang merambat untuk melindungi kepala Yunus dari sinar matahari untuk membuat dia merasa lebih nyaman. Yunus pun sangat senang dengan tanaman itu."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Akan tetapi keesokan harinya sebelum matahari terbit, Allah mengirim seekor ulat untuk melubangi batang tanaman itu sampai membuatnya layu.",
+          "contents": [
+            "Akan tetapi keesokan harinya sebelum matahari terbit, Allah mengirim seekor ulat untuk melubangi batang tanaman itu sampai membuatnya layu."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Ketika matahari terbit, Allah mengirimkan angin yang sangat panas yang bertiup dari arah timur. Karena sinar matahari yang sangat panas itu, maka Yunus lemas dan hampir pingsan. Yunus ingin mati dan berseru, “Lebih baik aku mati daripada hidup!”",
+          "contents": [
+            "Ketika matahari terbit, Allah mengirimkan angin yang sangat panas yang bertiup dari arah timur. Karena sinar matahari yang sangat panas itu, maka Yunus lemas dan hampir pingsan. Yunus ingin mati dan berseru, “Lebih baik aku mati daripada hidup!”",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Maka Allah menjawab kepada Yunus, “Pantaskah kamu marah karena tanaman itu layu?” Jawab Yunus, “Ya, sepantasnyalah aku sangat marah sampai mati!”",
+          "contents": [
+            "Maka Allah menjawab kepada Yunus, “Pantaskah kamu marah karena tanaman itu layu?”",
+            {
+              "p": null
+            },
+            "Jawab Yunus, “Ya, sepantasnyalah aku sangat marah sampai mati!”",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Tetapi TUHAN berkata kepadanya, “Kamu sendiri peduli kepada tanaman yang merambat itu bukan? Meskipun sama sekali tidak kamu tanam atau pelihara, yang tumbuh hanya dalam satu malam kemudian layu pada malam berikutnya.",
+          "contents": [
+            "Tetapi TUHAN berkata kepadanya, “Kamu sendiri peduli kepada tanaman yang merambat itu bukan? Meskipun sama sekali tidak kamu tanam atau pelihara, yang tumbuh hanya dalam satu malam kemudian layu pada malam berikutnya."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Bagaimana Aku tidak mengasihani Niniwe, kota yang besar itu dengan penduduknya yang lebih dari seratus dua puluh ribu jiwa?! Mereka masih seperti anak-anak kecil yang belum dapat membedakan apa yang baik dan yang jahat. Dan juga terdapat sangat banyak ternak di situ.”",
+          "contents": [
+            "Bagaimana Aku tidak mengasihani Niniwe, kota yang besar itu dengan penduduknya yang lebih dari seratus dua puluh ribu jiwa?! Mereka masih seperti anak-anak kecil yang belum dapat membedakan apa yang baik dan yang jahat. Dan juga terdapat sangat banyak ternak di situ.”"
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": []
+  }
+}

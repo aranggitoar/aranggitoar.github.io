@@ -1,0 +1,1758 @@
+{
+  "book": {
+    "bookCode": "EPH",
+    "description": "- Terjemahan Sederhana Indonesia NT -Indonesia 2014 (Web 2014)",
+    "meta": [
+      {
+        "h": "Efesus"
+      },
+      {
+        "toc1": [
+          "Surat Paulus kepada jemaat Efesus"
+        ]
+      },
+      {
+        "toc2": [
+          "Efesus"
+        ]
+      },
+      {
+        "toc3": [
+          "Ef."
+        ]
+      },
+      [
+        {
+          "mt1": [
+            "Surat Paulus kepada jemaat Efesus"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Surat ini dari Paulus, yang menjadi rasul Kristus Yesus karena kehendak Allah. Saya tujukan surat ini kepada saudara-saudari seiman di Efesus, yang percaya penuh kepada Kristus Yesus dan yang disucikan oleh-Nya.",
+          "contents": [
+            "Surat ini dari Paulus, yang menjadi rasul Kristus Yesus karena kehendak Allah.",
+            {
+              "p": null
+            },
+            "Saya tujukan surat ini kepada saudara-saudari seiman di Efesus, yang percaya penuh kepada Kristus Yesus dan yang disucikan oleh-Nya.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Doa saya, kiranya Allah Bapa dan Penguasa kita Kristus Yesus selalu berbaik hati kepada kalian masing-masing, dan menjagamu agar kamu hidup tenang dalam perlindungan Bapa dan Penguasa kita.",
+          "contents": [
+            "Doa saya, kiranya Allah Bapa dan Penguasa kita Kristus Yesus selalu berbaik hati kepada kalian masing-masing, dan menjagamu agar kamu hidup tenang dalam perlindungan Bapa dan Penguasa kita.",
+            [
+              {
+                "s": [
+                  "Berkat-berkat rohani dalam Kristus Yesus"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Terpujilah Allah, Bapa dari Tuhan kita Kristus Yesus. Karena melalui persatuan kita dengan Kristus, Allah sudah memberikan kepada kita setiap berkat rohani yang ada di surga.",
+          "contents": [
+            "Terpujilah Allah, Bapa dari Tuhan kita Kristus Yesus. Karena melalui persatuan kita dengan Kristus, Allah sudah memberikan kepada kita setiap berkat rohani yang ada di surga."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Sebelum dunia ini diciptakan, Allah sudah memilih kita. Artinya Dia sudah mengasihi kita dan berencana untuk mempersatukan kita dengan Kristus, supaya kita disucikan dan dianggap tidak berdosa di hadapan-Nya.",
+          "contents": [
+            "Sebelum dunia ini diciptakan, Allah sudah memilih kita. Artinya Dia sudah mengasihi kita dan berencana untuk mempersatukan kita dengan Kristus, supaya kita disucikan dan dianggap tidak berdosa di hadapan-Nya."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Sebelum dunia ini diciptakan, Allah sudah menetapkan kita untuk diangkat menjadi anak-anak-Nya melalui Kristus Yesus, sesuai dengan kehendak-Nya. Itulah yang berkenan kepada-Nya.",
+          "contents": [
+            "Sebelum dunia ini diciptakan, Allah sudah menetapkan kita untuk diangkat menjadi anak-anak-Nya",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:5"
+                },
+                {
+                  "fk": "diangkat menjadi anak-anak-Nya"
+                },
+                {
+                  "ft": "Lihat catatan di Gal. 4:5 dan Ef. 1:11."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "melalui Kristus Yesus, sesuai dengan kehendak-Nya. Itulah yang berkenan kepada-Nya."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Jadi kita memuji Allah karena kebaikan hati-Nya yang mulia, yang sudah diberikan kepada kita dengan cuma-cuma karena kita bersatu dengan Anak-Nya yang Dia kasihi.",
+          "contents": [
+            "Jadi kita memuji Allah karena kebaikan hati-Nya yang mulia, yang sudah diberikan kepada kita dengan cuma-cuma karena kita bersatu dengan Anak-Nya yang Dia kasihi.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Melalui persatuan dengan Kristus, kita sudah ditebus dengan kurban darah-Nya sebagai bayaran atas hukuman dosa yang seharusnya kita tanggung. Dengan demikian dosa-dosa kita diampuni karena kebaikan hati Allah yang luar biasa.",
+          "contents": [
+            "Melalui persatuan dengan Kristus, kita sudah ditebus dengan kurban darah-Nya sebagai bayaran atas hukuman dosa yang seharusnya kita tanggung. Dengan demikian dosa-dosa kita diampuni karena kebaikan hati Allah yang luar biasa."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Kebaikan hati-Nya itu diberikan kepada kita secara berlimpah-limpah, sesuai dengan segala kebijaksanaan dan pengertian Allah.",
+          "contents": [
+            "Kebaikan hati-Nya itu diberikan kepada kita secara berlimpah-limpah, sesuai dengan segala kebijaksanaan dan pengertian Allah."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Sekarang Allah sudah menyatakan rencana-Nya kepada kita, yaitu rencana yang dulu dirahasiakan dari manusia. Sesuai dengan kehendak-Nya, rencana Allah itu berpusat pada Kristus,",
+          "contents": [
+            "Sekarang Allah sudah menyatakan rencana-Nya kepada kita, yaitu rencana yang dulu dirahasiakan dari manusia. Sesuai dengan kehendak-Nya, rencana Allah itu berpusat pada Kristus,"
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "dan Allah akan menyelesaikannya pada waktu yang sudah Dia tentukan. Inilah tujuan dari rencana-Nya itu: Supaya Kristus menjadi kepala atas segala sesuatu, baik yang ada di surga maupun di bumi.",
+          "contents": [
+            "dan Allah akan menyelesaikannya pada waktu yang sudah Dia tentukan. Inilah tujuan dari rencana-Nya itu: Supaya Kristus menjadi kepala atas segala sesuatu, baik yang ada di surga maupun di bumi.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Untuk mencapai tujuan-Nya itu, Allah mengatur segala sesuatu menurut kehendak-Nya. Dan kehendak-Nya sejak semula adalah memilih kita untuk mewarisi hak sebagai umat-Nya melalui persatuan dengan Kristus.",
+          "contents": [
+            "Untuk mencapai tujuan-Nya itu, Allah mengatur segala sesuatu menurut kehendak-Nya. Dan kehendak-Nya sejak semula adalah memilih kita untuk mewarisi hak sebagai umat-Nya",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:11"
+                },
+                {
+                  "fk": "memilih …"
+                },
+                {
+                  "ft": "Frasa ini menerjemahkan satu kata dalam bahasa Yunani yang berarti ‘dipilih sebagai ahli waris’. Lihat Ef. 1:5; 1:18; 3:6; Rom. 9:14-17; Gal. 3:18; 4:1-7."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "melalui persatuan dengan Kristus."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Jadi kita diberi suatu kehormatan besar, yaitu menjadi ujung tombak dari semua orang yang kelak menjadi umat Kristus yang berharap kepada-Nya! Oleh karena itu marilah kita memuji Allah karena kemuliaan-Nya.",
+          "contents": [
+            "Jadi kita diberi suatu kehormatan besar, yaitu menjadi ujung tombak dari semua orang yang kelak menjadi umat Kristus yang berharap kepada-Nya! Oleh karena itu marilah kita memuji Allah karena kemuliaan-Nya."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Sebab, ketika kalian mendengar ajaran yang benar, yaitu Kabar Baik tentang keselamatan melalui Kristus, kalian menjadi percaya kepada-Nya. Lalu sesuai janji-Nya, Allah memberikan Roh Kudus kepada kalian sebagai tanda bahwa kalian sudah menjadi milik-Nya.",
+          "contents": [
+            "Sebab, ketika kalian mendengar ajaran yang benar, yaitu Kabar Baik tentang keselamatan melalui Kristus, kalian menjadi percaya kepada-Nya. Lalu sesuai janji-Nya, Allah memberikan Roh Kudus kepada kalian sebagai tanda bahwa kalian sudah menjadi milik-Nya."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Roh-Nya tinggal dalam diri kita masing-masing sebagai jaminan bahwa kita akan menerima segala sesuatu yang sudah Allah janjikan kepada kita sebagai umat-Nya. Dan melalui kehadiran Roh-Nya itulah kita tahu bahwa kita sudah ditebus dan menjadi milik Allah sepenuhnya. Jadi sekali lagi, marilah kita memuji Allah karena kemuliaan-Nya!",
+          "contents": [
+            "Roh-Nya tinggal dalam diri kita masing-masing sebagai jaminan bahwa kita akan menerima segala sesuatu yang sudah Allah janjikan kepada kita sebagai umat-Nya. Dan melalui kehadiran Roh-Nya itulah kita tahu bahwa kita sudah ditebus dan menjadi milik Allah sepenuhnya. Jadi sekali lagi, marilah kita memuji Allah karena kemuliaan-Nya!",
+            [
+              {
+                "s": [
+                  "Doa Paulus"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15-17",
+          "verseText": "Oleh karena semua itu, saya selalu mendoakan kalian dan bersyukur kepada Allah, yaitu Bapa yang mulia dari Tuhan kita Kristus Yesus. Dalam doa itu saya memohon supaya Allah menambahkan hikmat dan pengetahuan rohani kepada kalian melalui Roh Kudus, supaya kalian semakin mengenal Allah. Saya tidak berhenti mendoakan kalian sejak mendengar kabar tentang keyakinanmu kepada Tuhan Yesus dan kasih kalian kepada semua umat Allah.",
+          "contents": [
+            "Oleh karena semua itu, saya selalu mendoakan kalian dan bersyukur kepada Allah, yaitu Bapa yang mulia dari Tuhan kita Kristus Yesus. Dalam doa itu saya memohon supaya Allah menambahkan hikmat dan pengetahuan rohani kepada kalian melalui Roh Kudus, supaya kalian semakin mengenal Allah. Saya tidak berhenti mendoakan kalian sejak mendengar kabar tentang keyakinanmu kepada Tuhan Yesus dan kasih kalian kepada semua umat Allah.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Saya berdoa supaya Allah membuat kalian masing-masing bisa mengerti dan yakin akan semua hal baik yang sudah Dia sediakan bagi kita, yaitu kita yang sudah dipanggil untuk menjadi anak-anak-Nya. Saya juga berdoa supaya kalian tahu betapa berharga dan mulianya warisan yang sudah dijanjikan Allah kepada kita sebagai umat-Nya yang sudah Dia sucikan.",
+          "contents": [
+            "Saya berdoa supaya Allah membuat kalian masing-masing bisa mengerti dan yakin akan semua hal baik yang sudah Dia sediakan bagi kita, yaitu kita yang sudah dipanggil untuk menjadi anak-anak-Nya. Saya juga berdoa supaya kalian tahu betapa berharga dan mulianya warisan yang sudah dijanjikan Allah kepada kita sebagai umat-Nya yang sudah Dia sucikan."
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Dan saya berdoa supaya kalian tahu bahwa kuasa-Nya sangat besar bagi kita yang percaya. Kuasa itu adalah kekuatan Allah yang hebat",
+          "contents": [
+            "Dan saya berdoa supaya kalian tahu bahwa kuasa-Nya sangat besar bagi kita yang percaya. Kuasa itu adalah kekuatan Allah yang hebat"
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "yang dipakai-Nya untuk menghidupkan Kristus kembali dari kematian. Dan kuasa itu juga tampak waktu Dia menempatkan Kristus di tempat yang paling terhormat di surga, yaitu di sebelah kanan-Nya.",
+          "contents": [
+            "yang dipakai-Nya untuk menghidupkan Kristus kembali dari kematian. Dan kuasa itu juga tampak waktu Dia menempatkan Kristus di tempat yang paling terhormat di surga, yaitu di sebelah kanan-Nya."
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Dengan kedudukan itu Kristus memerintah sebagai Raja Agung atas segala pemerintah, pemimpin, kuasa, dan raja-raja, termasuk para penguasa zaman sekarang dan yang akan datang.",
+          "contents": [
+            "Dengan kedudukan itu Kristus memerintah sebagai Raja Agung atas segala pemerintah, pemimpin, kuasa, dan raja-raja, termasuk para penguasa zaman sekarang dan yang akan datang."
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "Allah meletakkan segala sesuatu di bawah kuasa Kristus. Allah juga menjadikan Dia kepala atas seluruh persatuan jemaat Kristus, untuk memimpin kita dalam segala hal.",
+          "contents": [
+            "Allah meletakkan segala sesuatu di bawah kuasa Kristus. Allah juga menjadikan Dia kepala atas seluruh persatuan jemaat Kristus, untuk memimpin kita dalam segala hal."
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "Persatuan jemaat-Nya adalah kita semua yang masing-masing dipenuhi oleh Roh Kristus. Di dunia ini, kita bagaikan tubuh Kristus, dan melalui kitalah Dia bekerja untuk memenuhi dan melengkapi segala sesuatu di mana pun juga.",
+          "contents": [
+            "Persatuan jemaat-Nya adalah kita semua yang masing-masing dipenuhi oleh Roh Kristus. Di dunia ini, kita bagaikan tubuh Kristus, dan melalui kitalah Dia bekerja untuk memenuhi dan melengkapi segala sesuatu di mana pun juga."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "2",
+      "contents": [
+        [
+          {
+            "s": [
+              "Dari kematian menuju kehidupan"
+            ]
+          }
+        ],
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Sebelum dipersatukan dengan Kristus, memang tubuh jasmani kita hidup. Tetapi sebenarnya kita sudah mati secara rohani karena dosa-dosa kita dan karena kita terus-menerus melanggar perintah-perintah Allah.",
+          "contents": [
+            "Sebelum dipersatukan dengan Kristus, memang tubuh jasmani kita hidup. Tetapi sebenarnya kita sudah mati secara rohani karena dosa-dosa kita dan karena kita terus-menerus melanggar perintah-perintah Allah."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Sebab pada waktu itu kita selalu mengikuti pola pikir dunia ini dan menuruti kemauan si jahat, yaitu iblis, yang sekarang sedang memerintah atas semua kuasa gelap di dalam dunia ini. Dialah yang berkuasa dalam kehidupan semua orang yang tidak mau taat kepada Allah.",
+          "contents": [
+            "Sebab pada waktu itu kita selalu mengikuti pola pikir dunia ini dan menuruti kemauan si jahat, yaitu iblis, yang sekarang sedang memerintah atas semua kuasa gelap di dalam dunia ini.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:2"
+                },
+                {
+                  "fk": "kuasa gelap …"
+                },
+                {
+                  "ft": "Secara harfiah, ‘penguasa udara’ atau ‘penguasa angkasa raya’."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "Dialah yang berkuasa dalam kehidupan semua orang yang tidak mau taat kepada Allah."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Dulu kita semua juga hidup seperti itu, dengan selalu berusaha memuaskan keinginan-keinginan badani. Kita terbawa arus keinginan itu ke sana kemari. Sama seperti orang-orang lain, kita pun pantas menanggung kemarahan Allah.",
+          "contents": [
+            "Dulu kita semua juga hidup seperti itu, dengan selalu berusaha memuaskan keinginan-keinginan badani. Kita terbawa arus keinginan itu ke sana kemari. Sama seperti orang-orang lain, kita pun pantas menanggung kemarahan Allah.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Tetapi karena Allah maha penyayang dan penuh belas kasihan, Dia mengasihani kita dan menyatakan kasih-Nya secara luar biasa!",
+          "contents": [
+            "Tetapi karena Allah maha penyayang dan penuh belas kasihan, Dia mengasihani kita dan menyatakan kasih-Nya secara luar biasa!"
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Jadi pada waktu kita masih dalam keadaan mati rohani dan terus-menerus melawan perintah-Nya, Allah sudah memberikan hidup yang baru kepada kita. Hal itu terjadi karena kita sudah bersatu dengan Kristus, sehingga secara rohani kita ikut dihidupkan kembali bersama-Nya ketika Allah menghidupkan Dia dari kematian. Maka jelaslah bahwa kita diselamatkan hanya karena kebaikan hati Allah!",
+          "contents": [
+            "Jadi pada waktu kita masih dalam keadaan mati rohani dan terus-menerus melawan perintah-Nya, Allah sudah memberikan hidup yang baru kepada kita. Hal itu terjadi karena kita sudah bersatu dengan Kristus, sehingga secara rohani kita ikut dihidupkan kembali bersama-Nya ketika Allah menghidupkan Dia dari kematian. Maka jelaslah bahwa kita diselamatkan hanya karena kebaikan hati Allah!"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Dan karena kita bersatu dengan Kristus Yesus, kita juga secara rohani diangkat ke surga bersama Kristus. Di sana, secara rohani kita sudah duduk bersama Raja kita Yesus.",
+          "contents": [
+            "Dan karena kita bersatu dengan Kristus Yesus, kita juga secara rohani diangkat ke surga bersama Kristus. Di sana, secara rohani kita sudah duduk bersama Raja kita Yesus."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Allah melakukan semua itu supaya di masa yang akan datang, Dia bisa membuktikan kepada kita bahwa Dia sangat baik kepada kita. Kebaikan hati-Nya memang luar biasa bagi kita yang sudah bersatu dengan Kristus Yesus!",
+          "contents": [
+            "Allah melakukan semua itu supaya di masa yang akan datang, Dia bisa membuktikan kepada kita bahwa Dia sangat baik kepada kita. Kebaikan hati-Nya memang luar biasa bagi kita yang sudah bersatu dengan Kristus Yesus!",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "pSekali lagi, kita diselamatkan oleh karena kebaikan hati Allah. Dan keselamatan itu kita terima hanya karena kita percaya penuh kepada Kristus. Kita tidak bisa selamat karena usaha kita sendiri. Keselamatan itu adalah pemberian Allah.",
+          "contents": [
+            "pSekali lagi, kita diselamatkan oleh karena kebaikan hati Allah. Dan keselamatan itu kita terima hanya karena kita percaya penuh kepada Kristus. Kita tidak bisa selamat karena usaha kita sendiri. Keselamatan itu adalah pemberian Allah."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Jadi kita selamat bukan karena kita melakukan perbuatan baik. Memang Allah sudah mengatur hal itu supaya tidak ada seorang pun yang dapat membanggakan diri tentang keselamatannya.",
+          "contents": [
+            "Jadi kita selamat bukan karena kita melakukan perbuatan baik. Memang Allah sudah mengatur hal itu supaya tidak ada seorang pun yang dapat membanggakan diri tentang keselamatannya."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Keselamatan kita adalah hasil karya Allah sendiri. Kita yang bersatu dengan Kristus Yesus secara rohani diciptakan kembali menjadi manusia baru. Dengan begitu, kita dimampukan untuk melakukan hal-hal baik yang sudah Allah rencanakan sejak semula untuk kita lakukan.",
+          "contents": [
+            "Keselamatan kita adalah hasil karya Allah sendiri. Kita yang bersatu dengan Kristus Yesus secara rohani diciptakan kembali menjadi manusia baru. Dengan begitu, kita dimampukan untuk melakukan hal-hal baik yang sudah Allah rencanakan sejak semula untuk kita lakukan.",
+            [
+              {
+                "s": [
+                  "Bersatu dalam Kristus"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Saudara-saudari yang bukan Yahudi, ingatlah keadaanmu sebelum mengenal Kristus. Kalian memang disebut ‘orang yang tidak bersunat’ oleh orang Yahudi, karena mereka menyebut diri mereka ‘orang bersunat’. Mereka bangga karena sudah mengikuti adat sunat, walaupun itu hanya tanda yang dilakukan oleh manusia pada tubuh jasmani saja. Sunat tidak bisa membuat hidupmu berubah.",
+          "contents": [
+            "Saudara-saudari yang bukan Yahudi, ingatlah keadaanmu sebelum mengenal Kristus. Kalian memang disebut ‘orang yang tidak bersunat’ oleh orang Yahudi, karena mereka menyebut diri mereka ‘orang bersunat’.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2.11"
+                },
+                {
+                  "fk": "orang yang tidak bersunat …"
+                },
+                {
+                  "ft": "Sebutan ini bukan sekedar berbicara tentang perbedaan jasmani (sunat dan tidak sunat), tetapi merupakan suatu penghinaan yang artinya ‘penyembah berhala’ atau ‘orang kafir’. Lihat catatan di 1Sam. 14:6."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "Mereka bangga karena sudah mengikuti adat sunat, walaupun itu hanya tanda yang dilakukan oleh manusia pada tubuh jasmani saja. Sunat tidak bisa membuat hidupmu berubah."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Sebelum kalian mengenal Kristus, kalian tidak punya harapan untuk menjadi warga kerajaan Allah, yang sekarang secara rohani merupakan umat Israel yang baru. Waktu itu kalian sama sekali tidak ikut ambil bagian dalam perjanjian-perjanjian Allah kepada umat-Nya. Jadi kalian hidup di dunia ini tanpa harapan dan tanpa mengenal Allah.",
+          "contents": [
+            "Sebelum kalian mengenal Kristus, kalian tidak punya harapan untuk menjadi warga kerajaan Allah, yang sekarang secara rohani merupakan umat Israel yang baru. Waktu itu kalian sama sekali tidak ikut ambil bagian dalam perjanjian-perjanjian Allah kepada umat-Nya. Jadi kalian hidup di dunia ini tanpa harapan dan tanpa mengenal Allah."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Tetapi walaupun dulu kalian jauh sekali dari Dia, sekarang kalian sudah dibawa dekat kepada-Nya. Karena sekarang kalian sudah bersatu dengan Kristus Yesus dan sudah disucikan melalui kurban darah-Nya.",
+          "contents": [
+            "Tetapi walaupun dulu kalian jauh sekali dari Dia, sekarang kalian sudah dibawa dekat kepada-Nya. Karena sekarang kalian sudah bersatu dengan Kristus Yesus dan sudah disucikan melalui kurban darah-Nya.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14-16",
+          "verseText": "Kristus sudah memenuhi seluruh perintah dan peraturan hukum Taurat dengan mengurbankan diri-Nya di kayu salib. Melalui pengurbanan itu, kita semua bisa berdamai dengan Allah dan menjadi umat-Nya. Hal itu berlaku untuk orang Yahudi maupun bukan Yahudi. Jadi, saat kita bersatu dengan Kristus, di mata Allah kita menjadi satu umat yang baru, bukan lagi dua kelompok berbeda. Dengan demikian, Kristus sudah merobohkan tembok permusuhan dan menghapuskan pemisahan di antara kita. Sekarang kita semua dari bangsa mana pun menjadi seperti satu tubuh, di mana setiap anggotanya berdamai dengan Allah.",
+          "contents": [
+            "Kristus sudah memenuhi seluruh perintah dan peraturan hukum Taurat dengan mengurbankan diri-Nya di kayu salib. Melalui pengurbanan itu, kita semua bisa berdamai dengan Allah dan menjadi umat-Nya. Hal itu berlaku untuk orang Yahudi maupun bukan Yahudi. Jadi, saat kita bersatu dengan Kristus, di mata Allah kita menjadi satu umat yang baru, bukan lagi dua kelompok berbeda. Dengan demikian, Kristus sudah merobohkan tembok permusuhan dan menghapuskan pemisahan di antara kita. Sekarang kita semua dari bangsa mana pun menjadi seperti satu tubuh, di mana setiap anggotanya berdamai dengan Allah."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Artinya, kedatangan Kristus sudah membawa perdamaian bagi semua bangsa, baik Yahudi yang dulu dianggap dekat kepada Allah, maupun bangsa bukan Yahudi yang dulu jauh dari Allah.",
+          "contents": [
+            "Artinya, kedatangan Kristus sudah membawa perdamaian bagi semua bangsa, baik Yahudi yang dulu dianggap dekat kepada Allah, maupun bangsa bukan Yahudi yang dulu jauh dari Allah."
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Sekarang, melalui pengurbanan yang sudah Kristus lakukan, kita semua mempunyai hak untuk datang kepada Bapa melalui Roh Kudus yang ada dalam diri kita masing-masing.",
+          "contents": [
+            "Sekarang, melalui pengurbanan yang sudah Kristus lakukan, kita semua mempunyai hak untuk datang kepada Bapa melalui Roh Kudus yang ada dalam diri kita masing-masing.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Jadi kalian yang bukan Yahudi tidak lagi dianggap seperti pendatang yang tidak mempunyai hak apa pun. Sekarang kalian sudah menjadi orang-orang yang disucikan oleh Allah, warga kerajaan Allah, dan anggota keluarga Allah.",
+          "contents": [
+            "Jadi kalian yang bukan Yahudi tidak lagi dianggap seperti pendatang yang tidak mempunyai hak apa pun. Sekarang kalian sudah menjadi orang-orang yang disucikan oleh Allah, warga kerajaan Allah, dan anggota keluarga Allah."
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Kita semua menjadi seperti sebuah rumah yang sedang dibangun di atas batu-batu fondasi besar, yang melambangkan para nabi dan rasul. Dan batu fondasi yang terutama adalah Kristus Yesus sendiri.",
+          "contents": [
+            "Kita semua menjadi seperti sebuah rumah yang sedang dibangun di atas batu-batu fondasi besar, yang melambangkan para nabi dan rasul. Dan batu fondasi yang terutama",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:20"
+                },
+                {
+                  "fk": "batu fondasi yang terutama"
+                },
+                {
+                  "ft": "Terjemahan harfiah frasa ini adalah ‘batu penjuru’."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "adalah Kristus Yesus sendiri."
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Saat kita masing-masing bersatu dengan Kristus, bentuk seluruh bangunan itu menjadi semakin sempurna sampai menjadi rumah yang kudus bagi Allah.",
+          "contents": [
+            "Saat kita masing-masing bersatu dengan Kristus, bentuk seluruh bangunan itu menjadi semakin sempurna sampai menjadi rumah yang kudus bagi Allah."
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "Jadi kita yang berasal dari bangsa mana pun sama-sama dijadikan oleh Kristus sebagai tempat kediaman Allah melalui Roh Kudus.",
+          "contents": [
+            "Jadi kita yang berasal dari bangsa mana pun sama-sama dijadikan oleh Kristus sebagai tempat kediaman Allah melalui Roh Kudus."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "3",
+      "contents": [
+        [
+          {
+            "s": [
+              "Paulus adalah rasul untuk orang yang bukan Yahudi"
+            ]
+          }
+        ],
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Saya Paulus sekarang ini dipenjarakan karena pelayanan saya kepada Kristus Yesus, khususnya yang saya kerjakan bagi kalian orang yang bukan Yahudi.",
+          "contents": [
+            "Saya Paulus sekarang ini dipenjarakan karena pelayanan saya kepada Kristus Yesus, khususnya yang saya kerjakan bagi kalian orang yang bukan Yahudi."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Kalian pasti sudah mendengar bahwa karena kebaikan hati Allah, saya diberikan tugas ini untuk menolong kalian,",
+          "contents": [
+            "Kalian pasti sudah mendengar bahwa karena kebaikan hati Allah, saya diberikan tugas ini untuk menolong kalian,"
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "dan juga kepada saya dinyatakan tentang rahasia rencana Allah, yang sudah saya tuliskan secara singkat di awal surat ini.",
+          "contents": [
+            "dan juga kepada saya dinyatakan tentang rahasia rencana Allah, yang sudah saya tuliskan secara singkat di awal surat ini."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Dengan membacanya, kalian bisa mengerti apa yang saya pahami tentang rencana yang dulu Allah rahasiakan dari manusia, yaitu rahasia tentang Kristus.",
+          "contents": [
+            "Dengan membacanya, kalian bisa mengerti apa yang saya pahami tentang rencana yang dulu Allah rahasiakan dari manusia, yaitu rahasia tentang Kristus."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Dahulu, Allah tidak pernah memberitahukannya kepada generasi-generasi sebelum kita. Tetapi sekarang, melalui Roh-Nya, Allah sudah menyatakan rahasia itu melalui utusan-utusan yang Dia sucikan, yaitu para rasul dan orang-orang yang menerima kemampuan untuk menyampaikan pesan dari Roh Allah.",
+          "contents": [
+            "Dahulu, Allah tidak pernah memberitahukannya kepada generasi-generasi sebelum kita. Tetapi sekarang, melalui Roh-Nya, Allah sudah menyatakan rahasia itu melalui utusan-utusan yang Dia sucikan, yaitu para rasul dan orang-orang yang menerima kemampuan untuk menyampaikan pesan dari Roh Allah."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Dan inilah rahasia itu: Semua orang— baik Yahudi maupun bukan— yang percaya kepada Kabar Baik tentang Kristus Yesus, akan sama-sama mewarisi kerajaan Allah. Keduanya menjadi seperti anggota dalam satu tubuh dan bersama-sama menerima semua yang Allah janjikan kepada umat-Nya.",
+          "contents": [
+            "Dan inilah rahasia itu: Semua orang— baik Yahudi maupun bukan— yang percaya kepada Kabar Baik tentang Kristus Yesus, akan sama-sama mewarisi kerajaan Allah. Keduanya menjadi seperti anggota dalam satu tubuh dan bersama-sama menerima semua yang Allah janjikan kepada umat-Nya.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Oleh karena kuasa dan kebaikan hati Allah, saya sudah menjadi hamba-Nya yang ditugaskan untuk memberitakan Kabar Baik itu.",
+          "contents": [
+            "Oleh karena kuasa dan kebaikan hati Allah, saya sudah menjadi hamba-Nya yang ditugaskan untuk memberitakan Kabar Baik itu."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Bagi saya, tugas ini benar-benar suatu kehormatan besar! Sebab di antara umat yang sudah disucikan Allah, saya adalah orang yang paling hina. Tetapi Allah memberikan kepercayaan ini hanya karena kebaikan hati-Nya. Saya ditugaskan untuk memberitakan kepada orang bukan Yahudi tentang berkat-berkat rohani yang kita terima secara berlimpah melalui Kristus. Kekayaan berkat-Nya itu terlalu luar biasa untuk dijelaskan dengan kata-kata.",
+          "contents": [
+            "Bagi saya, tugas ini benar-benar suatu kehormatan besar! Sebab di antara umat yang sudah disucikan Allah, saya adalah orang yang paling hina. Tetapi Allah memberikan kepercayaan ini hanya karena kebaikan hati-Nya. Saya ditugaskan untuk memberitakan kepada orang bukan Yahudi tentang berkat-berkat rohani yang kita terima secara berlimpah melalui Kristus. Kekayaan berkat-Nya itu terlalu luar biasa untuk dijelaskan dengan kata-kata."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Dan saya dipilih untuk menyatakan kepada semua orang tentang rencana itu, rencana yang sudah berabad-abad tersembunyi dalam hati Allah, yang menciptakan segala sesuatu melalui Kristus Yesus.",
+          "contents": [
+            "Dan saya dipilih untuk menyatakan kepada semua orang tentang rencana itu, rencana yang sudah berabad-abad tersembunyi dalam hati Allah, yang menciptakan segala sesuatu melalui Kristus Yesus.",
+            {
+              "cross-ref": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "xo": "3:9"
+                },
+                {
+                  "xt": "Yoh. 1:1-3; Ibr. 1:2"
+                }
+              ],
+              "closing": "\\x*"
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Sekarang Allah sudah menyatukan kita semua menjadi jemaat-Nya. Melalui kesatuan kita ini Dia bemaksud menunjukkan hikmat-Nya yang berlimpah kepada semua penguasa di segala tingkat surga dan langit.",
+          "contents": [
+            "Sekarang Allah sudah menyatukan kita semua menjadi jemaat-Nya. Melalui kesatuan kita ini Dia bemaksud menunjukkan hikmat-Nya yang berlimpah kepada semua penguasa di segala tingkat surga dan langit."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Itulah tujuan dan rencana-Nya sejak semula, yang sudah Dia selesaikan melalui Kristus Yesus, Penguasa kita.",
+          "contents": [
+            "Itulah tujuan dan rencana-Nya sejak semula, yang sudah Dia selesaikan melalui Kristus Yesus, Penguasa kita."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Saudara-saudari, ingatlah bahwa kita yang percaya penuh kepada Kristus sudah bersatu dengan Dia. Maka kita merasa bebas dan mempunyai keberanian untuk berdoa kepada Allah.",
+          "contents": [
+            "Saudara-saudari, ingatlah bahwa kita yang percaya penuh kepada Kristus sudah bersatu dengan Dia. Maka kita merasa bebas dan mempunyai keberanian untuk berdoa kepada Allah."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Karena itu, saya minta supaya kalian jangan kecewa dan putus asa mendengar apa yang saya alami di penjara. Sebaliknya banggalah karena penderitaan saya ini demi kepentingan kalian.",
+          "contents": [
+            "Karena itu, saya minta supaya kalian jangan kecewa dan putus asa mendengar apa yang saya alami di penjara. Sebaliknya banggalah karena penderitaan saya ini demi kepentingan kalian.",
+            {
+              "cross-ref": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "xo": "3:13"
+                },
+                {
+                  "xt": "Flp. 1:27-28"
+                }
+              ],
+              "closing": "\\x*"
+            },
+            [
+              {
+                "s": [
+                  "Doa Paulus supaya jemaat Efesus memahami kasih Kristus"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Oleh sebab itulah saya sujud berdoa kepada Bapa dari Penguasa kita Kristus Yesus,",
+          "contents": [
+            "Oleh sebab itulah saya sujud berdoa kepada Bapa dari Penguasa kita Kristus Yesus,"
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "yang juga menjadi Bapa kita semua, baik kita yang ada di bumi maupun setiap makhluk yang ada di semua tingkat surga dan langit.",
+          "contents": [
+            "yang juga menjadi Bapa kita semua, baik kita yang ada di bumi maupun setiap makhluk yang ada di semua tingkat surga dan langit."
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Saya memohon kepada-Nya, “Ya Allah Bapa, dengan kekuatan-Mu yang mulia dan tidak terbatas, tolong kuatkanlah hati setiap anggota jemaat di Efesus melalui Roh-Mu dalam diri mereka masing-masing.",
+          "contents": [
+            "Saya memohon kepada-Nya,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:16"
+                },
+                {
+                  "fk": "Doa Paulus"
+                },
+                {
+                  "ft": "Demi kewajaran dalam bahasa Indonesia, TSI menuliskan doa Paulus kepada Allah sebagai kutipan langsung, bukan laporan tentang doanya."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "pi": null
+            },
+            "“Ya Allah Bapa, dengan kekuatan-Mu yang mulia dan tidak terbatas, tolong kuatkanlah hati setiap anggota jemaat di Efesus melalui Roh-Mu dalam diri mereka masing-masing."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Biarlah Kristus hidup dalam diri setiap mereka melalui keyakinan mereka kepada-Nya.",
+          "contents": [
+            "Biarlah Kristus hidup dalam diri setiap mereka melalui keyakinan mereka kepada-Nya."
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Seperti juga doaku untuk seluruh jemaat, kiranya kasih-Mu menjadi dasar kehidupan mereka, agar mereka mengerti betapa lebar, panjang, tinggi, dan dalamnya kasih Kristus kepada kami.",
+          "contents": [
+            "Seperti juga doaku untuk seluruh jemaat, kiranya kasih-Mu menjadi dasar kehidupan mereka, agar mereka mengerti betapa lebar, panjang, tinggi, dan dalamnya kasih Kristus kepada kami."
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Ya Bapa, aku tahu bahwa kasih Kristus terlalu sulit untuk kami pahami. Tetapi ajarlah kami mengerti kasih itu, supaya kami selalu menikmati kehadiran dan kuasa-Mu bersama kami.",
+          "contents": [
+            "Ya Bapa, aku tahu bahwa kasih Kristus terlalu sulit untuk kami pahami. Tetapi ajarlah kami mengerti kasih itu, supaya kami selalu menikmati kehadiran dan kuasa-Mu bersama kami.",
+            {
+              "pi": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Aku percaya bahwa Engkau, ya Allah, mampu melakukan jauh lebih besar daripada yang dapat kami minta atau pikirkan, sebab kuasa-Mu yang luar biasa bekerja dalam hidup kami masing-masing.",
+          "contents": [
+            "Aku percaya bahwa Engkau, ya Allah, mampu melakukan jauh lebih besar daripada yang dapat kami minta atau pikirkan, sebab kuasa-Mu yang luar biasa bekerja dalam hidup kami masing-masing."
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Biarlah kami, seluruh jemaat-Mu, selalu memuliakan Engkau. Dan kiranya Engkau dipuji-puji oleh semua orang dari segala zaman, karena Engkau sudah mengutus Kristus Yesus, Anak-Mu! Amin!”",
+          "contents": [
+            "Biarlah kami, seluruh jemaat-Mu, selalu memuliakan Engkau. Dan kiranya Engkau dipuji-puji oleh semua orang dari segala zaman, karena Engkau sudah mengutus Kristus Yesus, Anak-Mu! Amin!”"
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "4",
+      "contents": [
+        [
+          {
+            "s": [
+              "Kesatuan tubuh Kristus"
+            ]
+          }
+        ],
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Jadi, sebagai orang yang dipenjarakan karena melayani TUHAN, saya menasihati kalian masing-masing supaya hidup sesuai dengan panggilanmu sebagai umat Allah.",
+          "contents": [
+            "Jadi, sebagai orang yang dipenjarakan karena melayani TUHAN, saya menasihati kalian masing-masing supaya hidup sesuai dengan panggilanmu sebagai umat Allah."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Teruslah rendah hati, lemah lembut, dan sabar. Hendaklah kalian saling memaafkan dan saling mengasihi.",
+          "contents": [
+            "Teruslah rendah hati, lemah lembut, dan sabar. Hendaklah kalian saling memaafkan dan saling mengasihi."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Kita sudah dipersatukan dan hidup bersama-sama dengan damai karena kita semua sudah menerima Roh Kudus. Oleh karena itu teruslah berusaha memelihara kesatuan itu.",
+          "contents": [
+            "Kita sudah dipersatukan dan hidup bersama-sama dengan damai karena kita semua sudah menerima Roh Kudus. Oleh karena itu teruslah berusaha memelihara kesatuan itu."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Masing-masing kita sudah menjadi anggota dari satu tubuh, yaitu tubuh Kristus. Kita diberi Roh Kudus yang sama, dan Allah sudah memanggil kita untuk memiliki pengharapan yang sama.",
+          "contents": [
+            "Masing-masing kita sudah menjadi anggota dari satu tubuh, yaitu tubuh Kristus. Kita diberi Roh Kudus yang sama, dan Allah sudah memanggil kita untuk memiliki pengharapan yang sama."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Kita semua percaya kepada Penguasa yang sama, dan mempunyai keyakinan yang sama. Kita juga sudah dibaptis dalam nama Penguasa kita itu.",
+          "contents": [
+            "Kita semua percaya kepada Penguasa yang sama, dan mempunyai keyakinan yang sama. Kita juga sudah dibaptis dalam nama Penguasa kita itu."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Bagi kita semua hanya ada satu Allah dan Bapa. Dia memerintah atas segala sesuatu. Dia ada di mana-mana, dan hadir dalam diri kita semua.",
+          "contents": [
+            "Bagi kita semua hanya ada satu Allah dan Bapa. Dia memerintah atas segala sesuatu. Dia ada di mana-mana, dan hadir dalam diri kita semua.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Namun, di samping semua kesamaan itu, kita masing-masing diberi kemampuan rohani yang berbeda-beda oleh Kristus, sesuai kebaikan hati-Nya kepada kita.",
+          "contents": [
+            "Namun, di samping semua kesamaan itu, kita masing-masing diberi kemampuan rohani yang berbeda-beda oleh Kristus, sesuai kebaikan hati-Nya kepada kita."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Mengenai hal itu sudah dinubuatkan, “Setelah memenangkan peperangan, Tuhan naik ke tempat tertinggi. Dia sudah mempermalukan semua pihak yang memusuhi-Nya, karena mereka dipaksa untuk mengikuti-Nya dari belakang sebagai tawanan perang.",
+          "contents": [
+            "Mengenai hal itu sudah dinubuatkan,",
+            {
+              "q1": null
+            },
+            "“Setelah memenangkan peperangan, Tuhan naik ke tempat tertinggi.",
+            {
+              "q2": null
+            },
+            "Dia sudah mempermalukan semua pihak yang memusuhi-Nya, karena mereka dipaksa untuk mengikuti-Nya dari belakang sebagai tawanan perang.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "4:8"
+                },
+                {
+                  "fk": "Nubuatan yang mirip Mazmur 68:18"
+                },
+                {
+                  "ft": "Bagian pertama kutipan ini hampir sama dengan Mazmur 68:18 dalam Septuaginta. Sedangkan baris terakhirnya berbeda dari teks Ibrani maupun Septuaginta. Karena itu ada yang beranggapan bahwa kemungkinan kata-kata ini berasal dari lagu pujian yang dikenal oleh para pembaca pertama. Pemazmur menuliskan ayat 68:18 tentang TUHAN Allah, tetapi Paulus menafsirkan ‘Dia’ sebagai Kristus Yesus."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Perhatikanlah bahwa pemazmur berkata bahwa sesudah kemenangan-Nya, “Tuhan naik.” Untuk bisa naik, berarti Kristus sebelumnya berada di bawah. Itu artinya Dia sudah turun ke tempat yang paling rendah di bumi.",
+          "contents": [
+            "Perhatikanlah bahwa pemazmur berkata bahwa sesudah kemenangan-Nya, “Tuhan naik.” Untuk bisa naik, berarti Kristus sebelumnya berada di bawah. Itu artinya Dia sudah turun ke tempat yang paling rendah di bumi."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Setelah turun, sekarang Dia sudah naik juga sampai ke tempat yang jauh lebih tinggi daripada segala tingkat surga dan langit, supaya seluruh alam semesta ini dipenuhi dengan kehadiran-Nya.",
+          "contents": [
+            "Setelah turun, sekarang Dia sudah naik juga sampai ke tempat yang jauh lebih tinggi daripada segala tingkat surga dan langit, supaya seluruh alam semesta ini dipenuhi dengan kehadiran-Nya.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Jadi sesuai nubuatan itu, Kristus memberikan kemampuan rohani yang berbeda kepada setiap kita: Ada yang diberi kemampuan untuk menjadi rasul, ada yang untuk menyampaikan pesan dari Roh Allah, atau memberitakan Kabar Baik tentang Yesus, atau menjadi gembala jemaat, dan ada juga yang diberi kemampuan untuk mengajar umat Allah.",
+          "contents": [
+            "Jadi sesuai nubuatan itu, Kristus memberikan kemampuan rohani yang berbeda kepada setiap kita: Ada yang diberi kemampuan untuk menjadi rasul, ada yang untuk menyampaikan pesan dari Roh Allah,",
+            {
+              "cross-ref": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "xo": "4:11"
+                },
+                {
+                  "xt": "1Kor. 14.1"
+                }
+              ],
+              "closing": "\\x* "
+            },
+            "atau memberitakan Kabar Baik tentang Yesus, atau menjadi gembala jemaat, dan ada juga yang diberi kemampuan untuk mengajar umat Allah."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Semuanya itu diberikan supaya kita bisa mempersiapkan dan melengkapi umat Allah, agar masing-masing dapat saling melayani, dan seluruh anggota tubuh Kristus semakin bertumbuh.",
+          "contents": [
+            "Semuanya itu diberikan supaya kita bisa mempersiapkan dan melengkapi umat Allah, agar masing-masing dapat saling melayani, dan seluruh anggota tubuh Kristus semakin bertumbuh."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Tujuannya adalah supaya kita semua semakin erat bersatu dalam keyakinan kepada Kristus dan mencapai pengertian yang sama tentang Anak Allah. Juga agar kita menjadi dewasa secara rohani dan semakin sempurna seperti Kristus.",
+          "contents": [
+            "Tujuannya adalah supaya kita semua semakin erat bersatu dalam keyakinan kepada Kristus dan mencapai pengertian yang sama tentang Anak Allah. Juga agar kita menjadi dewasa secara rohani dan semakin sempurna seperti Kristus.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Dengan memakai kemampuan rohani itu, kita tidak akan lagi seperti anak-anak yang mudah terpengaruh dan terbawa ke sana kemari oleh arus ajaran-ajaran baru. Karena ada banyak guru palsu yang menyesatkan dengan ajaran licik yang sengaja dibuat supaya kelihatan benar.",
+          "contents": [
+            "Dengan memakai kemampuan rohani itu, kita tidak akan lagi seperti anak-anak yang mudah terpengaruh dan terbawa ke sana kemari oleh arus ajaran-ajaran baru. Karena ada banyak guru palsu yang menyesatkan dengan ajaran licik yang sengaja dibuat supaya kelihatan benar."
+          ]
+        },
+        {
+          "verseNumber": "15-16",
+          "verseText": "Oleh sebab itu, hendaklah kita mengerjakan bagian kita sesuai kemampuan rohani pemberian Kristus. Sebagai Kepala, Dia sudah mengatur tugas kita masing-masing. Dia menyusun dan mempersatukan setiap kita dengan sempurna. Ketika semua orang melakukan tugasnya, kita akan menjadi seperti tubuh yang sehat karena setiap anggotanya berfungsi dengan baik. Dengan begitu, kita akan terus bertumbuh dalam ajaran yang benar dan selalu saling mengasihi. Pada akhirnya, kita pun akan menjadi seperti Kristus yang sempurna dalam segala hal.",
+          "contents": [
+            "Oleh sebab itu, hendaklah kita mengerjakan bagian kita sesuai kemampuan rohani pemberian Kristus. Sebagai Kepala, Dia sudah mengatur tugas kita masing-masing. Dia menyusun dan mempersatukan setiap kita dengan sempurna. Ketika semua orang melakukan tugasnya, kita akan menjadi seperti tubuh yang sehat karena setiap anggotanya berfungsi dengan baik. Dengan begitu, kita akan terus bertumbuh dalam ajaran yang benar dan selalu saling mengasihi. Pada akhirnya, kita pun akan menjadi seperti Kristus yang sempurna dalam segala hal.",
+            [
+              {
+                "s": [
+                  "Cara hidup yang baru dan benar"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Oleh sebab itu, dalam nama Tuhan Yesus saya tegaskan kepada kalian: Jangan lagi hidup seperti orang-orang yang tidak mengenal Allah. Pikiran mereka sia-sia,",
+          "contents": [
+            "Oleh sebab itu, dalam nama Tuhan Yesus saya tegaskan kepada kalian: Jangan lagi hidup seperti orang-orang yang tidak mengenal Allah. Pikiran mereka sia-sia,"
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "dan pengertian mereka masih gelap. Mereka jauh sekali dari cara hidup yang dikehendaki Allah. Hal itu karena mereka menutup hati nuraninya dan tidak tahu apa-apa tentang Allah.",
+          "contents": [
+            "dan pengertian mereka masih gelap. Mereka jauh sekali dari cara hidup yang dikehendaki Allah. Hal itu karena mereka menutup hati nuraninya dan tidak tahu apa-apa tentang Allah."
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Mereka tidak tahu malu. Karena itu mereka memberi diri mereka sepenuhnya untuk melakukan segala hal yang jahat, dan tidak pernah merasa puas.",
+          "contents": [
+            "Mereka tidak tahu malu. Karena itu mereka memberi diri mereka sepenuhnya untuk melakukan segala hal yang jahat, dan tidak pernah merasa puas.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Tetapi sesudah mengenal Kristus, kalian tahu itu bukan cara hidup yang benar!",
+          "contents": [
+            "Tetapi sesudah mengenal Kristus, kalian tahu itu bukan cara hidup yang benar!"
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Karena kalian sudah mendengar tentang Dia dan belajar tentang persatuan dengan-Nya, sesuai dengan ajaran benar yang kita terima dari Dia.",
+          "contents": [
+            "Karena kalian sudah mendengar tentang Dia dan belajar tentang persatuan dengan-Nya, sesuai dengan ajaran benar yang kita terima dari Dia."
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "Kalian semua sudah diajar untuk meninggalkan sifat-sifat hidupmu yang lama. Hidup yang lama dibutakan oleh hawa nafsu dan semakin lama semakin rusak, seperti baju rombeng yang tidak bisa dipakai lagi. Jadi buanglah hidupmu yang lama itu.",
+          "contents": [
+            "Kalian semua sudah diajar untuk meninggalkan sifat-sifat hidupmu yang lama. Hidup yang lama dibutakan oleh hawa nafsu dan semakin lama semakin rusak, seperti baju rombeng yang tidak bisa dipakai lagi. Jadi buanglah hidupmu yang lama itu."
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "Biarlah hati dan pikiranmu diperbaharui oleh Roh Allah.",
+          "contents": [
+            "Biarlah hati dan pikiranmu diperbaharui oleh Roh Allah."
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "Sebagaimana kamu memakai baju baru, begitulah hendaknya seluruh hidupmu menjadi baru. Karena kamu sudah diciptakan menjadi manusia baru yang mencerminkan sifat-sifat Allah. Dengan demikian kamu akan sungguh-sungguh hidup suci dan benar di hadapan-Nya.",
+          "contents": [
+            "Sebagaimana kamu memakai baju baru, begitulah hendaknya seluruh hidupmu menjadi baru. Karena kamu sudah diciptakan menjadi manusia baru yang mencerminkan sifat-sifat Allah. Dengan demikian kamu akan sungguh-sungguh hidup suci dan benar di hadapan-Nya.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "25",
+          "verseText": "Jadi, karena kamu sudah membuang cara hidupmu yang lama, jangan lagi menipu sesamamu. Katakan yang benar satu sama lain karena kita masing-masing adalah anggota dari satu tubuh.",
+          "contents": [
+            "Jadi, karena kamu sudah membuang cara hidupmu yang lama, jangan lagi menipu sesamamu. Katakan yang benar satu sama lain",
+            {
+              "cross-ref": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "xo": "4:25"
+                },
+                {
+                  "xt": "Zak. 8:16"
+                }
+              ],
+              "closing": "\\x* "
+            },
+            "karena kita masing-masing adalah anggota dari satu tubuh."
+          ]
+        },
+        {
+          "verseNumber": "26",
+          "verseText": "Dan, apabila kamu marah, jangan sampai kemarahan itu membuat kamu berdosa. Berhentilah marah sebelum hari berganti.",
+          "contents": [
+            "Dan, apabila kamu marah, jangan sampai kemarahan itu membuat kamu berdosa.",
+            {
+              "cross-ref": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "xo": "4:26"
+                },
+                {
+                  "xt": "Mzm. 4:4"
+                }
+              ],
+              "closing": "\\x* "
+            },
+            "Berhentilah marah sebelum hari berganti."
+          ]
+        },
+        {
+          "verseNumber": "27",
+          "verseText": "Dalam hal itu, janganlah beri kesempatan kepada iblis untuk mengalahkanmu.",
+          "contents": [
+            "Dalam hal itu, janganlah beri kesempatan kepada iblis untuk mengalahkanmu."
+          ]
+        },
+        {
+          "verseNumber": "28",
+          "verseText": "Kalau dulu kamu suka mencuri, mulai sekarang janganlah mencuri lagi. Daripada mencuri, gunakanlah tanganmu untuk melakukan pekerjaan yang jujur, supaya kamu mempunyai penghasilan sendiri dan sebagian dari penghasilanmu itu bisa kamu bagikan kepada orang yang berkekurangan.",
+          "contents": [
+            "Kalau dulu kamu suka mencuri, mulai sekarang janganlah mencuri lagi. Daripada mencuri, gunakanlah tanganmu untuk melakukan pekerjaan yang jujur, supaya kamu mempunyai penghasilan sendiri dan sebagian dari penghasilanmu itu bisa kamu bagikan kepada orang yang berkekurangan."
+          ]
+        },
+        {
+          "verseNumber": "29",
+          "verseText": "Ketika kamu berbicara, jangan sampai kata-kata kotor keluar dari mulutmu, atau kata-kata yang menyakiti hati orang lain. Tetapi bicaralah seperlunya, supaya perkataanmu menolong, mendatangkan kebaikan, dan menguatkan orang-orang yang mendengarnya.",
+          "contents": [
+            "Ketika kamu berbicara, jangan sampai kata-kata kotor keluar dari mulutmu, atau kata-kata yang menyakiti hati orang lain. Tetapi bicaralah seperlunya, supaya perkataanmu menolong, mendatangkan kebaikan, dan menguatkan orang-orang yang mendengarnya."
+          ]
+        },
+        {
+          "verseNumber": "30",
+          "verseText": "Selain itu jangan sampai cara hidupmu membuat Roh Kudus bersedih hati. Karena Roh itu merupakan bukti bahwa kamu adalah milik Allah, dan Roh Kudus juga menjamin keselamatanmu pada hari kita dibebaskan dari dunia yang gelap ini.",
+          "contents": [
+            "Selain itu jangan sampai cara hidupmu membuat Roh Kudus bersedih hati. Karena Roh itu merupakan bukti bahwa kamu adalah milik Allah, dan Roh Kudus juga menjamin keselamatanmu pada hari kita dibebaskan dari dunia yang gelap ini."
+          ]
+        },
+        {
+          "verseNumber": "31",
+          "verseText": "Buanglah semua rasa sakit hati, dendam, dan kemarahan dari hidupmu. Jangan bertengkar dan saling menghina. Berhentilah melakukan segala macam kejahatan.",
+          "contents": [
+            "Buanglah semua rasa sakit hati, dendam, dan kemarahan dari hidupmu. Jangan bertengkar dan saling menghina. Berhentilah melakukan segala macam kejahatan."
+          ]
+        },
+        {
+          "verseNumber": "32",
+          "verseText": "Sebaliknya hendaklah kamu selalu baik hati, saling mengasihi, dan saling memaafkan satu sama lain, seperti Allah sudah mengampuni kita ketika kita percaya kepada Kristus.",
+          "contents": [
+            "Sebaliknya hendaklah kamu selalu baik hati, saling mengasihi, dan saling memaafkan satu sama lain, seperti Allah sudah mengampuni kita ketika kita percaya kepada Kristus."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "5",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Saudara-saudari, karena kamu adalah anak-anak Allah yang dikasihi-Nya, hiduplah dengan benar dan bersih dari segala kesalahan, seperti Allah sendiri.",
+          "contents": [
+            "Saudara-saudari, karena kamu adalah anak-anak Allah yang dikasihi-Nya, hiduplah dengan benar dan bersih dari segala kesalahan, seperti Allah sendiri."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Kasihilah satu sama lain sesuai dengan teladan Kristus. Karena Dia sudah mengasihi kita sampai memberikan diri-Nya sendiri sebagai kurban kepada Allah demi kita. Persembahan-Nya itu sangat harum dan menyenangkan hati Allah.",
+          "contents": [
+            "Kasihilah satu sama lain sesuai dengan teladan Kristus. Karena Dia sudah mengasihi kita sampai memberikan diri-Nya sendiri sebagai kurban kepada Allah demi kita. Persembahan-Nya itu sangat harum dan menyenangkan hati Allah.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Janganlah ada percabulan, kejahatan, atau keserakahan di antara kalian. Hal-hal itu sama sekali tidak pantas bagi umat Allah. Karena kalian sudah disucikan oleh-Nya.",
+          "contents": [
+            "Janganlah ada percabulan, kejahatan, atau keserakahan di antara kalian. Hal-hal itu sama sekali tidak pantas bagi umat Allah. Karena kalian sudah disucikan oleh-Nya."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Juga janganlah ada di antara kalian yang mengucapkan kata-kata jahat, kotor, atau kata-kata yang tidak berguna. Hal itu tidak patut lagi bagi kalian. Tetapi hendaklah kalian selalu bersyukur.",
+          "contents": [
+            "Juga janganlah ada di antara kalian yang mengucapkan kata-kata jahat, kotor, atau kata-kata yang tidak berguna. Hal itu tidak patut lagi bagi kalian. Tetapi hendaklah kalian selalu bersyukur."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Orang yang melakukan percabulan, kejahatan, atau keserakahan tidak akan menjadi warga kerajaan Kristus dan Allah. Ingatlah itu baik-baik. Karena orang yang serakah sama saja dengan penyembah berhala: Uang menjadi tuhan mereka.",
+          "contents": [
+            "Orang yang melakukan percabulan, kejahatan, atau keserakahan tidak akan menjadi warga kerajaan Kristus dan Allah. Ingatlah itu baik-baik. Karena orang yang serakah sama saja dengan penyembah berhala: Uang menjadi tuhan mereka.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Jangan terpengaruh oleh bujukan orang lain! Yakinlah, kemarahan Allah pasti menimpa semua orang yang tidak taat dan melakukan dosa-dosa tersebut.",
+          "contents": [
+            "Jangan terpengaruh oleh bujukan orang lain! Yakinlah, kemarahan Allah pasti menimpa semua orang yang tidak taat dan melakukan dosa-dosa tersebut."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Oleh karena itu, janganlah kalian ikut melakukan dosa-dosa itu seperti mereka.",
+          "contents": [
+            "Oleh karena itu, janganlah kalian ikut melakukan dosa-dosa itu seperti mereka."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Memang dahulu kalian hidup dalam kegelapan, tetapi sekarang kalian sudah masuk ke dalam terang TUHAN. Jadi hiduplah sebagai warga Kerajaan Terang.",
+          "contents": [
+            "Memang dahulu kalian hidup dalam kegelapan, tetapi sekarang kalian sudah masuk ke dalam terang TUHAN.",
+            {
+              "cross-ref": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "xo": "5:8"
+                },
+                {
+                  "xt": "Mat. 4:16; Mat. 5:14-16; Mat. 6:22-23; Yoh. 3:20-21; Yoh. 12:46; 1Tes. 5:5; 1Yoh. 1:5, 7; 1Yoh. 2:9-10"
+                }
+              ],
+              "closing": "\\x* "
+            },
+            "Jadi hiduplah sebagai warga Kerajaan Terang."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Karena hidup yang dipimpin oleh Roh Allah selalu menghasilkan semua perbuatan yang baik, cara hidup yang benar, dan mengikuti ajaran benar.",
+          "contents": [
+            "Karena hidup yang dipimpin oleh Roh Allah selalu menghasilkan semua perbuatan yang baik, cara hidup yang benar, dan mengikuti ajaran benar."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Tetaplah berusaha mencari jalan yang paling menyenangkan hati TUHAN.",
+          "contents": [
+            "Tetaplah berusaha mencari jalan yang paling menyenangkan hati TUHAN."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Jangan lagi kalian mengikuti kelakuan orang yang masih hidup dalam kegelapan. Semua itu percuma saja. Sebaliknya, hendaklah perbuatan dan perkataanmu menyatakan bahwa cara hidup mereka itu salah.",
+          "contents": [
+            "Jangan lagi kalian mengikuti kelakuan orang yang masih hidup dalam kegelapan. Semua itu percuma saja. Sebaliknya, hendaklah perbuatan dan perkataanmu menyatakan bahwa cara hidup mereka itu salah."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Karena hal-hal yang mereka lakukan secara gelap dan rahasia itu sangat memalukan, bahkan hanya membicarakannya pun sudah membuat malu.",
+          "contents": [
+            "Karena hal-hal yang mereka lakukan secara gelap dan rahasia itu sangat memalukan, bahkan hanya membicarakannya pun sudah membuat malu."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Tetapi ketika perbuatan-perbuatan mereka yang gelap itu dinyatakan oleh terang, yakni ajaran benar dari Allah, maka tampaklah bahwa segala perbuatan mereka ternyata salah. Sebab semua perbuatan jahat menjadi kelihatan ketika disinari terang.",
+          "contents": [
+            "Tetapi ketika perbuatan-perbuatan mereka yang gelap itu dinyatakan oleh terang, yakni ajaran benar dari Allah, maka tampaklah bahwa segala perbuatan mereka ternyata salah. Sebab semua perbuatan jahat menjadi kelihatan ketika disinari terang."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Seperti kata pepatah, “Bangunlah, kamu yang tidur. Bangkitlah dari antara orang mati, dan Kristus akan bersinar atasmu.”",
+          "contents": [
+            "Seperti kata pepatah,",
+            {
+              "q1": null
+            },
+            "“Bangunlah, kamu yang tidur.",
+            {
+              "q2": null
+            },
+            "Bangkitlah dari antara orang mati,",
+            {
+              "q2": null
+            },
+            "dan Kristus akan bersinar atasmu.”",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Jadi, berhati-hatilah dengan cara hidupmu masing-masing. Jangan hidup seperti orang bodoh, tetapi hiduplah seperti orang bijaksana.",
+          "contents": [
+            "Jadi, berhati-hatilah dengan cara hidupmu masing-masing. Jangan hidup seperti orang bodoh, tetapi hiduplah seperti orang bijaksana."
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Maksud saya, pakailah setiap kesempatan untuk melakukan yang baik, karena sekarang adalah zaman yang penuh dengan kejahatan.",
+          "contents": [
+            "Maksud saya, pakailah setiap kesempatan untuk melakukan yang baik, karena sekarang adalah zaman yang penuh dengan kejahatan."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Jadi janganlah hidup sembarangan, tetapi usahakanlah supaya kamu mengetahui apa yang TUHAN mau untuk kamu lakukan.",
+          "contents": [
+            "Jadi janganlah hidup sembarangan, tetapi usahakanlah supaya kamu mengetahui apa yang TUHAN mau untuk kamu lakukan."
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Janganlah kamu mabuk-mabukan, karena mabuk menjerumuskanmu ke dalam berbagai dosa. Tetapi hendaklah hidupmu dikuasai Roh Allah— 2",
+          "contents": [
+            "Janganlah kamu mabuk-mabukan, karena mabuk menjerumuskanmu ke dalam berbagai dosa. Tetapi hendaklah hidupmu dikuasai Roh Allah—",
+            {
+              "list": [
+                {
+                  "li": null
+                }
+              ]
+            },
+            "2"
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "dengan selalu bernyanyi kepada TUHAN dalam hatimu, dengan saling menguatkan lewat lagu-lagu pujian bagi Allah— baik lagu dari Kitab Mazmur, Firman Allah, maupun lagu rohani yang lain, 2",
+          "contents": [
+            "dengan selalu bernyanyi kepada TUHAN dalam hatimu,",
+            {
+              "list": [
+                {
+                  "li2": [
+                    "dengan saling menguatkan lewat lagu-lagu pujian bagi Allah— baik lagu dari Kitab Mazmur, Firman Allah, maupun lagu rohani yang lain,"
+                  ]
+                },
+                {
+                  "li": null
+                }
+              ]
+            },
+            "2"
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "juga dengan mengucap syukur atas segala hal kepada Allah Bapa melalui Penguasa kita Kristus Yesus.",
+          "contents": [
+            "juga dengan mengucap syukur atas segala hal kepada Allah Bapa melalui Penguasa kita Kristus Yesus.",
+            [
+              {
+                "s1": [
+                  "Wujud menghormati Kristus dalam hubungan dengan sesama"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Hendaklah kamu rendah hati dan bersedia saling menghormati kemauan satu sama lain. Dengan begitu kamu juga menghormati Kristus.",
+          "contents": [
+            "Hendaklah kamu rendah hati dan bersedia saling menghormati kemauan satu sama lain.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "5:21"
+                },
+                {
+                  "fk": "rendah hati … satu sama lain."
+                },
+                {
+                  "ft": "Kalimat ini menerjemahkan satu kata dalam bahasa Yunani yang secara harfiah ‘tunduk’ atau ‘taat’. Di ayat 22 dan 24, kata ini diterjemahkan sebagai ‘taatilah’ dan ‘menaati kehendak’."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "Dengan begitu kamu juga menghormati Kristus.",
+            [
+              {
+                "s2": [
+                  "Dalam hubungan suami-istri"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "Jika kamu seorang istri, hendaklah kamu menaati suamimu sama seperti menaati Tuhan Yesus.",
+          "contents": [
+            "Jika kamu seorang istri, hendaklah kamu menaati suamimu sama seperti menaati Tuhan Yesus."
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "Karena suami adalah kepala dari istri, sama seperti Kristus adalah kepala dari seluruh jemaat Allah. Sebagai tubuh Kristus, kita taat kepada Dia yang sudah menyelamatkan kita.",
+          "contents": [
+            "Karena suami adalah kepala dari istri, sama seperti Kristus adalah kepala dari seluruh jemaat Allah. Sebagai tubuh Kristus, kita taat kepada Dia yang sudah menyelamatkan kita."
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "Jadi sebagaimana seluruh jemaat menaati kehendak Kristus, begitu jugalah istri menaati kemauan suaminya dalam segala hal.",
+          "contents": [
+            "Jadi sebagaimana seluruh jemaat menaati kehendak Kristus, begitu jugalah istri menaati kemauan suaminya dalam segala hal.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "5:24"
+                },
+                {
+                  "fk": "menaati … dalam segala hal"
+                },
+                {
+                  "ft": "Dalam nasihat ini, Paulus tidak bermaksud bahwa istri harus melakukan hal-hal yang bertentangan dengan Firman TUHAN kalau disuruh oleh suami. Kita tetap harus lebih taat kepada Allah daripada manusia."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "25",
+          "verseText": "Sebaliknya, jika kamu seorang suami, kasihilah istrimu sama seperti Kristus mengasihi kita— jemaat Allah. Dia bahkan mempersembahkan diri-Nya sebagai kurban untuk kita,",
+          "contents": [
+            "Sebaliknya, jika kamu seorang suami, kasihilah istrimu sama seperti Kristus mengasihi kita— jemaat Allah. Dia bahkan mempersembahkan diri-Nya sebagai kurban untuk kita,"
+          ]
+        },
+        {
+          "verseNumber": "26",
+          "verseText": "supaya kita disucikan dan menjadi milik-Nya yang istimewa. Juga kita disucikan melalui Firman Allah yang sudah Yesus ajarkan. Firman Allah itu bagaikan air murni yang membersihkan kita.",
+          "contents": [
+            "supaya kita disucikan dan menjadi milik-Nya yang istimewa. Juga kita disucikan melalui Firman Allah yang sudah Yesus ajarkan. Firman Allah itu bagaikan air murni yang membersihkan kita.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "5:26"
+                },
+                {
+                  "fk": "Ayat 26"
+                },
+                {
+                  "ft": "Kiasan ‘air’ di ayat ini merujuk pada adat pernikahan Yahudi, di mana pengantin perempuan dimandikan dengan air sebelum memakai baju pernikahan dan dibawa menghadap pengantin laki-laki. Kata ‘air’ dan ‘membersihkan’ juga dapat ditafsirkan sebagai kiasan pembaptisan. Orang yang dibaptis seperti penganti perempuan yang disucikan dan disahkan sebagai milik pengantin laki-laki, yaitu Kristus."
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ]
+        },
+        {
+          "verseNumber": "27",
+          "verseText": "Untuk itulah Kristus mati bagi kita: Supaya kita sebagai kesatuan jemaat-Nya dikhususkan bagi diri-Nya sendiri, seperti seorang pengantin laki-laki mengambil seorang pengantin perempuan sebagai istrinya. Maksudnya, kita disucikan dan dimuliakan secara khusus untuk tinggal menetap bersama Dia, tanpa dosa, tanpa kesalahan, dan tanpa noda apa pun.",
+          "contents": [
+            "Untuk itulah Kristus mati bagi kita: Supaya kita sebagai kesatuan jemaat-Nya dikhususkan bagi diri-Nya sendiri, seperti seorang pengantin laki-laki mengambil seorang pengantin perempuan sebagai istrinya. Maksudnya, kita disucikan dan dimuliakan secara khusus untuk tinggal menetap bersama Dia, tanpa dosa, tanpa kesalahan, dan tanpa noda apa pun."
+          ]
+        },
+        {
+          "verseNumber": "28",
+          "verseText": "Jadi, demikianlah setiap suami harus mengasihi istrinya sama seperti mengasihi tubuhnya sendiri. Karena mengasihi istri adalah sama seperti mengasihi dirimu sendiri.",
+          "contents": [
+            "Jadi, demikianlah setiap suami harus mengasihi istrinya sama seperti mengasihi tubuhnya sendiri. Karena mengasihi istri adalah sama seperti mengasihi dirimu sendiri."
+          ]
+        },
+        {
+          "verseNumber": "29",
+          "verseText": "Tidak ada orang yang pernah membenci tubuhnya sendiri. Setiap orang memberi makan tubuhnya serta merawatnya. Itulah yang selalu dilakukan Tuhan Yesus untuk jemaat-Nya,",
+          "contents": [
+            "Tidak ada orang yang pernah membenci tubuhnya sendiri. Setiap orang memberi makan tubuhnya serta merawatnya. Itulah yang selalu dilakukan Tuhan Yesus untuk jemaat-Nya,"
+          ]
+        },
+        {
+          "verseNumber": "30",
+          "verseText": "karena kita adalah anggota tubuh-Nya yang digambarkan seperti daging-Nya dan tulang-Nya.",
+          "contents": [
+            "karena kita adalah anggota tubuh-Nya yang digambarkan seperti daging-Nya dan tulang-Nya."
+          ]
+        },
+        {
+          "verseNumber": "31",
+          "verseText": "Hal itu sesuai dengan yang tertulis dalam Kitab Suci, “Dalam pernikahan, seorang laki-laki akan meninggalkan orang tuanya dan bersatu dengan istrinya, sehingga mereka berdua menjadi satu.”",
+          "contents": [
+            "Hal itu sesuai dengan yang tertulis dalam Kitab Suci, “Dalam pernikahan, seorang laki-laki akan meninggalkan orang tuanya dan bersatu dengan istrinya, sehingga mereka berdua menjadi satu.”",
+            {
+              "cross-ref": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "xo": "5:31"
+                },
+                {
+                  "xt": "Kej. 2:24 (sesuai Septuaginta)"
+                }
+              ],
+              "closing": "\\x*"
+            }
+          ]
+        },
+        {
+          "verseNumber": "32",
+          "verseText": "Ajaran yang baru saja saya nyatakan itu sangat dalam artinya. Tetapi arti yang mau saya tegaskan adalah tentang Kristus dan kesatuan seluruh jemaat-Nya.",
+          "contents": [
+            "Ajaran yang baru saja saya nyatakan itu sangat dalam artinya. Tetapi arti yang mau saya tegaskan adalah tentang Kristus dan kesatuan seluruh jemaat-Nya."
+          ]
+        },
+        {
+          "verseNumber": "33",
+          "verseText": "Jadi inilah kesimpulannya: Setiap suami harus mengasihi istrinya sama seperti dia mengasihi dirinya sendiri, dan istri harus menghormati suaminya.",
+          "contents": [
+            "Jadi inilah kesimpulannya: Setiap suami harus mengasihi istrinya sama seperti dia mengasihi dirinya sendiri, dan istri harus menghormati suaminya."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "6",
+      "contents": [
+        [
+          {
+            "s2": [
+              "Dalam hubungan anak-anak dan orang tua"
+            ]
+          }
+        ],
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Jika kamu adalah anak, taatilah orangtuamu. Kamu sebagai pengikut Kristus sudah seharusnya melakukan hal itu.",
+          "contents": [
+            "Jika kamu adalah anak, taatilah orangtuamu. Kamu sebagai pengikut Kristus sudah seharusnya melakukan hal itu."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Ingatlah perintah TUHAN ini, “Hormatilah bapak-ibumu.” Itulah perintah pertama yang disertai dengan janji Allah,",
+          "contents": [
+            "Ingatlah perintah TUHAN ini, “Hormatilah bapak-ibumu.” Itulah perintah pertama yang disertai dengan janji Allah,"
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "yaitu, “supaya kamu hidup sejahtera dan panjang umur di dunia ini.”",
+          "contents": [
+            "yaitu, “supaya kamu hidup sejahtera dan panjang umur di dunia ini.”",
+            {
+              "cross-ref": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "xo": "6:3"
+                },
+                {
+                  "xt": "Kel. 20:12; Ul. 5:16"
+                }
+              ],
+              "closing": "\\x*"
+            },
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Dan jika kamu adalah ayah, janganlah membuat anak-anakmu sakit hati, tetapi besarkanlah mereka dengan didikan dan nasihat yang sesuai dengan ajaran TUHAN.",
+          "contents": [
+            "Dan jika kamu adalah ayah, janganlah membuat anak-anakmu sakit hati, tetapi besarkanlah mereka dengan didikan dan nasihat yang sesuai dengan ajaran TUHAN.",
+            [
+              {
+                "s2": [
+                  "Dalam hubungan antara budak dan majikan"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Jika kamu adalah budak, hendaklah kamu menaati tuanmu yang di dunia ini dengan rasa takut dan penuh hormat. Lakukanlah itu dengan sungguh-sungguh, sama seperti kamu menaati Kristus.",
+          "contents": [
+            "Jika kamu adalah budak,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "6:5"
+                },
+                {
+                  "fk": "budak"
+                },
+                {
+                  "ft": "Budak adalah seseorang yang dijual kepada orang lain. Atas keputusan hakim, seseorang yang mempunyai hutang sangat banyak bisa dijatuhi hukuman menjadi budak sebagai ganti utangnya. Seorang bapak yang sangat memerlukan dana juga bisa menjual anaknya menjadi budak. Atau negara yang menang dalam perang dapat menjual penduduk negeri yang mereka kalahkan untuk menjadi budak di negeri lain. Seorang budak harus bekerja untuk tuannya. Dia tidak mempunyai hak apa pun, tidak menerima gaji, dan tidak bisa keluar dari perbudakan. Kalau lari dari perbudakan dan tertangkap, budak biasanya dihukum mati. Hidup budak berada dalam tangan tuannya. Kalau tuannya adalah orang yang ramah, jujur, dan kaya, maka keadaan hidup budaknya bisa cukup baik. Tetapi banyak majikan tidak seperti itu. Pada zaman Perjanjian Baru, ada juga beberapa macam perbudakan yang tidak sama dengan yang sekarang disebut ‘hamba’, ‘pelayan’, atau ‘pembantu’ dalam bahasa Indonesia."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "hendaklah kamu menaati tuanmu yang di dunia ini dengan rasa takut dan penuh hormat. Lakukanlah itu dengan sungguh-sungguh, sama seperti kamu menaati Kristus."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Ikutilah kemauan mereka selalu, baik pada waktu mereka ada maupun tidak ada. Janganlah hanya berpura-pura kerja. Karena Majikanmu yang sebenarnya adalah Kristus! Jadi hendaklah kamu melayani para majikan duniawi dengan sepenuh hati dan sesuai dengan kemauan Allah.",
+          "contents": [
+            "Ikutilah kemauan mereka selalu, baik pada waktu mereka ada maupun tidak ada. Janganlah hanya berpura-pura kerja. Karena Majikanmu yang sebenarnya adalah Kristus! Jadi hendaklah kamu melayani para majikan duniawi dengan sepenuh hati dan sesuai dengan kemauan Allah."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Kerjakanlah tugasmu dengan senang hati, karena sebenarnya yang sedang kamu layani adalah Tuhan Yesus, bukan manusia.",
+          "contents": [
+            "Kerjakanlah tugasmu dengan senang hati, karena sebenarnya yang sedang kamu layani adalah Tuhan Yesus, bukan manusia."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Ingatlah bahwa Tuhan akan memberikan upah kepada setiap orang yang melakukan kebaikan, baik kepada orang yang hidup sebagai budak maupun yang bukan budak.",
+          "contents": [
+            "Ingatlah bahwa Tuhan akan memberikan upah kepada setiap orang yang melakukan kebaikan, baik kepada orang yang hidup sebagai budak maupun yang bukan budak.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Sebaliknya, jika kamu adalah majikan, bersikaplah yang baik terhadap budak-budakmu. Jangan pernah mengancam mereka. Ingatlah bahwa kamu dan mereka mempunyai Penguasa yang sama di surga, yang menghakimi setiap orang dengan tidak pandang muka.",
+          "contents": [
+            "Sebaliknya, jika kamu adalah majikan, bersikaplah yang baik terhadap budak-budakmu. Jangan pernah mengancam mereka.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "6:9"
+                },
+                {
+                  "fk": "mengancam mereka"
+                },
+                {
+                  "ft": "Nasihat Paulus ini bukan berarti agama Kristen mengizinkan perbudakan, tetapi untuk menyikapi keadaan ketika perbudakan diizinkan oleh negara yang berkuasa zaman itu. Saat itu banyak orang dari berbagai status sosial, termasuk budak dan majikannya, sudah menjadi pengikut Kristus. Paulus mendorong majikan untuk memperlakukan budaknya sebagai sesama manusia. Majikan tidak boleh memaksa budak untuk melakukan pekerjaan dan tidak boleh melakukan kekerasan."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "Ingatlah bahwa kamu dan mereka mempunyai Penguasa yang sama di surga, yang menghakimi setiap orang dengan tidak pandang muka.",
+            [
+              {
+                "s": [
+                  "Pakailah seluruh perlengkapan perang yang diberikan Allah"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Saudara-saudariku, sebagai pesan terakhir, hendaklah kalian masing-masing menjadi kuat karena terus berharap sepenuhnya kepada kuasa Tuhan Yesus yang luar biasa, dan juga karena kalian sudah bersatu dengan Dia.",
+          "contents": [
+            "Saudara-saudariku, sebagai pesan terakhir, hendaklah kalian masing-masing menjadi kuat karena terus berharap sepenuhnya kepada kuasa Tuhan Yesus yang luar biasa, dan juga karena kalian sudah bersatu dengan Dia."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Sama seperti seorang tentara memakai perlengkapan perangnya, kamu pun harus memakai semua perlengkapan perang yang Allah berikan kepada kita. Dengan begitu, kamu bisa menolak tipuan iblis.",
+          "contents": [
+            "Sama seperti seorang tentara memakai perlengkapan perangnya, kamu pun harus memakai semua perlengkapan perang yang Allah berikan kepada kita. Dengan begitu, kamu bisa menolak tipuan iblis."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Karena kita berperang bukan melawan orang-orang di bumi ini, tetapi melawan roh-roh jahat dan semua kuasa yang memerintah roh-roh jahat itu. Mereka itulah yang sekarang menguasai dunia yang gelap ini dari langit di atas.",
+          "contents": [
+            "Karena kita berperang bukan melawan orang-orang di bumi ini, tetapi melawan roh-roh jahat dan semua kuasa yang memerintah roh-roh jahat itu. Mereka itulah yang sekarang menguasai dunia yang gelap ini dari langit di atas."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Itu sebabnya kamu perlu memakai semua alat perang dari Allah, supaya ketika musuh datang menyerangmu, kamu bisa melawannya dan tetap bertahan sampai perang berakhir.",
+          "contents": [
+            "Itu sebabnya kamu perlu memakai semua alat perang dari Allah, supaya ketika musuh datang menyerangmu, kamu bisa melawannya dan tetap bertahan sampai perang berakhir.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Jadi, berdirilah teguh. Peganglah ajaran yang benar dari Allah. Karena ajaran benar itu seperti ikat pinggang yang akan membuat kamu siap bertindak. Percayalah bahwa kamu sudah dibenarkan Allah oleh karena Kristus. Dengan kepercayaan itu kamu seperti mengenakan baju besi yang akan melindungimu dari serangan musuh. 2",
+          "contents": [
+            "Jadi, berdirilah teguh.",
+            {
+              "list": [
+                {
+                  "li2": [
+                    "Peganglah ajaran yang benar dari Allah. Karena ajaran benar itu seperti ikat pinggang yang akan membuat kamu siap bertindak."
+                  ]
+                },
+                {
+                  "li2": [
+                    "Percayalah bahwa kamu sudah dibenarkan Allah oleh karena Kristus. Dengan kepercayaan itu kamu seperti mengenakan baju besi yang akan melindungimu dari serangan musuh."
+                  ]
+                },
+                {
+                  "li": null
+                }
+              ]
+            },
+            "2"
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Teruslah berpegang kepada Kabar Baik tentang Kristus. Kabar itu menolong kamu supaya merasa tenang dalam perlindungan Allah. Tetaplah berpegang pada Kabar Baik itu sama seperti seorang tentara selalu memakai sepatu yang kuat, supaya kamu tetap berdiri teguh dalam peperangan. 2",
+          "contents": [
+            "Teruslah berpegang kepada Kabar Baik tentang Kristus. Kabar itu menolong kamu supaya merasa tenang dalam perlindungan Allah. Tetaplah berpegang pada Kabar Baik itu sama seperti seorang tentara selalu memakai sepatu yang kuat, supaya kamu tetap berdiri teguh dalam peperangan.",
+            {
+              "list": [
+                {
+                  "li": null
+                }
+              ]
+            },
+            "2"
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Selain itu, teruslah yakin dan percaya kepada Tuhan Yesus. Karena keyakinan itu seperti alat perang yang melindungi kamu dari semua anak panah berapi yang ditembakkan iblis kepada kita. 2",
+          "contents": [
+            "Selain itu, teruslah yakin dan percaya kepada Tuhan Yesus. Karena keyakinan itu seperti alat perang yang melindungi kamu dari semua anak panah berapi yang ditembakkan iblis kepada kita.",
+            {
+              "list": [
+                {
+                  "li": null
+                }
+              ]
+            },
+            "2"
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Sadarilah bahwa Allah sudah menyelamatkan kamu, karena kesadaran itu seperti topi perang bagimu. Dan peganglah semua perkataan Allah seperti memegang pedang, karena perkataan-Nya mempunyai kekuatan dari Roh Kudus. 2",
+          "contents": [
+            "Sadarilah bahwa Allah sudah menyelamatkan kamu, karena kesadaran itu seperti topi perang bagimu.",
+            {
+              "list": [
+                {
+                  "li2": [
+                    "Dan peganglah semua perkataan Allah seperti memegang pedang, karena perkataan-Nya mempunyai kekuatan dari Roh Kudus."
+                  ]
+                },
+                {
+                  "li": null
+                }
+              ]
+            },
+            "2"
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Dalam segala keadaan berdoalah selalu. Dan untuk semua hal yang kamu perlukan, berharaplah sepenuhnya kepada Roh Kudus. Hendaklah kamu terus waspada terhadap ancaman musuh dan berdoa setiap waktu. Jangan menyerah! Dan berdoalah terus-menerus untuk semua umat Allah.",
+          "contents": [
+            "Dalam segala keadaan berdoalah selalu. Dan untuk semua hal yang kamu perlukan, berharaplah sepenuhnya kepada Roh Kudus. Hendaklah kamu terus waspada terhadap ancaman musuh dan berdoa setiap waktu. Jangan menyerah! Dan berdoalah terus-menerus untuk semua umat Allah.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Saya berharap kalian juga mendoakan saya. Mintalah TUHAN memberikan hikmat kepada saya sehingga saya berbicara dengan berani waktu menyampaikan Kabar Baik yang dulu dirahasiakan itu.",
+          "contents": [
+            "Saya berharap kalian juga mendoakan saya. Mintalah TUHAN memberikan hikmat kepada saya sehingga saya berbicara dengan berani waktu menyampaikan Kabar Baik yang dulu dirahasiakan itu."
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Karena saya adalah utusan Allah untuk memberitakan tentang kerajaan-Nya, walaupun saat ini saya dipenjarakan dan diikat dengan rantai besi. Jadi berdoalah supaya saya menyampaikan berita dari Allah itu dengan berani, sesuai dengan tugas saya.",
+          "contents": [
+            "Karena saya adalah utusan Allah untuk memberitakan tentang kerajaan-Nya, walaupun saat ini saya dipenjarakan dan diikat dengan rantai besi. Jadi berdoalah supaya saya menyampaikan berita dari Allah itu dengan berani, sesuai dengan tugas saya.",
+            [
+              {
+                "s": [
+                  "Salam terakhir"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21-22",
+          "verseText": "Tikikus, saudara kita yang saya kasihi, sudah membawa surat ini kepada kalian. Sebagai saudara kita dalam persatuan dengan Tuhan Yesus, dia melayani Tuhan dengan setia sekali. Saya juga mengutus dia untuk menyampaikan berita tentang keadaan dan pekerjaan pelayanan saya, supaya kalian bisa mengetahui tentang keadaan kami dan supaya dia bisa menguatkan hati kalian.",
+          "contents": [
+            "Tikikus, saudara kita yang saya kasihi, sudah membawa surat ini kepada kalian. Sebagai saudara kita dalam persatuan dengan Tuhan Yesus, dia melayani Tuhan dengan setia sekali. Saya juga mengutus dia untuk menyampaikan berita tentang keadaan dan pekerjaan pelayanan saya, supaya kalian bisa mengetahui tentang keadaan kami dan supaya dia bisa menguatkan hati kalian.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "Saudara-saudari, saya berdoa supaya Allah Bapa dan Penguasa kita Kristus Yesus selalu menjagamu agar hidupmu tenang dalam perlindungan-Nya, menguatkan keyakinanmu kepada-Nya, dan membuatmu terus saling mengasihi.",
+          "contents": [
+            "Saudara-saudari, saya berdoa supaya Allah Bapa dan Penguasa kita Kristus Yesus selalu menjagamu agar hidupmu tenang dalam perlindungan-Nya, menguatkan keyakinanmu kepada-Nya, dan membuatmu terus saling mengasihi."
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "Kepada semua yang mengasihi Penguasa kita Kristus Yesus dengan kasih yang tidak pernah padam: Doa saya, Allah akan selalu berbaik hati kepada kalian. Amin.",
+          "contents": [
+            "Kepada semua yang mengasihi Penguasa kita Kristus Yesus dengan kasih yang tidak pernah padam: Doa saya, Allah akan selalu berbaik hati kepada kalian. Amin."
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "\\li used without content"
+    ]
+  }
+}

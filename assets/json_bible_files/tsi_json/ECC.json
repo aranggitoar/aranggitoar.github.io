@@ -1,0 +1,3380 @@
+{
+  "book": {
+    "bookCode": "ECC",
+    "meta": [
+      {
+        "h": "Pengkhotbah"
+      },
+      {
+        "toc2": [
+          "Pengkhotbah"
+        ]
+      },
+      {
+        "toc3": [
+          "Pkh"
+        ]
+      },
+      [
+        {
+          "mt": [
+            "Pengkhotbah"
+          ]
+        }
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Hidup ini penuh dengan kesia-siaan"
+            ]
+          }
+        ],
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Aku, penulis kitab ini, menjabat sebagai raja dan juga penasihat, yang mengganti ayahku Daud sebagai raja di Yerusalem.",
+          "contents": [
+            "Aku, penulis kitab ini,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:1"
+                },
+                {
+                  "fk": "penulis kitab ini"
+                },
+                {
+                  "ft": "Nama penulis tidak disebut dalam kitab ini, tetapi tradisi ribuan tahun meyakini Salomo menulis kitab ini. Ada ahli yang percaya bahwa kitab ini tidak ditulis oleh Raja Salomo tetapi oleh seseorang yang tidak diketahui namanya. Karena tidak ada bukti untuk kedua pendapat itu, maka TSI memilih untuk mengikuti tradisi dan terus menyebut Salomo sebagai penulis kitab ini."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "menjabat sebagai raja dan juga penasihat, yang mengganti ayahku Daud sebagai raja di Yerusalem.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Aku sebagai penasihat menegaskan: Segala sesuatu dalam hidup ini adalah sia-sia dan tidak ada artinya!",
+          "contents": [
+            "Aku sebagai penasihat menegaskan: Segala sesuatu dalam hidup ini adalah sia-sia dan tidak ada artinya!",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Karena semua usaha dan kerja keras kita selama hidup di bumi ini, tidak menghasilkan upah yang kekal.",
+          "contents": [
+            "Karena semua usaha dan kerja keras kita selama hidup di bumi ini,",
+            {
+              "q2": null
+            },
+            "tidak menghasilkan upah yang kekal.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Bagaimanapun kita berusaha, tetap tidak menghasilkan perubahan apa pun. Setiap hari ada yang lahir dan ada yang meninggal, sampai generasi baru mengganti generasi lama, tetapi bumi tetap saja sama.",
+          "contents": [
+            "Bagaimanapun kita berusaha, tetap tidak menghasilkan perubahan apa pun.",
+            {
+              "q2": null
+            },
+            "Setiap hari ada yang lahir dan ada yang meninggal,",
+            {
+              "q2": null
+            },
+            "sampai generasi baru mengganti generasi lama,",
+            {
+              "q2": null
+            },
+            "tetapi bumi tetap saja sama.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Matahari terbit dari timur dan terbenam di barat, lalu kembali lagi ke tempat matahari itu terbit. Dan begitu terus. Setiap hari matahari terbit dan terbenam.",
+          "contents": [
+            "Matahari terbit dari timur dan terbenam di barat, lalu kembali lagi ke tempat matahari itu terbit.",
+            {
+              "q2": null
+            },
+            "Dan begitu terus. Setiap hari matahari terbit dan terbenam.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Angin bertiup dari utara ke selatan, lalu berputar-putar, dan sambil berputar angin kembali ke tempat angin itu bertiup. Dan begitu terus. Angin kembali bertiup ke arah yang sama.",
+          "contents": [
+            "Angin bertiup dari utara ke selatan, lalu berputar-putar,",
+            {
+              "q2": null
+            },
+            "dan sambil berputar angin kembali ke tempat angin itu bertiup.",
+            {
+              "q2": null
+            },
+            "Dan begitu terus. Angin kembali bertiup ke arah yang sama.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Demikian juga dengan sungai-sungai: Semua sungai selalu mengalir ke laut, tetapi laut tidak pernah penuh. Air kembali ke hulu sungai. Dan begitu terus. Air mengalir lagi ke laut.",
+          "contents": [
+            "Demikian juga dengan sungai-sungai:",
+            {
+              "q2": null
+            },
+            "Semua sungai selalu mengalir ke laut, tetapi laut tidak pernah penuh.",
+            {
+              "q2": null
+            },
+            "Air kembali ke hulu sungai.",
+            {
+              "q2": null
+            },
+            "Dan begitu terus. Air mengalir lagi ke laut.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Ya, semua hal ini sangat melelahkan— sampai tidak ada orang yang bisa mengungkapkan rasa lelah itu. Mata kita bisa melihat apa saja, tetapi mata tidak pernah merasa puas melihat. Begitu juga telinga bisa mendengar apa saja, tetapi telinga tidak pernah merasa puas mendengar.",
+          "contents": [
+            "Ya, semua hal ini sangat melelahkan—",
+            {
+              "q2": null
+            },
+            "sampai tidak ada orang yang bisa mengungkapkan rasa lelah itu.",
+            {
+              "q1": null
+            },
+            "Mata kita bisa melihat apa saja, tetapi mata tidak pernah merasa puas melihat.",
+            {
+              "q2": null
+            },
+            "Begitu juga telinga bisa mendengar apa saja, tetapi telinga tidak pernah merasa puas mendengar.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Segala sesuatu yang pernah terjadi akan terjadi lagi, dan segala sesuatu yang pernah dilakukan akan dilakukan lagi. Tidak ada yang benar-benar baru di dunia ini.",
+          "contents": [
+            "Segala sesuatu yang pernah terjadi akan terjadi lagi,",
+            {
+              "q2": null
+            },
+            "dan segala sesuatu yang pernah dilakukan akan dilakukan lagi.",
+            {
+              "q2": null
+            },
+            "Tidak ada yang benar-benar baru di dunia ini.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Ada orang yang berkata, “Lihat, hal itu baru terjadi kali ini!” Tetapi sebenarnya hal semacam itu sudah pernah terjadi jauh sebelum kita lahir di dunia ini.",
+          "contents": [
+            "Ada orang yang berkata, “Lihat, hal itu baru terjadi kali ini!”",
+            {
+              "q2": null
+            },
+            "Tetapi sebenarnya hal semacam itu sudah pernah terjadi",
+            {
+              "q2": null
+            },
+            "jauh sebelum kita lahir di dunia ini.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Orang tidak ingat apa yang sudah terjadi di masa lalu. Begitu juga, hal-hal yang terjadi sekarang ini tidak akan diingat oleh orang-orang di masa mendatang.",
+          "contents": [
+            "Orang tidak ingat apa yang sudah terjadi di masa lalu.",
+            {
+              "q2": null
+            },
+            "Begitu juga, hal-hal yang terjadi sekarang ini tidak akan diingat oleh orang-orang di masa mendatang.",
+            [
+              {
+                "s1": [
+                  "Memiliki kebijaksanaan",
+                  {
+                    "footnote": [
+                      {
+                        "caller": "+"
+                      },
+                      {
+                        "fr": "1:12"
+                      },
+                      {
+                        "fk": "kebijaksanaan"
+                      },
+                      {
+                        "ft": "Dalam kitab ini Raja Salomo fokus dalam menyoroti ‘kebijaksanaan’ yang bisa dicari lewat pengalaman, atau belajar dari seorang guru. Selain kebijaksaan, kita juga mengenal istilah ‘hikmat’. Hikmat biasanya dianggap sebagai sesuatu yang dikaruniakan oleh Allah. Oleh karena itu TSI menggunakan ‘hikmat’ dalam konteks yang hendak menunjukkan bahwa Allah sebagai sumber dari hikmat itu."
+                      }
+                    ],
+                    "closing": "\\f* "
+                  },
+                  "ternyata sia-sia"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Aku, penulis, sebagai raja di Israel yang bertakhta di Yerusalem.",
+          "contents": [
+            "Aku, penulis, sebagai raja di Israel yang bertakhta di Yerusalem."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Aku sudah berusaha dengan segala kebijaksanaanku untuk menyelidiki tentang segala sesuatu yang dilakukan oleh manusia di bumi ini. Dan yang aku temukan adalah bahwa Allah membuat manusia hidup bersusah payah.",
+          "contents": [
+            "Aku sudah berusaha dengan segala kebijaksanaanku untuk menyelidiki tentang segala sesuatu yang dilakukan oleh manusia di bumi ini. Dan yang aku temukan adalah bahwa Allah membuat manusia hidup bersusah payah."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Aku sudah melihat segala sesuatu yang umat manusia hasilkan di bumi ini, dan ternyata semua itu sia-sia— sama seperti orang yang berusaha menjaring angin,",
+          "contents": [
+            "Aku sudah melihat segala sesuatu yang umat manusia hasilkan di bumi ini, dan ternyata semua itu sia-sia—",
+            {
+              "q2": null
+            },
+            "sama seperti orang yang berusaha menjaring angin,",
+            {
+              "q2": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "atau seperti menegakkan benang basah, bahkan seperti menghitung benda yang memang tidak ada.",
+          "contents": [
+            "atau seperti menegakkan benang basah,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "1:15"
+                },
+                {
+                  "fk": "menegakkan benang basah"
+                },
+                {
+                  "ft": "Bahasa Ibrani menggunakan peribahasa yang secara harfiah berarti ‘Yang sudah bengkok tidak dapat diluruskan’. Untuk menerangkan bahwa ini adalah usaha yang sia-sia, TSI menggunakan peribahasa: Seperti menegakkan benang basah."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "bahkan seperti menghitung benda yang memang tidak ada.",
+            {
+              "b": null
+            },
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Aku berkata kepada diriku sendiri, “Lihat, aku sudah bertambah bijaksana, sampai aku lebih bijaksana dari semua raja yang pernah memerintah di Yerusalem sebelum aku. Aku sudah memperoleh banyak kebijaksanaan dan pengetahuan.”",
+          "contents": [
+            "Aku berkata kepada diriku sendiri, “Lihat, aku sudah bertambah bijaksana, sampai aku lebih bijaksana dari semua raja yang pernah memerintah di Yerusalem sebelum aku. Aku sudah memperoleh banyak kebijaksanaan dan pengetahuan.”"
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Kemudian aku memutuskan untuk mendalami segala sesuatu tentang cara hidup bijaksana dan cara hidup yang bodoh. Tetapi akhirnya aku menyadari bahwa penyelidikan itu juga sia-sia— sama seperti orang yang berusaha menjaring angin.",
+          "contents": [
+            "Kemudian aku memutuskan untuk mendalami segala sesuatu tentang cara hidup bijaksana dan cara hidup yang bodoh. Tetapi akhirnya aku menyadari bahwa penyelidikan itu juga sia-sia— sama seperti orang yang berusaha menjaring angin.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Karena semakin aku bertambah bijaksana, aku malah semakin kecewa. Dan semakin aku bertambah pengetahuan, aku malah semakin sengsara.",
+          "contents": [
+            "Karena semakin aku bertambah bijaksana, aku malah semakin kecewa.",
+            {
+              "q2": null
+            },
+            "Dan semakin aku bertambah pengetahuan, aku malah semakin sengsara."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "2",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Mencari kesenangan adalah sia-sia"
+            ]
+          }
+        ],
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Dalam hati aku memutuskan, “Baiklah, aku akan mencari tahu apa manfaat hidup bersenang-senang dengan cara menikmati semua yang menyenangkan bagi diriku.” Dan ternyata hidup seperti itu sia-sia.",
+          "contents": [
+            "Dalam hati aku memutuskan, “Baiklah, aku akan mencari tahu apa manfaat hidup bersenang-senang dengan cara menikmati semua yang menyenangkan bagi diriku.” Dan ternyata hidup seperti itu sia-sia."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Bahkan bagiku tertawa dan bergembira merupakan hal bodoh dan tidak ada manfaatnya.",
+          "contents": [
+            "Bahkan bagiku tertawa dan bergembira merupakan hal bodoh dan tidak ada manfaatnya."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Kemudian, karena aku ingin tahu cara hidup yang baik selama hidup yang singkat di dunia ini, aku sudah mencoba menyenangkan diriku dengan minum anggur sepuasnya, dan melakukan hal-hal bodoh. Ketika aku melakukan hal itu, akal sehatku terus membimbing aku dengan bijak.",
+          "contents": [
+            "Kemudian, karena aku ingin tahu cara hidup yang baik selama hidup yang singkat di dunia ini, aku sudah mencoba menyenangkan diriku dengan minum anggur sepuasnya, dan melakukan hal-hal bodoh. Ketika aku melakukan hal itu, akal sehatku terus membimbing aku dengan bijak.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4-6",
+          "verseText": "Dalam penyelidikanku, aku juga sudah melakukan pekerjaan-pekerjaan yang besar: Aku membangun bagiku banyak rumah, membuat banyak kebun anggur, membuat banyak kebun dan taman yang indah dengan segala jenis pohon buah-buahan di dalamnya, dan membuat banyak kolam untuk mengairi pohon-pohon supaya tumbuh menjadi hutan.",
+          "contents": [
+            "Dalam penyelidikanku, aku juga sudah melakukan pekerjaan-pekerjaan yang besar: Aku membangun bagiku banyak rumah, membuat banyak kebun anggur, membuat banyak kebun dan taman yang indah dengan segala jenis pohon buah-buahan di dalamnya, dan membuat banyak kolam untuk mengairi pohon-pohon supaya tumbuh menjadi hutan."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Aku juga mempunyai banyak budak laki-laki dan budak perempuan— baik yang aku beli maupun yang lahir di rumahku. Aku juga mempunyai kawanan ternak, jauh lebih banyak dibanding siapa pun yang pernah hidup sebelum aku di Yerusalem.",
+          "contents": [
+            "Aku juga mempunyai banyak budak laki-laki dan budak perempuan— baik yang aku beli maupun yang lahir di rumahku. Aku juga mempunyai kawanan ternak, jauh lebih banyak dibanding siapa pun yang pernah hidup sebelum aku di Yerusalem."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Aku juga mengumpulkan emas, perak, dan harta benda sebagai pajak dari raja-raja dan daerah-daerah yang aku kuasai. Untuk kesenangan, aku memiliki para penyanyi laki-laki dan perempuan, dan aku juga memiliki sangat banyak selir yang cantik.",
+          "contents": [
+            "Aku juga mengumpulkan emas, perak, dan harta benda sebagai pajak dari raja-raja dan daerah-daerah yang aku kuasai. Untuk kesenangan, aku memiliki para penyanyi laki-laki dan perempuan, dan aku juga memiliki sangat banyak selir yang cantik.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:8"
+                },
+                {
+                  "fk": "sangat banyak selir yang cantik"
+                },
+                {
+                  "ft": "Frasa terakhir ini dalam bahasa Ibrani sulit ditafsir karena kata yang dipakai tidak umum. Bisa berarti ‘selir’ dan juga bisa berarti ‘kekayaan’. Tetapi kebanyakan orang mengartikannya sebagai ‘hasrat seksual’. Karena itu TSI menerjemahkannya sebagai ‘selir yang cantik’."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Maka aku menjadi orang hebat yang melebihi siapa pun yang pernah hidup di Yerusalem sebelum aku. Dalam semua hal itu kebijaksanaanku tetap membimbing aku.",
+          "contents": [
+            "Maka aku menjadi orang hebat yang melebihi siapa pun yang pernah hidup di Yerusalem sebelum aku. Dalam semua hal itu kebijaksanaanku tetap membimbing aku."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Apa pun yang aku inginkan, aku pasti mendapatkannya. Aku menikmati segala kesenangan apa pun. Aku bersukacita atas semua prestasi yang aku peroleh, karena itulah yang menjadi upah bagiku.",
+          "contents": [
+            "Apa pun yang aku inginkan, aku pasti mendapatkannya. Aku menikmati segala kesenangan apa pun. Aku bersukacita atas semua prestasi yang aku peroleh, karena itulah yang menjadi upah bagiku."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Tetapi ketika aku merenungkan semua hasil dari usaha-usaha yang aku lakukan itu, dan juga segala jerih lelahku untuk memperolehnya, aku menyimpulkan bahwa semua itu sia-sia— sama seperti orang yang berusaha menjaring angin! Di dunia ini tidak ada untungnya dalam segala macam usaha tersebut!",
+          "contents": [
+            "Tetapi ketika aku merenungkan semua hasil dari usaha-usaha yang aku lakukan itu, dan juga segala jerih lelahku untuk memperolehnya, aku menyimpulkan bahwa semua itu sia-sia— sama seperti orang yang berusaha menjaring angin! Di dunia ini tidak ada untungnya dalam segala macam usaha tersebut!",
+            [
+              {
+                "s1": [
+                  "Hidup bijaksana dan hidup bebal"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Selanjutnya dalam penyelidikanku, aku mencoba menilai berbagai macam cara hidup bijaksana dan cara hidup yang bodoh. Sebab adakah penerus raja yang bisa melakukan ini lebih baik daripada aku?!",
+          "contents": [
+            "Selanjutnya dalam penyelidikanku, aku mencoba menilai berbagai macam cara hidup bijaksana dan cara hidup yang bodoh. Sebab adakah penerus raja yang bisa melakukan ini lebih baik daripada aku?!"
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Kesimpulanku adalah bahwa hidup bijaksana selalu lebih baik daripada hidup dalam kebodohan, bagaikan hidup dalam terang lebih baik daripada hidup dalam kegelapan.",
+          "contents": [
+            "Kesimpulanku adalah bahwa hidup bijaksana selalu lebih baik daripada hidup dalam kebodohan, bagaikan hidup dalam terang lebih baik daripada hidup dalam kegelapan."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Orang yang bijak bisa memilih jalan yang benar, sedangkan orang bebal tidak. Tetapi akhirnya aku menyadari bahwa keduanya menerima nasib yang sama!",
+          "contents": [
+            "Orang yang bijak bisa memilih jalan yang benar,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "2:14"
+                },
+                {
+                  "fk": "bisa memilih …"
+                },
+                {
+                  "ft": "Bahasa Ibrani menggunakan peribahasa yang secara harfiah berarti ‘mempunyai mata di kepalanya’."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "sedangkan orang bebal tidak. Tetapi akhirnya aku menyadari bahwa keduanya menerima nasib yang sama!"
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Maka aku berpikir, “Wah, sebagaimana nasib orang bebal, begitu juga yang akan terjadi kepadaku! Kalau begitu, tidak ada manfaatnya aku begitu pintar dan bijaksana! Oh, ternyata ini juga merupakan kesia-siaan!”",
+          "contents": [
+            "Maka aku berpikir, “Wah, sebagaimana nasib orang bebal, begitu juga yang akan terjadi kepadaku! Kalau begitu, tidak ada manfaatnya aku begitu pintar dan bijaksana! Oh, ternyata ini juga merupakan kesia-siaan!”"
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Karena sebagaimana orang bebal akan mati, begitu pula orang bijak akan mati! Dua-duanya tidak akan dikenang lama. Dan di masa yang akan datang, mereka sama sekali dilupakan.",
+          "contents": [
+            "Karena sebagaimana orang bebal akan mati, begitu pula orang bijak akan mati! Dua-duanya tidak akan dikenang lama. Dan di masa yang akan datang, mereka sama sekali dilupakan.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Oleh karena itu aku membenci kehidupan, karena segala hal yang dilakukan di dunia ini menyedihkan dan akhirnya sia-sia— sama seperti orang yang berusaha menjaring angin.",
+          "contents": [
+            "Oleh karena itu aku membenci kehidupan, karena segala hal yang dilakukan di dunia ini menyedihkan dan akhirnya sia-sia— sama seperti orang yang berusaha menjaring angin.",
+            [
+              {
+                "s1": [
+                  "Segala usaha adalah sia-sia"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Maka aku juga membenci segala hasil dari usaha dan jerih lelahku di dunia ini, karena semuanya harus aku tinggalkan untuk orang yang akan menggantikan aku.",
+          "contents": [
+            "Maka aku juga membenci segala hasil dari usaha dan jerih lelahku di dunia ini, karena semuanya harus aku tinggalkan untuk orang yang akan menggantikan aku."
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Dan apakah dia itu orang bodoh atau orang bijak, aku tidak tahu. Tetapi biarpun dia orang bodoh, dia tetap akan berkuasa atas semua hasil jerih lelahku di dunia ini. Sayang sekali! Ini juga sia-sia!",
+          "contents": [
+            "Dan apakah dia itu orang bodoh atau orang bijak, aku tidak tahu. Tetapi biarpun dia orang bodoh, dia tetap akan berkuasa atas semua hasil jerih lelahku di dunia ini. Sayang sekali! Ini juga sia-sia!"
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Aku menjadi putus asa karena segala jerih lelah sepanjang hidupku di dunia ini sia-sia.",
+          "contents": [
+            "Aku menjadi putus asa karena segala jerih lelah sepanjang hidupku di dunia ini sia-sia.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Kalau kita bekerja keras dengan memakai segala kebijaksanaan, pengetahuan, dan keahlian kita, tidak adil kalau kita terpaksa meninggalkan semuanya itu kepada orang yang tidak pernah bekerja apa-apa untuk mendapatkan semua harta itu! Hal ini merupakan kesia-siaan dan sangat menyedihkan!",
+          "contents": [
+            "Kalau kita bekerja keras dengan memakai segala kebijaksanaan, pengetahuan, dan keahlian kita, tidak adil kalau kita terpaksa meninggalkan semuanya itu kepada orang yang tidak pernah bekerja apa-apa untuk mendapatkan semua harta itu! Hal ini merupakan kesia-siaan dan sangat menyedihkan!"
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "Jadi aku bertanya: Apa untungnya kita bekerja keras dan bersusah-susah sepanjang hidup di dunia ini?!",
+          "contents": [
+            "Jadi aku bertanya: Apa untungnya kita bekerja keras dan bersusah-susah sepanjang hidup di dunia ini?!"
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "Setiap hari kita merasa sedih dan tersiksa karena bekerja begitu berat, dan di malam hari tidak bisa tidur nyenyak karena gelisah. Semua itu juga sia-sia!",
+          "contents": [
+            "Setiap hari kita merasa sedih dan tersiksa karena bekerja begitu berat, dan di malam hari tidak bisa tidur nyenyak karena gelisah. Semua itu juga sia-sia!",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "Jadi, aku menyimpulkan bahwa jalan terbaik bagi kita adalah menikmati makanan, minuman, dan pekerjaan serta hasilnya. Namun aku pun menyadari bahwa hal-hal ini memang diberikan Allah untuk kita nikmati.",
+          "contents": [
+            "Jadi, aku menyimpulkan bahwa jalan terbaik bagi kita adalah menikmati makanan, minuman, dan pekerjaan serta hasilnya. Namun aku pun menyadari bahwa hal-hal ini memang diberikan Allah untuk kita nikmati."
+          ]
+        },
+        {
+          "verseNumber": "25",
+          "verseText": "Sebab tanpa Dia kita tidak dapat menikmati apa pun— baik makanan, minuman, atau hal lain yang menyenangkan.",
+          "contents": [
+            "Sebab tanpa Dia kita tidak dapat menikmati apa pun— baik makanan, minuman, atau hal lain yang menyenangkan."
+          ]
+        },
+        {
+          "verseNumber": "26",
+          "verseText": "Dan kalau kita menyenangkan hati Allah, tentu saja Dia akan mengaruniakan kepada kita kebijaksanaan, pengetahuan, dan kebahagiaan. Tetapi kalau kita berbuat dosa terhadap Allah, Dia akan menghukum kita sehingga kita akan bekerja keras mengumpulkan harta yang nantinya akan diberikan kepada orang yang menyenangkan hati-Nya. Ini juga sia-sia— sama seperti orang yang berusaha menjaring angin!",
+          "contents": [
+            "Dan kalau kita menyenangkan hati Allah, tentu saja Dia akan mengaruniakan kepada kita kebijaksanaan, pengetahuan, dan kebahagiaan. Tetapi kalau kita berbuat dosa terhadap Allah, Dia akan menghukum kita sehingga kita akan bekerja keras mengumpulkan harta yang nantinya akan diberikan kepada orang yang menyenangkan hati-Nya. Ini juga sia-sia— sama seperti orang yang berusaha menjaring angin!"
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "3",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Allah sudah menentukan segala sesuatu tepat pada waktu-Nya"
+            ]
+          }
+        ],
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Semua hal di dunia ini berlangsung dalam waktu yang sudah ditentukan. Dan setiap hal ada saat-saatnya yang tepat.",
+          "contents": [
+            "Semua hal di dunia ini berlangsung dalam waktu yang sudah ditentukan.",
+            {
+              "q2": null
+            },
+            "Dan setiap hal ada saat-saatnya yang tepat.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Ada waktu untuk dilahirkan, dan ada waktu untuk mati. Ada musim menanam dan ada musim panen.",
+          "contents": [
+            "Ada waktu untuk dilahirkan, dan ada waktu untuk mati.",
+            {
+              "q2": null
+            },
+            "Ada musim menanam dan ada musim panen.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Ada saat tertentu untuk membunuh, dan ada waktu untuk menyembuhkan. Ada waktunya untuk merobohkan bangunan, dan ada waktunya untuk membangun yang baru.",
+          "contents": [
+            "Ada saat tertentu untuk membunuh, dan ada waktu untuk menyembuhkan.",
+            {
+              "q2": null
+            },
+            "Ada waktunya untuk merobohkan bangunan, dan ada waktunya untuk membangun yang baru.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Ada saat tertentu untuk menangis dan ada pula saat untuk tertawa. Ada waktu berdukacita dan ada waktu bersukacita.",
+          "contents": [
+            "Ada saat tertentu untuk menangis dan ada pula saat untuk tertawa.",
+            {
+              "q2": null
+            },
+            "Ada waktu berdukacita dan ada waktu bersukacita.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Ada waktu untuk membuang batu-batu, dan ada waktu untuk mengumpulkan batu. Ada waktu untuk memeluk, dan ada waktu harus menahan diri supaya tidak memeluk.",
+          "contents": [
+            "Ada waktu untuk membuang batu-batu, dan ada waktu untuk mengumpulkan batu.",
+            {
+              "q2": null
+            },
+            "Ada waktu untuk memeluk, dan ada waktu harus menahan diri supaya tidak memeluk.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Ada waktu untuk mencari, tetapi juga ada waktu untuk merelakannya hilang. Ada waktu menyimpan, dan ada waktu untuk membuangnya.",
+          "contents": [
+            "Ada waktu untuk mencari, tetapi juga ada waktu untuk merelakannya hilang.",
+            {
+              "q2": null
+            },
+            "Ada waktu menyimpan, dan ada waktu untuk membuangnya.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Ada waktu untuk merobek pakaian karena kesedihan, dan ada waktu untuk membuat pakaian yang baru. Ada saat yang tepat untuk diam, dan ada saat yang tepat untuk berbicara.",
+          "contents": [
+            "Ada waktu untuk merobek pakaian karena kesedihan,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "3:7"
+                },
+                {
+                  "fk": "karena kesedihan"
+                },
+                {
+                  "ft": "Biasanya merobek pakaian dilakukan untuk menunjukkan kesedihan yang sangat mendalam. Tetapi merobek pakaian juga bisa dilakukan karena kemarahan besar atas seseorang atau bangsa lain yang menghina Allah Israel."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "dan ada waktu untuk membuat pakaian yang baru.",
+            {
+              "q2": null
+            },
+            "Ada saat yang tepat untuk diam, dan ada saat yang tepat untuk berbicara.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Ada waktu yang tepat untuk mengasihi, namun ada juga waktu untuk membenci. Akan ada waktu untuk berperang, dan akan ada waktu untuk berdamai.",
+          "contents": [
+            "Ada waktu yang tepat untuk mengasihi, namun ada juga waktu untuk membenci.",
+            {
+              "q2": null
+            },
+            "Akan ada waktu untuk berperang, dan akan ada waktu untuk berdamai.",
+            {
+              "b": null
+            },
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Sebenarnya, apa manfaat yang manusia peroleh dari segala kerja kerasnya?",
+          "contents": [
+            "Sebenarnya, apa manfaat yang manusia peroleh dari segala kerja kerasnya?"
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Aku sudah melihat bahwa Allah membuat manusia hidup bersusah payah.",
+          "contents": [
+            "Aku sudah melihat bahwa Allah membuat manusia hidup bersusah payah."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Allah sudah mengatur supaya setiap hal terjadi tepat pada saat yang sudah ditentukan-Nya. Dia memberi manusia keinginan untuk mengetahui masa depan yang kekal, namun tidak seorang pun yang sanggup memahami apa yang dilakukan Allah dari awal sampai akhir.",
+          "contents": [
+            "Allah sudah mengatur supaya setiap hal terjadi tepat pada saat yang sudah ditentukan-Nya. Dia memberi manusia keinginan untuk mengetahui masa depan yang kekal, namun tidak seorang pun yang sanggup memahami apa yang dilakukan Allah dari awal sampai akhir."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Akhirnya aku menyadari bahwa tidak ada hal yang lebih baik bagi manusia selain bersukacita atas segala sesuatu yang kita nikmati selama kita hidup.",
+          "contents": [
+            "Akhirnya aku menyadari bahwa tidak ada hal yang lebih baik bagi manusia selain bersukacita atas segala sesuatu yang kita nikmati selama kita hidup."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Jadi menikmati makanan, minuman, dan pekerjaan serta hasilnya adalah berkat dari Allah.",
+          "contents": [
+            "Jadi menikmati makanan, minuman, dan pekerjaan serta hasilnya adalah berkat dari Allah."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Aku menyadari bahwa apa pun yang sudah ditetapkan Allah adalah kekal untuk selamanya. Tidak ada yang bisa menambah ataupun menguranginya. Hal ini Allah lakukan agar manusia menghormati-Nya.",
+          "contents": [
+            "Aku menyadari bahwa apa pun yang sudah ditetapkan Allah adalah kekal untuk selamanya. Tidak ada yang bisa menambah ataupun menguranginya. Hal ini Allah lakukan agar manusia menghormati-Nya."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Apa yang terjadi sekarang sudah terjadi sejak dulu. Dan segala hal yang akan terjadi, juga sudah terjadi sejak dulu. Allahlah yang menentukan begitu, supaya apa yang sudah terjadi akan berulang kembali.",
+          "contents": [
+            "Apa yang terjadi sekarang sudah terjadi sejak dulu. Dan segala hal yang akan terjadi, juga sudah terjadi sejak dulu. Allahlah yang menentukan begitu, supaya apa yang sudah terjadi akan berulang kembali.",
+            [
+              {
+                "s1": [
+                  "Ketidak-adilan selalu ada di dunia ini"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Aku juga melihat bahwa hal-hal yang terjadi di dunia ini sering tidak adil. Di mana seharusnya keadilan ditegakkan dan orang-orang hidup benar, di situ malah kejahatan dan kecurangan sering terjadi.",
+          "contents": [
+            "Aku juga melihat bahwa hal-hal yang terjadi di dunia ini sering tidak adil. Di mana seharusnya keadilan ditegakkan dan orang-orang hidup benar, di situ malah kejahatan dan kecurangan sering terjadi."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Aku berkata dalam hati: Jadi, karena Allah sudah menetapkan segala macam kejadian, berarti akan tiba saatnya Allah akan mengadili setiap orang— baik yang benar maupun yang jahat.",
+          "contents": [
+            "Aku berkata dalam hati: Jadi, karena Allah sudah menetapkan segala macam kejadian, berarti akan tiba saatnya Allah akan mengadili setiap orang— baik yang benar maupun yang jahat."
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Lalu aku berpikir, “Wah, ternyata Allah sedang menguji manusia, supaya mereka sadar bahwa hidup ini tidak berbeda dari hidup hewan!”",
+          "contents": [
+            "Lalu aku berpikir, “Wah, ternyata Allah sedang menguji manusia, supaya mereka sadar bahwa hidup ini tidak berbeda dari hidup hewan!”"
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Nasib manusia dan hewan sama. Manusia dan hewan sama-sama punya napas dan pasti akan mati. Manusia tidak memiliki kelebihan dibandingkan hewan. Hidup ini memang sia-sia!",
+          "contents": [
+            "Nasib manusia dan hewan sama. Manusia dan hewan sama-sama punya napas dan pasti akan mati. Manusia tidak memiliki kelebihan dibandingkan hewan. Hidup ini memang sia-sia!"
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Karena pada akhirnya baik tubuh manusia maupun hewan akan menuju ke tempat yang sama. Semua makhluk hidup berasal dari tanah dan akan kembali lagi menjadi tanah.",
+          "contents": [
+            "Karena pada akhirnya baik tubuh manusia maupun hewan akan menuju ke tempat yang sama. Semua makhluk hidup berasal dari tanah dan akan kembali lagi menjadi tanah.",
+            {
+              "cross-ref": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "xo": "3:20"
+                },
+                {
+                  "xt": "Kej. 2:7"
+                }
+              ],
+              "closing": "\\x*"
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Siapakah yang tahu bahwa roh manusia naik ke atas, dan roh hewan turun ke bumi?!",
+          "contents": [
+            "Siapakah yang tahu bahwa roh manusia naik ke atas, dan roh hewan turun ke bumi?!"
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "Jadi aku melihat bahwa tidak ada hal yang lebih baik bagi manusia selain menikmati pekerjaan serta hasilnya. Hanya itu upah kita. Karena masing-masing kita tidak mungkin tahu apa yang akan terjadi waktu kita tidak ada lagi di dunia ini.",
+          "contents": [
+            "Jadi aku melihat bahwa tidak ada hal yang lebih baik bagi manusia selain menikmati pekerjaan serta hasilnya. Hanya itu upah kita. Karena masing-masing kita tidak mungkin tahu apa yang akan terjadi waktu kita tidak ada lagi di dunia ini."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "4",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Lalu aku perhatikan segala penindasan yang terjadi di dunia ini. Dan betapa menyedihkan: Orang-orang yang tertindas menangis karena begitu berkuasanya para penindas mereka, dan tidak ada yang menghibur mereka.",
+          "contents": [
+            "Lalu aku perhatikan segala penindasan yang terjadi di dunia ini. Dan betapa menyedihkan: Orang-orang yang tertindas menangis karena begitu berkuasanya para penindas mereka, dan tidak ada yang menghibur mereka."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Jadi menurutku orang-orang yang sudah meninggal lebih beruntung daripada yang masih hidup.",
+          "contents": [
+            "Jadi menurutku orang-orang yang sudah meninggal lebih beruntung daripada yang masih hidup."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Tetapi, sebenarnya yang lebih beruntung lagi adalah mereka yang belum ada dan belum melihat berbagai macam kejahatan yang dilakukan di dunia ini.",
+          "contents": [
+            "Tetapi, sebenarnya yang lebih beruntung lagi adalah mereka yang belum ada dan belum melihat berbagai macam kejahatan yang dilakukan di dunia ini."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Aku juga menyaksikan banyak orang berjerih payah untuk mencapai suatu keberhasilan hanya karena terdorong oleh iri hati kepada orang lain. Memang hal itu juga sia-sia— sama seperti orang yang berusaha menjaring angin!",
+          "contents": [
+            "Aku juga menyaksikan banyak orang berjerih payah untuk mencapai suatu keberhasilan hanya karena terdorong oleh iri hati kepada orang lain. Memang hal itu juga sia-sia— sama seperti orang yang berusaha menjaring angin!",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Orang bebal duduk berpangku tangan— tidak bekerja dan membiarkan dirinya kelaparan.",
+          "contents": [
+            "Orang bebal duduk berpangku tangan—",
+            {
+              "q2": null
+            },
+            "tidak bekerja dan membiarkan dirinya kelaparan.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Lebih baik memiliki sedikit harta disertai dengan ketenangan, daripada banyak harta tetapi bersusah payah dalam bekerja— seperti orang yang berusaha menjaring angin.",
+          "contents": [
+            "Lebih baik memiliki sedikit harta disertai dengan ketenangan,",
+            {
+              "q2": null
+            },
+            "daripada banyak harta tetapi bersusah payah",
+            {
+              "q2": null
+            },
+            "dalam bekerja— seperti orang yang berusaha menjaring angin.",
+            [
+              {
+                "s": [
+                  "Bekerjasama lebih menguntungkan"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Inilah juga contoh kesia-siaan yang meresahkanku dalam dunia ini:",
+          "contents": [
+            "Inilah juga contoh kesia-siaan yang meresahkanku dalam dunia ini:"
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Ada orang yang hidup sendiri tanpa anak dan saudara. Tanpa hentinya dia bekerja keras dan tidak pernah puas dengan hartanya. Orang itu berkata dalam hatinya, “Buat apa aku tidak bersenang-senang dengan sebagian dari hasil jerih payahku? Waktu aku mati, tidak ada keluarga dekat yang akan mewarisi semua kekayaanku ini!” Betapa sia-sia kehidupan itu! Sangat menyedihkan!",
+          "contents": [
+            "Ada orang yang hidup sendiri tanpa anak dan saudara. Tanpa hentinya dia bekerja keras dan tidak pernah puas dengan hartanya. Orang itu berkata dalam hatinya, “Buat apa aku tidak bersenang-senang dengan sebagian dari hasil jerih payahku? Waktu aku mati, tidak ada keluarga dekat yang akan mewarisi semua kekayaanku ini!”",
+            {
+              "p": null
+            },
+            "Betapa sia-sia kehidupan itu! Sangat menyedihkan!",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Berdua lebih baik daripada seorang diri saja, karena mereka memperoleh upah yang lebih baik dari hasil kerja keras mereka.",
+          "contents": [
+            "Berdua lebih baik daripada seorang diri saja, karena mereka memperoleh upah yang lebih baik dari hasil kerja keras mereka."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Dan apabila salah satu dari mereka jatuh, maka yang lain bisa menolongnya untuk berdiri. Tetapi betapa menyedihkan apabila seseorang yang hanya sendirian jatuh, maka tidak ada yang dapat menolongnya untuk berdiri.",
+          "contents": [
+            "Dan apabila salah satu dari mereka jatuh, maka yang lain bisa menolongnya untuk berdiri. Tetapi betapa menyedihkan apabila seseorang yang hanya sendirian jatuh, maka tidak ada yang dapat menolongnya untuk berdiri."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Kalau dua orang tidur berdampingan, maka mereka bisa saling menghangatkan. Sebaliknya sulit merasakan kehangatan kalau hanya seorang diri saja.",
+          "contents": [
+            "Kalau dua orang tidur berdampingan, maka mereka bisa saling menghangatkan. Sebaliknya sulit merasakan kehangatan kalau hanya seorang diri saja."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Umpama dalam perkelahian, seorang diri saja akan mudah dikalahkan musuh. Tetapi kalau berdua, lebih mungkin mereka mampu bertahan. Tiga orang akan lebih kuat lagi— seperti tiga utas tali yang dijalin menjadi satu sulit diputuskan.",
+          "contents": [
+            "Umpama dalam perkelahian, seorang diri saja akan mudah dikalahkan musuh. Tetapi kalau berdua, lebih mungkin mereka mampu bertahan. Tiga orang akan lebih kuat lagi— seperti tiga utas tali yang dijalin menjadi satu sulit diputuskan.",
+            [
+              {
+                "s": [
+                  "Menjadi raja pun sia-sia"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Lebih baik seorang pemuda yang miskin sejak lahir tetapi bijak, daripada raja tua yang bebal dan tidak lagi mau menerima nasihat orang lain.",
+          "contents": [
+            "Lebih baik seorang pemuda yang miskin sejak lahir tetapi bijak, daripada raja tua yang bebal dan tidak lagi mau menerima nasihat orang lain."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Sebab pemuda seperti itu dapat keluar dari kemiskinan dan berhasil— meskipun dia pernah dipenjarakan. Dia bahkan bisa menjadi raja.",
+          "contents": [
+            "Sebab pemuda seperti itu dapat keluar dari kemiskinan dan berhasil— meskipun dia pernah dipenjarakan. Dia bahkan bisa menjadi raja."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Raja tua itu suatu saat akan digantikan oleh pemuda yang bijak itu, dan semua orang mendukungnya sebagai raja.",
+          "contents": [
+            "Raja tua itu suatu saat akan digantikan oleh pemuda yang bijak itu, dan semua orang mendukungnya sebagai raja."
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Sekalipun raja itu berkuasa atas begitu banyak orang— sehingga tak terhitung jumlahnya, tetapi generasi di masa depan tidak akan mengenang atau menghormatinya. Maka menjadi raja pun juga sia-sia, sama seperti orang yang berusaha menjaring angin!",
+          "contents": [
+            "Sekalipun raja itu berkuasa atas begitu banyak orang— sehingga tak terhitung jumlahnya, tetapi generasi di masa depan tidak akan mengenang atau menghormatinya. Maka menjadi raja pun juga sia-sia, sama seperti orang yang berusaha menjaring angin!"
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "5",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Jangan seperti orang bebal"
+            ]
+          }
+        ],
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Ketika pergi ke rumah TUHAN, dengarkanlah apa yang diajarkan dan perhatikanlah baik-baik apa yang harus kamu lakukan. Jangan berbuat seperti orang bebal, yang hanya mempersembahkan kurban kepada TUHAN tanpa mengetahui apa arti dari persembahan itu sendiri. Dengan demikian tanpa sadar mereka melakukan kejahatan. Lebih baik mendengar ajaran di rumah TUHAN, daripada memberikan persembahan seperti orang bebal.",
+          "contents": [
+            "Ketika pergi ke rumah TUHAN, dengarkanlah apa yang diajarkan dan perhatikanlah baik-baik apa yang harus kamu lakukan. Jangan berbuat seperti orang bebal, yang hanya mempersembahkan kurban kepada TUHAN tanpa mengetahui apa arti dari persembahan itu sendiri.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "5:1"
+                },
+                {
+                  "fk": "arti dari persembahan …"
+                },
+                {
+                  "ft": "Frasa ‘tanpa mengetahui apa arti dari persembahan itu sendiri’ merupakan informasi tersirat yang dibuat tersurat, supaya pembaca mengerti bagaimana orang bebal membuat kesalahan saat mempersembahkan kurban kepada TUHAN. (Lihat 1Sam. 15:22.)"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "Dengan demikian tanpa sadar mereka melakukan kejahatan. Lebih baik mendengar ajaran di rumah TUHAN, daripada memberikan persembahan seperti orang bebal."
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Janganlah terbawa emosi sampai terburu-buru bersumpah kepada Allah untuk melakukan sesuatu. Pikirkanlah baik-baik dulu! Karena Allah ada di surga dan kamu di bumi. Jadi biarlah doamu singkat saja.",
+          "contents": [
+            "Janganlah terbawa emosi sampai terburu-buru bersumpah kepada Allah untuk melakukan sesuatu. Pikirkanlah baik-baik dulu!",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "5:2"
+                },
+                {
+                  "fk": "Janganlah …"
+                },
+                {
+                  "ft": "Bahasa Ibrani secara harfiah berarti, “Janganlah terburu-buru dengan mulutmu, dan janganlah hatimu cepat-cepat mengutarakan sesuatu di hadapan Allah.”"
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "Karena Allah ada di surga dan kamu di bumi. Jadi biarlah doamu singkat saja.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Semakin banyak masalah dan cemas, tidur semakin terganggu oleh mimpi buruk. Semakin banyak bicara, semakin banyak mengucapkan kata-kata yang tidak berguna dan tidak masuk akal.",
+          "contents": [
+            "Semakin banyak masalah dan cemas, tidur semakin terganggu oleh mimpi buruk. Semakin banyak bicara, semakin banyak mengucapkan kata-kata yang tidak berguna dan tidak masuk akal.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Allah tidak suka sumpah orang bebal. Jadi jangan menjadi seperti orang bebal. Kalau kamu bersumpah untuk melakukan sesuatu bagi Allah, jangan menunda-nunda untuk menepatinya. Tepatilah sumpahmu itu!",
+          "contents": [
+            "Allah tidak suka sumpah orang bebal. Jadi jangan menjadi seperti orang bebal. Kalau kamu bersumpah untuk melakukan sesuatu bagi Allah, jangan menunda-nunda untuk menepatinya. Tepatilah sumpahmu itu!"
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Lebih baik kamu tidak bersumpah sama sekali, daripada bersumpah tetapi kamu tidak melakukannya.",
+          "contents": [
+            "Lebih baik kamu tidak bersumpah sama sekali, daripada bersumpah tetapi kamu tidak melakukannya."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Janganlah berdosa dengan mulutmu!— sehingga pada saat petugas rumah TUHAN datang untuk menuntut kamu menepati janjimu itu, kamu menyangkal sumpahmu dengan berkata, “Maaf, ucapan saya itu keliru. Saya tidak bermaksud mengucapkan janji itu.” Jangan sampai Allah marah kepadamu dan menghancurkan segala hasil usahamu.",
+          "contents": [
+            "Janganlah berdosa dengan mulutmu!— sehingga pada saat petugas rumah TUHAN datang untuk menuntut kamu menepati janjimu itu, kamu menyangkal sumpahmu dengan berkata, “Maaf, ucapan saya itu keliru. Saya tidak bermaksud mengucapkan janji itu.” Jangan sampai Allah marah kepadamu dan menghancurkan segala hasil usahamu.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Karena sebagaimana banyak bermimpi tidak ada artinya dan banyak bicara tidak ada gunanya, lebih baik takut dan hormat kepada Allah daripada bersumpah tetapi tidak menepatinya.",
+          "contents": [
+            "Karena sebagaimana banyak bermimpi tidak ada artinya dan banyak bicara tidak ada gunanya, lebih baik takut dan hormat kepada Allah daripada bersumpah tetapi tidak menepatinya.",
+            [
+              {
+                "s1": [
+                  "Memiliki kekayaan pun sia-sia"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Jangan heran jika kamu melihat pejabat menindas rakyat miskin, merampas hak-hak mereka, dan tidak memberi keputusan yang adil. Hal itu terjadi karena setiap pejabat yang melakukan demikian mempunyai kesepakatan dengan atasannya, dan keduanya mempunyai kesepakatan pula dengan atasannya yang lebih tinggi pangkatnya.",
+          "contents": [
+            "Jangan heran jika kamu melihat pejabat menindas rakyat miskin, merampas hak-hak mereka, dan tidak memberi keputusan yang adil. Hal itu terjadi karena setiap pejabat yang melakukan demikian mempunyai kesepakatan dengan atasannya, dan keduanya mempunyai kesepakatan pula dengan atasannya yang lebih tinggi pangkatnya."
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Demikianlah rakyat selalu ditekan supaya membayar uang suap kepada berbagai tingkat pejabat, sampai akhirnya raja mendapat bagiannya.",
+          "contents": [
+            "Demikianlah rakyat selalu ditekan supaya membayar uang suap kepada berbagai tingkat pejabat, sampai akhirnya raja mendapat bagiannya.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "5:9"
+                },
+                {
+                  "fk": "raja mendapat bagiannya"
+                },
+                {
+                  "ft": "Teks Ibrani dalam ayat ini sangat sulit, sehingga bisa diartikan dengan banyak cara. TSI mengikuti salah satu cara dalam mengartikannya. Ayat ini kalau diterjemahkan secara harfiah, “Keuntungan suatu negeri diambil oleh semua. Raja pun dilayani dari ladang-ladang.”"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Kalau kamu mencintai uang dan berusaha menimbun harta kekayaanmu, kamu tidak pernah akan merasa puas dengan apa yang kamu miliki. Ini juga usaha yang sia-sia.",
+          "contents": [
+            "Kalau kamu mencintai uang dan berusaha menimbun harta kekayaanmu, kamu tidak pernah akan merasa puas dengan apa yang kamu miliki. Ini juga usaha yang sia-sia."
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Semakin kamu bertambah kaya, semakin banyak orang akan bergabung bersamamu untuk ikut serta menghabiskan kekayaanmu itu. Akhirnya tidak ada manfaat menjadi kaya kecuali setiap hari menyaksikan kekayaanmu semakin berkurang.",
+          "contents": [
+            "Semakin kamu bertambah kaya, semakin banyak orang akan bergabung bersamamu untuk ikut serta menghabiskan kekayaanmu itu. Akhirnya tidak ada manfaat menjadi kaya kecuali setiap hari menyaksikan kekayaanmu semakin berkurang.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Orang yang bekerja keras sepanjang hari bisa tidur dengan nyenyak— biarpun dia makan sedikit ataupun banyak. Tetapi orang kaya tidak bisa tidur dengan nyenyak karena merasa khawatir terus dengan harta kekayaannya.",
+          "contents": [
+            "Orang yang bekerja keras sepanjang hari bisa tidur dengan nyenyak— biarpun dia makan sedikit ataupun banyak. Tetapi orang kaya tidak bisa tidur dengan nyenyak karena merasa khawatir terus dengan harta kekayaannya.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Ada dua hal lagi yang sangat menyedihkan yang aku sudah lihat di dunia ini: Orang yang berhasil mengumpulkan harta kekayaan, tetapi kekayaan itu hanya mendatangkan kemalangan dan kesengsaraan bagi dirinya sendiri.",
+          "contents": [
+            "Ada dua hal lagi yang sangat menyedihkan yang aku sudah lihat di dunia ini: Orang yang berhasil mengumpulkan harta kekayaan, tetapi kekayaan itu hanya mendatangkan kemalangan dan kesengsaraan bagi dirinya sendiri."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Ada juga orang kaya yang mengalami kegagalan dalam usahanya— sehingga hartanya berkurang, sampai tidak punya apa-apa lagi untuk diwariskan kepada anaknya.",
+          "contents": [
+            "Ada juga orang kaya yang mengalami kegagalan dalam usahanya— sehingga hartanya berkurang, sampai tidak punya apa-apa lagi untuk diwariskan kepada anaknya."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Sebagaimana kita lahir telanjang, begitu juga kita tidak akan membawa harta apa pun saat meninggalkan dunia ini.",
+          "contents": [
+            "Sebagaimana kita lahir telanjang, begitu juga kita tidak akan membawa harta apa pun saat meninggalkan dunia ini.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Ini benar-benar menyedihkan: Sebagaimana kita datang ke dalam dunia ini, demikian jugalah kita meninggalkan dunia ini! Keuntungannya tidak ada! Bukankah itu seperti orang yang bersusah payah tetapi tidak mendapatkan apa-apa?!",
+          "contents": [
+            "Ini benar-benar menyedihkan: Sebagaimana kita datang ke dalam dunia ini, demikian jugalah kita meninggalkan dunia ini! Keuntungannya tidak ada! Bukankah itu seperti orang yang bersusah payah tetapi tidak mendapatkan apa-apa?!"
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Selama hidup di dunia ini kita hanya mengalami kemalangan, kesulitan, berbagai penyakit, dan kemarahan.",
+          "contents": [
+            "Selama hidup di dunia ini kita hanya mengalami kemalangan, kesulitan, berbagai penyakit, dan kemarahan.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Oleh karena semua itu, inilah kesimpulan dan nasihatku: Lebih baik kita menikmati makanan, minuman, pekerjaan serta hasilnya, karena itulah upah yang diberikan Allah kepada kita selama hidup yang sementara di dunia ini.",
+          "contents": [
+            "Oleh karena semua itu, inilah kesimpulan dan nasihatku: Lebih baik kita menikmati makanan, minuman, pekerjaan serta hasilnya, karena itulah upah yang diberikan Allah kepada kita selama hidup yang sementara di dunia ini."
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Selain itu, kalau Allah mempercayakan berbagai harta dan ladang-ladang untuk kita memiliki, lalu kalau Dia mengizinkan kita untuk menikmati semuanya itu, hal itu merupakan berkat besar dari-Nya.",
+          "contents": [
+            "Selain itu, kalau Allah mempercayakan berbagai harta dan ladang-ladang untuk kita memiliki, lalu kalau Dia mengizinkan kita untuk menikmati semuanya itu, hal itu merupakan berkat besar dari-Nya."
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Kalau Allah memberkati kita demikian sehingga kita disibukkan untuk menikmati hidup ini, maka kita tidak akan cemas oleh kesadaran bahwa hidup ini terlalu singkat!",
+          "contents": [
+            "Kalau Allah memberkati kita demikian sehingga kita disibukkan untuk menikmati hidup ini, maka kita tidak akan cemas oleh kesadaran bahwa hidup ini terlalu singkat!"
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "6",
+      "contents": [
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Aku sudah melihat ada satu kenyataan yang sangat menyedihkan dan menekan batin manusia di bumi ini:",
+          "contents": [
+            "Aku sudah melihat ada satu kenyataan yang sangat menyedihkan dan menekan batin manusia di bumi ini:"
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Allah membuat seseorang kaya raya dan terhormat sampai dia tidak kekurangan apa pun, tetapi Allah tidak mengizinkan dia menikmati kekayaannya itu. Pada akhirnya orang lainlah yang menikmatinya! Kemalangan dan kesia-siaan ini sangat menyedihkan.",
+          "contents": [
+            "Allah membuat seseorang kaya raya dan terhormat sampai dia tidak kekurangan apa pun, tetapi Allah tidak mengizinkan dia menikmati kekayaannya itu. Pada akhirnya orang lainlah yang menikmatinya! Kemalangan dan kesia-siaan ini sangat menyedihkan.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Meskipun ada orang kaya yang memiliki seratus anak, dan dia hidup lama sampai sangat tua, tetapi kalau kekayaannya itu tidak membuat dia puas, dan kalau waktu dia mati tidak dikuburkan dengan cara yang layak, maka aku berkata, “Jauh lebih baik jika dia sudah mati pada waktu dilahirkan!”",
+          "contents": [
+            "Meskipun ada orang kaya yang memiliki seratus anak, dan dia hidup lama sampai sangat tua, tetapi kalau kekayaannya itu tidak membuat dia puas, dan kalau waktu dia mati tidak dikuburkan dengan cara yang layak, maka aku berkata, “Jauh lebih baik jika dia sudah mati pada waktu dilahirkan!”"
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Sebab kelahiran bayi yang sudah mati tidak ada artinya. Langsung saja dia masuk ke dalam kegelapan kuburannya. Bahkan dia tidak perlu memiliki nama.",
+          "contents": [
+            "Sebab kelahiran bayi yang sudah mati tidak ada artinya. Langsung saja dia masuk ke dalam kegelapan kuburannya. Bahkan dia tidak perlu memiliki nama."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Walaupun dia tidak pernah melihat cahaya matahari dan tidak tahu apa-apa tentang kehidupan manusia di dunia ini, dia bisa istirahat dengan lebih tenang daripada orang kaya tersebut.",
+          "contents": [
+            "Walaupun dia tidak pernah melihat cahaya matahari dan tidak tahu apa-apa tentang kehidupan manusia di dunia ini, dia bisa istirahat dengan lebih tenang daripada orang kaya tersebut."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Biarpun orang kaya itu hidup sampai dua ribu tahun, tetapi kalau tidak menikmati kekayaannya itu, maka semuanya itu percuma saja! Karena akhir hidup selalu sama, yaitu mengalami kematian.",
+          "contents": [
+            "Biarpun orang kaya itu hidup sampai dua ribu tahun, tetapi kalau tidak menikmati kekayaannya itu, maka semuanya itu percuma saja! Karena akhir hidup selalu sama, yaitu mengalami kematian.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Kita bekerja dengan susah payah supaya mendapat sesuatu untuk dimakan, tetapi tetap saja tidak pernah merasa puas!",
+          "contents": [
+            "Kita bekerja dengan susah payah supaya mendapat sesuatu untuk dimakan, tetapi tetap saja tidak pernah merasa puas!"
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Jadi baik orang bijak maupun orang bebal tidak ada bedanya! Ada orang miskin yang berperilaku baik di hadapan orang, tetapi perilaku baiknya itu tidak punya manfaat apa-apa. Sebab pada akhirnya sesudah mati, mereka semua tidak ada bedanya.",
+          "contents": [
+            "Jadi baik orang bijak maupun orang bebal tidak ada bedanya! Ada orang miskin yang berperilaku baik di hadapan orang, tetapi perilaku baiknya itu tidak punya manfaat apa-apa. Sebab pada akhirnya sesudah mati, mereka semua tidak ada bedanya.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Ya, lebih baik menikmati apa yang ada padamu, daripada menginginkan sesuatu yang tidak kamu miliki. Semuanya itu sia-sia— sama seperti orang yang berusaha menjaring angin!",
+          "contents": [
+            "Ya, lebih baik menikmati apa yang ada padamu, daripada menginginkan sesuatu yang tidak kamu miliki. Semuanya itu sia-sia— sama seperti orang yang berusaha menjaring angin!",
+            [
+              {
+                "s1": [
+                  "Allah menentukan nasib manusia"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Segala sesuatu yang terjadi sudah ditentukan oleh Allah sejak mulanya. Kita hanya manusia yang lemah, dan tidak pantas untuk membantah Allah Pencipta kita.",
+          "contents": [
+            "Segala sesuatu yang terjadi sudah ditentukan oleh Allah sejak mulanya. Kita hanya manusia yang lemah, dan tidak pantas untuk membantah Allah Pencipta kita.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "6:10"
+                },
+                {
+                  "fk": "membantah Allah …"
+                },
+                {
+                  "ft": "Secara harfiah dalam bahasa Ibrani, “Seseorang tidak akan mampu berbantah dengan orang yang lebih kuat daripadanya.”"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Semakin kita berbantah-bantahan tentang nasib kita, semakin sia-sia perkataan kita. Percuma!",
+          "contents": [
+            "Semakin kita berbantah-bantahan tentang nasib kita, semakin sia-sia perkataan kita. Percuma!",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Dalam waktu hidup yang sementara dan sia-sia ini, tidak seorang pun yang mengetahui cara hidup yang paling baik. Sebab tidak ada yang tahu apa yang akan terjadi di dunia ini sesudah dia mati.",
+          "contents": [
+            "Dalam waktu hidup yang sementara dan sia-sia ini, tidak seorang pun yang mengetahui cara hidup yang paling baik. Sebab tidak ada yang tahu apa yang akan terjadi di dunia ini sesudah dia mati."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "7",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Hidup bijaksana"
+            ]
+          }
+        ],
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Lebih baik mempunyai nama baik daripada harta mewah berupa wewangian yang mahal. Demikian pula, hari kematian kita lebih baik daripada hari kelahiran kita.",
+          "contents": [
+            "Lebih baik mempunyai nama baik daripada harta mewah berupa wewangian yang mahal.",
+            {
+              "q2": null
+            },
+            "Demikian pula, hari kematian kita lebih baik daripada hari kelahiran kita.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Lebih baik hadir di rumah duka daripada menghadiri pesta, sebab di rumah duka kita akan merenungkan bahwa maut menunggu kita semua.",
+          "contents": [
+            "Lebih baik hadir di rumah duka daripada menghadiri pesta,",
+            {
+              "q2": null
+            },
+            "sebab di rumah duka kita akan merenungkan bahwa maut menunggu kita semua.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Lebih baik hidup dalam kesedihan daripada bersenang-senang, sebab dalam kesedihan kita bisa belajar menjadi lebih dewasa.",
+          "contents": [
+            "Lebih baik hidup dalam kesedihan daripada bersenang-senang,",
+            {
+              "q2": null
+            },
+            "sebab dalam kesedihan kita bisa belajar menjadi lebih dewasa.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Orang bebal setiap hari hanya mencari kesenangan, tetapi orang bijak merenungkan tentang kematian.",
+          "contents": [
+            "Orang bebal setiap hari hanya mencari kesenangan,",
+            {
+              "q2": null
+            },
+            "tetapi orang bijak merenungkan tentang kematian.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Lebih baik mendengar teguran orang bijak daripada mendengar kata-kata pujian orang bebal.",
+          "contents": [
+            "Lebih baik mendengar teguran orang bijak",
+            {
+              "q2": null
+            },
+            "daripada mendengar kata-kata pujian orang bebal.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Seperti bunyi ranting semak duri yang dibakar di bawah kuali, bunyinya besar tetapi apinya cepat padam, demikianlah tawa orang bebal adalah sia-sia.",
+          "contents": [
+            "Seperti bunyi ranting semak duri yang dibakar di bawah kuali, bunyinya besar tetapi apinya cepat padam,",
+            {
+              "q2": null
+            },
+            "demikianlah tawa orang bebal adalah sia-sia.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Orang berhikmat yang ditindas bisa menjadi seperti orang bodoh. Uang suap dapat merusak pikiran seseorang sehingga dia mengubah keputusannya.",
+          "contents": [
+            "Orang berhikmat yang ditindas bisa menjadi seperti orang bodoh.",
+            {
+              "q2": null
+            },
+            "Uang suap dapat merusak pikiran seseorang sehingga dia mengubah keputusannya.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Menyelesaikan sesuatu lebih baik daripada hanya memulainya. Panjang sabar lebih baik daripada sombong.",
+          "contents": [
+            "Menyelesaikan sesuatu lebih baik daripada hanya memulainya.",
+            {
+              "q2": null
+            },
+            "Panjang sabar lebih baik daripada sombong.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Jangan cepat marah, karena orang beballah yang menyimpan kemarahan.",
+          "contents": [
+            "Jangan cepat marah,",
+            {
+              "q2": null
+            },
+            "karena orang beballah yang menyimpan kemarahan.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Janganlah bertanya, “Mengapa keadaan yang dulu lebih baik dari pada sekarang?” Itu adalah pertanyaan bodoh.",
+          "contents": [
+            "Janganlah bertanya, “Mengapa keadaan yang dulu lebih baik dari pada sekarang?”",
+            {
+              "q2": null
+            },
+            "Itu adalah pertanyaan bodoh.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Menjadi bijaksana sama baiknya dengan menerima warisan besar. Tetapi keunggulannya adalah kebijaksanaan berguna seumur hidup.",
+          "contents": [
+            "Menjadi bijaksana sama baiknya dengan menerima warisan besar.",
+            {
+              "q2": null
+            },
+            "Tetapi keunggulannya adalah kebijaksanaan berguna seumur hidup.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Hidup bijak sama seperti memiliki uang, keduanya dapat memberi perlindungan. Namun kelebihan hidup bijak adalah dapat menyelamatkan nyawamu.",
+          "contents": [
+            "Hidup bijak sama seperti memiliki uang, keduanya dapat memberi perlindungan.",
+            {
+              "q2": null
+            },
+            "Namun kelebihan hidup bijak adalah dapat menyelamatkan nyawamu.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Perhatikan apa yang sudah Allah lakukan! Tidak ada seorang pun yang dapat mengubah apa yang sudah ditetapkan-Nya.",
+          "contents": [
+            "Perhatikan apa yang sudah Allah lakukan!",
+            {
+              "q2": null
+            },
+            "Tidak ada seorang pun yang dapat mengubah apa yang sudah ditetapkan-Nya.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "7:13"
+                },
+                {
+                  "fk": "Tidak ada… dapat mengubah…"
+                },
+                {
+                  "ft": "Teks Ibrani secara harfiah menuliskan,“Sebab siapakah yang dapat meluruskan apa yang sudah dibengkokkan-Nya?”"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Ketika hidupmu senang, bergembiralah. Tetapi ketika hidupmu mengalami kesusahan, ingatlah bahwa Allah yang memberikan kesenangan dan kesusahan. Allah sudah mengatur semuanya sehingga tidak seorang pun bisa tahu apa yang akan terjadi di masa yang akan datang dalam hidupnya.",
+          "contents": [
+            "Ketika hidupmu senang, bergembiralah.",
+            {
+              "q2": null
+            },
+            "Tetapi ketika hidupmu mengalami kesusahan,",
+            {
+              "q3": null
+            },
+            "ingatlah bahwa Allah yang memberikan kesenangan dan kesusahan.",
+            {
+              "q2": null
+            },
+            "Allah sudah mengatur semuanya sehingga tidak seorang pun bisa tahu apa yang akan terjadi di masa yang akan datang dalam hidupnya.",
+            [
+              {
+                "s1": [
+                  "Orang yang bijaksana sulit ditemukan"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Dalam hidupku yang sia-sia ini aku sudah melihat dua hal yang tidak aku sukai. Terkadang seseorang yang baik mati pada waktu masih muda, walaupun dia sudah berbuat baik selama dia hidup. Dan aku juga melihat seseorang yang jahat hidup sampai lanjut usia, walaupun dia tetap berbuat jahat.",
+          "contents": [
+            "Dalam hidupku yang sia-sia ini aku sudah melihat dua hal yang tidak aku sukai. Terkadang seseorang yang baik mati pada waktu masih muda, walaupun dia sudah berbuat baik selama dia hidup. Dan aku juga melihat seseorang yang jahat hidup sampai lanjut usia, walaupun dia tetap berbuat jahat."
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Jadi inilah nasihatku: Dalam hidup ini, janganlah merasa diri paling benar di hadapan Allah, dan janganlah merasa diri paling bijak. Karena dengan demikian kamu akan menghancurkan dirimu sendiri!",
+          "contents": [
+            "Jadi inilah nasihatku: Dalam hidup ini, janganlah merasa diri paling benar di hadapan Allah, dan janganlah merasa diri paling bijak. Karena dengan demikian kamu akan menghancurkan dirimu sendiri!"
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Dan janganlah menyerahkan hidupmu hanya untuk melakukan kejahatan dan kebodohan. Itu hanya membuat kamu lebih cepat mati!",
+          "contents": [
+            "Dan janganlah menyerahkan hidupmu hanya untuk melakukan kejahatan dan kebodohan. Itu hanya membuat kamu lebih cepat mati!"
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Jadi lakukanlah nasihatku itu, karena setiap orang yang takut dan hormat kepada Allah melakukannya.",
+          "contents": [
+            "Jadi lakukanlah nasihatku itu, karena setiap orang yang takut dan hormat kepada Allah melakukannya.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Jadilah bijaksana! Karena kekuatan orang bijak melebihi kekuatan sepuluh orang pemimpin di kotanya.",
+          "contents": [
+            "Jadilah bijaksana!",
+            {
+              "q2": null
+            },
+            "Karena kekuatan orang bijak melebihi kekuatan sepuluh orang pemimpin di kotanya.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Di bumi ini tidak ada orang benar yang selalu berbuat baik dan tidak pernah berdosa.",
+          "contents": [
+            "Di bumi ini tidak ada orang benar",
+            {
+              "q2": null
+            },
+            "yang selalu berbuat baik dan tidak pernah berdosa.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "21",
+          "verseText": "Jangan suka mendengarkan pembicaraan orang secara diam-diam, supaya kamu tidak mendengar pelayanmu menjelekkanmu!",
+          "contents": [
+            "Jangan suka mendengarkan pembicaraan orang secara diam-diam,",
+            {
+              "q2": null
+            },
+            "supaya kamu tidak mendengar pelayanmu menjelekkanmu!",
+            {
+              "q2": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "22",
+          "verseText": "Ingatlah bahwa kamu juga sering menjelekkan orang lain!",
+          "contents": [
+            "Ingatlah bahwa kamu juga sering menjelekkan orang lain!",
+            {
+              "b": null
+            },
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "23",
+          "verseText": "Tentang segala hal di atas aku sudah berusaha meneliti dengan sangat tekun, karena pikirku, “Biar aku menjadi orang yang paling bijak.” Tetapi aku merasa masih jauh dari ujung yang aku cari itu.",
+          "contents": [
+            "Tentang segala hal di atas aku sudah berusaha meneliti dengan sangat tekun, karena pikirku, “Biar aku menjadi orang yang paling bijak.” Tetapi aku merasa masih jauh dari ujung yang aku cari itu."
+          ]
+        },
+        {
+          "verseNumber": "24",
+          "verseText": "Kebijaksanaan tentang hal-hal tersebut masih jauh dariku dan terlalu sulit untuk ditemukan.",
+          "contents": [
+            "Kebijaksanaan tentang hal-hal tersebut masih jauh dariku dan terlalu sulit untuk ditemukan."
+          ]
+        },
+        {
+          "verseNumber": "25",
+          "verseText": "Namun aku terus mencari dan belajar tentang kedua hal ini: Berusaha untuk menjadi bijaksana serta menemukan alasan segala sesuatu terjadi. Aku berusaha untuk membuktikan bahwa berbuat jahat merupakan kebebalan. Hanya orang gila yang akan terus hidup secara bodoh.",
+          "contents": [
+            "Namun aku terus mencari dan belajar tentang kedua hal ini: Berusaha untuk menjadi bijaksana serta menemukan alasan segala sesuatu terjadi. Aku berusaha untuk membuktikan bahwa berbuat jahat merupakan kebebalan. Hanya orang gila yang akan terus hidup secara bodoh.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "26",
+          "verseText": "Aku melihat bahwa ada perempuan yang suka menggoda laki-laki bagaikan perangkap, dan kedua tangannya seperti rantai besi. Lebih baik mati daripada tertangkap oleh perempuan seperti itu! Orang berdosa akan masuk dalam perangkapnya. Tetapi orang yang ingin menyenangkan hati Allah akan terhindar.",
+          "contents": [
+            "Aku melihat bahwa ada perempuan yang suka menggoda laki-laki bagaikan perangkap, dan kedua tangannya seperti rantai besi. Lebih baik mati daripada tertangkap oleh perempuan seperti itu! Orang berdosa akan masuk dalam perangkapnya. Tetapi orang yang ingin menyenangkan hati Allah akan terhindar.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "27",
+          "verseText": "Sesudah menyelidiki kedua hal tersebut dari berbagai segi, aku— penulis yang juga sebagai penasihat, ingin menyimpulkan hasil penyelidikanku, bahwa:",
+          "contents": [
+            "Sesudah menyelidiki kedua hal tersebut dari berbagai segi, aku— penulis yang juga sebagai penasihat, ingin menyimpulkan hasil penyelidikanku, bahwa:"
+          ]
+        },
+        {
+          "verseNumber": "28",
+          "verseText": "Aku tidak menemukan apa yang aku cari! Di antara seribu orang laki-laki, aku pernah menemukan seorang yang bijaksana dan patut dihormati. Tetapi aku belum menemukan seorang pun perempuan yang bijaksana.",
+          "contents": [
+            "Aku tidak menemukan apa yang aku cari! Di antara seribu orang laki-laki, aku pernah menemukan seorang yang bijaksana dan patut dihormati. Tetapi aku belum menemukan seorang pun perempuan yang bijaksana."
+          ]
+        },
+        {
+          "verseNumber": "29",
+          "verseText": "Satu hal yang aku pelajari adalah bahwa Allah memang menciptakan manusia untuk hidup benar, tetapi kita sendirilah yang mengambil jalan yang berliku-liku.",
+          "contents": [
+            "Satu hal yang aku pelajari adalah bahwa Allah memang menciptakan manusia untuk hidup benar, tetapi kita sendirilah yang mengambil jalan yang berliku-liku."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "8",
+      "contents": [
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Hanya orang bijaksana yang bisa memahami apa yang terjadi dalam hidup ini. Kebijaksanaan terpancar di wajahnya— mengubah wajahnya yang keras menjadi lembut.",
+          "contents": [
+            "Hanya orang bijaksana yang bisa memahami apa yang terjadi dalam hidup ini.",
+            {
+              "q1": null
+            },
+            "Kebijaksanaan terpancar di wajahnya— mengubah wajahnya yang keras menjadi lembut.",
+            [
+              {
+                "s": [
+                  "Ketaatan kepada raja"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Taatilah perintah raja karena kamu sudah berjanji di hadapan Allah untuk melakukan hal itu.",
+          "contents": [
+            "Taatilah perintah raja karena kamu sudah berjanji di hadapan Allah untuk melakukan hal itu."
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Apabila kamu menghadap raja, janganlah terburu-buru pergi sebelum diizinkannya. Dan janganlah berpihak dengan orang-orang yang melawan kehendak raja. Karena kalau raja tidak lagi berkenan kepadamu, berbahaya!",
+          "contents": [
+            "Apabila kamu menghadap raja, janganlah terburu-buru pergi sebelum diizinkannya. Dan janganlah berpihak dengan orang-orang yang melawan kehendak raja. Karena kalau raja tidak lagi berkenan kepadamu, berbahaya!",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "8:3"
+                },
+                {
+                  "fk": "… berbahaya!"
+                },
+                {
+                  "ft": "Teks Ibrani dalam ayat ini sangat sulit, sehingga bisa diartikan dengan banyak cara. TSI mengikuti salah satu cara dalam mengartikannya. Teks Ibrani secara harfiah menuliskan, “Jangan terburu-buru dari hadapannya ke luar. Jangan berdiri pada masalah jahat, karena semua yang dikehendakinya akan dia lakukan.”"
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Raja memiliki kuasa tertinggi untuk memberi perintah. Tidak ada seorang pun yang dapat melawan dan membantah perintahnya.",
+          "contents": [
+            "Raja memiliki kuasa tertinggi untuk memberi perintah. Tidak ada seorang pun yang dapat melawan dan membantah perintahnya."
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Tetapi selama kamu menaati perintah raja, kamu akan selamat. Jika kamu bijaksana, kamu akan mengetahui kapan waktunya dan bagaimana caranya melakukan apa yang benar.",
+          "contents": [
+            "Tetapi selama kamu menaati perintah raja, kamu akan selamat. Jika kamu bijaksana, kamu akan mengetahui kapan waktunya dan bagaimana caranya melakukan apa yang benar."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Sekalipun kamu mengalami banyak kesulitan, tetapi selalu ada waktu dan cara yang tepat untuk memenuhi tanggung jawabmu sesuai perintah raja.",
+          "contents": [
+            "Sekalipun kamu mengalami banyak kesulitan, tetapi selalu ada waktu dan cara yang tepat untuk memenuhi tanggung jawabmu sesuai perintah raja.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Tidak seorang pun dari kita yang dapat mengetahui dan memberitahukan apa yang akan terjadi di masa yang akan datang.",
+          "contents": [
+            "Tidak seorang pun dari kita yang dapat mengetahui dan memberitahukan apa yang akan terjadi di masa yang akan datang.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Tidak ada seorang pun yang dapat mengendalikan angin, demikian juga kita tidak dapat menghindari hari kematian kita. Seorang tentara tidak mungkin diizinkan pulang pada waktu sedang perang. Demikian juga, kalau kita berbuat jahat, kita tidak bisa membebaskan diri dari hukuman dengan melakukan kejahatan yang lain.",
+          "contents": [
+            "Tidak ada seorang pun yang dapat mengendalikan angin,",
+            {
+              "q2": null
+            },
+            "demikian juga kita tidak dapat menghindari hari kematian kita.",
+            {
+              "q1": null
+            },
+            "Seorang tentara tidak mungkin diizinkan pulang pada waktu sedang perang.",
+            {
+              "q2": null
+            },
+            "Demikian juga, kalau kita berbuat jahat, kita tidak bisa membebaskan diri dari hukuman dengan melakukan kejahatan yang lain.",
+            [
+              {
+                "s": [
+                  "Kenyataan hidup yang sulit dimengerti"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Pada waktu aku berusaha memahami segala hal yang terjadi di dunia ini, aku memperhatikan beberapa hal: Sering kali ketika seseorang berkuasa atas orang banyak, dia justru mendatangkan kesusahan dan penderitaan bagi orang-orang yang dipimpinnya itu.",
+          "contents": [
+            "Pada waktu aku berusaha memahami segala hal yang terjadi di dunia ini, aku memperhatikan beberapa hal: Sering kali ketika seseorang berkuasa atas orang banyak, dia justru mendatangkan kesusahan dan penderitaan bagi orang-orang yang dipimpinnya itu.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "8:9"
+                },
+                {
+                  "fk": "bagi orang-orang …"
+                },
+                {
+                  "ft": "Teks dalam bahasa Ibrani juga dapat berarti ‘mendatangkan kesusahan dan penderitaan bagi dia yang menguasai mereka’."
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Aku juga beberapa kali menghadiri perkabungan bagi orang jahat yang mati. Pada hari perkabungan, semua orang di kota itu melupakan semua kejahatannya, dan hanya menceritakan bahwa mereka sering melihat dia di halaman rumah TUHAN. Ini pun tidak masuk akal dan sia-sia.",
+          "contents": [
+            "Aku juga beberapa kali menghadiri perkabungan bagi orang jahat yang mati. Pada hari perkabungan, semua orang di kota itu melupakan semua kejahatannya, dan hanya menceritakan bahwa mereka sering melihat dia di halaman rumah TUHAN. Ini pun tidak masuk akal dan sia-sia.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "8:10"
+                },
+                {
+                  "fk": "tafsiran ayat 10"
+                },
+                {
+                  "ft": "Teks Ibrani dalam ayat ini sangat sulit, sehingga bisa diartikan dengan banyak cara. TSI mengikuti salah satu cara dalam mengartikannya. Teks Ibrani secara harfiah menuliskan, “Dengan demikian aku sudah melihat orang jahat dikuburkan. Mereka datang masuk dan ke luar dari tempat suci. Mereka pergi dan akan dilupakan di kota di mana mereka berbuat kejahatan. Ini pun sia-sia.”"
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Setiap kali orang jahat tidak segera dihukum atas kejahatannya, maka hal tersebut mendorong orang lain untuk melakukan kejahatan juga.",
+          "contents": [
+            "Setiap kali orang jahat tidak segera dihukum atas kejahatannya, maka hal tersebut mendorong orang lain untuk melakukan kejahatan juga."
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Aku perhatikan bahwa orang jahat bisa ratusan kali melakukan kejahatan yang berat, tetapi masih berumur panjang. Biarpun demikian, aku tetap yakin bahwa lebih baik kita takut dan hormat kepada Allah, daripada meniru orang jahat.",
+          "contents": [
+            "Aku perhatikan bahwa orang jahat bisa ratusan kali melakukan kejahatan yang berat, tetapi masih berumur panjang. Biarpun demikian, aku tetap yakin bahwa lebih baik kita takut dan hormat kepada Allah, daripada meniru orang jahat."
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Sebenarnya orang jahat pasti akan mengalami kesusahan karena tidak takut dan hormat kepada Allah. Seperti bayang-bayang ketika matahari terbenam, hidup mereka sementara saja.",
+          "contents": [
+            "Sebenarnya orang jahat pasti akan mengalami kesusahan karena tidak takut dan hormat kepada Allah. Seperti bayang-bayang ketika matahari terbenam, hidup mereka sementara saja.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Aku juga memperhatikan kesia-siaan yang sering terjadi di dunia ini: Kecelakaan atau kemalangan malah terjadi kepada orang yang hidup benar, sedangkan orang jahat berhasil tanpa mengalami persoalan. Ini sungguh sia-sia!",
+          "contents": [
+            "Aku juga memperhatikan kesia-siaan yang sering terjadi di dunia ini: Kecelakaan atau kemalangan malah terjadi kepada orang yang hidup benar, sedangkan orang jahat berhasil tanpa mengalami persoalan. Ini sungguh sia-sia!",
+            [
+              {
+                "s": [
+                  "Orang bijak pun tidak menemukan jawaban"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Jadi, aku sarankan untuk bersenang-senang dalam hidup ini! Karena tidak ada yang lebih baik yang dapat kita lakukan selain makan, minum dan menikmati hidup ini. Setidaknya kita masih dapat menikmati hal-hal itu selama kita bersusah payah dalam hidup yang diberikan Allah kepada kita di dunia ini.",
+          "contents": [
+            "Jadi, aku sarankan untuk bersenang-senang dalam hidup ini! Karena tidak ada yang lebih baik yang dapat kita lakukan selain makan, minum dan menikmati hidup ini. Setidaknya kita masih dapat menikmati hal-hal itu selama kita bersusah payah dalam hidup yang diberikan Allah kepada kita di dunia ini.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Aku sudah berusaha mendapatkan kebijaksanaan tentang segala susah payah yang dilakukan manusia di dunia ini siang dan malam.",
+          "contents": [
+            "Aku sudah berusaha mendapatkan kebijaksanaan tentang segala susah payah yang dilakukan manusia di dunia ini siang dan malam."
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Tetapi akhirnya aku menyadari bahwa tidak ada seorang pun yang dapat mengerti segala yang Allah lakukan di dunia ini. Dengan semua usahanya, manusia tidak dapat menemukan jawabannya. Sekalipun ada orang bijak yang mengatakan bahwa dia sudah menemukan jawabannya, sesungguhnya dia tidak memahaminya.",
+          "contents": [
+            "Tetapi akhirnya aku menyadari bahwa tidak ada seorang pun yang dapat mengerti segala yang Allah lakukan di dunia ini. Dengan semua usahanya, manusia tidak dapat menemukan jawabannya. Sekalipun ada orang bijak yang mengatakan bahwa dia sudah menemukan jawabannya, sesungguhnya dia tidak memahaminya."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "9",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Semua orang pasti mati"
+            ]
+          }
+        ],
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Jadi aku merenungkan semua hal tersebut dan menyimpulkan bahwa apa yang akan terjadi terhadap orang benar, orang bijak, dan semua hasil pekerjaan mereka, sudah ditentukan oleh Allah. Tidak ada yang tahu mereka akan dikasihi atau dibenci sebelum hal itu terjadi.",
+          "contents": [
+            "Jadi aku merenungkan semua hal tersebut dan menyimpulkan bahwa apa yang akan terjadi terhadap orang benar, orang bijak, dan semua hasil pekerjaan mereka, sudah ditentukan oleh Allah. Tidak ada yang tahu mereka akan dikasihi atau dibenci sebelum hal itu terjadi.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Nasib yang sama terjadi kepada semua orang— baik kepada orang benar maupun yang jahat, baik kepada orang najis maupun orang tidak najis, baik kepada orang yang mempersembahkan kurban maupun orang yang tidak mempersembahkan kurban. Hal yang sama juga menimpa siapa saja— termasuk orang baik, orang berdosa, baik orang yang berani bersumpah untuk memberikan sesuatu kepada Allah maupun orang yang takut bersumpah.",
+          "contents": [
+            "Nasib yang sama terjadi kepada semua orang—",
+            {
+              "q2": null
+            },
+            "baik kepada orang benar maupun yang jahat,",
+            {
+              "q2": null
+            },
+            "baik kepada orang najis maupun orang tidak najis,",
+            {
+              "q2": null
+            },
+            "baik kepada orang yang mempersembahkan kurban maupun orang yang tidak mempersembahkan kurban.",
+            {
+              "q1": null
+            },
+            "Hal yang sama juga menimpa siapa saja—",
+            {
+              "q2": null
+            },
+            "termasuk orang baik, orang berdosa,",
+            {
+              "q2": null
+            },
+            "baik orang yang berani bersumpah untuk memberikan sesuatu kepada Allah maupun orang yang takut bersumpah.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Hal ini memang tidak adil dan sangat menyedihkan: Nasib yang sama menimpa setiap orang! Selama hidup di dunia ini, hati dan pikiran manusia dipenuhi dengan kejahatan dan kebebalan, bahkan sampai mereka mati.",
+          "contents": [
+            "Hal ini memang tidak adil dan sangat menyedihkan: Nasib yang sama menimpa setiap orang!",
+            {
+              "p": null
+            },
+            "Selama hidup di dunia ini, hati dan pikiran manusia dipenuhi dengan kejahatan dan kebebalan, bahkan sampai mereka mati."
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Tetapi selama kita masih hidup, kita masih memiliki harapan. Kita boleh menggambarkan keadaan kita seperti ini: Lebih baik seekor anjing yang masih hidup daripada singa yang sudah mati.",
+          "contents": [
+            "Tetapi selama kita masih hidup, kita masih memiliki harapan. Kita boleh menggambarkan keadaan kita seperti ini: Lebih baik seekor anjing yang masih hidup daripada singa yang sudah mati.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Karena kita yang hidup tahu bahwa kita akan mati. Tetapi mereka yang sudah mati tidak tahu apa-apa. Mereka tidak dapat memperoleh apa-apa lagi, bahkan tidak ada lagi yang mengenang mereka.",
+          "contents": [
+            "Karena kita yang hidup tahu bahwa kita akan mati. Tetapi mereka yang sudah mati tidak tahu apa-apa. Mereka tidak dapat memperoleh apa-apa lagi, bahkan tidak ada lagi yang mengenang mereka."
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Rasa kasih sayang, kebencian, dan iri hati yang mereka rasakan selama masih hidup, semuanya lenyap dengan kematian mereka. Untuk selama-lamanya mereka tidak bisa lagi terlibat dengan apa yang dilakukan oleh orang-orang yang hidup di dunia ini.",
+          "contents": [
+            "Rasa kasih sayang, kebencian, dan iri hati yang mereka rasakan selama masih hidup, semuanya lenyap dengan kematian mereka. Untuk selama-lamanya mereka tidak bisa lagi terlibat dengan apa yang dilakukan oleh orang-orang yang hidup di dunia ini."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Jadi nikmatilah makananmu dan anggurmu selama masih hidup, karena hal itu berkenan kepada Allah.",
+          "contents": [
+            "Jadi nikmatilah makananmu dan anggurmu",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "9:7"
+                },
+                {
+                  "fk": "nikmatilah makananmu dan anggurmu"
+                },
+                {
+                  "ft": "Dalam bahasa Ibrani secara harfiah, “Nikmatilah rotimu dan bersukacitalah dengan anggurmu.” Maksud kalimat ini adalah seseorang boleh menikmati makanan dan minuman sebagaimana biasanya. Jadi, tidak ada indikasi untuk berpestapora atau bermabuk-mabukkan."
+                }
+              ],
+              "closing": "\\f* "
+            },
+            "selama masih hidup, karena hal itu berkenan kepada Allah."
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Biarlah kamu selalu memakai pakaian yang indah dan wajahmu selalu ceria.",
+          "contents": [
+            "Biarlah kamu selalu memakai pakaian yang indah dan wajahmu selalu ceria.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "9:8"
+                },
+                {
+                  "fk": "terjemahan gaya bahasa"
+                },
+                {
+                  "ft": "Kedua metafora dalam ayat ini dapat diterjemahkan secara lebih harfiah seperti ini, “Biarlah pakaianmu putih setiap saat, dan biarlah di kepalamu tidak kekurangan minyak.”"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Nikmatilah hidup dengan istrimu, yang kamu cintai. Itulah upah yang Allah berikan atas segala jerih lelahmu selama hidup yang singkat dan sia-sia di dunia ini.",
+          "contents": [
+            "Nikmatilah hidup dengan istrimu, yang kamu cintai. Itulah upah yang Allah berikan atas segala jerih lelahmu selama hidup yang singkat dan sia-sia di dunia ini."
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Apa pun yang kamu temukan untuk dikerjakan, kerjakanlah sekuat tenagamu, karena ketika kamu sudah masuk liang kubur, tidak ada lagi yang bisa kamu kerjakan maupun rencanakan. Di liang kubur tidak ada pengetahuan atau kebijaksanaan.",
+          "contents": [
+            "Apa pun yang kamu temukan untuk dikerjakan, kerjakanlah sekuat tenagamu, karena ketika kamu sudah masuk liang kubur, tidak ada lagi yang bisa kamu kerjakan maupun rencanakan. Di liang kubur tidak ada pengetahuan atau kebijaksanaan.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Aku juga memperhatikan hal-hal ini dalam hidupku di dunia ini: Orang yang mampu berlari paling cepat tidak selalu memenangkan perlombaan. Prajurit terkuat tidak selalu memenangkan pertempuran. Bahkan orang berhikmat bisa mengalami kelaparan. Orang yang pintar tidak selalu berhasil menjadi kaya. Dan orang yang memiliki pengetahuan tidak selalu sukses. Karena secara kebetulan siapa saja bisa mengalami kemalangan atau keberhasilan.",
+          "contents": [
+            "Aku juga memperhatikan hal-hal ini dalam hidupku di dunia ini:",
+            {
+              "q2": null
+            },
+            "Orang yang mampu berlari paling cepat tidak selalu memenangkan perlombaan.",
+            {
+              "q2": null
+            },
+            "Prajurit terkuat tidak selalu memenangkan pertempuran.",
+            {
+              "q2": null
+            },
+            "Bahkan orang berhikmat bisa mengalami kelaparan.",
+            {
+              "q2": null
+            },
+            "Orang yang pintar tidak selalu berhasil menjadi kaya.",
+            {
+              "q2": null
+            },
+            "Dan orang yang memiliki pengetahuan tidak selalu sukses.",
+            {
+              "q1": null
+            },
+            "Karena secara kebetulan siapa saja bisa mengalami kemalangan atau keberhasilan.",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Seperti ikan dan burung yang tiba-tiba terperangkap dalam jala atau jerat, demikian juga tidak seorang pun yang tahu kapan dia akan ditimpa malapetaka.",
+          "contents": [
+            "Seperti ikan dan burung yang tiba-tiba terperangkap dalam jala atau jerat, demikian juga tidak seorang pun yang tahu kapan dia akan ditimpa malapetaka.",
+            [
+              {
+                "s1": [
+                  "Kebijaksanaan lebih baik dari pada kekuatan"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Aku juga melihat contoh yang aku anggap penting tentang bagaimana kebijaksanaan dihargai di dunia ini.",
+          "contents": [
+            "Aku juga melihat contoh yang aku anggap penting tentang bagaimana kebijaksanaan dihargai di dunia ini."
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Ada sebuah kota kecil yang jumlah penduduknya sedikit. Pada suatu hari datanglah seorang raja terkenal yang ingin menguasai kota tersebut. Raja itu menyuruh pasukannya untuk menyerang dan mengepung kota itu untuk menerobos masuk.",
+          "contents": [
+            "Ada sebuah kota kecil yang jumlah penduduknya sedikit. Pada suatu hari datanglah seorang raja terkenal yang ingin menguasai kota tersebut. Raja itu menyuruh pasukannya untuk menyerang dan mengepung kota itu untuk menerobos masuk."
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Tetapi di kota itu ada seorang miskin yang bijak. Melalui kebijaksanaannya dia menyelamatkan kota itu. Tetapi sesudah kejadian itu, penduduk kota itu melupakan dia dan tidak menghormatinya.",
+          "contents": [
+            "Tetapi di kota itu ada seorang miskin yang bijak. Melalui kebijaksanaannya dia menyelamatkan kota itu. Tetapi sesudah kejadian itu, penduduk kota itu melupakan dia dan tidak menghormatinya."
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Namun aku berpendapat bahwa lebih baik jika kamu memiliki kebijaksanaan daripada kekuatan. Tetapi kalau kamu miskin, kamu akan dipandang rendah dan perkataanmu yang bijak tidak akan diperhatikan.",
+          "contents": [
+            "Namun aku berpendapat bahwa lebih baik jika kamu memiliki kebijaksanaan daripada kekuatan. Tetapi kalau kamu miskin, kamu akan dipandang rendah dan perkataanmu yang bijak tidak akan diperhatikan.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Lebih baik mendengarkan kata-kata yang disampaikan dengan suara lembut oleh orang bijaksana daripada teriakan seorang penguasa di antara kumpulan orang bebal.",
+          "contents": [
+            "Lebih baik mendengarkan kata-kata yang disampaikan dengan suara lembut oleh orang bijaksana",
+            {
+              "q2": null
+            },
+            "daripada teriakan seorang penguasa di antara kumpulan orang bebal.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Kuasa orang bijaksana lebih besar daripada kekuatan peralatan perang. Tetapi melibatkan satu orang bebal saja bisa merusakkan banyak kemajuan.",
+          "contents": [
+            "Kuasa orang bijaksana lebih besar daripada kekuatan peralatan perang.",
+            {
+              "q2": null
+            },
+            "Tetapi melibatkan satu orang bebal saja bisa merusakkan banyak kemajuan."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "10",
+      "contents": [
+        [
+          {
+            "s": [
+              "Peringatan untuk menghindari perilaku bebal"
+            ]
+          }
+        ],
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Sebagaimana satu bangkai lalat dapat menyebabkan seluruh minyak wangi dalam botol berbau busuk, demikian juga sedikit kebebalan dapat menghilangkan kebijaksanaan dan kehormatan.",
+          "contents": [
+            "Sebagaimana satu bangkai lalat dapat menyebabkan seluruh minyak wangi dalam botol berbau busuk,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "10:1"
+                },
+                {
+                  "fk": "minyak wangi… busuk."
+                },
+                {
+                  "ft": "Pada zaman itu minyak wangi terbuat dari bahan alami yang bisa rusak. Kalimat ini bisa disejajarkan dengan peribahasa “Nila setitik merusak susu sebelanga.”"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "demikian juga sedikit kebebalan dapat menghilangkan kebijaksanaan dan kehormatan.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Pikiran orang bijak memimpinnya untuk melakukan hal yang benar, sedangkan pikiran orang bebal memimpinnya untuk melakukan hal yang jahat.",
+          "contents": [
+            "Pikiran orang bijak memimpinnya untuk melakukan hal yang benar,",
+            {
+              "q2": null
+            },
+            "sedangkan pikiran orang bebal memimpinnya untuk melakukan hal yang jahat.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Kebebalan seseorang terlihat dari cara hidupnya. Biarpun belum kenal, orang bisa berkata, “Dia itu orang bebal!”",
+          "contents": [
+            "Kebebalan seseorang terlihat dari cara hidupnya.",
+            {
+              "q2": null
+            },
+            "Biarpun belum kenal, orang bisa berkata, “Dia itu orang bebal!”",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Ketika seorang pemimpin marah kepadamu, tetaplah tenang dan jangan berhenti mengerjakan tugasmu. Kalau kamu tetap tenang, dia bisa memaafkan meskipun kesalahanmu besar.",
+          "contents": [
+            "Ketika seorang pemimpin marah kepadamu,",
+            {
+              "q2": null
+            },
+            "tetaplah tenang dan jangan berhenti mengerjakan tugasmu.",
+            {
+              "q2": null
+            },
+            "Kalau kamu tetap tenang, dia bisa memaafkan meskipun kesalahanmu besar.",
+            {
+              "b": null
+            },
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Ada lagi hal yang menyedihkan yang sudah aku perhatikan di dunia ini, yaitu kesalahan yang dilakukan penguasa:",
+          "contents": [
+            "Ada lagi hal yang menyedihkan yang sudah aku perhatikan di dunia ini, yaitu kesalahan yang dilakukan penguasa:"
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Orang bebal ditempatkan pada posisi yang lebih tinggi, sedangkan orang kaya ditempatkan pada posisi yang rendah.",
+          "contents": [
+            "Orang bebal ditempatkan pada posisi yang lebih tinggi, sedangkan orang kaya ditempatkan pada posisi yang rendah."
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Demikian juga aku pernah perhatikan para budak menunggangi kuda, sedangkan para pembesar dari belakang berjalan kaki seperti budak.",
+          "contents": [
+            "Demikian juga aku pernah perhatikan para budak menunggangi kuda, sedangkan para pembesar dari belakang berjalan kaki seperti budak.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Hati-hatilah ketika menggali lubang, supaya jangan kamu jatuh ke dalamnya. Hati-hatilah ketika kamu membongkar pagar batu. Jangan sampai ular yang bersembunyi di situ menggigitmu.",
+          "contents": [
+            "Hati-hatilah ketika menggali lubang, supaya jangan kamu jatuh ke dalamnya.",
+            {
+              "q2": null
+            },
+            "Hati-hatilah ketika kamu membongkar pagar batu. Jangan sampai ular yang bersembunyi di situ menggigitmu.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Hati-hatilah ketika kamu bekerja di tambang. Jangan sampai batu jatuh dan menimpamu. Dan berhati-hatilah waktu kamu membelah kayu, karena kapak bisa melukai dirimu.",
+          "contents": [
+            "Hati-hatilah ketika kamu bekerja di tambang. Jangan sampai batu jatuh dan menimpamu.",
+            {
+              "q2": null
+            },
+            "Dan berhati-hatilah waktu kamu membelah kayu, karena kapak bisa melukai dirimu.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Sangat bodoh kalau kamu bekerja dengan parang yang tumpul! Lebih baik diasah dulu, supaya tidak perlu bersusah payah untuk memotong sesuatu. Begitu juga dengan hidupmu: Selalu lebih baik bekerja dengan bijaksana supaya kamu berhasil.",
+          "contents": [
+            "Sangat bodoh kalau kamu bekerja dengan parang yang tumpul! Lebih baik diasah dulu, supaya tidak perlu bersusah payah untuk memotong sesuatu.",
+            {
+              "q2": null
+            },
+            "Begitu juga dengan hidupmu: Selalu lebih baik bekerja dengan bijaksana supaya kamu berhasil.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Apabila kamu seorang pawang ular, semua kerja kerasmu akan sia-sia kalau membiarkan ular itu menggigitmu sebelum kamu menjinakkannya.",
+          "contents": [
+            "Apabila kamu seorang pawang ular,",
+            {
+              "q2": null
+            },
+            "semua kerja kerasmu akan sia-sia kalau membiarkan ular itu menggigitmu sebelum kamu menjinakkannya.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Perkataan orang bijak mendatangkan kehormatan baginya, tetapi ketika orang bebal membuka mulutnya, dia hanya mencelakakan dirinya sendiri.",
+          "contents": [
+            "Perkataan orang bijak mendatangkan kehormatan baginya,",
+            {
+              "q2": null
+            },
+            "tetapi ketika orang bebal membuka mulutnya, dia hanya mencelakakan dirinya sendiri.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Omongannya dimulai dengan kebodohannya, semakin lama dia berbicara, semakin seperti orang gila.",
+          "contents": [
+            "Omongannya dimulai dengan kebodohannya,",
+            {
+              "q2": null
+            },
+            "semakin lama dia berbicara, semakin seperti orang gila.",
+            {
+              "q3": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Tetapi dia tetap bicara terus. Tidak ada yang tahu apa yang akan terjadi di hari esok. Siapa di antara manusia yang tahu secara pasti tentang masa yang akan datang?!",
+          "contents": [
+            "Tetapi dia tetap bicara terus.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            },
+            "Tidak ada yang tahu apa yang akan terjadi di hari esok.",
+            {
+              "q2": null
+            },
+            "Siapa di antara manusia yang tahu secara pasti tentang masa yang akan datang?!",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "15",
+          "verseText": "Orang bebal cepat merasa lelah karena bekerja tanpa berpikir panjang. Maka orang-orang bergurau, “Lihat! Dia bahkan tidak tahu jalan pulang!”",
+          "contents": [
+            "Orang bebal cepat merasa lelah karena bekerja tanpa berpikir panjang.",
+            {
+              "q2": null
+            },
+            "Maka orang-orang bergurau, “Lihat! Dia bahkan tidak tahu jalan pulang!”",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "10:15"
+                },
+                {
+                  "fk": "bergurau … tidak tahu jalan pulang!"
+                },
+                {
+                  "ft": "Dalam bahasa Ibrani secara harfiah, “Dia tidak tahu jalan ke kota.”"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "16",
+          "verseText": "Sebuah kerajaan menghadapi banyak masalah ketika rajanya seorang kanak-kanak, dan para pejabatnya berpesta sepanjang malam sampai pagi.",
+          "contents": [
+            "Sebuah kerajaan menghadapi banyak masalah ketika rajanya seorang kanak-kanak,",
+            {
+              "q2": null
+            },
+            "dan para pejabatnya berpesta sepanjang malam sampai pagi.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "17",
+          "verseText": "Tetapi diberkatilah kerajaan yang rajanya berwibawa, yang para pemimpinnya makan pada waktu yang seharusnya, dapat menguasai diri mereka, dan tidak mabuk.",
+          "contents": [
+            "Tetapi diberkatilah kerajaan yang rajanya berwibawa,",
+            {
+              "q2": null
+            },
+            "yang para pemimpinnya makan pada waktu yang seharusnya, dapat menguasai diri mereka, dan tidak mabuk.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "18",
+          "verseText": "Seorang pemalas tidak mau memperbaiki atap rumahnya yang bocor— sekecil apa pun, dan lama-kelamaan seluruh atap rumahnya akan runtuh karena lapuk.",
+          "contents": [
+            "Seorang pemalas tidak mau memperbaiki atap rumahnya yang bocor— sekecil apa pun,",
+            {
+              "q2": null
+            },
+            "dan lama-kelamaan seluruh atap rumahnya akan runtuh karena lapuk.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "19",
+          "verseText": "Selagi ada uang, seseorang bisa menyediakan makanan dan anggur untuk menyenangkan para tamu undangannya.",
+          "contents": [
+            "Selagi ada uang, seseorang bisa menyediakan makanan dan anggur untuk menyenangkan para tamu undangannya.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "20",
+          "verseText": "Jangan menjelekkan raja atau orang kaya sama sekali! Baik itu secara pribadi dalam kamar tidurmu, atau di dalam hatimu saja, jangan! Orang itu bisa mengetahui pikiranmu— seolah-olah ada burung yang mendengar dari jendela dan terbang melaporkan pendapatmu kepadanya.",
+          "contents": [
+            "Jangan menjelekkan raja atau orang kaya sama sekali!",
+            {
+              "q2": null
+            },
+            "Baik itu secara pribadi dalam kamar tidurmu, atau di dalam hatimu saja, jangan!",
+            {
+              "q2": null
+            },
+            "Orang itu bisa mengetahui pikiranmu—",
+            {
+              "q3": null
+            },
+            "seolah-olah ada burung yang mendengar dari jendela dan terbang melaporkan pendapatmu kepadanya."
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "11",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Nasihat menghadapi ketidakpastian dalam hidup"
+            ]
+          }
+        ],
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Juallah hasil panenmu ke negeri asing, karena sesudah beberapa waktu, kamu akan menerima keuntungannya.",
+          "contents": [
+            "Juallah hasil panenmu ke negeri asing,",
+            {
+              "q2": null
+            },
+            "karena sesudah beberapa waktu, kamu akan menerima keuntungannya.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Bagilah penghasilanmu ke berbagai usaha, karena kamu tidak tahu bencana apa yang akan terjadi.",
+          "contents": [
+            "Bagilah penghasilanmu ke berbagai usaha,",
+            {
+              "q2": null
+            },
+            "karena kamu tidak tahu bencana apa yang akan terjadi.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Apabila melihat awan gelap dan tebal, jangan heran kalau hujan turun. Ke arah mana pun pohon tumbang, di sanalah pohon itu tetap tergeletak.",
+          "contents": [
+            "Apabila melihat awan gelap dan tebal, jangan heran kalau hujan turun.",
+            {
+              "q2": null
+            },
+            "Ke arah mana pun pohon tumbang, di sanalah pohon itu tetap tergeletak.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Namun jangan terlalu dipengaruhi oleh situasimu, karena kalau kamu selalu menunggu sampai angin dan cuaca menjadi sempurna, kamu tidak akan pernah menabur benih dan juga tidak akan memanen hasilnya.",
+          "contents": [
+            "Namun jangan terlalu dipengaruhi oleh situasimu,",
+            {
+              "q2": null
+            },
+            "karena kalau kamu selalu menunggu sampai angin dan cuaca menjadi sempurna,",
+            {
+              "q2": null
+            },
+            "kamu tidak akan pernah menabur benih dan juga tidak akan memanen hasilnya.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Sebagaimana kamu tidak bisa menebak arah angin akan bertiup, atau mengerti bagaimana tubuh seorang bayi terbentuk di dalam rahim ibunya, demikianlah kamu tidak dapat mengerti berbagai pekerjaan Allah Pencipta segala sesuatu.",
+          "contents": [
+            "Sebagaimana kamu tidak bisa menebak arah angin akan bertiup,",
+            {
+              "q2": null
+            },
+            "atau mengerti bagaimana tubuh seorang bayi terbentuk di dalam rahim ibunya,",
+            {
+              "q1": null
+            },
+            "demikianlah kamu tidak dapat mengerti berbagai pekerjaan Allah Pencipta segala sesuatu.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Taburlah benihmu pada pagi hari, dan lakukanlah berbagai usaha yang lain sampai waktunya tidur di malam hari. Karena kamu tidak tahu usaha mana yang akan berhasil— atau malah semuanya akan berhasil dengan baik.",
+          "contents": [
+            "Taburlah benihmu pada pagi hari, dan lakukanlah berbagai usaha yang lain sampai waktunya tidur di malam hari.",
+            {
+              "q1": null
+            },
+            "Karena kamu tidak tahu usaha mana yang akan berhasil— atau malah semuanya akan berhasil dengan baik.",
+            [
+              {
+                "s1": [
+                  "Nasihat untuk anak muda"
+                ]
+              }
+            ],
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Alangkah bahagianya melihat cahaya matahari di pagi hari. Senang sekali rasanya bisa hidup.",
+          "contents": [
+            "Alangkah bahagianya melihat cahaya matahari di pagi hari.",
+            {
+              "q2": null
+            },
+            "Senang sekali rasanya bisa hidup.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Namun ingatlah bahwa suatu hari kamu akan mati, dan masa di dalam kematian itu jauh lebih lama dibandingkan hidup di dunia ini. Maka kalau kamu diberi umur panjang, bersyukurlah dan nikmatilah setiap hari, sebab apa yang terjadi sesudah kematian masih misteri.",
+          "contents": [
+            "Namun ingatlah bahwa suatu hari kamu akan mati, dan masa di dalam kematian itu jauh lebih lama dibandingkan hidup di dunia ini.",
+            {
+              "q1": null
+            },
+            "Maka kalau kamu diberi umur panjang, bersyukurlah dan nikmatilah setiap hari,",
+            {
+              "q2": null
+            },
+            "sebab apa yang terjadi sesudah kematian masih misteri.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "11:8"
+                },
+                {
+                  "fk": "misteri"
+                },
+                {
+                  "ft": "Kata yang diterjemahkan ‘misteri’ sebelumnya dalam kitab ini diterjemahkan sebagai ‘sia-sia’. Tetapi dalam konteks kematian, yang dimaksud adalah kita tidak bisa memahami apa yang akan terjadi pada kita sesudah kematian."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9",
+          "verseText": "Hai anak muda, bersenang-senanglah selama kamu masih muda! Lakukanlah apa pun keinginan hatimu. Tetapi ingatlah bahwa kelak kamu harus bertanggung jawab kepada Allah atas semua yang kamu perbuat.",
+          "contents": [
+            "Hai anak muda, bersenang-senanglah selama kamu masih muda!",
+            {
+              "q2": null
+            },
+            "Lakukanlah apa pun keinginan hatimu.",
+            {
+              "q1": null
+            },
+            "Tetapi ingatlah bahwa kelak kamu harus bertanggung jawab kepada Allah atas semua yang kamu perbuat.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "10",
+          "verseText": "Usirlah rasa kuatir dari hatimu, karena kamu masih sehat. Tetapi ingat: Masa mudamu akan cepat berlalu, semuanya sia-sia!",
+          "contents": [
+            "Usirlah rasa kuatir dari hatimu, karena kamu masih sehat.",
+            {
+              "q2": null
+            },
+            "Tetapi ingat: Masa mudamu akan cepat berlalu, semuanya sia-sia!"
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": "12",
+      "contents": [
+        [
+          {
+            "s1": [
+              "Ingatlah pada Penciptamu di masa mudamu"
+            ]
+          }
+        ],
+        {
+          "q1": null
+        },
+        {
+          "verseNumber": "1",
+          "verseText": "Ingatlah pada Penciptamu di masa mudamu, sebelum kamu menjadi tua dan hidupmu menjadi susah sampai kamu berkata, “Saya tidak bisa menikmati lagi kesenangan hidup ini.”",
+          "contents": [
+            "Ingatlah pada Penciptamu di masa mudamu,",
+            {
+              "q2": null
+            },
+            "sebelum kamu menjadi tua dan hidupmu menjadi susah",
+            {
+              "q2": null
+            },
+            "sampai kamu berkata,",
+            {
+              "q2": null
+            },
+            "“Saya tidak bisa menikmati lagi kesenangan hidup ini.”",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "2",
+          "verseText": "Karena waktu kamu sudah tua, sudah terlambat untuk melakukan kehendak Penciptamu. Pada waktu itu matamu begitu kabur sehingga tidak lagi bisa melihat bintang dan bulan, dan siang hari tidak terang lagi— tetapi seperti langit yang selalu tertutup dengan awan gelap.",
+          "contents": [
+            "Karena waktu kamu sudah tua, sudah terlambat untuk melakukan kehendak Penciptamu.",
+            {
+              "q2": null
+            },
+            "Pada waktu itu matamu begitu kabur sehingga tidak lagi bisa melihat bintang dan bulan,",
+            {
+              "q2": null
+            },
+            "dan siang hari tidak terang lagi— tetapi seperti langit yang selalu tertutup dengan awan gelap.",
+            {
+              "q2": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "3",
+          "verseText": "Tangan dan kaki yang dulu kuat akan gemetar. Dulu kamu berdiri tegak, tetapi nanti tulang belakangmu akan menjadi bengkok. Gigimu dulu lengkap, tetapi nanti kamu akan sulit makan karena gigimu habis. Waktu itu matamu masih melihat, tetapi seperti bayangan saja.",
+          "contents": [
+            "Tangan dan kaki yang dulu kuat akan gemetar.",
+            {
+              "q2": null
+            },
+            "Dulu kamu berdiri tegak,",
+            {
+              "q3": null
+            },
+            "tetapi nanti tulang belakangmu akan menjadi bengkok.",
+            {
+              "q2": null
+            },
+            "Gigimu dulu lengkap,",
+            {
+              "q3": null
+            },
+            "tetapi nanti kamu akan sulit makan karena gigimu habis.",
+            {
+              "q2": null
+            },
+            "Waktu itu matamu masih melihat,",
+            {
+              "q3": null
+            },
+            "tetapi seperti bayangan saja.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "12:3-6"
+                },
+                {
+                  "fk": "berbagai metafora"
+                },
+                {
+                  "ft": "Ayat 3-6 mengandung beberapa metafora yang menggambarkan bagian-bagian tubuh. Karena itu, TSI menjelaskan metafora ini dengan sederhana. Ayat 3 secara lebih harfiah dapat diterjemhkan, “Pada waktu para penjaga rumah gemetar, orang-orang kuat membungkuk, perempuan-perempuan yang menggiling berhenti karena mereka hanya sedikit, dan perempuan-perempuan yang melihat dari jendela menjadi kabur pandangannya.”"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "4",
+          "verseText": "Waktu masih muda, kamu dapat membedakan bunyi-bunyi di luar pintu rumahmu, bunyi pembantu yang menggiling gandum, dan suara-suara burung. Tetapi sesudah tua, telingamu tidak bisa membedakan bunyi lagi, dan sebelum burung kecil mulai berkicau di waktu fajar, kamu sudah terbangun.",
+          "contents": [
+            "Waktu masih muda, kamu dapat membedakan bunyi-bunyi di luar pintu rumahmu,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "12:4"
+                },
+                {
+                  "fk": "…di luar pintu rumahmu,"
+                },
+                {
+                  "ft": "Dalam bahasa Ibrani secara harfiah, “Pada waktu pintu-pintu di jalan tertutup.”"
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "bunyi pembantu yang menggiling gandum, dan suara-suara burung.",
+            {
+              "q2": null
+            },
+            "Tetapi sesudah tua, telingamu tidak bisa membedakan bunyi lagi,",
+            {
+              "q3": null
+            },
+            "dan sebelum burung kecil mulai berkicau di waktu fajar, kamu sudah terbangun.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "5",
+          "verseText": "Pada waktu kamu menjadi tua, kamu akan takut naik tangga maupun berjalan di tempat yang rata. Rambutmu akan menjadi putih seperti salju. Seperti belalang tua yang tidak bisa melompat lagi, demikian kamu pada masa tuamu nanti. Pada waktu itu obat untuk membangkitkan hasrat berahi pun tidak ampuh lagi. Akhirnya kamu meninggal dunia dan pergi ke tempatmu yang kekal, dan teman-teman di kotamu akan meratap.",
+          "contents": [
+            "Pada waktu kamu menjadi tua, kamu akan takut naik tangga",
+            {
+              "q3": null
+            },
+            "maupun berjalan di tempat yang rata.",
+            {
+              "q2": null
+            },
+            "Rambutmu akan menjadi putih seperti salju.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "12:5"
+                },
+                {
+                  "fk": "rambutmu"
+                },
+                {
+                  "ft": "Secara harfiah, “pohon badam berbunga.” Bunga putih pohon ini menjadi kiasan rambut putih uban seorang tua."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "Seperti belalang tua yang tidak bisa melompat lagi, demikian kamu pada masa tuamu nanti.",
+            {
+              "q2": null
+            },
+            "Pada waktu itu obat untuk membangkitkan hasrat berahi pun tidak ampuh lagi.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "12:5"
+                },
+                {
+                  "fk": "obat untuk membangkitkan …"
+                },
+                {
+                  "ft": "Secara harfiah, “Biji kaper tidak lagi efektif.” Biji bunga kaper bisa dimakan dan dianggap membangkit hasrat berahi."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            },
+            "Akhirnya kamu meninggal dunia dan pergi ke tempatmu yang kekal,",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "12:5"
+                },
+                {
+                  "fk": "tempatmu yang kekal"
+                },
+                {
+                  "ft": "Dalam bahasa Ibrani secara harfiah, ‘rumahnya yang kekal’. Kata itu juga bisa berarti kuburan atau Syeol. Lihat catatan di Mzm. 6:5."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q2": null
+            },
+            "dan teman-teman di kotamu akan meratap.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "6",
+          "verseText": "Ingatlah pada Penciptamu sebelum hidupmu berakhir— bagaikan tali kalung perak halus yang patah, atau mangkuk emas yang diremukkan. Selesailah segala kegiatan hidupmu— bagaikan pompa air sumur yang rusak total. Tubuhmu hancur— seperti bejana tanah liat yang diremukkan.",
+          "contents": [
+            "Ingatlah pada Penciptamu sebelum hidupmu berakhir—",
+            {
+              "q2": null
+            },
+            "bagaikan tali kalung perak halus yang patah,",
+            {
+              "q2": null
+            },
+            "atau mangkuk emas yang diremukkan.",
+            {
+              "q1": null
+            },
+            "Selesailah segala kegiatan hidupmu—",
+            {
+              "q2": null
+            },
+            "bagaikan pompa air sumur yang rusak total.",
+            {
+              "q1": null
+            },
+            "Tubuhmu hancur—",
+            {
+              "q2": null
+            },
+            "seperti bejana tanah liat yang diremukkan.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "12:6"
+                },
+                {
+                  "fk": "bagaikan tali kalung perak …"
+                },
+                {
+                  "ft": "Keempat benda dalam ayat ini merupakan metafora yang menggambarkan kematian. TSI membuat arti metafora jelas dalam terjemahan."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "7",
+          "verseText": "Lalu tubuhmu yang berasal dari tanah akan kembali menjadi tanah lagi seperti semula, dan napas kehidupanmu akan kembali kepada Allah yang memberikannya kepadamu.",
+          "contents": [
+            "Lalu tubuhmu yang berasal dari tanah akan kembali menjadi tanah lagi seperti semula,",
+            {
+              "q2": null
+            },
+            "dan napas kehidupanmu akan kembali kepada Allah yang memberikannya kepadamu.",
+            [
+              {
+                "s1": [
+                  "Kesimpulan: Takut dan hormatilah Allah"
+                ]
+              }
+            ],
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "8",
+          "verseText": "Jadi, sebagai penasihat yang menulis semua ini, aku berkata: Segala sesuatu dalam hidup ini sia-sia saja! Sangat sia-sia!",
+          "contents": [
+            "Jadi, sebagai penasihat yang menulis semua ini, aku berkata: Segala sesuatu dalam hidup ini sia-sia saja! Sangat sia-sia!",
+            {
+              "p": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "9-10",
+          "verseText": "Aku sebagai penasihat sudah berusaha menjadi guru yang bijak, supaya dapat mengajarkan pengetahuan kepada orang lain dengan cara yang jujur dan benar. Aku juga menyelidiki pepatah-pepatah yang sudah ada, membuat pepatahku sendiri, dan menyusunnya menjadi kumpulan pepatah yang enak didengar.",
+          "contents": [
+            "Aku sebagai penasihat sudah berusaha menjadi guru yang bijak, supaya dapat mengajarkan pengetahuan kepada orang lain dengan cara yang jujur dan benar. Aku juga menyelidiki pepatah-pepatah yang sudah ada, membuat pepatahku sendiri, dan menyusunnya menjadi kumpulan pepatah yang enak didengar.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "11",
+          "verseText": "Ajaran orang-orang bijak bagaikan tongkat milik seorang gembala yang dipakainya untuk membimbing dan mengarahkan domba-dombanya. Biarlah setiap pepatah yang aku berikan, sebagai penasihat dan gembala, tertanam di dalam pikiran setiap pelajar dan mengarahkan mereka untuk hidup benar.",
+          "contents": [
+            "Ajaran orang-orang bijak bagaikan tongkat milik seorang gembala",
+            {
+              "q2": null
+            },
+            "yang dipakainya untuk membimbing dan mengarahkan domba-dombanya.",
+            {
+              "q1": null
+            },
+            "Biarlah setiap pepatah yang aku berikan, sebagai penasihat dan gembala, tertanam di dalam pikiran setiap pelajar dan mengarahkan mereka untuk hidup benar.",
+            {
+              "footnote": [
+                {
+                  "caller": "+"
+                },
+                {
+                  "fr": "12:11"
+                },
+                {
+                  "fk": "tertanam …"
+                },
+                {
+                  "ft": "Ada beberapa cara untuk memahami dua metafora dalam ayat ini. Dalam bahasa Ibrani secara harfiah, “Perkataan orang bijak seperti tongkat tajam dan paku yang tertancap kuat, yang diberikan oleh seorang gembala itu.” TSI menjelaskan arti kedua metafora tesebut."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "12",
+          "verseText": "Hai anakku, pelajarilah kumpulan nasihat yang aku ajarkan ini, tetapi hati-hatilah terhadap buku nasihat dari penulis lain. Orang-orang akan terus menulis buku. Terlalu banyak belajar dari buku-buku hanya membuatmu kelelahan.",
+          "contents": [
+            "Hai anakku, pelajarilah kumpulan nasihat yang aku ajarkan ini,",
+            {
+              "q2": null
+            },
+            "tetapi hati-hatilah terhadap buku nasihat dari penulis lain.",
+            {
+              "q1": null
+            },
+            "Orang-orang akan terus menulis buku.",
+            {
+              "q2": null
+            },
+            "Terlalu banyak belajar dari buku-buku",
+            {
+              "q3": null
+            },
+            "hanya membuatmu kelelahan.",
+            {
+              "b": null
+            },
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "13",
+          "verseText": "Sesudah mengetahui semua itu, inilah kesimpulannya: Takut dan hormatlah kepada Allah, serta taatilah segala perintah-Nya! Itulah kewajiban kita yang utama.",
+          "contents": [
+            "Sesudah mengetahui semua itu, inilah kesimpulannya:",
+            {
+              "q2": null
+            },
+            "Takut dan hormatlah kepada Allah, serta taatilah segala perintah-Nya!",
+            {
+              "q3": null
+            },
+            "Itulah kewajiban kita yang utama.",
+            {
+              "q1": null
+            }
+          ]
+        },
+        {
+          "verseNumber": "14",
+          "verseText": "Sebab Allah akan menghakimi segala perbuatan kita— yang baik maupun buruk, bahkan yang tersembunyi.",
+          "contents": [
+            "Sebab Allah akan menghakimi segala perbuatan kita—",
+            {
+              "q2": null
+            },
+            "yang baik maupun buruk,",
+            {
+              "q3": null
+            },
+            "bahkan yang tersembunyi."
+          ]
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. ",
+      "Consecutive use of empty paragraph markers. "
+    ]
+  }
+}
