@@ -1,6 +1,0 @@
-01_Sampul
-02_Prakata
-03_Kejadian
-47_Roma
-48_1 Korintus
-57_2 Timotius
