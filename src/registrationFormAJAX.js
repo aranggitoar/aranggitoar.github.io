@@ -41,10 +41,12 @@ abba90RegistrationForm.addEventListener ('submit', (e) =>
                 switch (true) {
                     case databaseXHR.status > 500:
                         alert (`Status: ${databaseXHR.status} ${databaseXHR.statusText}. Maaf, ada permasalahan dengan server kami. Mohon kirim tangkapan layar ini kepada kami di info@benihyangbaik.com. Mohon maaf atas ketidaknyamanannya.`);
-    
+                        break;
+
                     case databaseXHR.status >= 400 && databaseXHR.status < 500:
                         alert (`Status: ${databaseXHR.status} ${databaseXHR.statusText}. Maaf, tolong muat ulang halaman dan mengisi kembali formulir pendaftaran. Kalau tetap bermasalah, mohon kirim tangkapan layar ini kepada kami di info@benihyangbaik.com. Mohon maaf atas ketidaknyamanannya.`);
-    
+                        break;
+                        
                     default:
                         // If the registrar is registered: get his/her name
                         // and send an onsite alert about it.
