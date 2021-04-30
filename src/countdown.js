@@ -56,7 +56,7 @@ function getRemainingTime() {
     });
 
     if (onlyDay !== null && onlyDay !== undefined) {
-        onlyDay.innerHTML = `ABBA 90 Gelombang Ketiga sudah berlangsung selama ${-(days2 - 90)} hari. Para peserta masih terus menekuni Firman Allah setiap hari! BYB mengundang Anda bergabung dalam ABBA 90 yang berikutnya.`;
+        onlyDay.innerHTML = `ABBA 90 Gelombang Ketiga sudah selesai! Dokumentasi akan kami sediakan dalam waktu dekat. BYB mengundang Anda bergabung dalam ABBA 90 yang berikutnya.`;
     }
 
     if (t < 0) {

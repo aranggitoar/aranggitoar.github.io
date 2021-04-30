@@ -24,16 +24,15 @@
 	--lt-gr: #777;
 	--gr: #222;
 	--gr-tr: #2228;
-	--mw-gr: #eceee7;
-	--mw: #fdfff5;
-	--mw-tr: #fdfff566;
+	--w-gr: #eee;
+	--w: #fff;
 	--prpl: #5e1e83;
 	--ebgar: 'EB Garamond', serif;
-	font: 300 16px var(--ebgar);
+	font: 400 16px var(--ebgar);
 	letter-spacing: .015rem;
 	word-spacing: .03rem;
 	color: var(--gr);
-	background-color: var(--mw);
+	background-color: var(--w);
 	width: 100%;
 }
 
@@ -225,7 +224,7 @@ main {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		background-color: var(--mw);
+		background-color: var(--w);
 	}
 
 .big-quote {
@@ -250,7 +249,7 @@ main {
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	background-color: var(--mw);
+	background-color: var(--w);
 	z-index: 5;
 }
 
@@ -461,7 +460,7 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 	position: relative;
 	padding: 0 1rem;
 	width: 100%;
-	background-color: var(--mw);
+	background-color: var(--w);
 	z-index: 4;
 }
 
@@ -532,7 +531,7 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 	align-items: center;
 	text-align: center;
 	font-size: 1.3rem;
-	color: var(--mw);
+	color: var(--w);
 	background-color: var(--prpl);
 	box-shadow: 0 0 10px var(--gr);
 	z-index: 5;
@@ -540,7 +539,7 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 
 #text-box-announcement > a > button {
 	font: 1.2em var(--ebgar);
-	color: var(--mw);
+	color: var(--w);
 	padding: .8rem 2rem;
 	background-color: var(--prpl);
 	border: 1px solid var(--prpl);
@@ -684,7 +683,7 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 	}
 
 	#dropdown-carousel-container.on .dropdown-carousel-toggler {
-		background: radial-gradient(ellipse at bottom, var(--mw-gr) 20%, var(--mw) 70%);
+		background: radial-gradient(ellipse at bottom, var(--w-gr) 20%, var(--w) 70%);
 	}
 
 		#dropdown-carousel-container .dropdown-carousel-toggler h2 {
@@ -736,7 +735,7 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 			}
 
 	#dropdown-carousel-container > .dropdown-carousel-slider-container {
-		background-color: var(--mw-gr);
+		background-color: var(--w-gr);
 		display: none;
 		transition: all 250ms;
 	}
@@ -827,13 +826,13 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		color: var(--mw);
+		color: var(--w);
 	}
 
 	#k3b-sub-chapter-container a:hover,
 	#k3b-sub-chapter-container a:active,
 	#k3b-sub-chapter-container a:focus {
-		color: var(--mw);
+		color: var(--w);
 	}
 
 	#k3b-sub-chapter-container h2 {
@@ -1115,7 +1114,7 @@ button[type="submit"] {
 	align-self: center;
 	background-color: var(--grn);
 	font: 1.4rem var(--ebgar);
-	color: var(--mw);
+	color: var(--w);
 	transition: all 75ms;
 }
 
@@ -1402,7 +1401,7 @@ footer {
 
 	.text-box {
 		padding: 2rem;
-		background-color: var(--mw);
+		background-color: var(--w);
 	}
 
 		.text-box > * {
@@ -1468,7 +1467,7 @@ footer {
 		#index-body-navigation > section,
 		#k3b-chapter-container > section {
 			width: 40vw;
-			background-color: var(--mw);
+			background-color: var(--w);
 			grid-column-gap: 2rem;
 			transition: all 100ms;
 		}

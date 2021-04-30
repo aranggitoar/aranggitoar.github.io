@@ -28,7 +28,8 @@
     $email->IsHTML(true);
   
     $email->AddAddress( $registrar_email, $registrar_name );
-    $email->AddBCC( 'manoel@benihyangbaik.com' );
+    $email->AddBCC( 'info@benihyangbaik.com', 'BYB' );
+    $email->AddBCC( 'manoel@benihyangbaik.com', 'Manoel Pedro' );
   
   
     return $email->Send();

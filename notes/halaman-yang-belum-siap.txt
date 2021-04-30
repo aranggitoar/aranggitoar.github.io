@@ -54,18 +54,9 @@ Semua belum selesai di revisi.
 
 
 ~~~~~~~
-# halaman baru
+# study.html - Alkitab Studi
 
-Cari tempat untuk posisikan pokok doa dan buku pak Bob.
-
-Siapkan satu halaman untuk masukkan TSI sebagai Alkitab yang orang bisa akses langsung dalam halaman tersebut dengan format seperti bible.com. Lihat apa yang terbaik untuk ini, bekerja dengan format file USFM (cari tahu apa itu) atau ubah itu menjadi file JSON.
-
-
-
-~~~~~~~
-# event-rgstr.html - Pendaftaran ABBA 90
-
-Persingkat halaman pendaftaran ABBA 90, di atas beri informasi apa itu ABBA 90 dan bagaimana mendaftar dan presentasi diberikan di bagian bawah saja kalau mereka mau baca lebih lanjut.
+Beserta studyBibleLogic.js belum siap untuk diluncurkan, kiranya bulan Mei 2021 akan siap.
 
 
 
@@ -376,77 +367,6 @@ Untuk sementar waktu halaman kegiatan tidak ditampilkan dulu. Kegiatan yang akan
         <footer class="footer"></footer>
     </body>
 </html>
-
-
-
-~~~~~~~
-# study.html - Halaman Alkitab TSI dan Tafsiran PB oleh Dr. Bob Utley
-
-<!DOCTYPE html>
-<html lang="id">
-    <head>
-        <link rel="apple-touch-icon" sizes="180x180" href="/photo/favicons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/photo/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/photo/favicons/favicon-16x16.png">
-        <link rel="manifest" href="/photo/favicons/site.webmanifest">
-        <link rel="mask-icon" href="/photo/favicons/safari-pinned-tab.svg" color="#faf16b">
-        <link rel="shortcut icon" href="/photo/favicons/favicon.ico">
-        <meta name="msapplication-TileColor" content="#faf16b">
-        <meta name="msapplication-config" content="/photo/favicons/browserconfig.xml">
-        <meta name="theme-color" content="#ffffff">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700&display=swap" rel="stylesheet">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" contents="Tahukah Anda tujuan Allah menciptakan manusia? Pasti Anda pernah bertanya-tanya tentang tujuan hidup Anda, tentang alasan Anda dilahirkan ke dalam dunia ini. Apa gunanya hidup tanpa mengetahui jawaban dari pertanyaan-pertanyaan itu. Ketahuilah bahwa TUHAN ingin berbicara kepada Anda tentang itu! Cari tahu sekarang dalam materi katekisme Benih Yang Baik!">
-        <title>Materi Alkitabiah</title>
-        <link rel="stylesheet" href="css/style.css" type="text/css">
-
-        <script defer>
-			$(function(){$("header").load("header.html")});
-			$(function(){$("footer").load("footer.html")});
-			setTimeout(() => {
-				var script = document.createElement('script');
-				script.src = "js/script.js";
-				script.type = "text/javascript";
-                                script.setAttribute  =  "defer";
-				document.getElementsByTagName('head')[0].appendChild(script);
-			}, 1000);
-		</script>
-    </head>
-    <body>
-		<a class="js-click-fn-burger" href="javascript:void(null);" role="button" alt="Tombol untuk mengaktifkan menu navigasi">
-            <span class="burger"></span>
-            <span class="burger x-burger"></span>
-            <span class="burger"></span>
-        </a>
-		<header class="sidebar-animation header"></header>
-        <main>
-            <article id="title-box">
-				<div class="js-picture-parallax-container title-picture-box"><div class="js-picture-layer-parallax picture-layer"></div><img class="js-picture-parallax picture" src="photo/main-page/materi-pelajaran-alkitabiah-gratis.jpg" alt="Foto Alkitab dan leksikon bahasa Yunani dengan kacamata di atasnya."></div>
-				<div id="index-title-text-container">
-					<h1>Materi Alkitabiah</h1>
-				</div>
-			</article>
-            <article>
-                <section class="text-box">
-                    <h2>Komentari Alkitab</h2>
-                </section>
-                <section class="text-box">
-                    <h2>Penafsiran Alkitab</h2>
-                </section>
-            </article>
-            <article>
-                <hr class="hr-light">
-                <a href="index.html"><a id="return-btn" role="button" href="index.html">Kembali</a></a>
-</div>
-            </article>
-        </main>
-        <footer class="footer"></footer>
-    </body>
-</html>
-
 
 
 ~~~~~~~

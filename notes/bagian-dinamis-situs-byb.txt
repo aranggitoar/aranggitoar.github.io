@@ -1,0 +1,37 @@
+---
+IDE
+---
+
+Untuk sekarang paling tidak ada dua bagian:
+1. Acara-acara ABBA90 di halaman pertama.
+2. Pokok doa bulanan.
+
+Hal lain yang mungkin:
+1. Forum diskusi peserta ABBA90.
+
+
+---------------------------------------------------------------------
+
+--------
+APLIKASI
+--------
+
+Sediakan sebuah rich-text-editor seperti quill.js di dalam suatu
+halaman yang hanya bisa diakses dengan sebuah password sehingga
+siapa saja dari BYB bisa akses.
+
+Dalam halaman itu tiga hal bisa diatur:
+1. Teks badan.
+2. Teks judul.
+3. Gambar pelengkap.
+
+Semua hal ini akan langsung ditulis oleh PHP ke dalam dokumen ybs.
+Juga akan ditulis ke dalam database agar bisa di edit. Berarti perlu
+sediakan antarmuka sederhana untuk melihat apa saja yang sudah
+diunggah atau diedit dengan halaman ini.
+
+Kalau itu dokumen baru berarti buat dokumen baru, kalau itu pembaruan
+dari dokumen yang sudah ada berarti barui dokumen itu saja.
+
+Sediakan juga tombol untuk batalkan pembaruan yang akan mengembalikan
+dokumen kepada keadaan sebelum dibarui.

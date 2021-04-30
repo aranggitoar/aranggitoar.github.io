@@ -62,7 +62,7 @@ sidebarPageElements.onload = function ()
 {
     changeBackgroundOfElementWithKnownIndex (
         sidebarPageElements,
-        getIndexOfAnElementFromHTMLCollection (makeArrayOutOf (
+            getIndexOfAnElementFromHTMLCollection (makeArrayOutOf (
             sidebarPageElements),
             extractContentOfArrayWithRegExp (makeArrayOutOf (
                 sidebarPageElements),
@@ -113,7 +113,7 @@ window.addEventListener ('scroll', () =>
     } else if (document.body.getBoundingClientRect ().top < scrollPos &&
     (mainPictureBox.offsetHeight >= window.pageYOffset) === false) {
         setTimeout (() => {
-            header.style.transform = "translateY(-70px)";
+            header.style.transform = "translateY(-100px)";
         }, 250);
     }
     scrollPos = document.body.getBoundingClientRect ().top;

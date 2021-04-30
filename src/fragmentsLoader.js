@@ -2,8 +2,41 @@
 {
 
 
-    
-// Header and footer will be loaded first
+
+// Creating elements for the page loading animation.
+const loadingAnimationDiv = document.createElement ('div'),
+      loadingAnimationText = document.createElement ('h1'),
+      loadingAnimationText2 = document.createElement ('h1'),
+      loadingAnimationText3 = document.createElement ('h1'),
+      loadingAnimationText4 = document.createElement ('h1'),
+      loadingAnimationText5 = document.createElement ('h1'),
+      loadingAnimationText6 = document.createElement ('h1');
+
+      
+// Add contents to the created element and append the elements to the page.
+function runLoadingScreen () {
+    loadingAnimationDiv.classList.add ('loading-text-container');
+    loadingAnimationText.innerText = "M";
+    loadingAnimationText2.innerText = "e";
+    loadingAnimationText3.innerText = "m";
+    loadingAnimationText4.innerText = "u";
+    loadingAnimationText5.innerText = "a";
+    loadingAnimationText6.innerText = "t";
+    loadingAnimationDiv.appendChild (loadingAnimationText);
+    loadingAnimationDiv.appendChild (loadingAnimationText2);
+    loadingAnimationDiv.appendChild (loadingAnimationText3);
+    loadingAnimationDiv.appendChild (loadingAnimationText4);
+    loadingAnimationDiv.appendChild (loadingAnimationText5);
+    loadingAnimationDiv.appendChild (loadingAnimationText6);
+    let insertBeforeThisElement = document.querySelector('main');
+    if (insertBeforeThisElement !== document.body.firstElementChild) {
+        insertBeforeThisElement = document.querySelector('header');
+    }
+    document.body.insertBefore (loadingAnimationDiv, insertBeforeThisElement);
+}
+
+
+// Header and footer will be loaded first.
 const scriptLoaderPromise = new Promise (function(resolve, reject)
 {
 
@@ -15,6 +48,7 @@ const scriptLoaderPromise = new Promise (function(resolve, reject)
                 var response = xhr.responseText;
                 document.querySelector (parentElementSelector).innerHTML = response;
                 if (runPromise === true) {
+                    runLoadingScreen ();
                     resolve (xhr.response);
                 }
             } else {
@@ -27,17 +61,18 @@ const scriptLoaderPromise = new Promise (function(resolve, reject)
     }
     loadHtml ('header', 'header.html', false);
     loadHtml ('footer', 'footer.html', true);
+
 });
 
 
-// Maybe doing module imports will be better than creating a script element
+// Maybe doing module imports will be better than creating a script element.
 function generateScript (scriptName, scriptType)
 {
     let script = document.createElement ('script');
     script.src = `src/${scriptName}.js`;
     script.type = scriptType;
     script.setAttribute ("defer", "");
-    document.getElementsByTagName ('head')[0].appendChild (script);
+    document.head.appendChild (script);
 }
 
 
@@ -56,9 +91,11 @@ scriptLoaderPromise
         } else if (/index/ || /\s/.test (window.location.pathname) === true) {
             generateScript ("countdown", "text/javascript");
         }
+        loadingAnimationDiv.style.transform = "translateY(-2000px)";
+        setTimeout(() => {document.body.removeChild (loadingAnimationDiv)}, 800);
     })
     .catch(() => {
-        alert ('Ada masalah dengan server kami, mohon memuat ulang halaman sejenak.')
+        alert ('Ada masalah dengan server kami, mohon memuat ulang halaman sejenak.');
     })
 
 

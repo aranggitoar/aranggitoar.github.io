@@ -1,0 +1,33 @@
+User-agent: *
+
+Disallow: /automail/
+
+Disallow: /helper-scripts/
+
+Disallow: /notes/
+
+Disallow: /assets/
+
+Disallow: /photo/
+
+Disallow: /src/
+
+Disallow: /header.html
+
+Disallow: /footer.html
+
+Noindex: /automail/
+
+Noindex: /helper-scripts/
+
+Noindex: /notes/
+
+Noindex: /assets/
+
+Noindex: /photo/
+
+Noindex: /src/
+
+Noindex: /header.html
+
+Noindex: /footer.html
