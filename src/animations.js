@@ -83,7 +83,7 @@ window.addEventListener ('scroll', () =>
     if (header.offsetHeight <= window.pageYOffset) {
         header.style.position = "fixed";
         header.style.backgroundColor = "var(--lt-ylw)";
-        header.style.boxShadow = "0 0 10px var(--gr)";
+        header.style.boxShadow = "0 0 10px var(--x-lt-gr)";
         header.querySelector ('#sidebar-link-container').
             classList.add ('active');
         header.querySelector ('.logo').
@@ -133,7 +133,7 @@ function ifNotTrueAddNotIndexClass (boolean, element)
     }
 }
 
-const indexRegExp = /|index|^\/$|situs-pemuridan\/index/,
+const indexRegExp = /index|^\/$|situs-pemuridan\/index|situs-pemuridan\/$/,
     body = document.querySelector ('body');
 
 ifNotTrueAddNotIndexClass (checkIsCurrentURLEqualsTo (indexRegExp), body);
