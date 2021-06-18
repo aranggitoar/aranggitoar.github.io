@@ -3,6 +3,11 @@
 
 
 
+window.addEventListener ('load', () => {
+    loadingAnimationDiv.style.transform = "translateY(-2000px)";
+    setTimeout(() => {document.body.removeChild (loadingAnimationDiv)}, 800);
+})
+
 // Creating elements for the page loading animation.
 const loadingAnimationDiv = document.createElement ('div'),
       loadingAnimationText = document.createElement ('h1'),
@@ -28,27 +33,23 @@ function runLoadingScreen () {
     loadingAnimationDiv.appendChild (loadingAnimationText4);
     loadingAnimationDiv.appendChild (loadingAnimationText5);
     loadingAnimationDiv.appendChild (loadingAnimationText6);
-    let insertBeforeThisElement = document.querySelector('main');
-    if (insertBeforeThisElement !== document.body.firstElementChild) {
-        insertBeforeThisElement = document.querySelector('header');
-    }
-    document.body.insertBefore (loadingAnimationDiv, insertBeforeThisElement);
+    document.body.appendChild (loadingAnimationDiv);
 }
 
 
 // Header and footer will be loaded first.
 const scriptLoaderPromise = new Promise (function(resolve, reject)
 {
-
+    
     function loadHtml (parentElementSelector, filePath, runPromise) {
         const xhr = new XMLHttpRequest ();
         xhr.open ('GET', filePath, true);
         xhr.onload = function () {
+            runLoadingScreen ();
             if (xhr.status >= 200 && xhr.status < 400) {
                 var response = xhr.responseText;
                 document.querySelector (parentElementSelector).innerHTML = response;
                 if (runPromise === true) {
-                    runLoadingScreen ();
                     resolve (xhr.response);
                 }
             } else {
@@ -85,14 +86,14 @@ scriptLoaderPromise
         // add the following script too.
         if (/study/.test (window.location.pathname) === true) {
             generateScript ("studyBibleLogic", "text/javascript");
+        // If the page is the STBAI Survey page.
+        } else if (/event-srvey/.test (window.location.pathname) === true) {
+            generateScript ("surveyFormAJAX?version=0.6.1", "text/javascript");
+        // If the page is the ABBA90 Registration page.
         } else if (/event-rgstr/.test (window.location.pathname) === true) {
             generateScript ("registrationFormAJAX", "text/javascript");
             generateScript ("countdown", "text/javascript");
-        } else if (/index/ || /\s/.test (window.location.pathname) === true) {
-            generateScript ("countdown", "text/javascript");
         }
-        loadingAnimationDiv.style.transform = "translateY(-2000px)";
-        setTimeout(() => {document.body.removeChild (loadingAnimationDiv)}, 800);
     })
     .catch(() => {
         alert ('Ada masalah dengan server kami, mohon memuat ulang halaman sejenak.');

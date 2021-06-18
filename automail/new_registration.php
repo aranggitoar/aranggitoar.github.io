@@ -29,7 +29,7 @@
   
     $email->AddAddress( $registrar_email, $registrar_name );
     $email->AddBCC( 'info@benihyangbaik.com', 'BYB' );
-    $email->AddBCC( 'manoel@benihyangbaik.com', 'Manoel Pedro' );
+    $email->AddBCC( 'manoelindonesia@gmail.com', 'Manoel Pedro' );
   
   
     return $email->Send();

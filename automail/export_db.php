@@ -2,24 +2,24 @@
     ini_set( 'display_errors', 1 );
     error_reporting( E_ALL );
     
-    $servername = "localhost";
-    $username = "root";
+    $servername = "";
+    $username = "";
     $password = "";
-    $dbname = "rgstrabba90";
+    $dbname = "";
     $conn = mysqli_connect($servername, $username, $password, $dbname);
     if (!$conn) {
         die("ERROR: Tidak bisa terhubung. " 
         . mysqli_connect_error());
     }
 
-    $result = $conn->query('SELECT * FROM `rgstrabba90_2021g2`');
+    $result = $conn->query('SELECT * FROM file_name');
     if (!$result) die('Couldn\'t fetch records');
     $headers = array();
     while ($fieldinfo = mysqli_fetch_field($result)) {
         $headers[] = $fieldinfo->name;
     }
     
-    $db_file_name = 'peserta_abba90_iv.csv';
+    $db_file_name = 'file_name.csv';
     $fp = fopen($db_file_name, 'w');
     if ($fp && $result) {
         $db_file_contents = fputcsv($fp, $headers);

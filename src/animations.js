@@ -133,7 +133,7 @@ function ifNotTrueAddNotIndexClass (boolean, element)
     }
 }
 
-const indexRegExp = /index|^\/$|situs-pemuridan\/index/,
+const indexRegExp = /|index|^\/$|situs-pemuridan\/index/,
     body = document.querySelector ('body');
 
 ifNotTrueAddNotIndexClass (checkIsCurrentURLEqualsTo (indexRegExp), body);

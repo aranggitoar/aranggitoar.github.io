@@ -1,0 +1,17 @@
+Jadikan ini survei satu halaman.
+
+Formulir akan dibagi menjadi 4 sampai 5 dengan informasi diri peserta
+dalam formulir pertama.
+
+Tiap formulir akan dimasukkan ke dalam sebuah database yang
+dihubungkan dengan satu sama lain berdasarkan sebuah PRIMARY KEY.
+
+Tiap menyelesaikan satu formulir, akan ada status bar yang menandakan
+si pendaftar sudah selesai berapa jauh.
+
+Tiap menyelesaikan satu formulir, akan ada popup yang menunjukkan
+jawaban-jawaban peserta secara urut dan menanyakan apakah dia yakin
+dengan jawaban-jawaban yang telah diberikan.
+
+Pendaftar yang nama atau emailnya sudah ada dalam database tidak dapat
+mengisi ulang formulir.

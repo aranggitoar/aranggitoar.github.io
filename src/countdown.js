@@ -10,7 +10,7 @@ const deadline = document.querySelector('.deadline');
 const items = document.querySelectorAll('.deadline-format h4');
 const onlyDay = document.querySelector('.ongoing-abba90');
 
-let futureDate = new Date(2021, 4, 1, 00, 00, 0); // Month count starts from 0 because indexing starts from 0 // This is the starting date for ABBA 90 IV
+let futureDate = new Date(2021, 4, 16, 00, 00, 0); // Month count starts from 0 because indexing starts from 0 // This is the starting date for ABBA 90 IV
 let futureDate2 = new Date(2021, 3, 30, 24, 00, 0); // This is the end date for ABBA 90 III
 
 const year = futureDate.getFullYear();
@@ -61,7 +61,9 @@ function getRemainingTime() {
 
     if (t < 0) {
         clearInterval(countdown);
-        deadline.innerHTML = `<h4 class="ongoing">Webinar ini sedang dimulai</h4>`;
+        deadline.innerHTML = `Maaf sekali, waktu habis!`;
+        let registrationButton = deadline.nextElementSibling;
+        document.body.removeChild(registrationButton);
     }
 }
 

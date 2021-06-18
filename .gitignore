@@ -1,6 +1,9 @@
 .vscode/settings.json
 automail/**
 !automail/*.php
+automail/test_sh.php
 assets/json_bible_files/**
 !assets/json_bible_files/tsi_json/
 *.sh
+test.php
+email-template.html

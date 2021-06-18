@@ -31,3 +31,5 @@ Noindex: /src/
 Noindex: /header.html
 
 Noindex: /footer.html
+
+Sitemap: https://benihyangbaik.com/sitemap.xml

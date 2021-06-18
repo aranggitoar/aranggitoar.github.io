@@ -481,6 +481,10 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 		list-style: decimal;
 		padding: .5rem;
 	}
+
+	.text-box h3 {
+		text-align: center;
+	}
 			
 .text-picture-box {
 	position: relative;
@@ -989,7 +993,9 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 	text-align: center;
 }
 
-.js-form-rgstr-abba90 {
+.js-form-rgstr-abba90,
+.js-form-survey-biblitracy-contact-info,
+.js-form-survey-biblitracy-questions {
 	width: 100%;
 	height: 120vh;
 	min-height: 900px;
@@ -1006,6 +1012,27 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 	border-radius: 10px;
 }
 
+.js-form-survey-biblitracy-contact-info.off {
+	animation: js-form-survey-biblitracy-contact-info-fades-away 300ms forwards;
+}
+
+@keyframes js-form-survey-biblitracy-contact-info-fades-away {
+	100% {
+		transform: translateX(100%);
+	}
+}
+
+.js-form-survey-biblitracy-questions {
+	display: none;
+	transform: translateX(-100%);
+	transition: all 100ms;
+	height: fit-content;
+}
+
+.js-form-survey-biblitracy-questions.on {
+	transform: translateX(0%);
+}
+
 	.js-form-rgstr-abba90.off {
 		animation: js-form-rgstr-abba90-fades-away 600ms forwards;
 	}
@@ -1017,18 +1044,51 @@ III.A. AT LEAST FOR TWO DIFFERENT GROUP OF PAGES */
 		}
 	}
 
-	.js-form-rgstr-abba90 label {
+	.js-form-rgstr-abba90 label,
+	.js-form-survey-biblitracy-contact-info label,
+	.js-form-survey-biblitracy-questions label {
 		width: 100%;
 		height: fit-content;
 		margin: .5rem 0;
 	}
 
-	.js-form-rgstr-abba90 input {
+	.js-form-rgstr-abba90 input,
+	.js-form-survey-biblitracy-contact-info input,
+	.js-form-survey-biblitracy-questions input {
 		width: 100%;
 		height: 100%;
 		padding: 0 .5rem;
 		border: 1px solid var(--x-lt-gr);
 		border-radius: 2px;
+	}
+
+	.js-form-rgstr-abba90 input[type="text"],
+	.js-form-survey-biblitracy-contact-info input[type="text"],
+	.js-form-survey-biblitracy-questions input[type="text"],
+	.js-form-rgstr-abba90 input[type="number"],
+	.js-form-survey-biblitracy-contact-info input[type="number"],
+	.js-form-survey-biblitracy-questions input[type="number"] {
+		min-height: 28px;
+	}
+
+	.js-form-survey-biblitracy-questions select,
+	.js-form-survey-biblitracy-contact-info select,
+	.js-form-survey-biblitracy-questions label span {
+		position: relative;
+		height: 35px;
+		padding: .5rem;
+		font: 1rem var(--ebgar);
+		border-width: .1px;
+		border-radius: 1px;
+	}
+
+	.js-form-survey-biblitracy-questions label span {
+		position: absolute;
+	}
+
+	.js-form-survey-biblitracy-questions label span p {
+		position: relative;
+		
 	}
 
 	.js-form-rgstr-abba90 legend:last-of-type {
